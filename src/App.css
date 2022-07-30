@@ -2,4 +2,42 @@
 
 * {
   font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.text-block {
+  max-width: 650px;
+}
+
+.line {
+  height: 1px;
+  background: lightgrey;
+  margin-bottom: 4rem;
+}
+
+h1,
+p {
+  text-align: left;
+}
+
+h1 {
+  font-size: 22px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  padding-bottom: 2rem;
+}
+
+strong {
+  font-weight: 600;
+  color: #000000;
 }

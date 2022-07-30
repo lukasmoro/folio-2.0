@@ -1,6 +1,5 @@
 import React from "react";
 import "./Dock.css";
-import "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/App.css";
 import { Link } from "react-router-dom";
 
 function Dock() {

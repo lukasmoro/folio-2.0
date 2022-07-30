@@ -1,10 +1,18 @@
 import React from "react";
-import "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/App.css";
 
 function Work() {
   return (
-    <div>
-      <h1>work page</h1>
+    <div className="container">
+      <div className="text-block">
+        <h1>recent projects & explorations</h1>
+        <div className="line"></div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          dicta voluptatum, veniam facere facilis voluptatibus quod est quas
+          soluta quaerat iusto laboriosam exercitationem delectus temporibus?
+          Architecto fuga possimus harum animi.
+        </p>
+      </div>
     </div>
   );
 }
