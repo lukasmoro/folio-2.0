@@ -1,17 +1,17 @@
 import React from "react";
+import BigContainer from "./BigContainer";
 
 function Work() {
   return (
     <div className="container">
       <div className="text-block">
-        <h1>recent projects & explorations</h1>
-        <div className="line"></div>
+        <BigContainer />
+        <h1>Recent projects {"&"} explorations </h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-          dicta voluptatum, veniam facere facilis voluptatibus quod est quas
-          soluta quaerat iusto laboriosam exercitationem delectus temporibus?
-          Architecto fuga possimus harum animi.
+          My most recent work and explorations, I use to extend my view and
+          learn tools that could be helpful for my work.
         </p>
+        <div className="line"></div>
       </div>
     </div>
   );

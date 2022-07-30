@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 15%;
+  margin: 0;
 }
 
 .text-block {
@@ -28,7 +28,8 @@ p {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 20px;
+  color: lightgrey;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
