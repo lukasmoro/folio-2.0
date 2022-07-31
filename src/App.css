@@ -13,13 +13,14 @@
 }
 
 .text-block {
-  max-width: 650px;
+  max-width: 800px;
+  height: 130vh;
 }
 
 .line {
+  margin-bottom: 2rem;
   height: 1px;
-  background: lightgrey;
-  margin-bottom: 4rem;
+  background: #f1f1f1;
 }
 
 h1,
@@ -29,16 +30,21 @@ p {
 
 h1 {
   font-size: 20px;
-  color: lightgrey;
+  font-weight: 600;
   padding-top: 4rem;
   padding-bottom: 2rem;
+  color: #272727;
 }
 
 p {
   padding-bottom: 2rem;
+  line-height: 1.62;
+  letter-spacing: 0.005em;
+  color: #898989;
 }
 
-strong {
-  font-weight: 600;
-  color: #000000;
+.link {
+  text-decoration: none;
+  color: #19a0fc;
+  font-weight: 700;
 }
