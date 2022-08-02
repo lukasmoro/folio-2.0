@@ -48,3 +48,12 @@ p {
   color: #19a0fc;
   font-weight: 700;
 }
+
+.item-work :hover {
+  margin-left: -1rem;
+  padding-left: 1rem;
+  margin-right: -1rem;
+  padding-right: 1.5rem;
+  background-color: #f1f1f1;
+  border-radius: 0.75rem;
+}

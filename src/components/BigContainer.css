@@ -2,6 +2,7 @@ body {
   width: 100%;
 }
 .header-image {
+  background: lavenderblush;
   margin-top: 4rem;
   margin-bottom: 2rem;
   max-width: 800px;

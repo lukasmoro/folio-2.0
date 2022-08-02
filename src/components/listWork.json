@@ -7,31 +7,31 @@
   },
   {
     "id": 2,
+    "name": "Experiments in Spark AR",
+    "date": "ongoing",
+    "sideproject": false
+  },
+  {
+    "id": 3,
     "name": "Next Podcast in Chrome ",
     "date": "2022",
     "sideproject": true
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Spatial Responsiveness",
     "date": "2022",
     "sideproject": true
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Horizon Interface",
     "date": "2022",
     "sideproject": false
   },
   {
-    "id": 5,
-    "name": "Arch Healthroom",
-    "date": "2021",
-    "sideproject": false
-  },
-  {
     "id": 6,
-    "name": "Template Project",
+    "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false
   }
