@@ -19,7 +19,8 @@ body {
 
 .text-block {
   max-width: 800px;
-  height: 130vh;
+  height: fit-content;
+  margin-bottom: 15vh;
 }
 
 .line {
