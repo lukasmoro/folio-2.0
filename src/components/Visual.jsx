@@ -27,9 +27,9 @@ import "./Visual.css";
 
 function Visual() {
   return (
-    <div className="image-container">
+    <body>
       <Gallery photos={Photos} direction={"column"} />
-    </div>
+    </body>
   );
 }
 

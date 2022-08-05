@@ -6,7 +6,7 @@ function BigContainer() {
     <body>
       <img
         className="header-image"
-        src="https://via.placeholder.com/1920x1080"
+        src="https://placehold.jp/1920x1080.png"
         alt=""
       />
     </body>

@@ -2,9 +2,13 @@ import React from "react";
 
 function Thought() {
   return (
-    <div className="container">
-      <h1>thought page</h1>
-    </div>
+    <body>
+      <div className="container">
+        <div className="text-block">
+          <h1>thought page</h1>
+        </div>
+      </div>
+    </body>
   );
 }
 

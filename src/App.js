@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -9,21 +9,29 @@ import Visual from './components/Visual'
 import Thought from './components/Thought'
 import Dock from './components/Dock'
 
+export const ThemeContext = createContext(null);
+
 
 function App() {
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  }
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route path="" element={<Me />} />
-          <Route path="/me" element={<Me />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/visual" element={<Visual />} />
-          <Route path="/thought" element={<Thought />} />
-        </Routes>
-        <Dock />
-      </div>
-    </Router>
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <Router >
+        <div className="App" id={theme} >
+          <Routes>
+            <Route path="" element={<Me />} />
+            <Route path="/me" element={<Me />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/visual" element={<Visual />} />
+            <Route path="/thought" element={<Thought />} />
+          </Routes>
+          <Dock />
+        </div>
+      </Router>
+    </ThemeContext.Provider>
   );
 }
 

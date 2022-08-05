@@ -6,8 +6,12 @@
   margin: 0;
 }
 
-body {
+#light body {
   background-color: #f8f8f8;
+}
+
+#dark body {
+  background-color: #272727;
 }
 
 .container {
@@ -19,7 +23,7 @@ body {
 
 .text-block {
   max-width: 800px;
-  height: fit-content;
+  min-height: 100vh;
   margin-bottom: 15vh;
 }
 
@@ -27,6 +31,10 @@ body {
   margin-bottom: 2rem;
   height: 1px;
   background: #f1f1f1;
+}
+
+#dark .line {
+  background: #d0d0d0;
 }
 
 h1,
@@ -42,6 +50,10 @@ h1 {
   color: #272727;
 }
 
+#dark h1 {
+  color: #d0d0d0;
+}
+
 p {
   padding-bottom: 2rem;
   line-height: 1.62;
@@ -53,6 +65,10 @@ p {
   text-decoration: none;
   color: #19a0fc;
   font-weight: 500;
+}
+
+.socials {
+  line-height: 1.62;
 }
 
 .item-work :hover {
