@@ -1,15 +1,8 @@
 import React from "react";
+import Thoughts from "./ThoughtContainer";
 
 function Thought() {
-  return (
-    <body>
-      <div className="container">
-        <div className="text-block">
-          <h1>thought page</h1>
-        </div>
-      </div>
-    </body>
-  );
+  return <Thoughts />;
 }
 
 export default Thought;

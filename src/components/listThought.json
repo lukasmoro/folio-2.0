@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "tags": "product",
+    "location": "London, United Kingdom",
+    "date": "August 06, 2022",
+    "header": "Header 1",
+    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "resource": { "01": "", "02": "", "03": "" }
+  },
+  {
+    "id": 2,
+    "tags": "product",
+    "location": "Karberg, Austria",
+    "date": "August 06, 2022",
+    "header": "Header 1",
+    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "resource": { "01": "", "02": "", "03": "" }
+  },
+  {
+    "id": 3,
+    "tags": "product",
+    "location": "San Francisco, United States",
+    "date": "August 06, 2022",
+    "header": "Header 1",
+    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "resource": { "01": "", "02": "", "03": "" }
+  }
+]
