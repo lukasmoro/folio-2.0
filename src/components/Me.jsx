@@ -1,11 +1,15 @@
 import React from "react";
-import Switch from "@mui/material/Switch";
 
 function Me() {
+  const currDate = new Date().toLocaleDateString();
+  const currTime = new Date().toLocaleTimeString();
   return (
     <body>
       <div className="container">
         <div className="text-block">
+          <p>
+            {currTime} - {currDate}
+          </p>
           <h1>Hello, I am Lukas.</h1>
           <p>
             My passion is to sketch and tinker new interfaces with {"<code/>"}{" "}

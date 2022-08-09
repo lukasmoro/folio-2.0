@@ -8,6 +8,7 @@ import Work from './components/Work'
 import Visual from './components/Visual'
 import Thought from './components/Thought'
 import Dock from './components/Dock'
+import Draggable from 'react-draggable'
 
 export const ThemeContext = createContext(null);
 
@@ -21,6 +22,12 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <Router >
         <div className="App" id={theme} >
+          {/* <Draggable>
+            <div className="draggable">
+              <div className="draggable-items">hello</div>
+              <div className="draggable-items">world</div>
+            </div>
+          </Draggable> */}
           <Routes>
             <Route path="" element={<Me />} />
             <Route path="/me" element={<Me />} />

@@ -19,6 +19,7 @@
   justify-content: space-around;
   align-items: center;
   margin: 0;
+  margin-top: 4rem;
 }
 
 .text-block {
@@ -45,7 +46,6 @@ p {
 h1 {
   font-size: 20px;
   font-weight: 400;
-  padding-top: 4rem;
   padding-bottom: 2rem;
   color: #272727;
 }
@@ -88,4 +88,29 @@ p {
   background-color: #f1f1f1;
   transition: background-color ease-out 0.2s;
   border-radius: 0.75rem;
+}
+
+.draggable {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  cursor: grab;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  backdrop-filter: brightness(130%) blur(15px) grayscale(50%);
+  background: #f1f1f1 0.01;
+  color: #898989;
+  width: 150px;
+  border-radius: 50px;
+  padding: 0.75em;
+  margin: auto;
+  user-select: none;
+  z-index: 100;
+}
+
+.draggable-item {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
