@@ -2,6 +2,7 @@ import React from "react";
 import Thought from "./listThought.json";
 import "./Work.css";
 import "./Thought.css";
+import DayDate from "./DayDate";
 
 function ThoughtContainer() {
   return (
@@ -9,20 +10,21 @@ function ThoughtContainer() {
       <div className="container">
         <div className="text-block">
           <div>
-            <h1>A collection of my thoughts in reverse chronological order.</h1>
+            <DayDate />
+            <h1>Thoughts in reverse chronological order.</h1>
             <p>
-              It is a representation of my opinions and perceptions on work and
-              life-related matter. I try my best to post weekly sometimes I
-              succeed sometimes I do not. I do not claim truth nor completeness
-              at any time.
+              Opinions on work and life-related matter. I do not claim truth nor
+              completeness at any time.
             </p>
             {Thought.map((item) => {
               return (
                 <div>
                   <div className="line"></div>
                   <ul className="thought-data" key={item.id}>
-                    <li className="thought-data-item">{item.date}</li>
-                    <li className="thought-data-item">{item.location}</li>
+                    <li className="thought-data-item add-info">{item.date}</li>
+                    <li className="thought-data-item add-info">
+                      {item.location}
+                    </li>
                   </ul>
                   <h2>{item.header}</h2>
                   <p>{item.text}</p>

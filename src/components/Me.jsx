@@ -1,15 +1,12 @@
 import React from "react";
+import DayDate from "./DayDate";
 
 function Me() {
-  const currDate = new Date().toLocaleDateString();
-  const currTime = new Date().toLocaleTimeString();
   return (
     <body>
       <div className="container">
         <div className="text-block">
-          <p>
-            {currTime} - {currDate}
-          </p>
+          <DayDate />
           <h1>Hello, I am Lukas.</h1>
           <p>
             My passion is to sketch and tinker new interfaces with {"<code/>"}{" "}
@@ -28,18 +25,17 @@ function Me() {
             >
               Rolls-Royce Motorcars
             </a>{" "}
-            and
+            {/* and
             <a href="https://www.slabs.one" className="link">
               {" "}
               spatialLABS
-            </a>
-            {". "}I also do my master's degree in interaction design at
+            </a> */}
+            and studying Interaction Design at
             <a href="https://www.dh.umu.se/en/" className="link">
               {" "}
               Umeå Institute of Design.
             </a>
           </p>
-          <div className="line"></div>
           <div className="socials">
             <a className="link" href="">
               ↳ Twitter

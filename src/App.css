@@ -4,6 +4,7 @@
 * {
   font-family: "Barlow", "Inter", Arial, Helvetica, sans-serif;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 #light body {
@@ -53,7 +54,7 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: 400;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   color: #272727;
 }
@@ -77,6 +78,11 @@ p {
 
 .socials {
   line-height: 1.62;
+}
+
+.add-info {
+  color: #bdbdbd;
+  letter-spacing: 0.008em;
 }
 
 .item-work :hover {
