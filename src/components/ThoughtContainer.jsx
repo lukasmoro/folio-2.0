@@ -39,14 +39,3 @@ function ThoughtContainer() {
 }
 
 export default ThoughtContainer;
-
-{
-  /* <ul className="list-item" key={item.id}>
-            <li style={style} className="item">
-              {item.date}
-            </li>
-            <a href="" className="link">
-              <li className="item">{item.name}</li>
-            </a>
-          </ul> */
-}
