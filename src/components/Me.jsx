@@ -7,18 +7,18 @@ function Me() {
       <div className="container">
         <div className="text-block">
           <DayDate />
-          <h1>Hello, I am Lukas.</h1>
+          <h1>Hello, I am Lukas. 🇦🇹</h1>
           <p>
             My passion is to sketch and tinker new interfaces with {"<code/>"}{" "}
             and nodes.
           </p>
-          <div className="line"></div>
+
           <p>
-            I prototype applications for ambient and spatial computing to
-            empower people and help them focus on the things that matter.
+            Usually, I prototype applications for ambient and spatial computing
+            to empower people and help them focus on the things that matter.
           </p>
           <p>
-            Currently I am working for{" "}
+            Currently, I am working for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               className="link"
@@ -36,6 +36,7 @@ function Me() {
               Umeå Institute of Design.
             </a>
           </p>
+          <div className="line"></div>
           <div className="socials">
             <a className="link" href="">
               ↳ Twitter

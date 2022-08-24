@@ -1,38 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Ambient Components",
+    "name": "Experiments in VR & AR",
     "date": "ongoing",
-    "sideproject": true
+    "sideproject": false,
+    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd"
   },
   {
     "id": 2,
-    "name": "Experiments in VR & AR",
-    "date": "ongoing",
-    "sideproject": false
+    "name": "Next Podcast in Chrome ",
+    "date": "2022",
+    "sideproject": true,
+    "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg"
   },
   {
     "id": 3,
-    "name": "Next Podcast in Chrome ",
+    "name": "Spatial Responsiveness",
     "date": "2022",
-    "sideproject": true
+    "sideproject": true,
+    "src": "https://www.weareink.co.uk/uploads/images/projects/_fullImage/nasa_02.jpg"
   },
   {
     "id": 4,
-    "name": "Spatial Responsiveness",
+    "name": "Horizon Interface",
     "date": "2022",
-    "sideproject": true
+    "sideproject": false,
+    "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg"
   },
   {
     "id": 5,
-    "name": "Horizon Interface",
-    "date": "2022",
-    "sideproject": false
-  },
-  {
-    "id": 6,
     "name": "Arch Healthroom",
     "date": "2021",
-    "sideproject": false
+    "sideproject": false,
+    "src": "https://www.weareink.co.uk/uploads/images/projects/_fullImage/pole_16.jpg"
   }
 ]

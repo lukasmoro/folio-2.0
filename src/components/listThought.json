@@ -6,7 +6,7 @@
     "date": "August 06, 2022",
     "header": "Building my own tools.",
     "text": "A blog post by Kevin Andersson¹  made me reflect on the impact of tools on creation. The tools we use form our relationship with our work and influence its outcome.\n\nThere are softwares that give you the possibility to execute certain tasks in a uniform manner, usually in a rather precise way. What you put in is what you get out not more not less. Examples can be found in CAD tools such as Solidworks and Rhino or pixel and vector manipulation software like Photoshop, Illustrator and Figma.\n\nOpposing to those there are tools that force you into creating mental models for your creation. Examples for those are all sorts of graph based editors (Unity's shader and VFX graph, Blender's geometry & material-nodes, Grasshopper, Origami...), programming languages and libraries (Javascript, React, Framer Motion) and prototyping platforms like Arduino and Rasperry Pi.\nCreating mental models means an initial time investement into figuring out underlying principles and logic. This leads to a delay in output, which can be frustrating but pays of on the long-term for several reasons.",
-    "resource": { "01": "sideprojects", "02": "", "03": "" }
+    "resource": { "name": "1: https://projects.kevinandersen.dk/" }
   },
   {
     "id": 2,
