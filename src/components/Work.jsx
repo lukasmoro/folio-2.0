@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useLocation } from "react";
 import ListItem from "./listWork";
 import "./Work.css";
 
@@ -8,7 +8,7 @@ function Work() {
   };
   const [image, setImage] = useState("https://placehold.jp/1920x1080.png");
 
-  function handleMouseEnter(imagePath) {
+  function handleMouseState(imagePath) {
     return () => {
       setImage(imagePath);
     };
@@ -25,12 +25,16 @@ function Work() {
             learn tools that could be helpful for my work.
           </p>
           <div className="line"></div>
-          <div>
+          <a>
             {ListItem.map((item) => {
               return (
-                <div
+                <a
+                  href=""
                   className="item-work"
-                  onMouseOver={handleMouseEnter(item.src)}
+                  onMouseOver={handleMouseState(item.src)}
+                  onMouseOut={handleMouseState(
+                    "https://placehold.jp/1920x1080.png"
+                  )}
                 >
                   <ul className="list-item" key={item.id}>
                     <li style={style} className="item">
@@ -40,10 +44,10 @@ function Work() {
                       <li className="item">{item.name}</li>
                     </a>
                   </ul>
-                </div>
+                </a>
               );
             })}
-          </div>
+          </a>
         </div>
       </div>
     </body>
