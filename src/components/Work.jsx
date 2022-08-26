@@ -1,6 +1,11 @@
 import React, { useState, useLocation } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ListItem from "./listWork";
 import "./Work.css";
+
+//Components
+import Arch from "./Arch";
 
 function Work() {
   const style = {
@@ -25,11 +30,12 @@ function Work() {
             learn tools that could be helpful for my work.
           </p>
           <div className="line"></div>
+
           <a>
             {ListItem.map((item) => {
               return (
-                <a
-                  href=""
+                <Link
+                  to={item.to}
                   className="item-work"
                   onMouseOver={handleMouseState(item.src)}
                   onMouseOut={handleMouseState(
@@ -44,10 +50,14 @@ function Work() {
                       <li className="item">{item.name}</li>
                     </a>
                   </ul>
-                </a>
+                </Link>
               );
             })}
           </a>
+
+          <Routes>
+            <Route path="/arch" element={<Arch />} />
+          </Routes>
         </div>
       </div>
     </body>

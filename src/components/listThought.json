@@ -25,5 +25,14 @@
     "header": "My new portfolio.",
     "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
     "resource": { "01": "", "02": "", "03": "" }
+  },
+  {
+    "id": 4,
+    "tags": "product",
+    "location": "Chichester, United Kingdom",
+    "date": "August 06, 2022",
+    "header": "Solving small problems.",
+    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "resource": { "01": "", "02": "", "03": "" }
   }
 ]

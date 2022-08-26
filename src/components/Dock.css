@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&family=IBM+Plex+Serif&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +7,12 @@
 
 nav {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  backdrop-filter: brightness(130%) blur(15px) grayscale(50%);
-  background: linear-gradient(
+  backdrop-filter: brightness(120%) blur(15px) grayscale(50%);
+  /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
     rgba(135, 135, 135, 0.15) 70%
-  );
+  ); */
   display: flex;
   justify-content: space-around;
   align-items: center;

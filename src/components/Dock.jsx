@@ -24,12 +24,12 @@ function Dock() {
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/visual">
-            <li>visual</li>
+            <li>light</li>
           </Link>
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/thought">
-            <li>thought</li>
+            <li>mind</li>
           </Link>
         </BehaviourHover>
       </ul>
