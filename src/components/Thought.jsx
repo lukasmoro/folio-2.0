@@ -12,8 +12,9 @@ function Thought() {
             <DayDate />
             <h1>Thoughts in reverse chronological order.</h1>
             <p>
-              Opinions on work and life-related matter. I do not claim truth nor
-              completeness at any time.
+              Opinions on work and life-related matter. If you have any
+              questions or suggestions feel free to{" "}
+              <a className="link">reach out</a>.
             </p>
             {Thoughts.map((item) => {
               return (

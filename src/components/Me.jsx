@@ -18,23 +18,24 @@ function Me() {
             to empower people and help them focus on the things that matter.
           </p>
           <p>
-            Currently, I am working for{" "}
+            I am working for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               className="link"
             >
               Rolls-Royce Motorcars
             </a>{" "}
-            {/* and
+            and
             <a href="https://www.slabs.one" className="link">
               {" "}
-              spatialLABS
-            </a> */}
-            and studying Interaction Design at
+              sLABS
+            </a>{" "}
+            and study Interaction Design at
             <a href="https://www.dh.umu.se/en/" className="link">
               {" "}
-              Umeå Institute of Design.
+              Umeå Institute of Design
             </a>
+            .
           </p>
           <div className="line"></div>
           <div className="socials">
