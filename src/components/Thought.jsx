@@ -1,5 +1,5 @@
 import React from "react";
-import Thoughts from "./listThought.json";
+import Thoughts from "../components/Data/listThought.json";
 import "./Work.css";
 import DayDate from "./DayDate";
 

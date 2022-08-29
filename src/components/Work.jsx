@@ -1,11 +1,8 @@
 import React, { useState, useLocation } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import ListItem from "./listWork";
+import ListItem from "../components/Data/listWork";
 import "./Work.css";
-
-//Components
-import Arch from "./Arch";
 
 function Work() {
   const style = {
@@ -54,10 +51,6 @@ function Work() {
               );
             })}
           </a>
-
-          <Routes>
-            <Route path="/arch" element={<Arch />} />
-          </Routes>
         </div>
       </div>
     </body>

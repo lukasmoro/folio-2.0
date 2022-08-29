@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "name": "Experiments in VR & AR",
+    "name": "VR & AR Explorations",
     "date": "ongoing",
     "sideproject": false,
     "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/me"
+    "to": "/arvr"
   },
   {
     "id": 2,
-    "name": "Next Podcast in Chrome ",
+    "name": "Podcasts in Chrome ",
     "date": "2022",
     "sideproject": true,
     "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg",
-    "to": "/me"
+    "to": "/Podcasts"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "date": "2022",
     "sideproject": true,
     "src": "https://www.weareink.co.uk/uploads/images/projects/_fullImage/nasa_02.jpg",
-    "to": "/me"
+    "to": "/spatial"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "date": "2022",
     "sideproject": false,
     "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg",
-    "to": "/me"
+    "to": "/horizon"
   },
   {
     "id": 5,

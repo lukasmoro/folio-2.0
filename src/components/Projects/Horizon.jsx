@@ -1,7 +1,7 @@
 import React from "react";
-import "./Work.css";
+import "./Projects.css";
 
-function Arch() {
+function Horizon() {
   return (
     <div className="container">
       <div className="text-block">
@@ -11,4 +11,4 @@ function Arch() {
   );
 }
 
-export default Arch;
+export default Horizon;

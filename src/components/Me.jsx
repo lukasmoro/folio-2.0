@@ -21,17 +21,29 @@ function Me() {
             I am working for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
+              target="_blank"
+              rel="noreferrer"
               className="link"
             >
               Rolls-Royce Motorcars
             </a>{" "}
             and
-            <a href="https://www.slabs.one" className="link">
+            <a
+              href="https://www.slabs.one"
+              target="_blank"
+              rel="noreferrer"
+              className="link"
+            >
               {" "}
               sLABS
             </a>{" "}
             and study Interaction Design at
-            <a href="https://www.dh.umu.se/en/" className="link">
+            <a
+              href="https://www.dh.umu.se/en/"
+              target="_blank"
+              rel="noreferrer"
+              className="link"
+            >
               {" "}
               Umeå Institute of Design
             </a>
@@ -39,17 +51,32 @@ function Me() {
           </p>
           <div className="line"></div>
           <div className="socials">
-            <a className="link" href="">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/Lukas_Moro"
+            >
               ↳ Twitter
             </a>
           </div>
           <div className="socials">
-            <a className="link" href="">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/lukas_moro/"
+            >
               ↳ Instagram
             </a>
           </div>
           <div className="socials">
-            <a className="link" href="">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/lukasmoro"
+            >
               ↳ GitHub
             </a>
           </div>
