@@ -8,8 +8,12 @@
   text-rendering: optimizeLegibility;
 }
 
-#light body {
+#light html {
   background-color: #f8f8f8;
+}
+
+#dark html {
+  background-color: #272727;
 }
 
 #dark body {
@@ -21,17 +25,18 @@
   justify-content: space-around;
   align-items: center;
   margin: 0;
-  margin-top: 2.5rem;
+  padding-top: 3.5rem;
 }
 
 .text-block {
-  max-width: 800px;
+  max-width: 700px;
   min-height: auto;
   margin-bottom: 15vh;
 }
 
 .line {
   margin-bottom: 2rem;
+  max-width: auto;
   height: 1px;
   background: #f1f1f1;
 }
@@ -83,7 +88,7 @@ li {
 }
 
 ::selection {
-  background-color: lavenderblush;
+  background-color: #f1ffba;
 }
 
 .link {
@@ -109,7 +114,7 @@ li {
   padding-right: 1rem;
   background-color: #f1f1f1;
   transition: background-color ease-out 0.2s;
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
 }
 
 .draggable {
@@ -138,7 +143,6 @@ li {
 }
 
 .header-image {
-  background: lavenderblush;
   margin-bottom: 2rem;
   max-width: 800px;
   width: 100%;

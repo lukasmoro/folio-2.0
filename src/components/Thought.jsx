@@ -13,8 +13,17 @@ function Thought() {
             <h1>Thoughts in reverse chronological order.</h1>
             <p>
               Opinions on work and life-related matter. If you have any
-              questions or suggestions feel free to{" "}
-              <a className="link">reach out</a>.
+              questions or suggestions feel free to <br />{" "}
+              <a
+                className="link"
+                className="link"
+                target="_blank"
+                rel="noreferrer"
+                href="https://twitter.com/Lukas_Moro"
+              >
+                ↳ reach out
+              </a>
+              .
             </p>
             {Thoughts.map((item) => {
               return (

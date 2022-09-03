@@ -5,7 +5,7 @@
     "location": "London, United Kingdom",
     "date": "August 06, 2022",
     "header": "Building my own tools.",
-    "text": "A blog post by Kevin Andersson¹  made me reflect on the impact of tools on creation. The tools we use form our relationship with our work and influence its outcome.\n\nThere are softwares that give you the possibility to execute certain tasks in a uniform manner, usually in a rather precise way. What you put in is what you get out not more not less. Examples can be found in CAD tools such as Solidworks and Rhino or pixel and vector manipulation software like Photoshop, Illustrator and Figma.\n\nOpposing to those there are tools that force you into creating mental models for your creation. Examples for those are all sorts of graph based editors (Unity's shader and VFX graph, Blender's geometry & material-nodes, Grasshopper, Origami...), programming languages and libraries (Javascript, React, Framer Motion) and prototyping platforms like Arduino and Rasperry Pi.\nCreating mental models means an initial time investement into figuring out underlying principles and logic. This leads to a delay in output, which can be frustrating but pays of on the long-term for several reasons.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "name": "1: https://projects.kevinandersen.dk/" }
   },
   {
@@ -14,7 +14,7 @@
     "location": "Karberg, Austria",
     "date": "August 06, 2022",
     "header": "Dare to be under-qualified!",
-    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   },
   {
@@ -23,7 +23,7 @@
     "location": "San Francisco, United States",
     "date": "August 06, 2022",
     "header": "My new portfolio.",
-    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   },
   {
@@ -32,7 +32,7 @@
     "location": "Chichester, United Kingdom",
     "date": "August 06, 2022",
     "header": "Solving small problems.",
-    "text": "Ferner gibt es auch niemanden, der den Schmerz um seiner selbst willen liebt, der ihn sucht und haben will, einfach, weil es Schmerz ist.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   }
 ]

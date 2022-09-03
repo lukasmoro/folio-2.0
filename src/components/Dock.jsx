@@ -24,7 +24,7 @@ function Dock() {
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/visual">
-            <li>soul</li>
+            <li>drip</li>
           </Link>
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>

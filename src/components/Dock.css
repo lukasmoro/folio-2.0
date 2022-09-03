@@ -7,7 +7,7 @@
 
 nav {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  backdrop-filter: brightness(120%) blur(15px) grayscale(50%);
+  backdrop-filter: brightness(170%) blur(15px);
   /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 0%,
@@ -28,7 +28,7 @@ nav {
 }
 
 .nav-links {
-  max-width: 800px;
+  max-width: 700px;
   width: 100%;
   margin: 0 15%;
   justify-content: space-between;

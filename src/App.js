@@ -20,7 +20,7 @@ export const ThemeContext = createContext(null);
 
 
 function App() {
-  const [theme, setTheme] = useState("white");
+  const [theme, setTheme] = useState("light");
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   }
@@ -28,27 +28,30 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <Router >
         <div className="App" id={theme} >
-          {/* <Draggable>
+          <body>
+            {/* <Draggable>
             <div className="draggable">
               <div className="draggable-items">hello</div>
               <div className="draggable-items">world</div>
             </div>
           </Draggable> */}
-          <Routes>
-            <Route path="" element={<Me />} />
-            <Route path="/me" element={<Me />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/visual" element={<Visual />} />
-            <Route path="/thought" element={<Thought />} />
-            <Route path="/arch" element={<Arch />} />
-            <Route path="/horizon" element={<Horizon />} />
-            <Route path="/spatial" element={<Spatial />} />
-            <Route path="/podcasts" element={<Podcasts />} />
-            <Route path="/arvr" element={<ARVR />} />
-          </Routes>
+            <Routes>
+              <Route path="" element={<Me />} />
+              <Route path="/me" element={<Me />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/visual" element={<Visual />} />
+              <Route path="/thought" element={<Thought />} />
+              <Route path="/arch" element={<Arch />} />
+              <Route path="/horizon" element={<Horizon />} />
+              <Route path="/spatial" element={<Spatial />} />
+              <Route path="/podcasts" element={<Podcasts />} />
+              <Route path="/arvr" element={<ARVR />} />
+            </Routes>
+          </body>
           <Dock />
         </div>
       </Router>
+
     </ThemeContext.Provider>
   );
 }

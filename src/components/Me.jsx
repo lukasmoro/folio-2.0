@@ -18,7 +18,7 @@ function Me() {
             to empower people and help them focus on the things that matter.
           </p>
           <p>
-            I am working for{" "}
+            I currently work for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
@@ -45,7 +45,7 @@ function Me() {
               className="link"
             >
               {" "}
-              Umeå Institute of Design
+              UID
             </a>
             .
           </p>
