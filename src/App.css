@@ -1,11 +1,14 @@
 @import url("https://rsms.me/inter/inter.css");
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&family=Chivo:wght@700&display=swap");
 
 * {
-  font-family: "Barlow", "Inter", Arial, Helvetica, sans-serif;
   margin: 0;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Barlow", "Inter", Arial, Helvetica, sans-serif;
 }
 
 #light html {
