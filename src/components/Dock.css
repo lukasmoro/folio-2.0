@@ -5,15 +5,21 @@
   padding: 0;
 }
 
+.flex {
+  justify-content: space-around;
+}
+
 nav {
+  width: 700px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   backdrop-filter: brightness(170%) blur(15px);
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 9vh;
-  left: 0;
-  right: 0;
+  left: 25%;
+  right: 25%;
   bottom: 0;
   position: fixed;
 }

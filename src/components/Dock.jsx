@@ -10,30 +10,32 @@ function Dock() {
   };
 
   return (
-    <nav>
-      <ul className="nav-links">
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/me">
-            <li>hello</li>
-          </Link>
-        </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/work">
-            <li>work</li>
-          </Link>
-        </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/visual">
-            <li>bild</li>
-          </Link>
-        </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/thought">
-            <li>mind</li>
-          </Link>
-        </BehaviourHover>
-      </ul>
-    </nav>
+    <div className="flex">
+      <nav>
+        <ul className="nav-links">
+          <BehaviourHover rotation={20} timing={200}>
+            <Link style={navStyle} to="/me">
+              <li>hello</li>
+            </Link>
+          </BehaviourHover>
+          <BehaviourHover rotation={20} timing={200}>
+            <Link style={navStyle} to="/work">
+              <li>work</li>
+            </Link>
+          </BehaviourHover>
+          <BehaviourHover rotation={20} timing={200}>
+            <Link style={navStyle} to="/visual">
+              <li>bild</li>
+            </Link>
+          </BehaviourHover>
+          <BehaviourHover rotation={20} timing={200}>
+            <Link style={navStyle} to="/thought">
+              <li>mind</li>
+            </Link>
+          </BehaviourHover>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
