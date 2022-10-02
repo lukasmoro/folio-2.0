@@ -9,34 +9,42 @@
   },
   {
     "id": 2,
-    "name": "Podcasts in Chrome ",
+    "name": "UI Elements with Shaders",
     "date": "ongoing",
-    "sideproject": true,
-    "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg",
-    "to": "/podcasts"
+    "sideproject": false,
+    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
+    "to": "/arvr"
   },
   {
     "id": 3,
-    "name": "Spatial Responsiveness",
-    "date": "2022",
+    "name": "Podcasts in Chrome ",
+    "date": "ongoing",
     "sideproject": true,
-    "src": "https://www.weareink.co.uk/uploads/images/projects/_fullImage/nasa_02.jpg",
-    "to": "/spatial"
+    "src": "img/work/placeholderpodcast.png",
+    "to": "/podcasts"
   },
   {
     "id": 4,
-    "name": "Horizon Interface",
+    "name": "Spatial Responsiveness",
     "date": "2022",
-    "sideproject": false,
-    "src": "https://media.wired.co.uk/photos/606dac52f19707fe1aef37ab/16:9/w_2560%2Cc_limit/32_2.jpg",
-    "to": "/horizon"
+    "sideproject": true,
+    "src": "img/work/placeholderspatialresponsiveness.png",
+    "to": "/spatial"
   },
   {
     "id": 5,
+    "name": "Horizon Interface",
+    "date": "2022",
+    "sideproject": false,
+    "src": "img/work/placeholderhorizon.png",
+    "to": "/horizon"
+  },
+  {
+    "id": 6,
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
-    "src": "https://www.weareink.co.uk/uploads/images/projects/_fullImage/pole_16.jpg",
+    "src": "img/work/placeholderarch.png",
     "to": "/arch"
   }
 ]

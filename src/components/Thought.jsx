@@ -10,7 +10,7 @@ function Thought() {
         <div className="text-block">
           <div>
             <DayDate />
-            <h1>Thoughts in reverse chronological order.</h1>
+            <h1>Thoughts, in reverse chronological order.</h1>
             <p>
               Opinions on work and life-related matter. If you have any
               questions or suggestions feel free to <br />{" "}

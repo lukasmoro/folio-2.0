@@ -5,7 +5,7 @@ import BehaviourHover from "./BehaviourHover";
 
 function Dock() {
   const navStyle = {
-    color: "#898989",
+    color: "#000000",
     textDecoration: "none",
   };
 
@@ -15,22 +15,22 @@ function Dock() {
         <ul className="nav-links">
           <BehaviourHover rotation={20} timing={200}>
             <Link style={navStyle} to="/me">
-              <li>hello</li>
+              <li>about</li>
             </Link>
           </BehaviourHover>
           <BehaviourHover rotation={20} timing={200}>
             <Link style={navStyle} to="/work">
-              <li>work</li>
+              <li>works</li>
             </Link>
           </BehaviourHover>
           <BehaviourHover rotation={20} timing={200}>
             <Link style={navStyle} to="/visual">
-              <li>view</li>
+              <li>views</li>
             </Link>
           </BehaviourHover>
           <BehaviourHover rotation={20} timing={200}>
             <Link style={navStyle} to="/thought">
-              <li>mind</li>
+              <li>writing</li>
             </Link>
           </BehaviourHover>
         </ul>

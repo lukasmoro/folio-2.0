@@ -7,15 +7,16 @@ function Me() {
       <div className="container">
         <div className="text-block">
           <DayDate />
-          <h1>Hello, I am Lukas. 🇦🇹</h1>
+          <h1>Hello, I am Lukas. 👨‍💻</h1>
           <p>
             My passion is to sketch and tinker new interfaces with {"<code/>"}{" "}
             and nodes.
           </p>
 
           <p>
-            Usually, I prototype applications for ambient and spatial computing
-            to empower people and help them focus on the things that matter.
+            I prototype applications and shaders for ambient and spatial
+            computing to empower people and help them focus on the things that
+            matter.
           </p>
           <p>
             I currently work for{" "}

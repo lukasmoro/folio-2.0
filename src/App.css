@@ -80,7 +80,7 @@ a {
 p {
   padding-bottom: 2rem;
   line-height: 2;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.003em;
   word-spacing: 0.05rem;
   color: #898989;
 }
@@ -104,6 +104,11 @@ li {
 }
 
 .add-info {
+  color: #bdbdbd;
+  letter-spacing: 0.008em;
+}
+.day-date {
+  padding-bottom: 0.6rem;
   color: #bdbdbd;
   letter-spacing: 0.008em;
 }
@@ -145,12 +150,11 @@ li {
 }
 
 .header-image {
-  margin-bottom: 2rem;
-  max-width: 800px;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 3rem;
+  width: 700px;
+  height: 340px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
 .footnote {

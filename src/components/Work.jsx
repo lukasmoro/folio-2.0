@@ -2,6 +2,7 @@ import React, { useState, useLocation } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import ListItem from "../components/Data/listWork";
+import DayDate from "./DayDate";
 import "./Work.css";
 
 function Work() {
@@ -20,13 +21,14 @@ function Work() {
       <div className="container">
         <div className="text-block">
           <body>
-            <img className="header-image" src={image} alt="" />
+            <DayDate />
+            <h1>Mostly side-projects.</h1>
+            <img
+              className="header-image"
+              src={image}
+              alt="Sorry, something went wrong."
+            />
           </body>
-          <p>
-            Recent projects and explorations, I use to discover new stuff and
-            learn tools that could be helpful for my work.
-          </p>
-          <div className="line"></div>
 
           <a>
             {ListItem.map((item) => {

@@ -6,18 +6,17 @@
 }
 
 nav {
-  border: 1px solid #f1f1f1;
   width: 760px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
-  backdrop-filter: blur(100px) brightness(200%);
+  backdrop-filter: blur(100px) brightness(150%);
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 7vh;
   top: 50%;
   left: 50%;
-  margin: 370px 0 0 -380px;
+  margin: 390px 0 0 -380px;
   position: absolute;
   position: fixed;
 }

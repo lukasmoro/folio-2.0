@@ -13,7 +13,7 @@ function DayDate() {
   setInterval(clock, 1000);
 
   return (
-    <p className="add-info">
+    <p className="day-date">
       {date} · {time}
     </p>
   );
