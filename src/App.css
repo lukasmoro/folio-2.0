@@ -150,11 +150,18 @@ li {
 }
 
 .header-image {
-  margin-bottom: 3rem;
+  margin-bottom: 1.25rem;
   width: 700px;
   height: 340px;
   object-fit: cover;
   border-radius: 7px;
+}
+.spacer {
+  font-weight: 300;
+  margin-top: -2rem;
+  margin-bottom: -0.5rem;
+  font-size: 1.25rem;
+  color: #bdbdbd;
 }
 
 .footnote {

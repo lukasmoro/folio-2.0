@@ -11,6 +11,7 @@ function Thought() {
           <div>
             <DayDate />
             <h1>Thoughts, in reverse chronological order.</h1>
+            <p className="spacer">⌘</p>
             <p>
               Opinions on work and life-related matter. If you have any
               questions or suggestions feel free to <br />{" "}

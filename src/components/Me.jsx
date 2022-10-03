@@ -7,7 +7,8 @@ function Me() {
       <div className="container">
         <div className="text-block">
           <DayDate />
-          <h1>Hello, I am Lukas. 👨‍💻</h1>
+          <h1>Hello, I am Lukas.</h1>
+          <p className="spacer">⌘</p>
           <p>
             My passion is to sketch and tinker new interfaces with {"<code/>"}{" "}
             and nodes.
@@ -51,6 +52,16 @@ function Me() {
             .
           </p>
           <div className="line"></div>
+          <div className="socials">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://read.cv/moro"
+            >
+              ↳ Read CV
+            </a>
+          </div>
           <div className="socials">
             <a
               className="link"
