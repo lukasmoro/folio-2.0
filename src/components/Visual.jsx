@@ -8,6 +8,7 @@ function Visual() {
       <div className="container">
         <div className="text-block">
           <DayDate />
+
           <h1>Collection of sorts...</h1>
           <p className="spacer">⌘</p>
           <div className="grid">

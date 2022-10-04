@@ -1,30 +1,6 @@
 [
   {
     "id": 1,
-    "name": "VR & AR Explorations",
-    "date": "ongoing",
-    "sideproject": false,
-    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/arvr"
-  },
-  {
-    "id": 2,
-    "name": "UI Elements with Shaders",
-    "date": "ongoing",
-    "sideproject": false,
-    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/arvr"
-  },
-  {
-    "id": 3,
-    "name": "Podcasts in Chrome ",
-    "date": "ongoing",
-    "sideproject": true,
-    "src": "img/work/placeholderpodcast.png",
-    "to": "/podcasts"
-  },
-  {
-    "id": 4,
     "name": "Rolls-Royce Motorcars",
     "date": "ongoing",
     "sideproject": true,
@@ -32,12 +8,36 @@
     "to": "/rrmc"
   },
   {
-    "id": 5,
+    "id": 2,
+    "name": "Podcasts in Chrome ",
+    "date": "ongoing",
+    "sideproject": true,
+    "src": "img/work/placeholderpodcast.png",
+    "to": "/podcasts"
+  },
+  {
+    "id": 3,
     "name": "Spatial Responsiveness",
-    "date": "2022",
+    "date": "ongoing",
     "sideproject": false,
     "src": "img/work/placeholderspatialresponsiveness.png",
     "to": "/spatial"
+  },
+  {
+    "id": 4,
+    "name": "VR & AR Prototypes",
+    "date": "ongoing",
+    "sideproject": false,
+    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
+    "to": "/arvr"
+  },
+  {
+    "id": 5,
+    "name": "Shaders for UI",
+    "date": "ongoing",
+    "sideproject": false,
+    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
+    "to": "/shader"
   },
   {
     "id": 6,

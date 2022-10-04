@@ -2,17 +2,19 @@ import React from "react";
 import "./Projects.css";
 import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
 
-function Arch() {
+function RRMC() {
   return (
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Arch - Healthroom for remote areas</h1>
+        <h1>
+          Rolls Royce - Luxury digital experiences and toolsets to create them.
+        </h1>
         <p className="spacer">⌘</p>
 
         <img
           className="header-image"
-          src="img/work/placeholderarch.png"
+          src="img/work/placeholderrrmc.png"
           alt=""
         />
         <p>
@@ -29,4 +31,4 @@ function Arch() {
   );
 }
 
-export default Arch;
+export default RRMC;

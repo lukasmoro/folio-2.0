@@ -2,12 +2,12 @@ import React from "react";
 import "./Projects.css";
 import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
 
-function Arch() {
+function Shader() {
   return (
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Arch - Healthroom for remote areas</h1>
+        <h1>Shaders for UI - Interactive Web GL Elements.</h1>
         <p className="spacer">⌘</p>
 
         <img
@@ -29,4 +29,4 @@ function Arch() {
   );
 }
 
-export default Arch;
+export default Shader;
