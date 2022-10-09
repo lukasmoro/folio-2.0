@@ -1,11 +1,12 @@
 import React from "react";
 import DayDate from "./DayDate";
+import "./Me.css";
 
 function Me() {
   return (
-    <body>
-      <div className="container">
-        <div className="text-block">
+    <div className="container">
+      <div className="text-block">
+        <body>
           <DayDate />
           <h1>Hello, I am Lukas.</h1>
           <p className="spacer">⌘</p>
@@ -97,9 +98,9 @@ function Me() {
               ↳ Email
             </a>
           </div>
-        </div>
+        </body>
       </div>
-    </body>
+    </div>
   );
 }
 

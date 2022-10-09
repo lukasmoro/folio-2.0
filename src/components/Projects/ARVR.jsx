@@ -6,27 +6,29 @@ function ARVR() {
   return (
     <div className="container">
       <div className="text-block">
-        <DayDate />
-        <h1>
-          VR & AR Prototypes - Exploring affordances & interactions with virtual
-          objects
-        </h1>
-        <p className="spacer">⌘</p>
+        <body>
+          <DayDate />
+          <h1>
+            VR & AR Prototypes - Exploring affordances & interactions with
+            virtual objects
+          </h1>
+          <p className="spacer">⌘</p>
 
-        <img
-          className="header-image"
-          src="img/work/placeholderarch.png"
-          alt=""
-        />
-        <p>
-          This project is an exploration of how upcoming technologies might
-          shape the future of remote healthcare consultation. The intention is
-          not presenting this as a final concept but more as an inspiration for
-          further explorations in this area. We believe that bridging remote
-          situations through mixed reality is very promising and that
-          accompanying tangible interfaces are a good way to emulate physical
-          encounters and bring people closer together.
-        </p>
+          <img
+            className="header-image"
+            src="img/work/placeholderarch.png"
+            alt=""
+          />
+          <p>
+            This project is an exploration of how upcoming technologies might
+            shape the future of remote healthcare consultation. The intention is
+            not presenting this as a final concept but more as an inspiration
+            for further explorations in this area. We believe that bridging
+            remote situations through mixed reality is very promising and that
+            accompanying tangible interfaces are a good way to emulate physical
+            encounters and bring people closer together.
+          </p>
+        </body>
       </div>
     </div>
   );

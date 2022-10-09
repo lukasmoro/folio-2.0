@@ -17,46 +17,42 @@ function Work() {
     };
   }
   return (
-    <body>
-      <div className="container">
-        <div className="text-block">
-          <body>
-            <DayDate />
-            <h1>Mostly side-projects.</h1>
-            <p className="spacer">⌘</p>
-            <img
-              className="header-image"
-              src={image}
-              alt="Sorry, something went wrong."
-            />
-          </body>
+    <div className="container">
+      <div className="text-block">
+        <DayDate />
+        <h1>Mostly side-projects.</h1>
+        <p className="spacer">⌘</p>
+        <img
+          className="header-image"
+          src={image}
+          alt="Sorry, something went wrong."
+        />
 
-          <a>
-            {ListItem.map((item) => {
-              return (
-                <Link
-                  to={item.to}
-                  className="item-work"
-                  onMouseOver={handleMouseState(item.src)}
-                  onMouseOut={handleMouseState(
-                    "https://placehold.jp/1920x1080.png"
-                  )}
-                >
-                  <ul className="list-item" key={item.id}>
-                    <li style={style} className="item">
-                      {item.date}
-                    </li>
-                    <a href="" className="link">
-                      <li className="item">{item.name}</li>
-                    </a>
-                  </ul>
-                </Link>
-              );
-            })}
-          </a>
-        </div>
+        <a>
+          {ListItem.map((item) => {
+            return (
+              <Link
+                to={item.to}
+                className="item-work"
+                onMouseOver={handleMouseState(item.src)}
+                onMouseOut={handleMouseState(
+                  "https://placehold.jp/1920x1080.png"
+                )}
+              >
+                <ul className="list-item" key={item.id}>
+                  <li style={style} className="item">
+                    {item.date}
+                  </li>
+                  <a href="" className="link">
+                    <li className="item">{item.name}</li>
+                  </a>
+                </ul>
+              </Link>
+            );
+          })}
+        </a>
       </div>
-    </body>
+    </div>
   );
 }
 

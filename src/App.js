@@ -8,7 +8,6 @@ import Work from './components/Work'
 import Visual from './components/Visual';
 import Thought from './components/Thought'
 import Dock from './components/Dock'
-import Draggable from 'react-draggable'
 import Arch from './components/Projects/Arch'
 import RRMC from './components/Projects/RRMC'
 import Spatial from './components/Projects/Spatial'
@@ -28,6 +27,8 @@ function App() {
   }
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
+
+
       <Router >
         <div className="App" id={theme} >
           <body>
@@ -38,7 +39,7 @@ function App() {
             </div>
           </Draggable> */}
             <Routes>
-              <Route path="" element={<Me />} />
+              <Route path="/" element={<Me />} />
               <Route path="/me" element={<Me />} />
               <Route path="/work" element={<Work />} />
               <Route path="/visual" element={<Visual />} />

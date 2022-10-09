@@ -2,13 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&family=Chivo:wght@700&display=swap");
 
 * {
-  margin: 0;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
 }
 
 body {
   font-family: "Barlow", "Inter", Arial, Helvetica, sans-serif;
+  min-height: 50rem;
 }
 
 #light html {
@@ -27,11 +27,11 @@ body {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  padding-top: 3.5rem;
+  margin-top: 3.5rem;
 }
 
 .text-block {
-  max-width: 700px;
+  width: 700px;
   min-height: auto;
   margin-bottom: 15vh;
 }
