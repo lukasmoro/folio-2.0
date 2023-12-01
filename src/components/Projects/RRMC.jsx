@@ -1,15 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
+// import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
 
 function RRMC() {
   return (
     <div className="container">
       <div className="text-block">
-        <DayDate />
-        <h1>
-          Rolls Royce - Luxury digital experiences and toolsets to create them.
-        </h1>
+        {/* <DayDate /> */}
+        <h1>Rolls Royce - Bespoke Luxury Digital Experiences.</h1>
         <p className="spacer">⌘</p>
 
         <img
@@ -18,13 +16,13 @@ function RRMC() {
           alt=""
         />
         <p>
-          This project is an exploration of how upcoming technologies might
-          shape the future of remote healthcare consultation. The intention is
-          not presenting this as a final concept but more as an inspiration for
-          further explorations in this area. We believe that bridging remote
-          situations through mixed reality is very promising and that
-          accompanying tangible interfaces are a good way to emulate physical
-          encounters and bring people closer together.
+          I am currently working at Rolls Royce Motorcars on the future of
+          digital bespoke experiences and define processes & and create
+          toolchains to enable bespoke digital solutions.
+        </p>
+        <p>
+          My used stack is Unity, Blender, HLSL Shaders and VFX Graph. For
+          prototyping I use automotive media controllers and Kinect V2.
         </p>
       </div>
     </div>

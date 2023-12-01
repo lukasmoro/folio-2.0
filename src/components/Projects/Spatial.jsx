@@ -1,14 +1,14 @@
 import React from "react";
 import "./Projects.css";
-import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
+// import DayDate from "/Users/lukasmoro/Documents/React/folio-2.0/folio-2.0/src/components/Projects/Spatial.jsx";
 
 function Spatial() {
   return (
     <div className="container">
       <div className="text-block">
-        <DayDate />
+        {/* <DayDate /> */}
         <h1>
-          Spatial Responsiveness - Using camera perspective for responsiveness.
+          Spatial Responsiveness - A different approach to Responsiveness.
         </h1>
         <p className="spacer">⌘</p>
 
@@ -18,14 +18,21 @@ function Spatial() {
           alt=""
         />
         <p>
-          This project is an exploration of how upcoming technologies might
-          shape the future of remote healthcare consultation. The intention is
-          not presenting this as a final concept but more as an inspiration for
-          further explorations in this area. We believe that bridging remote
-          situations through mixed reality is very promising and that
-          accompanying tangible interfaces are a good way to emulate physical
-          encounters and bring people closer together.
+          This experiment leverages the ability of setting camera perspective
+          and positioning in WebGL to approach responsiveness for different
+          browser widths. The next instance would be smooth transitioning
+          between conventional browser-based 3D-applications and WebXR.
         </p>
+        <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://chrome.google.com/webstore/category/extensions?hl=de"
+          >
+            ↳ Launch Experiment
+          </a>
+        </div>
       </div>
     </div>
   );

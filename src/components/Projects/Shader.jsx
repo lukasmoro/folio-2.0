@@ -1,12 +1,12 @@
 import React from "react";
 import "./Projects.css";
-import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
+// import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
 
 function Shader() {
   return (
     <div className="container">
       <div className="text-block">
-        <DayDate />
+        {/* <DayDate /> */}
         <h1>Shaders for UI - Interactive Web GL Elements.</h1>
         <p className="spacer">⌘</p>
 

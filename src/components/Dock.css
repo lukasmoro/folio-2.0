@@ -8,9 +8,10 @@
 nav {
   width: 760px;
   border-radius: 20px;
+  /* outline: #ffffff solid 0.3px; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px;
-  backdrop-filter: blur(100px) brightness(120%);
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, inset 0 0 100px #ffffff;
+  backdrop-filter: blur(5px) grayscale(50%) brightness(99%);
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "VR & AR Prototypes",
+    "name": "Virtual Embodiement",
     "date": "ongoing",
     "sideproject": false,
     "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
@@ -44,7 +44,7 @@
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
-    "src": "img/work/placeholderarch.png",
+    "src": "img/work/arch/arch1.png",
     "to": "/arch"
   }
 ]

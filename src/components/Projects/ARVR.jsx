@@ -1,13 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
+// import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
 
 function ARVR() {
   return (
     <div className="container">
       <div className="text-block">
         <body>
-          <DayDate />
+          {/* <DayDate /> */}
           <h1>
             VR & AR Prototypes - Exploring affordances & interactions with
             virtual objects
