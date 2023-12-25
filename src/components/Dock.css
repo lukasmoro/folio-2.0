@@ -15,13 +15,15 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 7vh;
+  min-height: 8vh;
   top: 50%;
   left: 50%;
-  margin: 390px 0 0 -380px;
+  margin: 21rem 0 0 -380px;
   position: absolute;
   position: fixed;
 }
+
+
 
 #dark nav {
   backdrop-filter: brightness(300%) blur(15px) grayscale(50%);
@@ -36,4 +38,13 @@ nav {
   align-items: center;
   list-style: none;
   text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 760px) {
+  nav {
+    width: 75%; 
+  }
+
 }

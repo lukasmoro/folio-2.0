@@ -16,7 +16,6 @@ function Thought() {
             or suggestions feel free to <br />{" "}
             <a
               className="link"
-              className="link"
               target="_blank"
               rel="noreferrer"
               href="https://twitter.com/Lukas_Moro"

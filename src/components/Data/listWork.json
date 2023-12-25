@@ -1,43 +1,43 @@
 [
   {
     "id": 1,
-    "name": "Rolls-Royce Motorcars",
-    "date": "ongoing",
+    "name": "Sensorium",
+    "date": "2023",
     "sideproject": true,
-    "src": "img/work/placeholderrrmc.png",
-    "to": "/rrmc"
+    "src": "img/work/placeholderpodcast.png",
+    "to": "/podcasts"
   },
   {
     "id": 2,
     "name": "Podcasts in Chrome ",
-    "date": "ongoing",
+    "date": "2023",
     "sideproject": true,
     "src": "img/work/placeholderpodcast.png",
     "to": "/podcasts"
   },
   {
     "id": 3,
-    "name": "Spatial Responsiveness",
-    "date": "ongoing",
-    "sideproject": false,
-    "src": "img/work/placeholderspatialresponsiveness.png",
-    "to": "/spatial"
-  },
-  {
-    "id": 4,
-    "name": "Virtual Embodiement",
-    "date": "ongoing",
+    "name": "Little Joshua Tree",
+    "date": "2023",
     "sideproject": false,
     "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
     "to": "/arvr"
   },
   {
+    "id": 4,
+    "name": "Rolls-Royce Motorcars",
+    "date": "2022",
+    "sideproject": true,
+    "src": "img/work/placeholderrrmc.png",
+    "to": "/rrmc"
+  },
+  {
     "id": 5,
-    "name": "Skeumorphic Icons",
-    "date": "ongoing",
+    "name": "Spatial Labs",
+    "date": "2022",
     "sideproject": false,
-    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/icons"
+    "src": "img/work/placeholderspatialresponsiveness.png",
+    "to": "/spatial"
   },
   {
     "id": 6,

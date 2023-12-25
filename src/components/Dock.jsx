@@ -19,7 +19,7 @@ function Dock() {
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/work">
-            <li>works</li>
+            <li>work</li>
           </Link>
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
@@ -29,7 +29,7 @@ function Dock() {
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/thought">
-            <li>posts</li>
+            <li>write</li>
           </Link>
         </BehaviourHover>
       </ul>

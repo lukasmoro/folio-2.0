@@ -10,7 +10,7 @@ function Me() {
           <DayDate />
           <h1>Hello, I am Lukas.</h1>
           <p className="spacer">⌘</p>
-          <p>I sketch and tinker new interfaces with {"<code/>"} and nodes.</p>
+          <p>I sketch and tinker new interfaces with bits and atoms.</p>
           <p>
             I prototype applications for ambient and spatial computing to
             harmonise our relationship with technology and to integrate the
