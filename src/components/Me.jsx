@@ -14,10 +14,10 @@ function Me() {
           <p>
             I prototype applications for ambient and spatial computing to
             harmonise our relationship with technology and to integrate the
-            virtual aspects of our lives better into the physical world.
+            virtual aspects of our lives better into our common reality.
           </p>
           <p>
-            I work at{" "}
+            I worked at{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
