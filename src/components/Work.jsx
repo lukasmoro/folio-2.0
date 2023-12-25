@@ -20,7 +20,7 @@ function Work() {
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Mostly side-projects.</h1>
+        <h1>Selected projects.</h1>
         <p className="spacer">⌘</p>
         <img
           className="header-image"

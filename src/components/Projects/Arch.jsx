@@ -1,14 +1,14 @@
 import React from "react";
 import "./Projects.css";
-// import DayDate from "/Users/lukasmoro/Desktop/Portfolio 2.0/folio-2.0/src/components/DayDate.jsx";
+import DayDate from "/Users/lukasmoro/Documents/React/folio-2.0/folio-2.0/src/components/DayDate.jsx";
 
 function Arch() {
   return (
     <div className="container">
       <div className="text-block">
         <body>
-          {/* <DayDate /> */}
-          <h1>Arch - Healthroom for Remote Areas</h1>
+          <DayDate />
+          <h1>Arch · Healthroom for remote areas</h1>
           <p className="spacer">⌘</p>
           <img className="header-image" src="img/work/arch/arch1.png" alt="" />
           <p>

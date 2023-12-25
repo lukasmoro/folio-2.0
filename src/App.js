@@ -10,10 +10,10 @@ import Thought from './components/Thought'
 import Dock from './components/Dock'
 import Arch from './components/Projects/Arch'
 import RRMC from './components/Projects/RRMC'
-import Spatial from './components/Projects/Spatial'
+import LittleJoshuaTree from './components/Projects/LittleJoshuaTree'
 import Podcasts from './components/Projects/Podcasts'
-import ARVR from './components/Projects/ARVR'
-import Shader from './components/Projects/Shader'
+import Sensorium from './components/Projects/Sensorium'
+import SpatialLabs from './components/Projects/SpatialLabs';
 
 
 
@@ -32,12 +32,6 @@ function App() {
       <Router >
         <div className="App" id={theme} >
           <body>
-            {/* <Draggable>
-            <div className="draggable">
-              <div className="draggable-items">hello</div>
-              <div className="draggable-items">world</div>
-            </div>
-          </Draggable> */}
             <Routes>
               <Route path="/" element={<Me />} />
               <Route path="/me" element={<Me />} />
@@ -46,10 +40,10 @@ function App() {
               <Route path="/thought" element={<Thought />} />
               <Route path="/arch" element={<Arch />} />
               <Route path="/rrmc" element={<RRMC />} />
-              <Route path="/spatial" element={<Spatial />} />
+              <Route path="/liljosh" element={<LittleJoshuaTree />} />
               <Route path="/podcasts" element={<Podcasts />} />
-              <Route path="/arvr" element={<ARVR />} />
-              <Route path="/shader" element={<Shader />} />
+              <Route path="/sensorium" element={<Sensorium />} />
+              <Route path="/slabs" element={<SpatialLabs />} />
             </Routes>
           </body>
           <Dock />

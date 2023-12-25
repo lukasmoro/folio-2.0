@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Sensorium",
+    "name": "Sensorium Interior",
     "date": "2023",
     "sideproject": true,
-    "src": "img/work/placeholderpodcast.png",
-    "to": "/podcasts"
+    "src": "img/work/placeholdersensorium2.png",
+    "to": "/sensorium"
   },
   {
     "id": 2,
     "name": "Podcasts in Chrome ",
     "date": "2023",
     "sideproject": true,
-    "src": "img/work/placeholderpodcast.png",
+    "src": "img/work/placeholderpodcasts.png",
     "to": "/podcasts"
   },
   {
@@ -21,7 +21,7 @@
     "date": "2023",
     "sideproject": false,
     "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/arvr"
+    "to": "/liljosh"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "date": "2022",
     "sideproject": false,
     "src": "img/work/placeholderspatialresponsiveness.png",
-    "to": "/spatial"
+    "to": "/slabs"
   },
   {
     "id": 6,

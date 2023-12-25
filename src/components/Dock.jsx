@@ -14,7 +14,7 @@ function Dock() {
       <ul className="nav-links">
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/me">
-            <li>about</li>
+            <li>info</li>
           </Link>
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
@@ -24,12 +24,12 @@ function Dock() {
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/visual">
-            <li>play</li>
+            <li>test</li>
           </Link>
         </BehaviourHover>
         <BehaviourHover rotation={20} timing={200}>
           <Link style={navStyle} to="/thought">
-            <li>write</li>
+            <li>text</li>
           </Link>
         </BehaviourHover>
       </ul>

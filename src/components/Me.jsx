@@ -8,16 +8,16 @@ function Me() {
       <div className="text-block">
         <body>
           <DayDate />
-          <h1>Hello, I am Lukas.</h1>
+          <h1>Hello, I am Lukas Moro.</h1>
           <p className="spacer">⌘</p>
-          <p>I sketch and tinker new interfaces with bits and atoms.</p>
+          <p> <i>I think through making.</i> I am a prototyper, sketching and tinkering new interfaces with bits and atoms.</p>
           <p>
-            I prototype applications for ambient and spatial computing to
-            harmonise our relationship with technology and to integrate the
-            virtual aspects of our lives better into our common reality.
+            My work revolves around building applications for ambient and spatial computing to
+            harmonise our relationship with technology and integrate the
+            virtual aspects of our lives better into one common reality.
           </p>
           <p>
-            I worked at{" "}
+            Previously, I worked for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
@@ -25,8 +25,7 @@ function Me() {
               className="link"
             >
               Rolls-Royce Motorcars
-            </a>{" "}
-            and
+            </a>, 
             <a
               href="https://www.slabs.one"
               target="_blank"
@@ -35,8 +34,17 @@ function Me() {
             >
               {" "}
               Spatial Labs
+            </a> and
+            <a
+              href="https://www.alfredo-haeberli.com"
+              target="_blank"
+              rel="noreferrer"
+              className="link"
+            >
+              {" "}
+              Studio Alfredo Häberli
             </a>
-            . I study IxD at
+            . <br />Currently I finish my master in Interaction Design at
             <a
               href="https://www.dh.umu.se/en/"
               target="_blank"
