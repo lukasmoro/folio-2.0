@@ -1,11 +1,39 @@
 import React from "react";
+import { useResetScroll } from "./ResetScroll";
+import TriggerRouteChange from "./TriggerRouteChange";
+import { motion } from 'framer-motion';
+
 import Thoughts from "../components/Data/listThought.json";
 import "./Work.css";
 import DayDate from "./DayDate";
 
 function Thought() {
+  useResetScroll();
+
+  const pageVariants = {
+    initial: {
+      opacity: 0,
+      y: "100vh" 
+    },
+    in: {
+      opacity: 1,
+      y: 0 
+    },
+    out: {
+      opacity: 0,
+      y: "-100vh" 
+    }
+  };
+  
   return (
-    <div className="container">
+    <TriggerRouteChange navigateToTop={'/visual'} navigateToBottom={'/me'}>
+    <motion.div 
+      className="container"   
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={{ type: "tween", duration: 0.5 }}>
       <div className="text-block">
         <div>
           <DayDate />
@@ -42,7 +70,8 @@ function Thought() {
           })}
         </div>
       </div>
-    </div>
+    </motion.div>
+    </TriggerRouteChange>
   );
 }
 

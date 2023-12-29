@@ -23,8 +23,6 @@ nav {
   position: fixed;
 }
 
-
-
 #dark nav {
   backdrop-filter: brightness(300%) blur(15px) grayscale(50%);
 }

@@ -36,7 +36,7 @@
     "name": "Spatial Labs",
     "date": "2022",
     "sideproject": false,
-    "src": "img/work/placeholderspatialresponsiveness.png",
+    "src": "videos/auragen2.mp4",
     "to": "/slabs"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
-    "src": "img/work/arch/arch1.png",
+    "src": "videos/archtransition.mp4",
     "to": "/arch"
   }
 ]

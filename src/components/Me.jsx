@@ -1,16 +1,29 @@
-import React from "react";
+import {React } from "react";
+import { useResetScroll } from "./ResetScroll";
+import { motion } from 'framer-motion';
+import TriggerRouteChange from "./TriggerRouteChange";
 import DayDate from "./DayDate";
 import "./Me.css";
 
 function Me() {
+  useResetScroll();
+
   return (
-    <div className="container">
+    <TriggerRouteChange navigateToTop={'/thought'} navigateToBottom={'/work'}>
+    <motion.div 
+    className="container"
+    // initial = {{opacity:0}}
+    // animate = {{opacity:1}}
+    // exit = {{opacity:0}}
+    >
       <div className="text-block">
         <body>
           <DayDate />
           <h1>Hello, I am Lukas Moro.</h1>
           <p className="spacer">⌘</p>
-          <p> <i>I think through making.</i> I am a prototyper, sketching and tinkering new interfaces with bits and atoms.</p>
+          <p>
+            <i>I think through making.</i> As a prototyper, sketching and tinkering new interfaces with bits and atoms is what gets me excited.
+          </p>
           <p>
             My work revolves around building applications for ambient and spatial computing to
             harmonise our relationship with technology and integrate the
@@ -44,7 +57,7 @@ function Me() {
               {" "}
               Studio Alfredo Häberli
             </a>
-            . <br />Currently I finish my master in Interaction Design at
+            . <br />Currently, I finish my master in Interaction Design at
             <a
               href="https://www.dh.umu.se/en/"
               target="_blank"
@@ -64,7 +77,7 @@ function Me() {
               rel="noreferrer"
               href="https://read.cv/moro"
             >
-              ↳ Read CV
+              ↳ read.cv
             </a>
           </div>
           <div className="socials">
@@ -104,7 +117,8 @@ function Me() {
           </div>
         </body>
       </div>
-    </div>
+    </motion.div>
+    </TriggerRouteChange>
   );
 }
 

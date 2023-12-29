@@ -7,9 +7,30 @@
 }
 
 body {
+  background-attachment: fixed;
   font-family: "Barlow", "Inter", Arial, Helvetica, sans-serif;
-  min-height: 50rem;
+  background-color: #f8f8f8;
+  min-height: 41rem;
+  margin-bottom: 5rem;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#wrapper {
+	min-height: 100vh;
+	min-width: 100vw;
+	background-color:#f8f8f8;
+}
+
+html::before {
+	z-index: -1;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+}
+
 
 #light html {
   background-color: #f8f8f8;
