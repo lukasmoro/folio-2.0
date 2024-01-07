@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import DayDate from "/Users/lukasmoro/Documents/React/folio-2.0/folio-2.0/src/components/DayDate.jsx";
+import DayDate from "./DayDate.jsx";
 
 function Arch() {
   return (

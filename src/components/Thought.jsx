@@ -2,7 +2,6 @@ import React from "react";
 import { useResetScroll } from "./ResetScroll";
 import TriggerRouteChange from "./TriggerRouteChange";
 import { motion } from 'framer-motion';
-
 import Thoughts from "../components/Data/listThought.json";
 import "./Work.css";
 import DayDate from "./DayDate";

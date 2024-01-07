@@ -78,7 +78,7 @@ nav {
 @media (min-width: 768px) and (max-width: 979px) { }
 
 /* Large desktop */
-@media (min-height: 1000px) { 
+@media (min-height: 900px) { 
 
   nav {
     min-height: 7vh;
