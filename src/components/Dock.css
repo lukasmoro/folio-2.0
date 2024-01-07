@@ -86,3 +86,11 @@ nav {
   }
   
 }
+@media (min-height: 1400px) { 
+
+  nav {
+    min-height: 5vh;
+    margin: 40rem 0 0 -380px;
+  }
+  
+}

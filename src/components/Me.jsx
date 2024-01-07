@@ -15,7 +15,7 @@ function Me() {
     >
       <div className="text-block">
           <DayDate />
-          <h1>Peace, I am Lukas Moro. 👨🏼‍💻🇦🇹</h1>
+          <h1>Peace, I am Lukas Moro. 👨🏼‍💻</h1>
           <p className="spacer">⌘</p>
           <p>
             <i>I think through making,</i> prototyping and sketching interfaces with bits and atoms.
@@ -23,7 +23,7 @@ function Me() {
           <p>
             My focus are applications for ambient and spatial computing to
             harmonise our relationship with technology and<i> integrate the
-            virtual aspects of our lives better into one common reality.</i>
+            virtual aspects of our lives deeper into one common reality.</i>
           </p>
           <p>
             Previously, I worked for{" "}
