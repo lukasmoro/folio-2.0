@@ -1,139 +1,74 @@
-import React from "react";
-import TriggerRouteChange from "./TriggerRouteChange";
-import { useResetScroll } from "./ResetScroll";
+import React, { useContext } from 'react';
+import TriggerRouteChange from './TriggerRouteChange';
+import { useResetScroll } from './ResetScroll';
+import { NavigationContext } from './NavigationContext';
 import { motion } from 'framer-motion';
+import DayDate from './DayDate';
+import './Visual.css';
+import  mediaData  from '../components/Data/listVisual.json';
 
-import DayDate from "./DayDate";
-import "./Visual.css";
+const pageVariants = {
+  initial: { opacity: 0, y: '-100vh' },
+  in: { opacity: 1, y: 0 },
+  out: { opacity: 0, y: '100vh' },
+};
 
-//ADD ALIEN DONE
-//ADD GRID-PT
-//ADD METAPHORICAL UI
-//ADD SLABS STUFF MAYBE
-//ADD NICE PICTURE OF CANVAS IN LIVING ROOM
-//ADD VOLUMETRIC PARTICLES
-//ADD SPATIAL RESPONSIVENESS
-//ADD SPARK AR EXPLO
-//ADD FIRST PARTY VISUAL
+const MediaElement = ({ type, src, alt, descriptions }) => {
+  return (
+    <div className="media-container">
+      {type === 'video' ? (
+        <video className="media" autoPlay loop muted src={src} alt={alt} />
+      ) : (
+        <img className="media" src={src} alt={alt} />
+      )}
+      <div className="description-overlay">
+        {descriptions.map((descriptions, index) => (
+          <span key={index} className="description-textbox">{descriptions}</span>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+
+
+
 
 function Visual() {
   useResetScroll();
+  const { navigationDirection } = useContext(NavigationContext);
+
+  pageVariants.initial.y = navigationDirection === 'top' ? '-100vh' : '100vh';
+  pageVariants.out.y = navigationDirection === 'top' ? '100vh' : '-100vh';
 
   return (
-    <TriggerRouteChange navigateToTop={'/work'} navigateToBottom={'/thought'}>
-    <div className="container">
-      <div className="text-block">
-        <DayDate />
-        <h1>Smaller Explorations.</h1>
-        <p className="spacer">⌘</p>
-        <div className="grid">
-
-        <div className="row">
-            <div className="col">
-              <video
-                className="video"
-                width="100%"
-                height="100%"
-                autoPlay={true}
-                loop={true}
-                src="videos/aliens_NOTCOMPRESSED.mp4"
-                alt="Oops, image missing!"
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <video
-                className="video"
-                src="videos/oscars.mp4"
-                width="100%"
-                height="100%"
-                autoPlay={true}
-                loop={true}
-              />
-            </div>
-            <div className="col">
-              <img src="img/grid/3dme.png" alt="Oops, image missing!" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <img src="img/grid/BlueMoon.png" alt="Oops, image missing!" />
-            </div>
-            <div className="col">
-              <img src="img/grid/speedform.png" alt="Oops, image missing!" />
-            </div>
-            <div className="col">
-              <video
-                className="video"
-                src="videos/browserar1.mp4"
-                width="100%"
-                height="100%"
-                autoPlay={true}
-                loop={true}
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <img
-                src="img/grid/spotifydatavisualisation.png"
-                alt="Oops, image missing!"
-              />
-            </div>
-            <div className="col">
-              <video
-                className="video"
-                src="videos/lucit.mp4"
-                width="100%"
-                height="100%"
-                autoPlay={true}
-                loop={true}
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <img
-                src="img/grid/materialofdesire.png"
-                alt="Oops, image missing!"
-              />
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col">
-              <img src="img/grid/matsumoto.png" alt="Oops, image missing!" />
-            </div>
-            <div className="col">
-              <video
-                className="video"
-                src="videos/vrexploration.mp4"
-                width="100%"
-                height="100%"
-                autoPlay={true}
-                loop={true}
-              />
-            </div>
-            <div className="col">
-              <img
-                src="img/grid/orangescreenprint.png"
-                alt="Oops, image missing!"
-              />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col">
-              <img
-                src="img/grid/taigaiterations.png"
-                alt="Oops, image missing!"
-              />
-            </div>
+    <TriggerRouteChange navigateToTop={'/work'} navigateToBottom={'/mind'}>
+      <motion.div
+        className="container"
+        initial="initial"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={{ type: 'tween', duration: 0.5 }}
+      >
+        <div className="text-block">
+          <DayDate />
+          <h1>Other explorations.</h1>
+          <p className="spacer">⌘</p>
+          <div className="grid">
+            {mediaData.map((row, rowIndex) => (
+              <div className="row" key={rowIndex}>
+                {row.map((media, colIndex) => (
+                  <div className="col" key={colIndex}>
+                    <MediaElement type={media.type} src={media.src} alt={media.alt} descriptions={media.descriptions} />
+                  </div>
+                ))}
+              </div>
+            ))}
           </div>
         </div>
-      </div>
-    </div>
-    </ TriggerRouteChange>
+      </motion.div>
+    </TriggerRouteChange>
   );
 }
 

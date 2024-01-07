@@ -9,25 +9,21 @@ function Me() {
   useResetScroll();
 
   return (
-    <TriggerRouteChange navigateToTop={'/thought'} navigateToBottom={'/work'}>
+    <TriggerRouteChange navigateToTop={'/mind'} navigateToBottom={'/work'}>
     <motion.div 
     className="container"
-    // initial = {{opacity:0}}
-    // animate = {{opacity:1}}
-    // exit = {{opacity:0}}
     >
       <div className="text-block">
-        <body>
           <DayDate />
-          <h1>Hello, I am Lukas Moro.</h1>
+          <h1>Peace, I am Lukas Moro. 👨🏼‍💻🇦🇹</h1>
           <p className="spacer">⌘</p>
           <p>
-            <i>I think through making.</i> As a prototyper, sketching and tinkering new interfaces with bits and atoms is what gets me excited.
+            <i>I think through making,</i> prototyping and sketching interfaces with bits and atoms.
           </p>
           <p>
-            My work revolves around building applications for ambient and spatial computing to
-            harmonise our relationship with technology and integrate the
-            virtual aspects of our lives better into one common reality.
+            My focus are applications for ambient and spatial computing to
+            harmonise our relationship with technology and<i> integrate the
+            virtual aspects of our lives better into one common reality.</i>
           </p>
           <p>
             Previously, I worked for{" "}
@@ -85,26 +81,6 @@ function Me() {
               className="link"
               target="_blank"
               rel="noreferrer"
-              href="https://twitter.com/Lukas_Moro"
-            >
-              ↳ Twitter
-            </a>
-          </div>
-          <div className="socials">
-            <a
-              className="link"
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.instagram.com/lukas_moro/"
-            >
-              ↳ Instagram
-            </a>
-          </div>
-          <div className="socials">
-            <a
-              className="link"
-              target="_blank"
-              rel="noreferrer"
               href="https://github.com/lukasmoro"
             >
               ↳ GitHub
@@ -115,7 +91,7 @@ function Me() {
               ↳ Email
             </a>
           </div>
-        </body>
+        
       </div>
     </motion.div>
     </TriggerRouteChange>

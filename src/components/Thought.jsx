@@ -26,7 +26,7 @@ function Thought() {
   };
   
   return (
-    <TriggerRouteChange navigateToTop={'/visual'} navigateToBottom={'/me'}>
+    <TriggerRouteChange navigateToTop={'/play'} navigateToBottom={'/me'}>
     <motion.div 
       className="container"   
       initial="initial"
@@ -37,7 +37,7 @@ function Thought() {
       <div className="text-block">
         <div>
           <DayDate />
-          <h1>Thoughts, in reverse chronological order.</h1>
+          <h1>Writing, in reverse chronological order.</h1>
           <p className="spacer">⌘</p>
           <p>
             Opinions on work and life-related matter. If you have any questions

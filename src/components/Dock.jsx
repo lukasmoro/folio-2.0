@@ -1,36 +1,41 @@
 import React from "react";
 import "./Dock.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom"; 
 import BehaviourHover from "./BehaviourHover";
 
 function Dock() {
-  const navStyle = {
-    color: "#000000",
-    textDecoration: "none",
-  };
 
   return (
     <nav>
       <ul className="nav-links">
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/me">
-            <li>info</li>
-          </Link>
+        <BehaviourHover jumpHeight={8} timing={200}>
+          <NavLink 
+            to="/me"
+            className={({ isActive }) => (isActive ? "active-link" : "")} 
+          >
+            <li>About.</li>
+          </NavLink>
         </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/work">
-            <li>work</li>
-          </Link>
+        <BehaviourHover jumpHeight={8} timing={200}>
+        <NavLink to="/work" 
+            className={({ isActive }) => (isActive ? "active-link" : "")} 
+            >
+          <li>Work.</li>
+        </NavLink>
         </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/visual">
-            <li>test</li>
-          </Link>
+        <BehaviourHover jumpHeight={8} timing={200}>
+        <NavLink to="/play" 
+            className={({ isActive }) => (isActive ? "active-link" : "")} 
+            >
+          <li>Other.</li>
+        </NavLink>
         </BehaviourHover>
-        <BehaviourHover rotation={20} timing={200}>
-          <Link style={navStyle} to="/thought">
-            <li>text</li>
-          </Link>
+        <BehaviourHover jumpHeight={8} timing={200}>
+        <NavLink to="/mind" 
+            className={({ isActive }) => (isActive ? "active-link" : "")} 
+            >
+          <li>Writing.</li>
+        </NavLink>
         </BehaviourHover>
       </ul>
     </nav>

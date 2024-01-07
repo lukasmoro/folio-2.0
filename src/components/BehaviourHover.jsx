@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { animated, useSpring } from "react-spring";
 
-const BehaviourHover = ({ rotation = 0, timing = 150, children }) => {
-  const [hovered, setHovered] = useState(false);
+const BehaviourHover = ({ jumpHeight = 10, timing = 150, children }) => {
+  
+  const [clicked, setClicked] = useState(false);
 
   const style = useSpring({
     display: "inline-block",
     backfaceVisibility: "hidden",
-    transform: hovered ? `rotate(${rotation}deg)` : `rotate(0deg)`,
+    transform: clicked ? `translateY(-${jumpHeight}px)` : `translateY(0px)`,
     config: {
       tension: 300,
       friction: 10,
@@ -15,21 +16,23 @@ const BehaviourHover = ({ rotation = 0, timing = 150, children }) => {
   });
 
   useEffect(() => {
-    if (!hovered) {
+    if (!clicked) {
       return;
     }
     const timeoutId = window.setTimeout(() => {
-      setHovered(false);
+      setClicked(false);
     }, timing);
     return () => {
       window.clearTimeout(timeoutId);
     };
-  }, [hovered, timing]);
+  }, [clicked, timing]);
+
   const trigger = () => {
-    setHovered(true);
+    setClicked(true);
   };
+
   return (
-    <animated.span onMouseEnter={trigger} style={style}>
+    <animated.span onClick={trigger} style={style}>
       {children}
     </animated.span>
   );

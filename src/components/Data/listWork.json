@@ -1,50 +1,42 @@
-[
+[ 
   {
     "id": 1,
     "name": "Sensorium Interior",
     "date": "2023",
     "sideproject": true,
-    "src": "img/work/placeholdersensorium2.png",
+    "src": "videos/sensoriumthumbnail.mp4",
     "to": "/sensorium"
   },
   {
     "id": 2,
-    "name": "Podcasts in Chrome ",
+    "name": "Podcasts for Chrome ",
     "date": "2023",
     "sideproject": true,
-    "src": "img/work/placeholderpodcasts.png",
+    "src": "videos/podcaststhumbnail2.mp4",
     "to": "/podcasts"
   },
   {
     "id": 3,
-    "name": "Little Joshua Tree",
-    "date": "2023",
-    "sideproject": false,
-    "src": "https://preview.redd.it/sly6ovr3k2901.png?auto=webp&s=50cfbdd0e506771fc76594bdaa899060689863bd",
-    "to": "/liljosh"
-  },
-  {
-    "id": 4,
     "name": "Rolls-Royce Motorcars",
     "date": "2022",
     "sideproject": true,
-    "src": "img/work/placeholderrrmc.png",
+    "src": "videos/rrmcthumbnail.mp4",
     "to": "/rrmc"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Spatial Labs",
     "date": "2022",
     "sideproject": false,
-    "src": "videos/auragen2.mp4",
+    "src": "videos/slabsthumbnail3.mp4",
     "to": "/slabs"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
-    "src": "videos/archtransition.mp4",
+    "src": "videos/archthumbnail.mp4",
     "to": "/arch"
   }
 ]

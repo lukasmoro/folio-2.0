@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { NavigationContext } from './NavigationContext';
 
-// Component to change routes based on scroll position.
+
 const TriggerRouteChange = ({ children, navigateToBottom, navigateToTop }) => {
+    
     const navigate = useNavigate();
     const [isThrottled, setIsThrottled] = useState(false);
 
-    console.log(document.body.scrollTop);
-    // Check if the user has scrolled to the bottom of the page.
+    const { setNavigationDirection } = useContext(NavigationContext);
+
+
     const isScrolledToBottom = () => {
         const viewportHeight = window.innerHeight;
         const contentHeight = document.documentElement.scrollHeight;
@@ -15,40 +18,40 @@ const TriggerRouteChange = ({ children, navigateToBottom, navigateToTop }) => {
         return Math.ceil(scrollPosition + viewportHeight) >= contentHeight;
     };
 
-    // Check if the user is at the top of the page.
     const isScrolledToTop = () => {
         return window.scrollY <= 0;
     };
 
-    // Handle route change based on scroll position.
     const handleRouteChange = () => {
         if (isThrottled) {
-            return; // Prevent rapid repeated navigation.
+            return; 
         }
 
         if (isScrolledToBottom()) {
             setIsThrottled(true);
-            navigate(navigateToBottom); // Navigate to the specified bottom route.
+            navigate(navigateToBottom); 
             applyThrottle();
+            setNavigationDirection('bottom');
         } 
+
         else if (isScrolledToTop()) {
             setIsThrottled(true);
-            navigate(navigateToTop); // Navigate to the specified top route.
+            navigate(navigateToTop);
             applyThrottle();
+            setNavigationDirection('top');
         }
+
     };
 
-    // Apply a throttle to limit rapid route changes.
     const applyThrottle = () => {
-        document.body.style.overflow = 'hidden'; // Disable scrolling temporarily.
-        const throttleTime = 2000; // Set a time in milliseconds to throttle navigation.
+        document.body.style.overflow = 'hidden'; 
+        const throttleTime = 2000; 
         setTimeout(() => {
             setIsThrottled(false);
-            document.body.style.overflow = ''; // Re-enable scrolling.
+            document.body.style.overflow = '';
         }, throttleTime);
     };
 
-    // Attach the scroll event listener.
     useEffect(() => {
         window.addEventListener('scroll', handleRouteChange);
         return () => {

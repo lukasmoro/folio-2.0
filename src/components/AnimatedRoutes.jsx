@@ -6,12 +6,12 @@ import Me from './Me';
 import Work from './Work';
 import Visual from './Visual';
 import Thought from './Thought';
-import Arch from './Projects/Arch'
-import RRMC from './Projects/RRMC'
-import LittleJoshuaTree from './Projects/LittleJoshuaTree'
-import Podcasts from './Projects/Podcasts'
-import Sensorium from './Projects/Sensorium'
-import SpatialLabs from './Projects/SpatialLabs';
+import Arch from './Arch'
+import RRMC from './RRMC'
+import LittleJoshuaTree from './LittleJoshuaTree'
+import Podcasts from './Podcasts'
+import Sensorium from './Sensorium'
+import SpatialLabs from './SpatialLabs';
 
 function AnimatedRoutes() {
 
@@ -23,13 +23,8 @@ function AnimatedRoutes() {
             <Route path="/" element={<Me />} />
             <Route path="/me" element={<Me />} />
             <Route path="/work" element={<Work />} />
-            <Route path="/visual" element={<Visual />} />
-            <Route path="/thought" element={<Thought />} />
-            <Route path="/" element={<Me />} />
-            <Route path="/me" element={<Me />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/visual" element={<Visual />} />
-            <Route path="/thought" element={<Thought />} />
+            <Route path="/play" element={<Visual />} />
+            <Route path="/mind" element={<Thought />} />
             <Route path="/arch" element={<Arch />} />
             <Route path="/rrmc" element={<RRMC />} />
             <Route path="/liljosh" element={<LittleJoshuaTree />} />
