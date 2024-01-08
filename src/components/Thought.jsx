@@ -25,7 +25,7 @@ function Thought() {
   };
   
   return (
-    <TriggerRouteChange navigateToTop={'/play'} navigateToBottom={'/me'}>
+    // <TriggerRouteChange navigateToTop={'/play'} navigateToBottom={'/me'}>
     <motion.div 
       className="container"   
       initial="initial"
@@ -70,7 +70,7 @@ function Thought() {
         </div>
       </div>
     </motion.div>
-    </TriggerRouteChange>
+    // </TriggerRouteChange>
   );
 }
 

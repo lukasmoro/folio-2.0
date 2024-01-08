@@ -9,7 +9,7 @@ function Me() {
   useResetScroll();
 
   return (
-    <TriggerRouteChange navigateToTop={'/mind'} navigateToBottom={'/work'}>
+    // <TriggerRouteChange navigateToTop={'/mind'} navigateToBottom={'/work'}>
     <motion.div 
     className="container"
     >
@@ -94,7 +94,7 @@ function Me() {
         
       </div>
     </motion.div>
-    </TriggerRouteChange>
+    // </TriggerRouteChange>
   );
 }
 

@@ -42,7 +42,7 @@ function Visual() {
   pageVariants.out.y = navigationDirection === 'top' ? '100vh' : '-100vh';
 
   return (
-    <TriggerRouteChange navigateToTop={'/work'} navigateToBottom={'/mind'}>
+    // <TriggerRouteChange navigateToTop={'/work'} navigateToBottom={'/mind'}>
       <motion.div
         className="container"
         initial="initial"
@@ -68,7 +68,7 @@ function Visual() {
           </div>
         </div>
       </motion.div>
-    </TriggerRouteChange>
+    // </TriggerRouteChange>
   );
 }
 

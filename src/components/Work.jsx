@@ -118,7 +118,7 @@ function Work() {
   }, [currentVideoIndex]);
 
   return (
-    <TriggerRouteChange navigateToTop={'/me'} navigateToBottom={'/play'}>
+    // <TriggerRouteChange navigateToTop={'/me'} navigateToBottom={'/play'}>
       <motion.div 
         className="container"
         initial="initial"
@@ -183,7 +183,7 @@ function Work() {
       </div>
       
     </motion.div>
-    </TriggerRouteChange>
+    // </TriggerRouteChange>
   );
 }
 
