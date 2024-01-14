@@ -38,7 +38,7 @@
       },
       {
           "type": "image",
-          "src": "img/grid/GridPTInvader.jpg",
+          "src": "img/grid/gridptinvader.jpg",
           "alt": "image of gridpt.",
           "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
       }
