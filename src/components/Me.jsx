@@ -15,10 +15,10 @@ function Me() {
     >
       <div className="text-block">
           <DayDate />
-          <h1>Peace, I am Lukas Moro. 👨🏼‍💻</h1>
+          <h1>Peace, I am Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            <i>I think through making,</i> prototyping and sketching interfaces with bits and atoms.
+            <i>I think through making,</i> and prototype and sketch new interfaces with bits and atoms.
           </p>
           <p>
             My focus are applications for ambient and spatial computing to

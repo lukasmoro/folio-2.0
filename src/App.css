@@ -64,6 +64,13 @@ html::before {
   height: 1px;
   background: #f1f1f1;
 }
+.line-projects {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  max-width: auto;
+  height: 1px;
+  background: #f1f1f1;
+}
 
 #dark .line {
   background: #d0d0d0;
@@ -104,6 +111,10 @@ p {
   letter-spacing: 0.003em;
   word-spacing: 0.05rem;
   color: #898989;
+}
+
+.video-container{
+  padding-bottom: 2rem;
 }
 
 li {

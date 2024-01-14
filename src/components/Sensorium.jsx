@@ -16,17 +16,16 @@ function Sensorium() {
             src="img/work/placeholdersensorium2.png"
             alt=""
           />
-           <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li></ul>
+           <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
           <p>
-            Sensorium is a vehicle interior prototype, where all sensory input, haptic actuation output and display output is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtuality and physicality.
+            Sensorium is a vehicle/spaceship interior prototype, where all sensory input, haptic actuation output and display output is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtuality and physicality.
           </p>
-          <div className="line"></div>
           <div className="socials">
           <a
             className="link"
             target="_blank"
             rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
+            href="https://github.com/lukasmoro"
           >
             ↳ GitHub Repository
           </a>
@@ -36,10 +35,23 @@ function Sensorium() {
             className="link"
             target="_blank"
             rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
+            href="pdf/sensorium.pdf"
           >
             ↳ In-Depth PDF
           </a>
+          <div className="line-projects"></div>
+          </div>
+          <div className="video-container">
+            <video
+              className="video"
+              src="videos/sensoriumroughcut.mp4"
+              width="100%"
+              height="100%"
+              controls={false}
+              autoPlay={true}
+              loop={true}
+              muted={true}
+            />
           </div>
       </div>
     </div>

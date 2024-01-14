@@ -23,7 +23,6 @@ function Podcasts() {
           your five favorite podcasts in Chrome's new tab. It does so using
           rss-feeds and syncs automatically across all your devices.
         </p>
-        <div className="line"></div>
         <div className="socials">
           <a
             className="link"
@@ -44,6 +43,7 @@ function Podcasts() {
             ↳ Chrome Web Store
           </a>
         </div>
+        <div className="line-projects"></div>
       </div>
     </div>
   );

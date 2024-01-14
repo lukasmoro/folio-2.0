@@ -7,7 +7,7 @@ function RRMC() {
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Rolls Royce Motorcars · Prototyping bespoke luxury virtual experiences.</h1>
+        <h1>Rolls-Royce Motorcars · Prototyping bespoke luxury virtual experiences.</h1>
         <p className="spacer">⌘</p>
         <img
           className="header-image"
@@ -21,6 +21,17 @@ function RRMC() {
           toolchains to enable those. 
           I prototyped for general purpose operating systems as well as embedded systems.
         </p>
+        <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
+          >
+            ↳ Rolls-Royce Motorcars
+          </a>
+        </div>
+        <div className="line-projects"></div>
       </div>
     </div>
   );
