@@ -1,7 +1,6 @@
 import React from "react";
 import "./Projects.css";
 import DayDate from "./DayDate.jsx";
-
 function RRMC() {
   return (
     <div className="container">

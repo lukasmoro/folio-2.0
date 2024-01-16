@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const MyModel = () => {
     const modelRef = useRef();
@@ -32,7 +32,7 @@ const MyModel = () => {
     return <primitive object={gltf.scene} ref={modelRef} />;
 };
 
-const MyScene = () => {
+const Three = () => {
     return (
         <Canvas>
             <ambientLight />
@@ -42,4 +42,4 @@ const MyScene = () => {
     );
 };
 
-export default MyScene;
+export default Three;

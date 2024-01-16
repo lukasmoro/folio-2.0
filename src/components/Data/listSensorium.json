@@ -1,0 +1,132 @@
+[
+    [
+      {
+          "type": "image",
+          "src": "img/work/sensorium/sensorium1.png",
+          "alt": "image of final sensorium.",
+          "descriptions": ["FINAL PROTOTYPE"]
+      }
+  ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium2.png",
+            "alt": "image of early sketch.",
+            "descriptions": ["EARLY SKETCH"]
+        }
+          ,
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium3.png",
+            "alt": "image of parts of first seat",
+            "descriptions": ["CUTTINGS FOR SEAT SKETCH"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium4.png",
+            "alt": "image of browser ar.",
+            "descriptions": ["MOUNTING POSITION LEAP"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium5.png",
+            "alt": "image of lucit.",
+            "descriptions": ["FINAL SKETCH"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium6.png",
+            "alt": "image of material of desire",
+            "descriptions": ["SKETCH WEARABLE", "GEOMETREY BY REGINA GENSINGER"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium7.png",
+            "alt": "image of taiga",
+            "descriptions": ["EXPERIMENTING WITH COMPUTE SHADERS"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium8.png",
+            "alt": "image of taiga",
+            "descriptions": ["FINAL SKETCH IN ACTION"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium9.png",
+            "alt": "image of taiga",
+            "descriptions": ["CAD OF FINAL PROTOTYPE"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium10.png",
+            "alt": "image of taiga",
+            "descriptions": ["CUTTINGS FINAL PROTOTYPE"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium11.png",
+            "alt": "image of taiga",
+            "descriptions": ["FIRST DIGITAL TWIN VIEW IN UNITY"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium12.png",
+            "alt": "image of taiga",
+            "descriptions": ["ASSEMBLY OF FINAL PROTOTYPE"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium13.png",
+            "alt": "image of taiga",
+            "descriptions": ["WIRING"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium15.png",
+            "alt": "image of taiga",
+            "descriptions": ["RFID SCANNER"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium16.png",
+            "alt": "image of taiga",
+            "descriptions": ["COMPLETE WEARABLE PROTOTYPE", "GEOMETREY BY REGINA GENSINGER"]
+        },
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium17.png",
+            "alt": "image of taiga",
+            "descriptions": ["POSITIONING SERVOS"]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium18.png",
+            "alt": "image of taiga",
+            "descriptions": ["PROJECTIONS"]
+        }
+    ],
+    [
+        {
+            "type": "video",
+            "src": "img/work/sensorium/sensorium19.mp4",
+            "alt": "image of taiga",
+            "descriptions": ["DIGITAL TWIN AND FINAL PROTOTYPE"]
+        }
+    ]
+  ]
+  

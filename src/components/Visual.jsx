@@ -5,7 +5,7 @@ import { NavigationContext } from './NavigationContext';
 import { motion } from 'framer-motion';
 import DayDate from './DayDate';
 import './Visual.css';
-import  mediaData  from '../components/Data/listVisual.json';
+import mediaData  from '../components/Data/listVisual.json';
 
 const pageVariants = {
   initial: { opacity: 0, y: '-100vh' },
