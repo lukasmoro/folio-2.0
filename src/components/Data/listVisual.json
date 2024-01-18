@@ -15,10 +15,10 @@
         "descriptions": ["UNITY", "URP","C#", "VFX GRAPH", "GPT-4 API", "JSON"]
     },
     {
-        "type": "video",
-        "src": "videos/orbs.mp4",
-        "alt": "video of orbs.",
-        "descriptions": ["META SPARK STUDIO", "BLENDER", "VERTEX SHADER"]
+        "type": "image",
+        "src": "img/grid/gridptinvader.jpg",
+        "alt": "image of gridpt.",
+        "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
     }
 ],
 [ 
@@ -37,11 +37,11 @@
           "descriptions": ["BLENDER", "GEOMETRY-NODES", "PHYLLOTAXIS"]
       },
       {
-          "type": "image",
-          "src": "img/grid/gridptinvader.jpg",
-          "alt": "image of gridpt.",
-          "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
-      }
+        "type": "image",
+        "src": "img/grid/3dme.png",
+        "alt": "image of 3D me",
+        "descriptions": ["COLLAB WITH HEINRICH ZAUNSCHIRM", "AGISOFT METASHAPE", "BLENDER"]
+    }
   ],
   [
       {
@@ -65,24 +65,17 @@
   ],
   [
       {
-          "type": "image",
-          "src": "img/grid/3dme.png",
-          "alt": "image of 3D me",
-          "descriptions": ["COLLAB WITH HEINRICH ZAUNSCHIRM", "AGISOFT METASHAPE", "BLENDER"]
-      },
-      {
           "type": "video",
           "src": "videos/lucit.mp4",
           "alt": "video of lucit.",
           "descriptions": ["BLENDER"]
-      }
-  ],
-  [
+      },
+      
       {
           "type": "image",
-          "src": "img/grid/materialofdesire.png",
-          "alt": "image of material of desire",
-          "descriptions": ["BLENDER"]
+          "src": "img/grid/toori.png",
+          "alt": "image of toori.",
+          "descriptions": ["TOORI LAMP"]
       }
   ],
   [
@@ -92,20 +85,5 @@
           "alt": "image of taiga",
           "descriptions": ["FIGMA", "HUSQVARNA", "MOTORCYCLE UI"]
       }
-  ],
-  [
-    
-    {
-        "type": "image",
-        "src": "img/grid/iddris.JPG",
-        "alt": "video of orbs.",
-        "descriptions": ["IDDRIS", "NOBU"]
-    },
-    {
-      "type": "image",
-      "src": "img/grid/anders.JPG",
-      "alt": "image of letter from anders.",
-      "descriptions": ["ANDERS WARMING", "LETTER", "RRMC"]
-  }
-]
+  ]
 ]
