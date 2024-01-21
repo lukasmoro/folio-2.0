@@ -1,7 +1,6 @@
 import {React } from "react";
 import { useResetScroll } from "./ResetScroll";
 import { motion } from 'framer-motion';
-import TriggerRouteChange from "./TriggerRouteChange";
 import DayDate from "./DayDate";
 import "./Me.css";
 
@@ -9,24 +8,21 @@ function Me() {
   useResetScroll();
 
   return (
-    // <TriggerRouteChange navigateToTop={'/mind'} navigateToBottom={'/work'}>
     <motion.div 
     className="container"
     >
       <div className="text-block">
           <DayDate />
-          <h1>Peace, I am Lukas Moro.</h1>
+          <h1>Hi, I am Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            <i>I think through making,</i> and prototype and sketch new interfaces with bits and atoms.
+            I sketch, prototype and make new interfaces with bits and atoms.
+            My focus are applications for spatial computing to
+            harmonise our relationship with technology and integrate the
+            virtuality of our lives into <i>one common reality.</i>
           </p>
           <p>
-            My focus are applications for ambient and spatial computing to
-            harmonise our relationship with technology and<i> integrate the
-            virtual aspects of our lives deeper into one common reality.</i>
-          </p>
-          <p>
-            Previously, I worked for{" "}
+            I worked for{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
@@ -53,7 +49,7 @@ function Me() {
               {" "}
               Studio Alfredo Häberli
             </a>
-            . <br />Currently, I finish my master in Interaction Design at
+            . <br />I study Interaction Design at
             <a
               href="https://www.dh.umu.se/en/"
               target="_blank"
@@ -91,10 +87,9 @@ function Me() {
               ↳ Email
             </a>
           </div>
-        
+
       </div>
     </motion.div>
-    // </TriggerRouteChange>
   );
 }
 

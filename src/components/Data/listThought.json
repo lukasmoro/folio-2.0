@@ -4,7 +4,7 @@
     "tags": "product",
     "location": "London, United Kingdom",
     "date": "August 06, 2022",
-    "header": "Building my own tools.",
+    "header": "Lorem Ipsum.",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "name": "1: https://projects.kevinandersen.dk/" }
   },
@@ -13,7 +13,7 @@
     "tags": "product",
     "location": "Karberg, Austria",
     "date": "August 06, 2022",
-    "header": "Dare to be under-qualified!",
+    "header": "Lorem Ipsum.",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   },
@@ -22,8 +22,8 @@
     "tags": "product",
     "location": "San Francisco, United States",
     "date": "August 06, 2022",
-    "header": "My new portfolio.",
-    "text": "It is out finally!! It took me almost two years to redesign my portfolio and it was a struggle. I was going through a transformative, busy time and I do not like to release unrefined things. What let me to this crisis was a combination of several things",
+    "header": "Lorem Ipsum.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   },
   {
@@ -31,7 +31,7 @@
     "tags": "product",
     "location": "Chichester, United Kingdom",
     "date": "August 06, 2022",
-    "header": "Solving small problems.",
+    "header": "Lorem Ipsum.",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "resource": { "01": "", "02": "", "03": "" }
   }

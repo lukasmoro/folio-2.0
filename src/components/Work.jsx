@@ -1,80 +1,82 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { motion } from 'framer-motion';
 import { useResetScroll } from "./ResetScroll";
 import { Link } from "react-router-dom";
-import TriggerRouteChange from "./TriggerRouteChange";
-import ListItem from "../components/Data/listWork";
+import OtherItem from "../components/Data/listOther";
+import WorkItem from "../components/Data/listWork";
 import DayDate from "./DayDate";
-import { NavigationContext } from './NavigationContext';
 import "./Work.css";
 
 function Work() {
 
   useResetScroll();
 
-  const { navigationDirection } = useContext(NavigationContext);
-  
   const pageVariants = {
-    initial: 
-    {
+    initial: {
       opacity: 0,
-      y: navigationDirection === 'top' ? "-100vh" : "100vh"
+      y: "100vh" 
     },
-    in: 
-    {
+    in: {
       opacity: 1,
       y: 0 
     },
-    out: 
-    {
+    out: {
       opacity: 0,
-      y: navigationDirection === 'top' ? "100vh" : "-100vh"
+      y: "-100vh" 
     }
   };
   
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [video, setVideo] = useState(ListItem[currentVideoIndex].src);
-  const [timer, setTimer] = useState(null);
+  const [video, setVideo] = useState(WorkItem[currentVideoIndex].src);
   const [shouldLoop, setShouldLoop] = useState(false);
-  const [progress, setProgress] = useState(new Array(ListItem.length).fill(0));
+  const [progress, setProgress] = useState(new Array(WorkItem.length).fill(0));
   const [isResettingBars, setIsResettingBars] = useState(false);
   const totalDuration = 6700;
+  const timerRef = useRef(null);
+  const debounceRef = useRef(null);
   
 
-  const handleVideoEnd = () => {
-    const nextIndex = (currentVideoIndex + 1) % ListItem.length;
+  const handleVideoEnd = useCallback(() => {
+    const nextIndex = (currentVideoIndex + 1) % WorkItem.length;
     setCurrentVideoIndex(nextIndex);
-    setVideo(ListItem[nextIndex].src);
-  
+    setVideo(WorkItem[nextIndex].src);
+
     if (nextIndex === 0) {
-      setIsResettingBars(true); // Disable animation for the reset
-      setProgress(new Array(ListItem.length).fill(0));
-  
+      setIsResettingBars(true);
+      setProgress(new Array(WorkItem.length).fill(0));
       setTimeout(() => {
-        setIsResettingBars(false); // Re-enable animation after a short delay
+        setIsResettingBars(false);
       }, 100);
     }
-  };
+  }, [currentVideoIndex]);
   
 
-  const handleMouseState = (videoPath, index) => {
+  const handleMouseState = useCallback((videoPath, index) => {
     return () => {
-      if (timer) clearTimeout(timer);
-      setVideo(videoPath);
-      setCurrentVideoIndex(index);
-      setShouldLoop(true);
-      updateProgressBarsToIndex(index);
+      if (debounceRef.current) clearTimeout(debounceRef.current); 
+      
+      debounceRef.current = setTimeout(() => {
+        if (timerRef.current) clearTimeout(timerRef.current);
+        setVideo(videoPath);
+        setCurrentVideoIndex(index);
+        setShouldLoop(true);
+        updateProgressBarsToIndex(index);
+
+        timerRef.current = setTimeout(() => {
+          handleVideoEnd();
+        }, totalDuration);
+      }, 100); 
     };
-  };
+  }, [handleVideoEnd, totalDuration]);
 
   const handleMouseOut = () => {
     setShouldLoop(false); 
-    const newTimer = setTimeout(() => {
+    if (timerRef.current) clearTimeout(timerRef.current); 
+    timerRef.current = setTimeout(() => {
       handleVideoEnd();
     }, totalDuration);
-    setTimer(newTimer);
   };
-
+  
   const updateProgress = (index) => {
     setProgress(oldProgress => {
       const newProgress = [...oldProgress];
@@ -101,43 +103,38 @@ function Work() {
   };
 
   useEffect(() => {
-    const newTimer = setTimeout(() => {
-      handleVideoEnd(); 
+    timerRef.current = setTimeout(() => {
+      handleVideoEnd();
     }, totalDuration);
-  
-    setTimer(newTimer);
-  
     const interval = setInterval(() => {
       updateProgress(currentVideoIndex);
     }, 100);
 
     return () => {
-      clearTimeout(newTimer);
+      clearTimeout(timerRef.current);
       clearInterval(interval);
     };
-  }, [currentVideoIndex]);
+  }, [currentVideoIndex, handleVideoEnd, totalDuration]);
 
   return (
-    // <TriggerRouteChange navigateToTop={'/me'} navigateToBottom={'/play'}>
-      <motion.div 
-        className="container"
-        initial="initial"
-        animate="in"
-        exit="out"
-        variants={pageVariants}
-        transition={{ type: "tween", duration: 0.5 }}
-      >
+     <motion.div 
+      className="container"   
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={{ type: "tween", duration: 0.5 }}>
         <div className="text-block">
           <DayDate />
-          <h1>Selected work.</h1>
+          <h1>Selected Projects.</h1>
           <p className="spacer">⌘</p>
           <div className="video-area">
           <div className="progress-area">
-            {ListItem.map((item, index) => (
+            {WorkItem.map((item, index) => (
               <div 
                 key={item.id}
                 className="progress-container"
-                style={{ width: `${100 / ListItem.length}%` }}
+                style={{ width: `${100 / WorkItem.length}%` }}
               >
                 <div className="progress-bar-bg"></div>
                 <div 
@@ -160,7 +157,7 @@ function Work() {
               muted 
             />
           </div>   
-        {ListItem.map((item, index) => {
+        {WorkItem.map((item, index) => {
           return (
             <Link
               to={item.to}
@@ -180,10 +177,32 @@ function Work() {
             </Link>
           );
         })}
+          <div className="line-projects"></div>
+         <h1>Other Projects.</h1>
+          <p className="spacer">⌘</p>
+          {OtherItem.map((item, index) => {
+          return (
+            <Link
+              to={item.to}
+              className="item-work"
+              onMouseOver={handleMouseState(item.src, index)}
+              onMouseOut={handleMouseOut} 
+              key={item.id}
+            >
+              <ul className="list-item">
+                <li className="item" id="year">
+                  {item.date}
+                </li>
+                <div href="" className="link">
+                  <li className="item">{item.name}</li>
+                </div>
+              </ul>
+            </Link>
+          );
+        })}
+        <div className="bottom-work"></div>
       </div>
-      
     </motion.div>
-    // </TriggerRouteChange>
   );
 }
 

@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import TriggerRouteChange from './TriggerRouteChange';
 import { useResetScroll } from './ResetScroll';
 import { NavigationContext } from './NavigationContext';
 import { motion } from 'framer-motion';
@@ -8,9 +7,9 @@ import './Visual.css';
 import mediaData  from '../components/Data/listVisual.json';
 
 const pageVariants = {
-  initial: { opacity: 0, y: '-100vh' },
-  in: { opacity: 1, y: 0 },
-  out: { opacity: 0, y: '100vh' },
+  initial: { opacity: 0},
+  in: { opacity: 1 },
+  out: { opacity: 0},
 };
 
 const MediaElement = ({ type, src, alt, descriptions }) => {
@@ -42,7 +41,6 @@ function Visual() {
   pageVariants.out.y = navigationDirection === 'top' ? '100vh' : '-100vh';
 
   return (
-    // <TriggerRouteChange navigateToTop={'/work'} navigateToBottom={'/mind'}>
       <motion.div
         className="container"
         initial="initial"
@@ -68,7 +66,7 @@ function Visual() {
           </div>
         </div>
       </motion.div>
-    // </TriggerRouteChange>
+    
   );
 }
 

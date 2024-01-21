@@ -13,28 +13,21 @@ function Dock() {
             to="/me"
             className={({ isActive }) => (isActive ? "active-link" : "")} 
           >
-            <li>About.</li>
+            <li>About</li>
           </NavLink>
         </BehaviourHover>
         <BehaviourHover jumpHeight={8} timing={200}>
         <NavLink to="/work" 
             className={({ isActive }) => (isActive ? "active-link" : "")} 
             >
-          <li>Work.</li>
-        </NavLink>
-        </BehaviourHover>
-        <BehaviourHover jumpHeight={8} timing={200}>
-        <NavLink to="/play" 
-            className={({ isActive }) => (isActive ? "active-link" : "")} 
-            >
-          <li>Other.</li>
+          <li>Work</li>
         </NavLink>
         </BehaviourHover>
         <BehaviourHover jumpHeight={8} timing={200}>
         <NavLink to="/mind" 
             className={({ isActive }) => (isActive ? "active-link" : "")} 
             >
-          <li>Writing.</li>
+          <li>Write</li>
         </NavLink>
         </BehaviourHover>
       </ul>

@@ -1,0 +1,34 @@
+[ 
+  {
+    "id": 1,
+    "name": "Projections",
+    "date": "2023",
+    "sideproject": true,
+    "src": "videos/sensoriumthumbnail.mp4",
+    "to": "/sensorium"
+  },
+  {
+    "id": 2,
+    "name": "GPT-4 Explorations",
+    "date": "2023",
+    "sideproject": true,
+    "src": "videos/podcaststhumbnail2.mp4",
+    "to": "/podcasts"
+  },
+  {
+    "id": 3,
+    "name": "Shape Studies",
+    "date": "2022",
+    "sideproject": true,
+    "src": "videos/rrmcthumbnail.mp4",
+    "to": "/rrmc"
+  },
+  {
+    "id": 4,
+    "name": "Little Joshua Tree",
+    "date": "2022",
+    "sideproject": true,
+    "src": "videos/rrmcthumbnail.mp4",
+    "to": "/rrmc"
+  }
+]

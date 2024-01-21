@@ -45,22 +45,6 @@
     [
         {
             "type": "image",
-            "src": "img/work/sensorium/sensorium7.png",
-            "alt": "image of taiga",
-            "descriptions": ["EXPERIMENTING WITH COMPUTE SHADERS"]
-        }
-    ],
-    [
-        {
-            "type": "image",
-            "src": "img/work/sensorium/sensorium8.png",
-            "alt": "image of taiga",
-            "descriptions": ["FINAL SKETCH IN ACTION"]
-        }
-    ],
-    [
-        {
-            "type": "image",
             "src": "img/work/sensorium/sensorium9.png",
             "alt": "image of taiga",
             "descriptions": ["CAD OF FINAL PROTOTYPE"]

@@ -1,6 +1,5 @@
 import React from "react";
 import { useResetScroll } from "./ResetScroll";
-import TriggerRouteChange from "./TriggerRouteChange";
 import { motion } from 'framer-motion';
 import Thoughts from "../components/Data/listThought.json";
 import "./Work.css";
@@ -25,7 +24,6 @@ function Thought() {
   };
   
   return (
-    // <TriggerRouteChange navigateToTop={'/play'} navigateToBottom={'/me'}>
     <motion.div 
       className="container"   
       initial="initial"
@@ -36,16 +34,16 @@ function Thought() {
       <div className="text-block">
         <div>
           <DayDate />
-          <h1>Writing, in reverse chronological order.</h1>
+          <h1>Writing.</h1>
           <p className="spacer">⌘</p>
           <p>
             Opinions on work and life-related matter. If you have any questions
-            or suggestions feel free to <br />{" "}
+            or suggestions <br />{" "}
             <a
               className="link"
               target="_blank"
               rel="noreferrer"
-              href="https://twitter.com/Lukas_Moro"
+              href="mailto:lukas.moro@me.com"
             >
               ↳ reach out
             </a>
@@ -70,7 +68,6 @@ function Thought() {
         </div>
       </div>
     </motion.div>
-    // </TriggerRouteChange>
   );
 }
 
