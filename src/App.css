@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
 #wrapper {
 	min-width: 100vw;
 	background-color:#f8f8f8;
+  margin-top: 0;
 }
 
 .container {
@@ -157,3 +158,20 @@ li {
 }
 
 
+svg{
+  margin-top: 3rem;
+
+}
+
+path {
+  stroke-dasharray: 800px;
+  stroke-dashoffset: 800px;
+  animation: signatureAnimation 4s ease-in-out forwards;
+}
+
+@keyframes signatureAnimation {
+  to{
+  stroke-dashoffset: 0px;
+  }
+  
+}

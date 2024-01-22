@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useResetScroll } from './ResetScroll';
-import { NavigationContext } from './NavigationContext';
 import { motion } from 'framer-motion';
 import DayDate from './DayDate';
 import './Visual.css';
@@ -31,10 +30,6 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
 
 function Visual() {
   useResetScroll();
-  const { navigationDirection } = useContext(NavigationContext);
-
-  pageVariants.initial.y = navigationDirection === 'top' ? '-100vh' : '100vh';
-  pageVariants.out.y = navigationDirection === 'top' ? '100vh' : '-100vh';
 
   return (
       <motion.div

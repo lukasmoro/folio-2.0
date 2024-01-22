@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 import { motion } from 'framer-motion';
 import { useResetScroll } from "./ResetScroll";
 import { Link } from "react-router-dom";
-import OtherItem from "../components/Data/listOther";
 import WorkItem from "../components/Data/listWork";
 import DayDate from "./DayDate";
 import "./Work.css";
@@ -179,37 +178,15 @@ function Work() {
         })}
           <div className="line-projects"></div>
           {/* <p>When I have some free time,  I enjoy to explore the "materiality" of computer graphics and other technologies.</p> */}
-         {/* <h1>Other Projects.</h1>
-          <p className="spacer">⌘</p>
-          {OtherItem.map((item, index) => {
-          return (
-            <Link
-              to={item.to}
-              className="item-work"
-              onMouseOver={handleMouseState(item.src, index)}
-              onMouseOut={handleMouseOut} 
-              key={item.id}
-            >
-              <ul className="list-item">
-                <li className="item" id="year">
-                  {item.date}
-                </li>
-                <div href="" className="link">
-                  <li className="item">{item.name}</li>
-                </div>
-              </ul>
-            </Link>
-          );
-        })} */}
          <div className="socials">
-            <a
+          <Link to="/play">
+            <p
               className="link"
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/lukasmoro"
+              href=""
             >
               ↳ Smaller Explorations.
-            </a>
+            </p>
+            </Link>
           </div>
         <div className="bottom-work"></div>
       </div>
