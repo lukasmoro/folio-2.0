@@ -1,9 +1,30 @@
 import React from "react";
+import { motion } from 'framer-motion';
+import { useResetScroll } from "./ResetScroll";
 import "./Projects.css";
 import DayDate from "./DayDate.jsx";
 import mediaData from '../components/Data/listSensorium.json';
 
 function Sensorium() {
+
+
+  useResetScroll();
+
+  const pageVariants = {
+    initial: {
+      opacity: 0,
+      y: "100vh" 
+    },
+    in: {
+      opacity: 1,
+      y: 0 
+    },
+    out: {
+      opacity: 0,
+      y: "-100vh" 
+    }
+  };
+  
 
   const MediaElement = ({ type, src, alt, descriptions }) => {
     return (
@@ -23,11 +44,16 @@ function Sensorium() {
   };
 
   return (
-    <div className="container">
+    <motion.div className="container"   
+    initial="initial"
+    animate="in"
+    exit="out"
+    variants={pageVariants}
+    transition={{ type: "tween", duration: 0.5 }}>
       <div className="text-block">
            <DayDate /> 
           <h1>
-            Sensorium · Multi-sensory, spatial, real-time vehicle interface
+            Sensorium · Multi-sensory, spatial, real-time Vehicle Interface
           </h1>
           <p className="spacer">⌘</p>
           <img
@@ -84,8 +110,8 @@ function Sensorium() {
               </div>
             ))}
           </div>
-      </div>
-    </div>
+          </div>
+    </motion.div>
   );
 }
 

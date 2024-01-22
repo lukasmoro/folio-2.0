@@ -34,7 +34,7 @@ function Thought() {
       <div className="text-block">
         <div>
           <DayDate />
-          <h1>Writing.</h1>
+          <h1> Writing (Thinking) .</h1>
           <p className="spacer">⌘</p>
           <p>
             Opinions on work and life-related matter. If you have any questions

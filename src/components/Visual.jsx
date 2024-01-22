@@ -29,10 +29,6 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
   );
 };
 
-
-
-
-
 function Visual() {
   useResetScroll();
   const { navigationDirection } = useContext(NavigationContext);

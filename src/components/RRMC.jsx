@@ -25,7 +25,7 @@ function RRMC() {
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Rolls-Royce Motorcars · Prototyping bespoke luxury virtual experiences.</h1>
+        <h1>Rolls-Royce Motorcars · Prototyping Luxury Virtual Experiences.</h1>
         <p className="spacer">⌘</p>
         <img
           className="header-image"

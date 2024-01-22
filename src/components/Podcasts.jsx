@@ -8,7 +8,7 @@ function Podcasts() {
       <div className="text-block">
         <DayDate />
         <h1>
-          Podcasts for Chrome · From rss-feed into your new tab.
+          Podcasts for Chrome · From RSS-Feed into new Tab.
         </h1>
         <p className="spacer">⌘</p>
         <img
@@ -38,7 +38,7 @@ function Podcasts() {
             className="link"
             target="_blank"
             rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
+            href="https://chromewebstore.google.com/detail/podcasts/hhfplheehgopoocbgdblkhajbgmolglb"
           >
             ↳ Chrome Web Store
           </a>

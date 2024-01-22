@@ -25,7 +25,7 @@ function SpatialLabs() {
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Spatial Labs · Protoyping for a more connected world</h1>
+        <h1>Spatial Labs · Protoyping for a more Connected World.</h1>
         <p className="spacer">⌘</p>
 
         <img

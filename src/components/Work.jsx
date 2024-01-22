@@ -178,7 +178,8 @@ function Work() {
           );
         })}
           <div className="line-projects"></div>
-         <h1>Other Projects.</h1>
+          {/* <p>When I have some free time,  I enjoy to explore the "materiality" of computer graphics and other technologies.</p> */}
+         {/* <h1>Other Projects.</h1>
           <p className="spacer">⌘</p>
           {OtherItem.map((item, index) => {
           return (
@@ -199,7 +200,17 @@ function Work() {
               </ul>
             </Link>
           );
-        })}
+        })} */}
+         <div className="socials">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/lukasmoro"
+            >
+              ↳ Smaller Explorations.
+            </a>
+          </div>
         <div className="bottom-work"></div>
       </div>
     </motion.div>
