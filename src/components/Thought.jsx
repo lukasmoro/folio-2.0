@@ -1,5 +1,4 @@
 import React from "react";
-import Markdown from "markdown-to-jsx";
 import { useResetScroll } from "./ResetScroll";
 import { motion } from 'framer-motion';
 import Thoughts from "../components/Data/listThought.json";
