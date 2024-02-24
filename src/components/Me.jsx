@@ -17,7 +17,7 @@ function Me() {
           <p className="spacer">⌘</p>
           <p>
             I sketch and prototype interactions with computers to
-            integrate the digital aspects of life deeper into <i>one reality.</i>
+            integrate the digital aspects of life further into <i>one reality.</i>
           </p>
           <p>
             I worked with{" "}

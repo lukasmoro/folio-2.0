@@ -24,7 +24,7 @@ function AnimatedRoutes() {
             <Route path="/me" element={<Me />} />
             <Route path="/work" element={<Work />} />
             <Route path="/play" element={<Visual />} />
-            <Route path="/mind" element={<Thought />} />
+            <Route path="/write" element={<Thought />} />
             <Route path="/arch" element={<Arch />} />
             <Route path="/rrmc" element={<RRMC />} />
             <Route path="/presence" element={<Presence />} />

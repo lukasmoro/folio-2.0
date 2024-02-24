@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { animated, useSpring } from "react-spring";
 
-const BehaviourHover = ({ jumpHeight = 10, timing = 150, children }) => {
+const BehaviourClick = ({ jumpHeight = 10, timing = 150, children }) => {
   
   const [clicked, setClicked] = useState(false);
 
@@ -38,4 +38,4 @@ const BehaviourHover = ({ jumpHeight = 10, timing = 150, children }) => {
   );
 };
 
-export default BehaviourHover;
+export default BehaviourClick;

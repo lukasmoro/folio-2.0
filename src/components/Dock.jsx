@@ -1,35 +1,41 @@
 import React from "react";
 import "./Dock.css";
-import { NavLink } from "react-router-dom"; 
-import BehaviourHover from "./BehaviourHover";
+import { NavLink, useLocation } from "react-router-dom"; 
+import BehaviourClick from "./BehaviourClick";
 
 function Dock() {
 
+  const location = useLocation();
+  const isHomeActive = location.pathname === '/' || location.pathname === '/me';
+  const isWorkActive = location.pathname === '/work';
+  const isWriteActive = location.pathname === '/write';
+  const isProjectActive = location.pathname === '/presence' || location.pathname === '/sensorium' || location.pathname === '/podcasts' || location.pathname === '/rrmc' || location.pathname === '/slabs' || location.pathname === '/arch' || location.pathname === '/play';
+
   return (
-    <nav>
+    <nav className = {isProjectActive ? "project-dock" : "normal-dock"}>
       <ul className="nav-links">
-        <BehaviourHover jumpHeight={8} timing={200}>
+        <BehaviourClick jumpHeight={8} timing={200}>
           <NavLink 
             to="/me"
-            className={({ isActive }) => (isActive ? "active-link" : "")} 
+            className={isHomeActive ? "active-link" : ""} 
           >
             <li>About</li>
           </NavLink>
-        </BehaviourHover>
-        <BehaviourHover jumpHeight={8} timing={200}>
+        </BehaviourClick>
+        <BehaviourClick jumpHeight={8} timing={200}>
         <NavLink to="/work" 
-            className={({ isActive }) => (isActive ? "active-link" : "")} 
+            className={isWorkActive ? "active-link" : ""} 
             >
           <li>Work</li>
         </NavLink>
-        </BehaviourHover>
-        <BehaviourHover jumpHeight={8} timing={200}>
-        <NavLink to="/mind" 
-            className={({ isActive }) => (isActive ? "active-link" : "")} 
+        </BehaviourClick>
+        <BehaviourClick jumpHeight={8} timing={200}>
+        <NavLink to="/write" 
+            className={isWriteActive ? "active-link" : ""} 
             >
           <li>Write</li>
         </NavLink>
-        </BehaviourHover>
+        </BehaviourClick>
       </ul>
     </nav>
   );

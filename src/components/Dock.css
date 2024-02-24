@@ -12,15 +12,11 @@ html{
   color: #f8f8f8;
 }
 
-nav {
+nav{
   z-index: 100;
-  width: 300px;
-  height: 60px;
   border-radius: 50px;
   outline: #ffffff9b solid 0.3px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, inset 0 0 100px #ffffff;
-
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 0px,rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, inset 0 0 100px #ffffff;
   backdrop-filter: blur(5px) grayscale(50%) brightness(99%);
   display: flex;
   justify-content: space-around;
@@ -33,6 +29,16 @@ nav {
   margin-left: auto;
   margin-right: auto;
   user-select: none;
+}
+
+nav.normal-dock {
+  width: 300px;
+  height: 60px;
+}
+
+nav.project-dock {
+  width: 100px;
+  height: 60px;
 }
 
 
