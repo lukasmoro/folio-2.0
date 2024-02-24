@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;700&family=Chivo:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
-
 
 * {
   margin: 0;
@@ -19,7 +17,7 @@ nav{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 0px,rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, inset 0 0 100px #ffffff;
   backdrop-filter: blur(5px) grayscale(50%) brightness(99%);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   position: fixed;
   margin-top: 2vh;
@@ -41,6 +39,9 @@ nav.project-dock {
   height: 60px;
 }
 
+.nav-links li.center-item {
+  margin: 0 auto;
+}
 
 #dark nav {
   backdrop-filter: brightness(300%) blur(15px) grayscale(50%);
@@ -48,30 +49,38 @@ nav.project-dock {
 
 .nav-links {
   display: flex;
+  width: 100%; 
   justify-content: space-between; 
-  align-items: center;
   list-style: none;
-  width: 75%; 
-  padding: 0;
 }
 
 .nav-links li {
-  flex: 1; 
   text-align: center; 
   height: auto;
-  display: block;
   text-decoration: none;
   color: #bdbdbd; 
-  transition: color 0.3s ease; 
+  transition: color 0.5s ease; 
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.nav-links li.center-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-links li.active-link.center-link::after {
+  /* Hide the ::after pseudo-element when both classes are present */
+  display: none;
 }
 
 .nav-links li:hover {
   color: #19a0fc; 
-  transition: color 0.3s ease; 
+  transition: color 0.5s ease; 
 }
 
 .nav-links .active-link li {
-  color: #000000; /* Color for active link */
+  color: #000000; 
 }
 
 .active-links li::after {

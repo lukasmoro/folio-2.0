@@ -12,6 +12,8 @@ const BehaviourClick = ({ jumpHeight = 10, timing = 150, children }) => {
     config: {
       tension: 300,
       friction: 10,
+      stiffness: 550, 
+      damping: 30
     },
   });
 
