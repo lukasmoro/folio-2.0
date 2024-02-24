@@ -1,18 +1,29 @@
 [ 
   {
+    "id": 0,
+    "name": "Presence Thesis",
+    "date": "2024",
+    "sideproject": false,
+    "preview":"img/preview/presencepreview.png",
+    "src": "videos/presencethumbnail.mp4",
+    "to": "/presence"
+  },
+  {
     "id": 1,
-    "name": "Sensorium",
+    "name": "Sensorium Interior",
     "date": "2023",
     "sideproject": true,
+    "preview":"img/preview/sensoriumpreview.png",
     "src": "videos/sensoriumthumbnail.mp4",
     "to": "/sensorium"
   },
   {
     "id": 2,
-    "name": "Podcasts for Chrome ",
+    "name": "Podcasts for Chrome",
     "date": "2023",
     "sideproject": true,
-    "src": "videos/podcaststhumbnail2.mp4",
+    "preview":"img/preview/podcastspreview.png",
+    "src": "videos/podcaststhumbnail3.mp4",
     "to": "/podcasts"
   },
   {
@@ -20,6 +31,7 @@
     "name": "Rolls-Royce Motorcars",
     "date": "2022",
     "sideproject": true,
+    "preview":"img/preview/rrmcpreview.png",
     "src": "videos/rrmcthumbnail.mp4",
     "to": "/rrmc"
   },
@@ -28,6 +40,7 @@
     "name": "Spatial Labs",
     "date": "2022",
     "sideproject": false,
+    "preview":"img/preview/slabspreview.png",
     "src": "videos/slabsthumbnail3.mp4",
     "to": "/slabs"
   },
@@ -36,6 +49,7 @@
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
+    "preview":"img/preview/archpreview.png",
     "src": "videos/archthumbnail.mp4",
     "to": "/arch"
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import Markdown from "markdown-to-jsx";
 import { useResetScroll } from "./ResetScroll";
 import { motion } from 'framer-motion';
 import Thoughts from "../components/Data/listThought.json";
@@ -34,11 +35,10 @@ function Thought() {
       <div className="text-block">
         <div>
           <DayDate />
-          <h1> Writing (Thinking) .</h1>
+          <h1> Writing.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Opinions on work and life-related matter. If you have any questions
-            or suggestions <br />{" "}
+            Writing about my thoughts. If you want to have a chat feel free to <br />{" "}
             <a
               className="link"
               target="_blank"
@@ -50,21 +50,39 @@ function Thought() {
             .
           </p>
           {Thoughts.map((item) => {
-            return (
-              <div>
-                <div className="line"></div>
-                <ul className="thought-data" key={item.id}>
-                  <li className="thought-data-item add-info">{item.date}</li>
-                  <li className="thought-data-item add-info">
-                    {item.location}
-                  </li>
-                </ul>
-                <h2>{item.header}</h2>
-                <p>{item.text}</p>
-                <p className="footnote">{item.resource.name}</p>
-              </div>
-            );
-          })}
+  // Split item.text into an array of strings separated by newline characters
+  const paragraphs = item.text.split('\n').map((paragraph, index, array) => (
+    // Wrap each string in a React Fragment, adding a <br /> after each one except the last
+    <React.Fragment key={index}>
+      {paragraph}
+      {index < array.length - 1 && <br />}
+    </React.Fragment>
+  ));
+
+  return (
+    <div key={item.id}>
+      <div className="line"></div>
+      <ul className="thought-data">
+        <li className="thought-data-item add-info">{item.date}</li>
+        <li className="thought-data-item add-info">
+          {item.location}
+        </li>
+      </ul>
+      <h2>{item.header}</h2>
+      {/* Render paragraphs with line breaks */}
+      <p>{paragraphs}</p>
+      <div className="footnote-container">
+        {Object.entries(item.resource).map(([key, value], index, array) => (
+          <React.Fragment key={key}>
+            <p className="footnote" href={value} target="_blank" rel="noopener noreferrer">{value}</p>
+            {index < array.length - 1 && <br />}
+          </React.Fragment>
+        ))}
+      </div>
+    </div>
+  );
+})}
+
         </div>
       </div>
     </motion.div>

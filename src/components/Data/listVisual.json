@@ -10,14 +10,52 @@
   [
     {
         "type": "video",
+        "src": "videos/blendedreality.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "videos/occlusion.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","DEPTH API", "PRESENCE"]
+    },
+    {
+        "type": "video",
+        "src": "videos/yolo.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "videos/integrated.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","TCP", "PRESENCE"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "videos/midi.mp4",
+        "alt": "video of audioreactive visual.",
+        "descriptions": ["UNITY", "URP", "C#","HLSL", "AUDIOREACTIVE", "KEIJIRO"]
+    }
+  ],
+  [
+    {
+        "type": "video",
         "src": "videos/metaphorical.mp4",
         "alt": "video of metaphorical interface.",
         "descriptions": ["UNITY", "URP","C#", "VFX GRAPH", "GPT-4 API", "JSON"]
     },
     {
-        "type": "image",
-        "src": "img/grid/gridptinvader.jpg",
-        "alt": "image of gridpt.",
+        "type": "video",
+        "src": "videos/gridpt.mp4",
+        "alt": "video of gridpt.",
         "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
     }
 ],
@@ -44,18 +82,20 @@
     }
   ],
   [
-      {
-          "type": "image",
-          "src": "img/grid/BlueMoon.png",
-          "alt": "image of blue moon.",
-          "descriptions": ["BLENDER", "GEOMETRY-NODES"]
-      },
-      {
-          "type": "image",
-          "src": "img/grid/speedform.png",
-          "alt": "image of speedform.",
-          "descriptions": ["COLLAB WITH NATE BOELL", "SIKA", "CLAY", "HANDS & EYES"]
-      },
+    {
+        "type": "image",
+        "src": "img/grid/BlueMoon.png",
+        "alt": "image of blue moon.",
+        "descriptions": ["BLENDER", "GEOMETRY-NODES"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "img/work/spatiallabs/slabs5.mp4",
+        "alt": "video of slabs.",
+        "descriptions": ["SPATIAL LABS"]
+    },
       {
           "type": "video",
           "src": "videos/browserar1.mp4",
@@ -64,26 +104,25 @@
       }
   ],
   [
-      {
-          "type": "video",
-          "src": "videos/lucit.mp4",
-          "alt": "video of lucit.",
-          "descriptions": ["BLENDER"]
-      },
-      
+    {
+        "type": "video",
+        "src": "videos/lucit.mp4",
+        "alt": "video of lucit.",
+        "descriptions": ["BLENDER"]
+    }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/grid/speedform.png",
+        "alt": "image of speedform.",
+        "descriptions": ["COLLAB WITH NATE BOELL", "SIKA", "CLAY", "HANDS & EYES"]
+    },
       {
           "type": "image",
           "src": "img/grid/toori.png",
           "alt": "image of toori.",
           "descriptions": ["TOORI LAMP"]
-      }
-  ],
-  [
-      {
-          "type": "image",
-          "src": "img/grid/taigaiterations.png",
-          "alt": "image of taiga",
-          "descriptions": ["FIGMA", "HUSQVARNA", "MOTORCYCLE UI"]
       }
   ]
 ]

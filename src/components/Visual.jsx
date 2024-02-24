@@ -42,7 +42,7 @@ function Visual() {
       >
         <div className="text-block">
           <DayDate />
-          <h1>Other explorations.</h1>
+          <h1>Smaller explorations.</h1>
           <p className="spacer">⌘</p>
           <div className="grid">
             {mediaData.map((row, rowIndex) => (

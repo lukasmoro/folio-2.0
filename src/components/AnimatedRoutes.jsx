@@ -8,7 +8,7 @@ import Visual from './Visual';
 import Thought from './Thought';
 import Arch from './Arch'
 import RRMC from './RRMC'
-import LittleJoshuaTree from './LittleJoshuaTree'
+import Presence from './Presence'
 import Podcasts from './Podcasts'
 import Sensorium from './Sensorium'
 import SpatialLabs from './SpatialLabs';
@@ -27,7 +27,7 @@ function AnimatedRoutes() {
             <Route path="/mind" element={<Thought />} />
             <Route path="/arch" element={<Arch />} />
             <Route path="/rrmc" element={<RRMC />} />
-            <Route path="/liljosh" element={<LittleJoshuaTree />} />
+            <Route path="/presence" element={<Presence />} />
             <Route path="/podcasts" element={<Podcasts />} />
             <Route path="/sensorium" element={<Sensorium />} />
             <Route path="/slabs" element={<SpatialLabs />} />

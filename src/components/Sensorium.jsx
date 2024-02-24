@@ -53,7 +53,7 @@ function Sensorium() {
       <div className="text-block">
            <DayDate /> 
           <h1>
-            Sensorium · Multi-sensory, spatial, real-time Vehicle Interface
+            Sensorium · Real-time Vehicle Interface
           </h1>
           <p className="spacer">⌘</p>
           <img
@@ -63,7 +63,7 @@ function Sensorium() {
           />
            <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
           <p>
-            Sensorium is a vehicle/spaceship interior prototype, where all sensory input, haptic actuation output and display output is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtuality and physicality.
+            Sensorium is a vehicle/spaceship interior prototype, where all sensory input, haptic actuation output and display output is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtual and physical domains.
           </p>
           <div className="socials">
           <a
@@ -92,12 +92,14 @@ function Sensorium() {
               src="videos/sensoriumroughcut.mp4"
               width="100%"
               height="100%"
-              controls={false}
+              controls={true}
               autoPlay={true}
               loop={true}
               muted={true}
             />
           </div>
+
+          <div className="line-projects"></div>
           
           <div className="grid">
             {mediaData.map((row, rowIndex) => (
@@ -110,6 +112,7 @@ function Sensorium() {
               </div>
             ))}
           </div>
+          <div className="bottom-work"></div>
           </div>
     </motion.div>
   );

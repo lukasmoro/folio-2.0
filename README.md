@@ -1,1 +1,3 @@
-### my new folio-2.0 - mission = share my vision
+# Portfolio 2.0
+
+The second iteration of my portfolio.

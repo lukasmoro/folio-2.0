@@ -34,7 +34,7 @@ function SpatialLabs() {
           alt=""
         />
         <p>
-          During my time consulting for Spatial Labs I worked on multiple projects including game-ready avatars, CGI for their corporate identity and Spark Studio filters. 
+          During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. 
         </p>
         <div className="socials">
           <a
