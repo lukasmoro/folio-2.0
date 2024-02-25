@@ -58,8 +58,6 @@ img {
   opacity: 0;
 }
 
-
-
 .media-container:hover .media {
   filter: blur(5px) grayscale(100%);
 }

@@ -4,8 +4,6 @@ import { NavLink, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import BehaviourClick from "./BehaviourClick";
 
-
-
 function Dock() {
 
   const location = useLocation();
@@ -26,37 +24,35 @@ function Dock() {
     variants={navVariants}
     animate={isProjectActive ? "project" : "normal"}
     initial={false}
-    transition={{ type: "spring", stiffness: 550, damping: 30 }} >
+    transition={{ type: "spring", stiffness: 400, damping: 20 }}>
+      
       <ul className="nav-links" >
-      {!isProjectActive &&(<BehaviourClick jumpHeight={8} timing={200}>
-          <NavLink 
-            to="/me"
-            className={isHomeActive ? "active-link" : ""} 
-          >
+
+        {!isProjectActive &&(<BehaviourClick>
+          <NavLink to="/me" className={isHomeActive ? "active-link" : ""}>
             <li>About</li>
           </NavLink>
         </BehaviourClick>)}
 
         {isProjectActive && <Placeholder />}
-        <BehaviourClick jumpHeight={8} timing={200}>
-        <NavLink to={"/work"} 
-          className={`${isProjectActive ? "" : isWorkActive ? "active-link" : ""}`}
-          >
-              <li className={isProjectActive ? "center-link" : ""}>
-                  {isProjectActive ? "←" : "Work"}
-              </li>
+
+        <BehaviourClick>
+        <NavLink to={"/work"} className={`${isProjectActive ? "" : isWorkActive ? "active-link" : ""}`}>
+            <li className={isProjectActive ? "center-link" : ""}>
+                {isProjectActive ? "←" : "Work"}
+            </li>
           </NavLink>
 
         </BehaviourClick>
+        
         {isProjectActive && <Placeholder />}
 
-        {!isProjectActive &&(<BehaviourClick jumpHeight={8} timing={200}>
-        <NavLink to="/write" 
-            className={isWriteActive ? "active-link" : ""} 
-            >
+        {!isProjectActive &&(<BehaviourClick>
+        <NavLink to="/write" className={isWriteActive ? "active-link" : ""}>
           <li>Write</li>
         </NavLink>
         </BehaviourClick>)}
+
       </ul>
     </motion.nav>
   );

@@ -1,15 +1,8 @@
 import React from 'react';
-import { useResetScroll } from './ResetScroll';
-import { motion } from 'framer-motion';
 import DayDate from './DayDate';
 import './Visual.css';
-import mediaData  from '../components/Data/listVisual.json';
 
-const pageVariants = {
-  initial: { opacity: 0},
-  in: { opacity: 1 },
-  out: { opacity: 0},
-};
+import mediaData  from '../components/Data/listVisual.json';
 
 const MediaElement = ({ type, src, alt, descriptions }) => {
   return (
@@ -29,17 +22,9 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
 };
 
 function Visual() {
-  useResetScroll();
 
   return (
-      <motion.div
-        className="container"
-        initial="initial"
-        animate="in"
-        exit="out"
-        variants={pageVariants}
-        transition={{ type: 'tween', duration: 0.5 }}
-      >
+      <div className='container'>
         <div className="text-block">
           <DayDate />
           <h1>Smaller explorations.</h1>
@@ -56,7 +41,7 @@ function Visual() {
             ))}
           </div>
         </div>
-      </motion.div>
+      </div>
     
   );
 }

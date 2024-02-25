@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import DayDate from "./DayDate.jsx";
+
 import mediaData  from '../components/Data/listSpatialLabs.json';
 
 const MediaElement = ({ type, src, alt, descriptions }) => {

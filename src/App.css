@@ -83,9 +83,14 @@ h2 {
 
 a {
   text-decoration: none;
+  font-size: 16px ;
+  letter-spacing: 0.003em;
+  word-spacing: 0.05rem;
+  font-weight: 400;
 }
 
 p {
+
   padding-bottom: 2rem;
   line-height: 2;
   letter-spacing: 0.003em;

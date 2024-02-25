@@ -1,6 +1,5 @@
 import {React} from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
 
 import Me from './Me';
 import Work from './Work';
@@ -13,12 +12,11 @@ import Podcasts from './Podcasts'
 import Sensorium from './Sensorium'
 import SpatialLabs from './SpatialLabs';
 
-function AnimatedRoutes() {
+function AllRoutes() {
 
     const location = useLocation();
 
   return (
-    <AnimatePresence>
         <Routes location = {location} key = {location.pathname}>       
             <Route path="/" element={<Me />} />
             <Route path="/me" element={<Me />} />
@@ -32,8 +30,7 @@ function AnimatedRoutes() {
             <Route path="/sensorium" element={<Sensorium />} />
             <Route path="/slabs" element={<SpatialLabs />} />
         </Routes>
-    </AnimatePresence>
   )
 }
 
-export default AnimatedRoutes;
+export default AllRoutes;

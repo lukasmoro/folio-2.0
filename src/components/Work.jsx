@@ -1,140 +1,120 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { motion } from 'framer-motion'; // Importing motion component for animations
-import { useResetScroll } from "./ResetScroll"; // Custom hook to reset scroll position
 import { Link } from "react-router-dom"; // For navigation without page reloads
 import WorkItem from "../components/Data/listWork"; // Importing data for work items
 import DayDate from "./DayDate"; // Component to display the current day and date
 import "./Work.css"; // Styling for the Work component
 
 function Work() {
-  useResetScroll(); // Calling the custom hook to reset the scroll position on component mount
-
-  // Define page transition variants for animations
-  const pageVariants = {
-    initial: {
-      opacity: 0,
-      y: "100vh"
-    },
-    in: {
-      opacity: 1,
-      y: 0
-    },
-    out: {
-      opacity: 0,
-      y: "-100vh"
-    }
-  };
   
-  // State to manage current video, loop status, progress of video loading bars, and reset status of bars
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [video, setVideo] = useState(WorkItem[currentVideoIndex].src);
-  const [image, setImage] = useState(WorkItem[currentVideoIndex].preview);
-  const [shouldLoop, setShouldLoop] = useState(false);
-  const [progress, setProgress] = useState(new Array(WorkItem.length).fill(0));
-  const [isResettingBars, setIsResettingBars] = useState(false);
+  // // State to manage current video, loop status, progress of video loading bars, and reset status of bars
+  // const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  // const [video, setVideo] = useState(WorkItem[currentVideoIndex].src);
+  // const [image, setImage] = useState(WorkItem[currentVideoIndex].preview);
+  // const [shouldLoop, setShouldLoop] = useState(false);
+  // const [progress, setProgress] = useState(new Array(WorkItem.length).fill(0));
+  // const [isResettingBars, setIsResettingBars] = useState(false);
   
-  // Constants for video playback and refs for managing timeouts
-  const totalDuration = 6000; // Total duration for video autoplay before switching
-  const timerRef = useRef(null);
-  const debounceRef = useRef(null);
+  // // Constants for video playback and refs for managing timeouts
+  // const totalDuration = 6000; // Total duration for video autoplay before switching
+  // const timerRef = useRef(null);
+  // const debounceRef = useRef(null);
 
-  // Handles video end event to loop through videos or reset
-  const handleVideoEnd = useCallback(() => {
-    const nextIndex = (currentVideoIndex + 1) % WorkItem.length; // Calculate the next video index
-    setCurrentVideoIndex(nextIndex); // Update the current video index
-    setImage(WorkItem[nextIndex].preview);
-    setVideo(WorkItem[nextIndex].src); // Update the video source
+  // // Handles video end event to loop through videos or reset
+  // const handleVideoEnd = useCallback(() => {
+  //   const nextIndex = (currentVideoIndex + 1) % WorkItem.length; // Calculate the next video index
+  //   setCurrentVideoIndex(nextIndex); // Update the current video index
+  //   setImage(WorkItem[nextIndex].preview);
+  //   setVideo(WorkItem[nextIndex].src); // Update the video source
     
 
-    // Reset progress bars if starting over the list of videos
-    if (nextIndex === 0) {
-      setIsResettingBars(true);
-      setProgress(new Array(WorkItem.length).fill(0));
-      setTimeout(() => {
-        setIsResettingBars(false);
-      }, 100);
-    }
-  }, [currentVideoIndex]);
+  //   // Reset progress bars if starting over the list of videos
+  //   if (nextIndex === 0) {
+  //     setIsResettingBars(true);
+  //     setProgress(new Array(WorkItem.length).fill(0));
+  //     setTimeout(() => {
+  //       setIsResettingBars(false);
+  //     }, 100);
+  //   }
+  // }, [currentVideoIndex]);
 
-  // Handles mouse over events on video items to change video and loop
-  const handleMouseState = useCallback((videoPath, index) => {
-    return () => {
-      if (debounceRef.current) clearTimeout(debounceRef.current); // Clear previous timeout
+  // // Handles mouse over events on video items to change video and loop
+  // const handleMouseState = useCallback((videoPath, index) => {
+  //   return () => {
+  //     if (debounceRef.current) clearTimeout(debounceRef.current); // Clear previous timeout
       
-      debounceRef.current = setTimeout(() => { // Debounce to avoid rapid switching
-        if (timerRef.current) clearTimeout(timerRef.current);
-        setImage("img/preview/preview.jpg")
-        setVideo(videoPath);
-        setCurrentVideoIndex(index);
-        setShouldLoop(true);
-        updateProgressBarsToIndex(index); // Update progress bars based on the hovered index
+  //     debounceRef.current = setTimeout(() => { // Debounce to avoid rapid switching
+  //       if (timerRef.current) clearTimeout(timerRef.current);
+  //       setImage("img/preview/preview.jpg")
+  //       setVideo(videoPath);
+  //       setCurrentVideoIndex(index);
+  //       setShouldLoop(true);
+  //       updateProgressBarsToIndex(index); // Update progress bars based on the hovered index
 
-        // Set a timeout to automatically switch video after total duration
-        timerRef.current = setTimeout(() => {
-          handleVideoEnd();
-        }, totalDuration);
-      }, 100); // Debounce delay
-    };
-  }, [handleVideoEnd, totalDuration]);
+  //       // Set a timeout to automatically switch video after total duration
+  //       timerRef.current = setTimeout(() => {
+  //         handleVideoEnd();
+  //       }, totalDuration);
+  //     }, 100); // Debounce delay
+  //   };
+  // }, [handleVideoEnd, totalDuration]);
 
-  // Resets looping state and triggers video end after total duration
-  const handleMouseOut = () => {
-    setShouldLoop(false);
-    if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(() => {
-      handleVideoEnd();
-    }, totalDuration);
-  };
+  // // Resets looping state and triggers video end after total duration
+  // const handleMouseOut = () => {
+  //   setShouldLoop(false);
+  //   if (timerRef.current) clearTimeout(timerRef.current);
+  //   timerRef.current = setTimeout(() => {
+  //     handleVideoEnd();
+  //   }, totalDuration);
+  // };
   
-  // Function to incrementally update the progress of the current video's loading bar
-  const updateProgress = (index) => {
-    setProgress(oldProgress => {
-      const newProgress = [...oldProgress];
-      const delta = 100 / totalDuration;
-      newProgress[index] = newProgress[index] + delta > 1 ? 1 : newProgress[index] + delta;
-      return newProgress;
-    });
-  };
+  // // Function to incrementally update the progress of the current video's loading bar
+  // const updateProgress = (index) => {
+  //   setProgress(oldProgress => {
+  //     const newProgress = [...oldProgress];
+  //     const delta = 100 / totalDuration;
+  //     newProgress[index] = newProgress[index] + delta > 1 ? 1 : newProgress[index] + delta;
+  //     return newProgress;
+  //   });
+  // };
 
-  // Resets and updates progress bars based on the hovered video index
-  const updateProgressBarsToIndex = (hoveredIndex) => {
-    setIsResettingBars(true);
-    setProgress(oldProgress => {
-      return oldProgress.map((progress, idx) => idx < hoveredIndex ? 1 : idx === hoveredIndex ? progress : 0);
-    });
-    setTimeout(() => setIsResettingBars(false), 100);
-  };
+  // // Resets and updates progress bars based on the hovered video index
+  // const updateProgressBarsToIndex = (hoveredIndex) => {
+  //   setIsResettingBars(true);
+  //   setProgress(oldProgress => {
+  //     return oldProgress.map((progress, idx) => idx < hoveredIndex ? 1 : idx === hoveredIndex ? progress : 0);
+  //   });
+  //   setTimeout(() => setIsResettingBars(false), 100);
+  // };
 
-  // Effect hook to manage video autoplay and progress bar updates
-  useEffect(() => {
-    timerRef.current = setTimeout(() => {
-      handleVideoEnd();
-    }, totalDuration);
-    const interval = setInterval(() => {
-      updateProgress(currentVideoIndex);
-    }, 100);
+  // // Effect hook to manage video autoplay and progress bar updates
+  // useEffect(() => {
+  //   timerRef.current = setTimeout(() => {
+  //     handleVideoEnd();
+  //   }, totalDuration);
+  //   const interval = setInterval(() => {
+  //     updateProgress(currentVideoIndex);
+  //   }, 100);
 
-    return () => {
-      clearTimeout(timerRef.current);
-      clearInterval(interval);
-    };
-  }, [currentVideoIndex, handleVideoEnd, totalDuration]);
+  //   return () => {
+  //     clearTimeout(timerRef.current);
+  //     clearInterval(interval);
+  //   };
+  // }, [currentVideoIndex, handleVideoEnd, totalDuration]);
   
 
   // Render the Work component with motion animations, videos, and progress bars
   return (
-     <motion.div 
-      className="container"   
-      initial="initial"
-      animate="in"
-      exit="out"
-      variants={pageVariants}
-      transition={{ type: "tween", duration: 0.5 }}>
+     <div 
+      className="container">
         <div className="text-block">
           <DayDate />
           <h1>Selected Projects.</h1>
           <p className="spacer">⌘</p>
-          <div className="video-area">
+          <p>
+            Selected projects and smaller explorations of the past few years. Done in academic and professional context.
+          </p>
+          <div className="line"></div>
+          {/* <div className="video-area">
             <div className="progress-area">
               {WorkItem.map((item, index) => (
                 <div 
@@ -162,14 +142,14 @@ function Work() {
               autoPlay
               muted
             />
-          </div>   
+          </div>    */}
           {WorkItem.map((item, index) => {
             return (
               <Link
                 to={item.to}
                 className="item-work"
-                onMouseOver={handleMouseState(item.src, index)}
-                onMouseOut={handleMouseOut} 
+                // onMouseOver={handleMouseState(item.src, index)}
+                // onMouseOut={handleMouseOut} 
                 key={item.id}
               >
                 <ul className="list-item">
@@ -191,7 +171,7 @@ function Work() {
           </div>
         <div className="bottom-work"></div>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
