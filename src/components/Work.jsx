@@ -58,8 +58,8 @@ function Work() {
         </div>
         <div className="bottom-work"></div>
         {isHovered && videoSrc && (
-          <div className="mouse-follower" style={{ left: mousePosition.x, top: mousePosition.y }}>
-            {/* <div className='mouse'><video src={videoSrc} autoPlay controls /></div> */}
+          <div className="mouse-follower" style={{ left: mousePosition.x + 20, top: mousePosition.y -165 }}>
+            <div className='mouse'><video src={videoSrc} autoPlay controls /></div>
           </div>
         )}
       </div>

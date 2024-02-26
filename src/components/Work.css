@@ -84,11 +84,20 @@
 
 .mouse-follower {
   position: absolute;
+  pointer-events:none;
   width: 330px;
   height: 330px;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow */
-  background-color: #fff; /* Example background color */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 0px,rgba(0, 0, 0, 0.06) 0px 0px 0px 0.5px, inset 0 0 100px #ffffff;
+  background-color: #fff;
 }
 
+.mouse{
+  position: relative;
+  width: 100%;
+  height: 330px;
+  z-index: 1;
+  border-radius: 15px;
+  overflow: hidden;
+}
 
