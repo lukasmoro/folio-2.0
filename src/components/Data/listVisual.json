@@ -12,7 +12,7 @@
         "type": "video",
         "src": "img/grid/midi.mp4",
         "alt": "video of audioreactive visual.",
-        "descriptions": ["UNITY", "URP", "C#","HLSL", "AUDIOREACTIVE", "KEIJIRO"]
+        "descriptions": ["UNITY", "URP", "C#","HLSL", "AUDIO-REACTIVE", "KEIJIRO"]
     }
   ],
   [
@@ -20,21 +20,21 @@
         "type": "video",
         "src": "img/grid/metaphorical.mp4",
         "alt": "video of metaphorical interface.",
-        "descriptions": ["UNITY", "URP","C#", "VFX GRAPH", "GPT-4 API", "JSON"]
+        "descriptions": ["UNITY", "URP","C#", "VFX GRAPH", "GPT-4 API", "JSON", "GITHUB"]
     },
     {
         "type": "video",
         "src": "img/grid/gridpt.mp4",
         "alt": "video of gridpt.",
-        "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
+        "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ARDUINO", "WEBSERIAL", "GPT-4 API", "GITHUB"]
     }
 ],
 [
   {
       "type": "video",
       "src": "img/grid/weather.mp4",
-      "alt": "video of lucit.",
-      "descriptions": ["BLENDER"]
+      "alt": "video of lil joshua tree.",
+      "descriptions": ["UNITY", "URP", "C#", "WEATHER API", "LUMA AI", "META INTERACTION SDK", "GITHUB"]
   }
 ],
 [ 
@@ -62,7 +62,7 @@
   [
     {
         "type": "image",
-        "src": "img/grid/BlueMoon.png",
+        "src": "img/grid/bluemoon.png",
         "alt": "image of blue moon.",
         "descriptions": ["BLENDER", "GEOMETRY-NODES"]
     }
@@ -72,7 +72,7 @@
         "type": "video",
         "src": "img/work/spatiallabs/slabs5.mp4",
         "alt": "video of slabs.",
-        "descriptions": ["SPATIAL LABS"]
+        "descriptions": ["META SPARK"]
     },
       {
           "type": "video",
