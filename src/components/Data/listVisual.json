@@ -2,7 +2,7 @@
   [
     {
         "type": "video",
-        "src": "videos/aliensBW.mp4",
+        "src": "img/grid/aliensBW.mp4",
         "alt": "video of aliens.",
         "descriptions": ["UNITY", "URP", "C#","HLSL", "KLAK", "KEIJIRO"]
     }
@@ -10,37 +10,7 @@
   [
     {
         "type": "video",
-        "src": "videos/blendedreality.mp4",
-        "alt": "video of presence.",
-        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
-    }
-  ],
-  [
-    {
-        "type": "video",
-        "src": "videos/occlusion.mp4",
-        "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","DEPTH API", "PRESENCE"]
-    },
-    {
-        "type": "video",
-        "src": "videos/yolo.mp4",
-        "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
-    }
-  ],
-  [
-    {
-        "type": "video",
-        "src": "videos/integrated.mp4",
-        "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","TCP", "PRESENCE"]
-    }
-  ],
-  [
-    {
-        "type": "video",
-        "src": "videos/midi.mp4",
+        "src": "img/grid/midi.mp4",
         "alt": "video of audioreactive visual.",
         "descriptions": ["UNITY", "URP", "C#","HLSL", "AUDIOREACTIVE", "KEIJIRO"]
     }
@@ -48,21 +18,29 @@
   [
     {
         "type": "video",
-        "src": "videos/metaphorical.mp4",
+        "src": "img/grid/metaphorical.mp4",
         "alt": "video of metaphorical interface.",
         "descriptions": ["UNITY", "URP","C#", "VFX GRAPH", "GPT-4 API", "JSON"]
     },
     {
         "type": "video",
-        "src": "videos/gridpt.mp4",
+        "src": "img/grid/gridpt.mp4",
         "alt": "video of gridpt.",
         "descriptions": ["COLLAB WITH KAY VAN DEN AKER", "ADAFRUIT BLUEFRUIT SENSE", "WEBSERIAL", "GPT-4 API"]
     }
 ],
+[
+  {
+      "type": "video",
+      "src": "img/grid/weather.mp4",
+      "alt": "video of lucit.",
+      "descriptions": ["BLENDER"]
+  }
+],
 [ 
     {
         "type": "video",
-        "src": "videos/dak.mp4",
+        "src": "img/grid/dak.mp4",
         "alt": "video of dak party.",
         "descriptions": ["UNITY", "URP","C#","HLSL","VFX GRAPH", "AUDIO-REACTIVE", "DAK", "KEIJIRO"]
     }
@@ -70,7 +48,7 @@
   [
       {
           "type": "video",
-          "src": "videos/oscars.mp4",
+          "src": "img/grid/oscars.mp4",
           "alt": "video of oscars.",
           "descriptions": ["BLENDER", "GEOMETRY-NODES", "PHYLLOTAXIS"]
       },
@@ -98,7 +76,7 @@
     },
       {
           "type": "video",
-          "src": "videos/browserar1.mp4",
+          "src": "img/grid/browserar1.mp4",
           "alt": "video of browser ar.",
           "descriptions": ["WEBXR", "BLENDER", "METABALLS"]
       }
@@ -106,7 +84,7 @@
   [
     {
         "type": "video",
-        "src": "videos/lucit.mp4",
+        "src": "img/grid/lucit.mp4",
         "alt": "video of lucit.",
         "descriptions": ["BLENDER"]
     }

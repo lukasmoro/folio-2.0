@@ -48,21 +48,10 @@
             "src": "img/work/sensorium/sensorium10.png",
             "alt": "image of taiga",
             "descriptions": ["CUTTINGS FINAL PROTOTYPE"]
-        },
-        {
-            "type": "image",
-            "src": "img/work/sensorium/sensorium11.png",
-            "alt": "image of taiga",
-            "descriptions": ["FIRST DIGITAL TWIN VIEW IN UNITY"]
         }
     ],
     [
-        {
-            "type": "image",
-            "src": "img/work/sensorium/sensorium12.png",
-            "alt": "image of taiga",
-            "descriptions": ["ASSEMBLY OF FINAL PROTOTYPE"]
-        },
+        
         {
             "type": "image",
             "src": "img/work/sensorium/sensorium13.png",

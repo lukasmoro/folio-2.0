@@ -1,0 +1,39 @@
+[   
+    [
+    {
+        "type": "video",
+        "src": "img/work/presence/yolo.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/presence/integrated.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
+    }
+],
+  [
+    {
+        "type": "video",
+        "src": "img/work/presence/blendedreality.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/presence/occlusion.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","DEPTH API", "PRESENCE"]
+    }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/work/presence/bigsur.png",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
+    }
+  ]
+  ]
+  

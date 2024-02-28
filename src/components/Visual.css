@@ -4,7 +4,7 @@
 .row {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .col {
@@ -12,8 +12,8 @@
   border-radius: 15px;
   background: #bdbdbd;
   width: 700px;
-  height: 350px;
-  margin-bottom: 2rem;
+  height: 300px;
+  margin-bottom: 1.5rem;
 }
 
 img {
