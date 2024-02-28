@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "tags": "product",
+    "location": "Umeå, Sweden",
+    "date": "February 17, 2024",
+    "header": "Doing design through building things.",
+    "text": "Building is part of designing, it is helpful to gain clarity about the nature of an idea. When building things in designerly ways one can distinguish between the actions of sketching and prototyping like Camille Mousette puts it: Sketches contribute back to its creator, prototypes radiate outward to the others and the world. [1] \n \n After initial problem assessment I jump into building small sketches with technologies relevant for the subject matter. Those sketches help to gain an understanding about the materiality of the given technologies, similar to a carpenter assessing the grain of a piece of wood. [2] \n \n They provoke a conversation with the material due to their interactive nature, which derives smaller sub-problems inhabiting the bigger over-arching idea. Later on after discussion with stakeholders, small prototypes fuse insights of the sketches into interactive artefacts for further exposure. Flexibility in trajectory on the final intervention optimally is kept up to the latest point possible to exploit the maximum insight from the building process. If there is consensus about final solutions the early prototypes provide a solid foundation to build product-like prototypes for outside communication. \n\n In conclusion designing has many facets. I advocate for building things as an important part of designing, because functional artefacts are where ideas touch-down on earth, stop being theory and start becoming reality. [3]",
+    "resource": { "1": "Moussette, C. (2012). Simple Haptics: Sketching Perspectives for the Design of Haptic Interactions. Umeå Institute of Design Research Publications.", "2": "Redström, J. (2005). On Technology as Material in Design. In Willis, A-M. (ed.) Design Philosophy Papers: Collection Two, pp. 31-42. Team D/E/S Publications. ", "3": "Stappers, P. (2007). Doing Design as a Part of Doing Research." }
+  }
+]

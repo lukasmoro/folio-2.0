@@ -11,10 +11,9 @@ function Presence() {
           Presence · Spatial Computing for Living in the Moment.
         </h1>
         <p className="spacer">⌘</p>
-
         <img
           className="header-image"
-          src="img/work/placeholderpresence2.png"
+          src="img/work/presence/placeholderpresence2.png"
           alt=""
         />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">QUEST 3</li></ul>

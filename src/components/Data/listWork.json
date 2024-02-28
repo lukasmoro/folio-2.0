@@ -5,7 +5,7 @@
     "date": "2024",
     "sideproject": false,
     "preview":"img/preview/presencepreview.png",
-    "src": "videos/presencethumbnail.mp4",
+    "src": "img/preview/presencecover.jpg",
     "to": "/presence"
   },
   {
@@ -14,7 +14,7 @@
     "date": "2023",
     "sideproject": true,
     "preview":"img/preview/sensoriumpreview.png",
-    "src": "videos/sensoriumthumbnail.mp4",
+    "src": "img/preview/sensoriumcover.jpg",
     "to": "/sensorium"
   },
   {
@@ -23,7 +23,7 @@
     "date": "2023",
     "sideproject": true,
     "preview":"img/preview/podcastspreview.png",
-    "src": "videos/podcaststhumbnail3.mp4",
+    "src": "img/preview/podcastscover.jpg",
     "to": "/podcasts"
   },
   {
@@ -31,8 +31,8 @@
     "name": "Rolls-Royce Motorcars",
     "date": "2022",
     "sideproject": true,
-    "preview":"img/preview/rrmcpreview.png",
-    "src": "videos/rrmcthumbnail.mp4",
+    "preview":"img/preview/rrmccover.jpg",
+    "src": "img/preview/rrmccover.jpg",
     "to": "/rrmc"
   },
   {
@@ -41,7 +41,7 @@
     "date": "2022",
     "sideproject": false,
     "preview":"img/preview/slabspreview.png",
-    "src": "videos/slabsthumbnail3.mp4",
+    "src": "img/preview/slabscover.jpg",
     "to": "/slabs"
   },
   {
@@ -50,7 +50,7 @@
     "date": "2021",
     "sideproject": false,
     "preview":"img/preview/archpreview.png",
-    "src": "videos/archthumbnail.mp4",
+    "src": "img/preview/archcover.jpg",
     "to": "/arch"
   }
 ]

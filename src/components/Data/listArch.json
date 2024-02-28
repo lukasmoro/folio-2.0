@@ -1,0 +1,87 @@
+[
+  [
+    {
+        "type": "image",
+        "src": "img/work/arch/arch.png",
+        "alt": "image of final arch.",
+        "descriptions": ["FINAL PROTOTYPE"]
+    }
+],
+  [
+      {
+          "type": "image",
+          "src": "img/work/arch/archprocess2.png",
+          "alt": "image of early sketch.",
+          "descriptions": ["EARLY SKETCH"]
+      }
+        ,
+      {
+          "type": "image",
+          "src": "img/work/arch/archprocess1.png",
+          "alt": "image of parts of first seat",
+          "descriptions": ["CUTTINGS FOR SEAT SKETCH"]
+      }
+  ],
+  [
+      {
+          "type": "image",
+          "src": "img/work/arch/archprocess4.png",
+          "alt": "image of lucit.",
+          "descriptions": ["FINAL SKETCH"]
+      }
+  ],
+  [
+      {
+          "type": "image",
+          "src": "img/work/arch/archprocess10.png",
+          "alt": "image of taiga",
+          "descriptions": ["CUTTINGS FINAL PROTOTYPE"]
+      },
+      {
+          "type": "image",
+          "src": "img/work/arch/archprocess11.png",
+          "alt": "image of taiga",
+          "descriptions": ["FIRST DIGITAL TWIN VIEW IN UNITY"]
+      }
+  ],
+  [
+      {
+          "type": "image",
+          "src": "img/work/arch/archsacrificialprototypes.png",
+          "alt": "image of taiga",
+          "descriptions": ["WIRING"]
+      }
+  ],
+  [
+      {
+          "type": "video",
+          "src": "img/work/arch/archsolution.mp4",
+          "alt": "image of taiga",
+          "descriptions": ["RFID SCANNER"]
+      }
+  ],
+  [
+      {
+          "type": "video",
+          "src": "img/work/arch/archuxprototype.mp4",
+          "alt": "image of taiga",
+          "descriptions": ["PROJECTIONS"]
+      }
+  ],
+  [
+      {
+          "type": "video",
+          "src": "img/work/arch/archui.mp4",
+          "alt": "image of taiga",
+          "descriptions": ["DIGITAL TWIN AND FINAL PROTOTYPE"]
+      }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/work/arch/archproductshot.png",
+        "alt": "image of taiga",
+        "descriptions": ["DIGITAL TWIN AND FINAL PROTOTYPE"]
+    }
+]
+]

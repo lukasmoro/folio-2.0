@@ -28,17 +28,19 @@ function RRMC() {
         <DayDate />
         <h1>Rolls-Royce Motorcars · Prototyping Luxury Virtual Experiences.</h1>
         <p className="spacer">⌘</p>
-        <img
-          className="header-image"
-          src="img/work/placeholderrrmc.png"
-          alt=""
-        />
+        <video
+            className="header-image"
+            src="img/work/rrmc/rrmcthumbnail.mp4"
+            alt=""
+            controls={false}
+            autoPlay={true}
+            loop={false}
+            muted={true}
+          />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">HDRP</li><li className="tool">ARDUINO</li><li className="tool">BLENDER</li><li className="tool">VIVE</li><li className="tool">STEAM VR</li><li className="tool">AUTOMOTIVE SOC</li></ul>
         <p>
-          During my time at Rolls-Royce Motorcars I worked on the future of
-          bespoke virtual experiences and helped to define processes and
-          toolchains to enable those. 
-          I prototyped for general purpose operating systems as well as embedded systems together with engineering.
+          At Rolls-Royce Motorcars I worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
+          I prototyped virtual experiences for general purpose operating systems and embedded systems together with engineering.
         </p>
         <div className="socials">
           <a

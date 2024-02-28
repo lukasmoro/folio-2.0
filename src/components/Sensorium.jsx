@@ -31,10 +31,14 @@ function Sensorium() {
             Sensorium · Real-time Vehicle Interface
           </h1>
           <p className="spacer">⌘</p>
-          <img
+          <video
             className="header-image"
-            src="img/work/placeholdersensorium2.png"
+            src="img/work/sensorium/sensoriumroughcut.mp4"
             alt=""
+            controls={true}
+            autoPlay={true}
+            loop={true}
+            muted={true}
           />
            <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
           <p>
@@ -59,21 +63,7 @@ function Sensorium() {
           >
             ↳ In-Depth PDF
           </a>
-          <div className="line-projects"></div>
           </div>
-          <div className="video-container">
-            <video
-              className="video"
-              src="videos/sensoriumroughcut.mp4"
-              width="100%"
-              height="100%"
-              controls={true}
-              autoPlay={true}
-              loop={true}
-              muted={true}
-            />
-          </div>
-
           <div className="line-projects"></div>
           
           <div className="grid">

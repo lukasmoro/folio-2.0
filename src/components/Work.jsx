@@ -7,16 +7,16 @@ import './Work.css';
 
 function Work() {
   const [isHovered, setIsHovered] = useState(false);
-  const [videoSrc, setVideoSrc] = useState(null);
+  const [imgSrc, setImgSrc] = useState(null);
   const mousePosition = useMousePosition();
 
   const handleMouseEnter = (item) => {
-    setVideoSrc(item.src);
+    setImgSrc(item.src);
     setIsHovered(true);
   };
 
   const handleMouseLeave = () => {
-    setVideoSrc(null);
+    setImgSrc(null);
     setIsHovered(false);
   };
 
@@ -57,9 +57,9 @@ function Work() {
           </Link>
         </div>
         <div className="bottom-work"></div>
-        {isHovered && videoSrc && (
+        {isHovered && imgSrc && (
           <div className="mouse-follower" style={{ left: mousePosition.x + 20, top: mousePosition.y -165 }}>
-            <div className='mouse'><video src={videoSrc} autoPlay controls /></div>
+            <div className='mouse'><img src={imgSrc}/></div>
           </div>
         )}
       </div>

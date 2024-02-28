@@ -1,12 +1,17 @@
 [
     [
-      
       {
           "type": "image",
           "src": "img/work/rrmc/rrmc1.png",
           "alt": "image of letter.",
           "descriptions": ["THANK YOU!"]
-      }
+      },
+      {
+        "type": "image",
+        "src": "img/work/rrmc/rrmc2.png",
+        "alt": "image of letter.",
+        "descriptions": ["THANK YOU!"]
+    }
   ]
   ]
   

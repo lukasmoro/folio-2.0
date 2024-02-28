@@ -2,7 +2,7 @@ import React from "react";
 import "./Work.css";
 import DayDate from "./DayDate";
 
-import Thoughts from "../components/Data/listThought.json";
+import Thoughts from "../components/Data/listWriting.json";
 
 function Thought() {
 

@@ -28,12 +28,15 @@ function SpatialLabs() {
         <DayDate />
         <h1>Spatial Labs · Protoyping for a more Connected World.</h1>
         <p className="spacer">⌘</p>
-
-        <img
-          className="header-image"
-          src="img/work/spatiallabs/spatiallabsthumbnail.png"
-          alt=""
-        />
+        <video
+            className="header-image"
+            src="img/work/spatiallabs/slabs1.mp4"
+            alt=""
+            controls={false}
+            autoPlay={true}
+            loop={false}
+            muted={true}
+          />
         <p>
           During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. 
         </p>
