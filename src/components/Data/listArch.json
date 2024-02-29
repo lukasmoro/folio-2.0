@@ -3,23 +3,23 @@
     {
         "type": "image",
         "src": "img/work/arch/arch.png",
-        "alt": "image of final arch.",
-        "descriptions": ["FINAL PROTOTYPE"]
+        "alt": "image of final video.",
+        "descriptions": ["FINAL VIDEO"]
     }
 ],
   [
       {
           "type": "image",
           "src": "img/work/arch/archprocess2.png",
-          "alt": "image of early sketch.",
-          "descriptions": ["EARLY SKETCH"]
+          "alt": "image of lego map.",
+          "descriptions": ["WORKSHOP USING LEGO"]
       }
         ,
       {
           "type": "image",
           "src": "img/work/arch/archprocess1.png",
           "alt": "image of parts of first seat",
-          "descriptions": ["CUTTINGS FOR SEAT SKETCH"]
+          "descriptions": ["FIELD-RESEARCH IN STORUMAN"]
       }
   ],
   [
@@ -27,7 +27,7 @@
           "type": "image",
           "src": "img/work/arch/archprocess4.png",
           "alt": "image of lucit.",
-          "descriptions": ["FINAL SKETCH"]
+          "descriptions": ["WIZARD OF OZ"]
       }
   ],
   [
@@ -35,7 +35,7 @@
           "type": "image",
           "src": "img/work/arch/archprocess10.png",
           "alt": "image of taiga",
-          "descriptions": ["CUTTINGS FINAL PROTOTYPE"]
+          "descriptions": ["MATERIAL GRAPH FOR HOLOGRAM"]
       },
       {
           "type": "image",
