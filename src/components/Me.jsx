@@ -11,7 +11,7 @@ function Me() {
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designer. Sketching and prototyping interactions with computers to integrate virtual aspects of life into <i>perceivable reality.</i>
+            Designer, sketching and prototyping interactions with computers to integrate virtual aspects of life into <i>perceivable reality.</i>
           </p>
           <p>
             Worked with{" "}

@@ -15,7 +15,7 @@ function Podcasts() {
             className="header-image"
             src="img/work/podcasts/podcasts.mp4"
             alt=""
-            controls={true}
+            controls={false}
             autoPlay={true}
             loop={true}
             muted={true}

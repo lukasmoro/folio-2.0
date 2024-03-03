@@ -40,7 +40,7 @@ function RRMC() {
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">HDRP</li><li className="tool">ARDUINO</li><li className="tool">BLENDER</li><li className="tool">VIVE</li><li className="tool">STEAM VR</li><li className="tool">AUTOMOTIVE SOC</li></ul>
         <p>
           At Rolls-Royce Motorcars I worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
-          I prototyped virtual experiences for general purpose operating systems and embedded systems together with engineering.
+          I prototyped virtual experiences for general purpose operating systems and embedded systems.
         </p>
         <div className="socials">
           <a

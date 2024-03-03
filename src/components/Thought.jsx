@@ -14,7 +14,7 @@ function Thought() {
           <h1> Writing.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Writing about design, philosophy and other topics. If you want to have a chat on the topics please{" "}
+            Writing about design and other topics of interest. If you want to have a chat please{" "}
             <a
               className="link"
               target="_blank"

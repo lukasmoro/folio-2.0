@@ -7,7 +7,7 @@ import BehaviourClick from "./BehaviourClick";
 function Dock() {
 
   const location = useLocation();
-  const isHomeActive = location.pathname === '/' || location.pathname === '/me';
+  const isHomeActive = location.pathname === '/' || location.pathname === '/about';
   const isWorkActive = location.pathname === '/work';
   const isWriteActive = location.pathname === '/write';
   const isProjectActive = location.pathname === '/presence' || location.pathname === '/sensorium' || location.pathname === '/podcasts' || location.pathname === '/rrmc' || location.pathname === '/slabs' || location.pathname === '/arch' || location.pathname === '/play';
@@ -29,7 +29,7 @@ function Dock() {
       <ul className="nav-links" >
 
         {!isProjectActive &&(<BehaviourClick>
-          <NavLink to="/me" className={isHomeActive ? "active-link" : ""}>
+          <NavLink to="/about" className={isHomeActive ? "active-link" : ""}>
             <li>About</li>
           </NavLink>
         </BehaviourClick>)}

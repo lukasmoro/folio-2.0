@@ -41,7 +41,7 @@
           "type": "image",
           "src": "img/work/arch/archprocess11.png",
           "alt": "image of taiga",
-          "descriptions": ["FIRST DIGITAL TWIN VIEW IN UNITY"]
+          "descriptions": ["MOTION TRACKING IN BLENDER"]
       }
   ],
   [
@@ -49,7 +49,7 @@
           "type": "image",
           "src": "img/work/arch/archsacrificialprototypes.png",
           "alt": "image of taiga",
-          "descriptions": ["WIRING"]
+          "descriptions": ["EARLY SKETCHES"]
       }
   ],
   [
@@ -57,7 +57,7 @@
           "type": "video",
           "src": "img/work/arch/archsolution.mp4",
           "alt": "image of taiga",
-          "descriptions": ["RFID SCANNER"]
+          "descriptions": ["VISUALISATION"]
       }
   ],
   [
@@ -65,7 +65,7 @@
           "type": "video",
           "src": "img/work/arch/archuxprototype.mp4",
           "alt": "image of taiga",
-          "descriptions": ["PROJECTIONS"]
+          "descriptions": ["PROTOTYPE FOR REMOTE SETTINGS"]
       }
   ],
   [
@@ -73,7 +73,7 @@
           "type": "video",
           "src": "img/work/arch/archui.mp4",
           "alt": "image of taiga",
-          "descriptions": ["DIGITAL TWIN AND FINAL PROTOTYPE"]
+          "descriptions": ["PROTOTYPE FOR FLAT USER INTERFACE"]
       }
   ],
   [
@@ -81,7 +81,7 @@
         "type": "image",
         "src": "img/work/arch/archproductshot.png",
         "alt": "image of taiga",
-        "descriptions": ["DIGITAL TWIN AND FINAL PROTOTYPE"]
+        "descriptions": ["PRODUCT SHOT"]
     }
 ]
 ]
