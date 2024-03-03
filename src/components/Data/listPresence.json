@@ -34,6 +34,42 @@
         "alt": "video of presence.",
         "descriptions": ["FULL PERCEPTION OF THE MOMENT & AUGMENTATION OF MIND BY COMPUTERS."]
     }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/work/presence/proto1_3D.jpg",
+        "alt": "video of presence.",
+        "descriptions": ["HACKING AN OLD IKEA LAMP"]
+    }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/work/presence/proto1_inside.jpg",
+        "alt": "video of presence.",
+        "descriptions": ["SOLDERING"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/presence/noopal.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["IT WORKS! :)"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "img/work/presence/leddisplay.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/presence/presence.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["PROTOTYPE 1"]
+    }
   ]
   ]
   
