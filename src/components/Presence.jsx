@@ -55,7 +55,7 @@ function Presence() {
             ↳ Brief PDF
           </a>
         </div>
-        <div className="socials">
+        {/* <div className="socials">
           <a
             className="link"
             target="_blank"
@@ -74,7 +74,7 @@ function Presence() {
           >
             ↳ Download APKs for Quest 3
           </a>
-        </div>
+        </div> */}
         <div className="line-projects"></div>
         <div className="grid">
             {mediaData.map((row, rowIndex) => (

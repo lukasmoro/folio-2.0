@@ -4,13 +4,13 @@
         "type": "video",
         "src": "img/work/presence/yolo.mp4",
         "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "SEMANTICS"]
     },
     {
         "type": "video",
         "src": "img/work/presence/integrated.mp4",
         "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","YOLO", "CONTEXTUAL UI", "PRESENCE"]
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","TCPIP", "INTEGRATION"]
     }
 ],
   [
@@ -18,13 +18,13 @@
         "type": "video",
         "src": "img/work/presence/blendedreality.mp4",
         "alt": "video of presence.",
-        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
+        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "SHADERS","SCENE MODEL", "BLENDING"]
     },
     {
         "type": "video",
         "src": "img/work/presence/occlusion.mp4",
         "alt": "video of presence.",
-        "descriptions": ["UNITY","QUEST 3", "META SDKs","DEPTH API", "PRESENCE"]
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","DEPTH API", "OCCLUSION"]
     }
   ],
   [
@@ -32,7 +32,7 @@
         "type": "image",
         "src": "img/work/presence/bigsur.png",
         "alt": "video of presence.",
-        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "LIGHT", "PRESENCE"]
+        "descriptions": ["FULL PERCEPTION OF THE MOMENT & AUGMENTATION OF MIND BY COMPUTERS."]
     }
   ]
   ]
