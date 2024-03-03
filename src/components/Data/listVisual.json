@@ -61,14 +61,6 @@
   ],
   [
     {
-        "type": "image",
-        "src": "img/grid/moon.png",
-        "alt": "image of blue moon.",
-        "descriptions": ["BLENDER", "GEOMETRY-NODES"]
-    }
-  ],
-  [
-    {
         "type": "video",
         "src": "img/work/spatiallabs/slabs5.mp4",
         "alt": "video of slabs.",
@@ -80,6 +72,14 @@
           "alt": "video of browser ar.",
           "descriptions": ["WEBXR", "BLENDER", "METABALLS"]
       }
+  ],
+  [
+    {
+        "type": "image",
+        "src": "img/grid/moon.jpg",
+        "alt": "image of blue moon.",
+        "descriptions": ["BLENDER", "GEOMETRY-NODES"]
+    }
   ],
   [
     {
