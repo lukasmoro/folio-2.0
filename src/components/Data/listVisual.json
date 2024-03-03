@@ -62,7 +62,7 @@
   [
     {
         "type": "image",
-        "src": "img/grid/bluemoon.png",
+        "src": "img/grid/moon.png",
         "alt": "image of blue moon.",
         "descriptions": ["BLENDER", "GEOMETRY-NODES"]
     }
