@@ -1,6 +1,5 @@
 import React from "react";
 import DayDate from "./DayDate";
-import "./Me.css";
 
 function Me() {
 

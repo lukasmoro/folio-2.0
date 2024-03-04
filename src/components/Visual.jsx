@@ -1,6 +1,5 @@
 import React from 'react';
 import DayDate from './DayDate';
-import './Visual.css';
 
 import mediaData  from '../components/Data/listVisual.json';
 

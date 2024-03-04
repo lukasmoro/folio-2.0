@@ -26,7 +26,7 @@ const BehaviourClick = ({children}) => {
     return () => {
       window.clearTimeout(timeoutId);
     };
-  }, [clicked, 150]);
+  }, [clicked]);
 
   const trigger = () => {
     setClicked(true);

@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 import DayDate from "./DayDate.jsx";
 
 import mediaData  from '../components/Data/listSpatialLabs.json';
@@ -72,6 +71,7 @@ function SpatialLabs() {
               </div>
             ))}
           </div>
+          <div className="bottom-work"></div>
       </div>
     </div>
   );

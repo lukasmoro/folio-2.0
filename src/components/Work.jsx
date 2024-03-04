@@ -3,7 +3,6 @@ import useMousePosition from './UseMousePosition';
 import { Link } from 'react-router-dom'; 
 import WorkItem from '../components/Data/listWork'; 
 import DayDate from './DayDate'; 
-import './Work.css';
 
 function Work() {
   const [isHovered, setIsHovered] = useState(false);
