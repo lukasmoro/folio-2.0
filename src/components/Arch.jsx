@@ -31,7 +31,7 @@ function Arch() {
           </h1>
           <p className="spacer">⌘</p>
           <video
-            className="header-image"
+            className="banner"
             src="img/work/arch/arch.mp4"
             alt=""
             controls={true}

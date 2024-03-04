@@ -11,7 +11,7 @@ function Podcasts() {
         </h1>
         <p className="spacer">⌘</p>
         <video
-            className="header-image"
+            className="banner"
             src="img/work/podcasts/podcasts.mp4"
             alt=""
             controls={false}

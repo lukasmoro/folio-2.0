@@ -10,12 +10,11 @@
 html{
   background-color: #f8f8f8;
   color: #f8f8f8;
+  font-family:  "Barlow", "Inter", Arial, Helvetica, sans-serif;
 }
 
 body {
-  background-color: #f8f8f8;
   background-attachment: fixed;
-  font-family:  "Barlow", "Inter", Arial, Helvetica, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -35,6 +34,7 @@ body::-webkit-scrollbar {
   margin-top: 8rem;
 }
 
+/*Responsible for width*/
 .text-block {
   width: 600px;
 }
@@ -45,6 +45,7 @@ body::-webkit-scrollbar {
   height: 1px;
   background: #f1f1f1;
 }
+
 .line-projects {
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -53,50 +54,45 @@ body::-webkit-scrollbar {
   background: #f1f1f1;
 }
 
-.line-footer {
-  margin-top: 10rem;
-  max-width: auto;
-  height: 1px;
-  background-color: #898989;
-}
-
 h1,
 p {
   text-align: left;
   white-space: pre-line;
 }
 
-h1 {
-  font-size: 20px;
+h1, 
+h2 {
+  font-size: 15pt;
   font-weight: 400;
   color: #272727;
 }
 
 h2 {
-  font-size: 18px;
-  letter-spacing: 0.008em;
-  font-weight: 400;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #272727;
+}
+
+a,
+p
+{
+  font-size: 12pt ;
+  letter-spacing: 0.003em;
+  word-spacing: 0.05rem;
 }
 
 a {
   text-decoration: none;
-  
-  letter-spacing: 0.003em;
-  word-spacing: 0.05rem;
   font-weight: 400;
 }
 
 p {
-  font-size: 12pt ;
   padding-bottom: 2rem;
   line-height: 2;
-  letter-spacing: 0.003em;
-  word-spacing: 0.05rem;
   color: #898989;
-  text-align: start;
+}
+
+li {
+  list-style: none;
 }
 
 .video{
@@ -109,10 +105,6 @@ p {
   overflow: hidden;
   border-radius: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-li {
-  list-style: none;
 }
 
 ::selection {
@@ -152,7 +144,7 @@ li {
   border-radius: 0.5rem;
 }
 
-.header-image {
+.banner{
   margin-bottom: 1.25rem;
   width: 600px;
   height: 300px;
@@ -160,6 +152,7 @@ li {
   border-radius: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .spacer {
   font-weight: 300;
   margin-bottom: -0.5rem;
@@ -167,17 +160,19 @@ li {
   color: #bdbdbd;
 }
 
-.footnote {
+/*CITATION*/
+
+.citation {
   font-size: 14px;
   color: #bdbdbd;
   padding-bottom: 0.1rem;
 }
 
-.footnote-container{
+.citation-container{
   margin-bottom: 2rem;
 }
 
-
+/*SIGNATURE*/
 svg{
   margin-top: -1.3rem;
   margin-bottom: 2rem;
@@ -226,13 +221,7 @@ img {
   
 }
 
-.video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-  
-}
+/*MEDIA CONTAINER GRID*/
 
 .media-container {
   position: relative;
@@ -293,25 +282,6 @@ img {
 
 /*PROJECTS*/
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-h1{
-  padding-bottom: 0;
-}
-
-.list-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 5vh;
-}
-.item {
-  list-style: none;
-}
-
 .tools {
   display: flex; 
   list-style: none; 
@@ -332,17 +302,11 @@ h1{
 
 /*WORK*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 5vh;
+  min-height: 3rem;
 }
 
 .item {
@@ -352,18 +316,6 @@ h1{
 #year {
   color: #898989;
 }
-
-.second-header{
-  margin-top: 5rem;
-}
-
-.header-video {
-  width: 100%;
-  height: 330px;
-  object-fit: cover;
-}
-
-
 
 
 
@@ -386,4 +338,31 @@ h1{
   overflow: hidden;
 }
 
+@media (max-width: 480px) {
 
+  .text-block {
+    margin-top: -2rem;
+  }
+
+ }
+
+
+@media (max-width: 600px) {
+  .text-block {
+    margin-left:2rem;
+    margin-right:2rem;
+  }
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 979px) { }
+
+@media (min-height: 900px) { 
+  
+}
+
+@media (min-height: 1400px) { 
+
+  
+}

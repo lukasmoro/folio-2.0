@@ -70,7 +70,6 @@ nav.project-dock {
 }
 
 .nav-links li.active-link.center-link::after {
-  /* Hide the ::after pseudo-element when both classes are present */
   display: none;
 }
 

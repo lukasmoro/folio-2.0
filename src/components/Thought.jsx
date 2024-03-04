@@ -44,10 +44,10 @@ function Thought() {
       </ul>
       <h2>{item.header}</h2>
       <p>{paragraphs}</p>
-      <div className="footnote-container">
+      <div className="citation-container">
         {Object.entries(item.resource).map(([key, value], index, array) => (
           <React.Fragment key={key}>
-            <p className="footnote" href={value} target="_blank" rel="noopener noreferrer">{value}</p>
+            <p className="citation" href={value} target="_blank" rel="noopener noreferrer">{value}</p>
             {index < array.length - 1 && <br />}
           </React.Fragment>
         ))}

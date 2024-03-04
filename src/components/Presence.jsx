@@ -30,7 +30,7 @@ function Presence() {
         </h1>
         <p className="spacer">⌘</p>
         <video
-            className="header-image"
+            className="banner"
             src="img/work/presence/presence.mp4"
             alt=""
             controls={false}

@@ -31,7 +31,7 @@ function Sensorium() {
           </h1>
           <p className="spacer">⌘</p>
           <video
-            className="header-image"
+            className="banner"
             src="img/work/sensorium/sensoriumroughcut.mp4"
             alt=""
             controls={true}

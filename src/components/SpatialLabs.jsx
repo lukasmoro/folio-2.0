@@ -28,7 +28,7 @@ function SpatialLabs() {
         <h1>Spatial Labs · Protoyping for a more Connected World.</h1>
         <p className="spacer">⌘</p>
         <video
-            className="header-image"
+            className="banner"
             src="img/work/spatiallabs/slabs1.mp4"
             alt=""
             controls={false}
