@@ -57,6 +57,7 @@ function Thought() {
 })}
 
         </div>
+        <div className="bottom-work"></div>
       </div>
     </div>
   );
