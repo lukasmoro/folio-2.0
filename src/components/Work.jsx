@@ -58,7 +58,7 @@ function Work() {
         <div className="bottom-work"></div>
         {isHovered && imgSrc && (
           <div className="mouse-follower" style={{ left: mousePosition.x + 20, top: mousePosition.y -165 }}>
-            <div className='mouse'><img src={imgSrc}/></div>
+            <div className='mouse'><img alt='' src={imgSrc}/></div>
           </div>
         )}
       </div>

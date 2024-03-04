@@ -10,6 +10,20 @@
   [
     {
         "type": "video",
+        "src": "img/grid/weather.mp4",
+        "alt": "video of lil joshua tree.",
+        "descriptions": ["UNITY", "URP", "C#", "WEATHER API", "LUMA AI", "META INTERACTION SDK", "GITHUB"]
+    },
+    {
+      "type": "video",
+      "src": "img/grid/dak.mp4",
+      "alt": "video of dak party.",
+      "descriptions": ["UNITY", "URP","C#","HLSL","VFX GRAPH", "AUDIO-REACTIVE", "KEIJIRO"]
+  }
+  ],
+  [
+    {
+        "type": "video",
         "src": "img/grid/midi.mp4",
         "alt": "video of audioreactive visual.",
         "descriptions": ["UNITY", "URP", "C#","HLSL", "AUDIO-REACTIVE", "KEIJIRO"]
@@ -32,19 +46,11 @@
 [
   {
       "type": "video",
-      "src": "img/grid/weather.mp4",
-      "alt": "video of lil joshua tree.",
-      "descriptions": ["UNITY", "URP", "C#", "WEATHER API", "LUMA AI", "META INTERACTION SDK", "GITHUB"]
+      "src": "img/grid/lucit.mp4",
+      "alt": "video of lucit.",
+      "descriptions": ["BLENDER"]
   }
 ],
-[ 
-    {
-        "type": "video",
-        "src": "img/grid/dak.mp4",
-        "alt": "video of dak party.",
-        "descriptions": ["UNITY", "URP","C#","HLSL","VFX GRAPH", "AUDIO-REACTIVE", "DAK", "KEIJIRO"]
-    }
-  ],
   [
       {
           "type": "video",
@@ -61,6 +67,14 @@
   ],
   [
     {
+        "type": "image",
+        "src": "img/grid/moon.jpg",
+        "alt": "image of blue moon.",
+        "descriptions": ["BLENDER", "GEOMETRY-NODES"]
+    }
+  ],
+  [
+    {
         "type": "video",
         "src": "img/grid/orb.mp4",
         "alt": "video of orb.",
@@ -72,22 +86,6 @@
           "alt": "video of browser ar.",
           "descriptions": ["WEBXR", "BLENDER", "METABALLS"]
       }
-  ],
-  [
-    {
-        "type": "image",
-        "src": "img/grid/moon.jpg",
-        "alt": "image of blue moon.",
-        "descriptions": ["BLENDER", "GEOMETRY-NODES"]
-    }
-  ],
-  [
-    {
-        "type": "video",
-        "src": "img/grid/lucit.mp4",
-        "alt": "video of lucit.",
-        "descriptions": ["BLENDER"]
-    }
   ],
   [
     {

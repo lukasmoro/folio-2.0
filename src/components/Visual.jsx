@@ -28,6 +28,7 @@ function Visual() {
           <DayDate />
           <h1>Smaller explorations.</h1>
           <p className="spacer">⌘</p>
+          <p>Exploring meaning and materiality of technologies and aesthetics through little side-projects exposed to friends.</p>
           <div className="grid">
             {mediaData.map((row, rowIndex) => (
               <div className="row" key={rowIndex}>
