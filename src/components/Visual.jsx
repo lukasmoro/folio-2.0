@@ -44,7 +44,7 @@ function Visual() {
           <div className="bottom-work"></div>
         </div>
       </div>
-    
+      
   );
 }
 
