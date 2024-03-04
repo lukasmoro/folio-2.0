@@ -82,6 +82,7 @@ function Me() {
               ↳ Email
             </a>
           </div>
+          <div className="bottom-work"></div>
       </div>
     </div>
   );
