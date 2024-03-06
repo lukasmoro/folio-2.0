@@ -29,41 +29,62 @@
   ],
   [
     {
-        "type": "image",
-        "src": "img/work/presence/bigsur.png",
+        "type": "video",
+        "src": "img/work/presence/gaze.mp4",
         "alt": "video of presence.",
-        "descriptions": ["FULL PERCEPTION OF THE MOMENT & AUGMENTATION OF MIND BY COMPUTERS."]
+        "descriptions": ["UNITY", "QUEST 3", "META SDKs", "RAY-CAST","GAZE"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/presence/interpretation.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY","QUEST 3", "META SDKs","OPENAI API", "INTERPRETATION"]
     }
   ],
+  [
+    {
+        "type": "image",
+        "src": "img/work/presence/plan.jpg",
+        "alt": "video of presence.",
+        "descriptions": ["PLANNING"]
+    }
+  ],
+  
   [
     {
         "type": "image",
         "src": "img/work/presence/proto1_3D.jpg",
         "alt": "video of presence.",
         "descriptions": ["HACKING AN OLD IKEA LAMP"]
-    }
+    },
+    {
+      "type": "image",
+      "src": "img/work/presence/proto1_inside.jpg",
+      "alt": "video of presence.",
+      "descriptions": ["SOLDERING"]
+  }
   ],
   [
-    {
-        "type": "image",
-        "src": "img/work/presence/proto1_inside.jpg",
-        "alt": "video of presence.",
-        "descriptions": ["SOLDERING"]
-    },
     {
         "type": "video",
         "src": "img/work/presence/noopal.mp4",
         "alt": "video of presence.",
         "descriptions": ["IT WORKS! :)"]
-    }
+    },
+    {
+      "type": "video",
+      "src": "img/work/presence/leddisplay.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["DIFFUSION"]
+  }
   ],
   [
     {
-        "type": "video",
-        "src": "img/work/presence/leddisplay.mp4",
-        "alt": "video of presence.",
-        "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
-    },
+      "type": "video",
+      "src": "img/work/presence/shader.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
+  },
     {
         "type": "video",
         "src": "img/work/presence/presence.mp4",

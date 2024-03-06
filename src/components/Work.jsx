@@ -26,7 +26,7 @@ function Work() {
         <h1>Selected Projects.</h1>
         <p className="spacer">⌘</p>
         <p>
-          Selected projects and smaller explorations of the past few years. Done in academic and professional context.
+          A selection of bigger projects and smaller explorations done over the past few years.
         </p>
         <div className="line"></div>
         {WorkItem.map((item, index) => {

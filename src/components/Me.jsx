@@ -78,6 +78,16 @@ function Me() {
             </a>
           </div>
           <div className="socials">
+            <a
+              className="link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.are.na/share/BeEhSkb"
+            >
+              ↳ Are.na
+            </a>
+          </div>
+          <div className="socials">
             <a className="link" href="mailto:lukas.moro@me.com">
               ↳ Email
             </a>
