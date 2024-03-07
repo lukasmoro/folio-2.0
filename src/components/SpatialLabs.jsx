@@ -7,7 +7,7 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
   return (
     <div className="media-container">
       {type === 'video' ? (
-        <video className="media" autoPlay loop muted src={src} alt={alt} />
+        <video className="media" autoPlay loop muted playsinline src={src} alt={alt} />
       ) : (
         <img className="media" src={src} alt={alt} />
       )}
@@ -35,6 +35,7 @@ function SpatialLabs() {
             autoPlay={true}
             loop={false}
             muted={true}
+            playsinline={true}
           />
         <p>
           During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. 

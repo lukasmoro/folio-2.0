@@ -18,6 +18,7 @@ function Podcasts() {
             autoPlay={true}
             loop={true}
             muted={true}
+            playsinline={true}
           />
         <ul className="tools"><li className="tool">REACT</li><li className="tool">WEBPACK</li><li className="tool">CSS</li><li className="tool">XML</li><li className="tool">REACT-SPRING</li></ul>
         <p>

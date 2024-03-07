@@ -7,7 +7,7 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
   return (
     <div className="media-container">
       {type === 'video' ? (
-        <video className="media" autoPlay loop muted src={src} alt={alt} />
+        <video className="media" autoPlay loop muted playsinline src={src} alt={alt} />
       ) : (
         <img className="media" src={src} alt={alt} />
       )}
@@ -37,6 +37,7 @@ function Presence() {
             autoPlay={true}
             loop={true}
             muted={true}
+            playsinline={true}
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">QUEST 3</li></ul>
         <p>

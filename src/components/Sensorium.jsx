@@ -9,7 +9,7 @@ function Sensorium() {
     return (
       <div className="media-container">
         {type === 'video' ? (
-          <video className="media" autoPlay loop muted src={src} alt={alt} />
+          <video className="media" autoPlay loop muted playsinline src={src} alt={alt} />
         ) : (
           <img className="media" src={src} alt={alt} />
         )}
@@ -38,6 +38,7 @@ function Sensorium() {
             autoPlay={true}
             loop={true}
             muted={true}
+            playsinline={true}
           />
            <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
           <p> 
