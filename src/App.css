@@ -366,6 +366,10 @@ img {
     width: 100%; 
   }
 
+  .description-overlay{
+    display: none;
+  }
+
   .mouse-follower {
     display: none;
   }
