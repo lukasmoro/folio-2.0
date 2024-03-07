@@ -366,6 +366,13 @@ img {
     width: 100%; 
   }
 
+  .media-container:hover .media,
+  .media-container:hover .description-overlay {
+    pointer-events: none;
+    filter: none !important;
+    transform: none !important;
+    opacity: 1 !important; 
+  }
   .description-overlay{
     display: none;
   }
