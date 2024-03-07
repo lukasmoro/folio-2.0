@@ -7,7 +7,7 @@ const MediaElement = ({ type, src, alt, descriptions }) => {
   return (
     <div className="media-container">
       {type === 'video' ? (
-        <video className="media" autoPlay loop muted playsinline src={src} alt={alt} />
+        <video className="media" autoPlay loop muted playsInline src={src} alt={alt} />
       ) : (
         <img className="media" src={src} alt={alt} />
       )}
@@ -35,7 +35,7 @@ function RRMC() {
             autoPlay={true}
             loop={false}
             muted={true}
-            playsinline={true}
+            playsInline={true}
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">HDRP</li><li className="tool">ARDUINO</li><li className="tool">BLENDER</li><li className="tool">VIVE</li><li className="tool">STEAM VR</li><li className="tool">AUTOMOTIVE SOC</li></ul>
         <p>

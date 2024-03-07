@@ -9,7 +9,7 @@ function Arch() {
     return (
       <div className="media-container">
         {type === 'video' ? (
-          <video className="media" autoPlay loop muted src={src} alt={alt} />
+          <video className="media" autoPlay loop muted playsInline src={src} alt={alt} />
         ) : (
           <img className="media" src={src} alt={alt} />
         )}
@@ -38,6 +38,7 @@ function Arch() {
             autoPlay={true}
             loop={true}
             muted={true}
+            playsInline = {true}
           />
            <ul className="tools"><li className="tool">BLENDER</li><li className="tool">RESEARCH</li><li className="tool">FILMING</li><li className="tool">AR KIT</li><li className="tool">PRUSA</li><li className="tool">CNC</li><li className="tool">RHINO 3D</li></ul>
           <p>
