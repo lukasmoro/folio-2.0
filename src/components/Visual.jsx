@@ -1,6 +1,5 @@
 import React from 'react';
 import DayDate from './DayDate';
-
 import mediaData  from '../components/Data/listVisual.json';
 
 const MediaElement = ({ type, src, alt, descriptions }) => {
