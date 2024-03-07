@@ -317,8 +317,6 @@ img {
   color: #898989;
 }
 
-
-
 .mouse-follower {
   position: absolute;
   pointer-events:none;
@@ -340,8 +338,22 @@ img {
 
 @media (max-width: 480px) {
 
+  .item-work:hover,
+  .media-container:hover .media,
+  .media-container:hover .description-overlay {
+    pointer-events: none;
+  }
+
   .text-block {
     margin-top: -2rem;
+  }
+
+  .mouse-follower {
+    display: none;
+  }
+  
+  .mouse{
+    display: none;
   }
 
  }
