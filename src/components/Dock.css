@@ -98,30 +98,12 @@ nav.project-dock {
   border-radius: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 6px -1px inset, rgba(0, 0, 0, 0.3) 0px 1.8px 3.6px -1.8px inset;
 }
-/* 
 
-
-
-@media (max-width: 480px) { }
-
-
-@media (max-width: 767px) { }
-
-
-@media (min-width: 768px) and (max-width: 979px) { }
-
-@media (min-height: 900px) { 
-  nav {
-    min-height: 7vh;
-    margin: 25rem 0 0 -380px;
-  }  
-}
-
-@media (min-height: 1400px) { 
+@media (max-width: 480px) {
 
   nav {
-    min-height: 5vh;
-    margin: 40rem 0 0 -380px;
+    margin-top: 90vh;
   }
-  
-} */
+
+ }
+
