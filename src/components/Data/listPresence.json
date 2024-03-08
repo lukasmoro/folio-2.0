@@ -94,16 +94,16 @@
   ],
   [
     {
-        "type": "image",
-        "src": "img/work/presence/ideation.jpg",
-        "alt": "video of presence.",
-        "descriptions": ["IDEATION SKETCHES"]
-    },
-    {
       "type": "video",
       "src": "img/work/presence/lilmusicsketch.mp4",
       "alt": "video of presence.",
       "descriptions": ["FLUID AFFORDANCES"]
+  },
+    {
+      "type": "video",
+      "src": "img/work/presence/flow.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["FLUID AFFORDANCES", "BLENDED SPACE?"]
   }
   ]
   ]
