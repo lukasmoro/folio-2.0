@@ -49,7 +49,20 @@
         "descriptions": ["PLANNING"]
     }
   ],
-  
+  [
+    {
+        "type": "image",
+        "src": "img/work/presence/ideation.jpg",
+        "alt": "video of presence.",
+        "descriptions": ["PLANNING"]
+    },
+    {
+      "type": "video",
+      "src": "img/work/presence/early.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["EARLY VERSION", "GAZE"]
+  }
+  ],
   [
     {
         "type": "image",
@@ -81,7 +94,21 @@
   [
     {
       "type": "video",
-      "src": "img/work/presence/shader.mp4",
+      "src": "img/work/presence/shader2.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
+  },
+    {
+        "type": "video",
+        "src": "img/work/presence/shader3.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
+    }
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/shader1.mp4",
       "alt": "video of presence.",
       "descriptions": ["UNITY", "MKR1000", "LED-MATRIX", "SHADER", "GITHUB"]
   },
@@ -101,10 +128,38 @@
   },
     {
       "type": "video",
-      "src": "img/work/presence/liquid.mp4",
+      "src": "img/work/presence/rotate.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["TABLE-TOP INTERFACE"]
+  }
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/proximity.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["PROXIMITY"]
+  },
+    {
+      "type": "video",
+      "src": "img/work/presence/swipe.mp4",
       "alt": "video of presence.",
       "descriptions": ["FLUID AFFORDANCES", "BLENDED SPACE?"]
   }
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/pose.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["PROXIMITY"]
+  },
+  {
+    "type": "video",
+    "src": "img/work/presence/errorintersection.mp4",
+    "alt": "video of presence.",
+    "descriptions": ["INTERSECTION ERROR"]
+}
   ]
   ]
   
