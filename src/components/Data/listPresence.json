@@ -51,16 +51,44 @@
   ],
   [
     {
-        "type": "image",
-        "src": "img/work/presence/ideation.jpg",
-        "alt": "video of presence.",
-        "descriptions": ["PLANNING"]
-    },
-    {
       "type": "video",
       "src": "img/work/presence/early.mp4",
       "alt": "video of presence.",
-      "descriptions": ["EARLY VERSION", "GAZE"]
+      "descriptions": ["EARLY VERSION V1"]
+  },
+    {
+        "type": "video",
+        "src": "img/work/presence/presence.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["EARLY VERSION V2"]
+    }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "img/work/presence/shadowsvirtual.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["LIGHTS & SHADOWS", "SCENE MODEL"]
+    },
+    {
+      "type": "video",
+      "src": "img/work/presence/physicsvirtual.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["VERTEX DEFORMATION", "PHYSICS INTERACTION"]
+  }
+  ],
+  [
+    {
+        "type": "video",
+        "src": "img/work/presence/intentpalm.mp4",
+        "alt": "video of presence.",
+        "descriptions": ["INTENT", "PALM MENU", "CONTEXTUAL"]
+    },
+    {
+      "type": "video",
+      "src": "img/work/presence/lightvirtual.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["COLOUR CHANGE"]
   }
   ],
   [
@@ -114,9 +142,9 @@
   },
     {
         "type": "video",
-        "src": "img/work/presence/presence.mp4",
+        "src": "img/work/presence/trippyaf.mp4",
         "alt": "video of presence.",
-        "descriptions": ["PROTOTYPE 1"]
+        "descriptions": ["BEYOND THE HMD?"]
     }
   ],
   [
