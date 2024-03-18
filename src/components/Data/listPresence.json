@@ -188,6 +188,20 @@
     "alt": "video of presence.",
     "descriptions": ["INTERSECTION ERROR"]
 }
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/liquid.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["LIQUID INTERACTION", "BLENDED SPACE"]
+  },
+    {
+      "type": "video",
+      "src": "img/work/presence/handoff.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["AUDIO HANDOFF INTERACTION"]
+  }
   ]
   ]
   
