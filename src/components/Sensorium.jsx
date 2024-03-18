@@ -32,7 +32,7 @@ function Sensorium() {
           <p className="spacer">⌘</p>
           <video
             className="banner"
-            src="img/work/sensorium/sensoriumroughcut.mp4"
+            src="img/work/sensorium/sensorium.mp4"
             alt=""
             controls={true}
             autoPlay={true}

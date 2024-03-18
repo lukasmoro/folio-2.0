@@ -1,7 +1,15 @@
-[
+[{
+  "id": 2,
+  "tags": "ethics",
+  "location": "Umeå, Sweden",
+  "date": "March 17, 2024",
+  "header": "Are head-mounted displays promoting human isolation?",
+  "text": "Work in progress.",
+  "resource": {}
+},
   {
     "id": 1,
-    "tags": "product",
+    "tags": "process",
     "location": "Umeå, Sweden",
     "date": "February 17, 2024",
     "header": "Doing design through building ideas.",
