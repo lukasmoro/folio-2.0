@@ -43,7 +43,7 @@ function Sensorium() {
            <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
           <p> 
             This project was created during a 10-weeks course, together with Regina Gensinger, Rohit Dongre and Charlotte Philippe. My contribution was the technical sketching & prototyping. <br /> <br />
-            Sensorium is a vehicle interior prototype, where all input like distance sensor, pulse sensor, leap motion & rfid reader, and output like spatial projections of shaders, music, haptic feedback on wearable & servos on seatbelts is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtual and physical domains.
+            Sensorium is a spaceship interior prototype, where all input like distance sensor, pulse sensor, leap motion & rfid reader, and output like spatial projections of shaders, music, haptic feedback on wearable & servos on seatbelts is processed and controlled in real-time by a centralised virtual twin. This enables a curated continious user experience blending virtual and physical domains.
           </p>
           <div className="socials">
           <a

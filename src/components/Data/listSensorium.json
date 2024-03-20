@@ -1,12 +1,80 @@
 [
-    [
-      {
-          "type": "image",
-          "src": "img/work/sensorium/sensorium1.png",
-          "alt": "image of final setup of prototype.",
-          "descriptions": ["FINAL SETUP OF PROTOTYPE"]
-      }
-  ],
+[   {
+    "type": "video",
+    "src": "img/work/sensorium/sensoriumdigitaltwin10.mp4",
+    "alt": "image of digital twin",
+    "descriptions": ["LAUNCH PHYSARUM"]
+},
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin2.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["WELCOME"]
+    }
+],
+[   
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin1.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["PERSONALISING EXPERIENCE"]
+    },
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin3.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["TENSIONING SEAT-BELT"]
+    }
+],
+[ 
+{
+    "type": "video",
+    "src": "img/work/sensorium/sensoriumdigitaltwin4.mp4",
+    "alt": "image of digital twin",
+    "descriptions": ["START DRIVING"]
+},
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin5.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["AUDIO REACTION"]
+    }
+],
+[ 
+{
+    "type": "video",
+    "src": "img/work/sensorium/sensoriumdigitaltwin6.mp4",
+    "alt": "image of digital twin",
+    "descriptions": ["TAKE-OVER"]
+},
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin7.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["STEERING"]
+    }
+],
+[ {
+    "type": "video",
+    "src": "img/work/sensorium/sensoriumdigitaltwin8.mp4",
+    "alt": "image of digital twin",
+    "descriptions": ["CURVE FEEDBACK"]
+},
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensoriumdigitaltwin9.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["ACCELERATION & BREAKING"]
+    }
+], 
+[
+    {
+        "type": "video",
+        "src": "img/work/sensorium/sensorium19.mp4",
+        "alt": "image of digital twin",
+        "descriptions": ["DIGITAL TWIN & FINAL PROTOTYPE"]
+    }
+],
     [
         {
             "type": "image",
@@ -16,10 +84,10 @@
         }
           ,
         {
-            "type": "image",
-            "src": "img/work/sensorium/sensorium3.png",
+            "type": "video",
+            "src": "img/work/sensorium/lilseat.mp4",
             "alt": "image of cuttings",
-            "descriptions": ["CUTTINGS FOR LIL SEAT"]
+            "descriptions": ["LIL SEAT"]
         }
     ],
     [
@@ -33,7 +101,7 @@
             "type": "image",
             "src": "img/work/sensorium/sensorium6.png",
             "alt": "image of material of desire",
-            "descriptions": ["SKETCH OF WEARABLE", "DESIGN BY REGINA GENSINGER"]
+            "descriptions": ["HEART-RATE MONITOR", "3D BY REGINA GENSINGER"]
         }
     ],
     [
@@ -43,15 +111,6 @@
             "alt": "image of cad of prototype",
             "descriptions": ["CAD FOR PROTOTYPE"]
         },
-        {
-            "type": "image",
-            "src": "img/work/sensorium/sensorium10.png",
-            "alt": "image of big seat",
-            "descriptions": ["CUTTINGS FOR BIG SEAT"]
-        }
-    ],
-    [
-        
         {
             "type": "image",
             "src": "img/work/sensorium/sensorium13.png",
@@ -68,18 +127,18 @@
         },
         {
             "type": "image",
-            "src": "img/work/sensorium/sensorium16.png",
-            "alt": "image of wearable",
-            "descriptions": ["WEARABLE PROTOTYPE", "DESIGN BY REGINA GENSINGER"]
-        },
-        {
-            "type": "image",
             "src": "img/work/sensorium/sensorium17.png",
             "alt": "image of servos",
             "descriptions": ["POSITIONING SERVOS"]
         }
     ],
     [
+        {
+            "type": "image",
+            "src": "img/work/sensorium/sensorium16.png",
+            "alt": "image of wearable",
+            "descriptions": ["WEARABLE PROTOTYPE", "3D BY REGINA GENSINGER"]
+        },
         {
             "type": "image",
             "src": "img/work/sensorium/sensorium18.png",
@@ -89,10 +148,10 @@
     ],
     [
         {
-            "type": "video",
-            "src": "img/work/sensorium/sensorium19.mp4",
-            "alt": "image of digital twin",
-            "descriptions": ["DIGITAL TWIN CONTROLLING THE FINAL PROTOTYPE"]
+            "type": "image",
+            "src": "img/work/sensorium/sensorium1.png",
+            "alt": "image of final setup of prototype.",
+            "descriptions": ["FINAL SETUP OF PROTOTYPE"]
         }
     ]
   ]

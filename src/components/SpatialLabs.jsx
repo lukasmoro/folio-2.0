@@ -45,7 +45,7 @@ function SpatialLabs() {
             className="link"
             target="_blank"
             rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
+            href="https://www.slabs.one"
           >
             ↳ Spatial Labs
           </a>

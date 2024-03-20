@@ -12,13 +12,21 @@
         "type": "video",
         "src": "img/work/spatiallabs/slabs2.mp4",
         "alt": "video of slabs.",
-        "descriptions": ["CGI"]
+        "descriptions": ["NFC-ENABLED FOOTWEAR"]
     },
     {
       "type": "video",
       "src": "img/work/spatiallabs/slabs3.mp4",
       "alt": "video of slabs.",
-      "descriptions": ["CGI"]
+      "descriptions": ["NFC-ENABLED CLOTHING"]
   }
+  ],
+  [
+    {
+      "type": "image",
+      "src": "img/work/spatiallabs/iddris.jpg",
+      "alt": "video of slabs.",
+      "descriptions": ["BUILDING."]
+    }
   ]
 ]
