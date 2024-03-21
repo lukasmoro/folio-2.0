@@ -202,6 +202,20 @@
       "alt": "video of presence.",
       "descriptions": ["AUDIO HANDOFF INTERACTION"]
   }
+  ],
+  [
+    {
+      "type": "image",
+      "src": "img/work/presence/conversation.png",
+      "alt": "video of presence.",
+      "descriptions": ["MEMORIES"]
+  },
+    {
+      "type": "video",
+      "src": "img/work/presence/water.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["PORTAL"]
+  }
   ]
   ]
   
