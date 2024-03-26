@@ -208,14 +208,14 @@
       "type": "image",
       "src": "img/work/presence/conversation.png",
       "alt": "video of presence.",
-      "descriptions": ["MEMORIES"]
-  },
-    {
-      "type": "video",
-      "src": "img/work/presence/water.mp4",
-      "alt": "video of presence.",
       "descriptions": ["PORTAL"]
-  }
+  },
+  {
+    "type": "video",
+    "src": "img/work/presence/memories.mp4",
+    "alt": "video of presence.",
+    "descriptions": ["ENTER MEMORIES", "WHISPER", "STENCIL BUFFER"]
+}
   ]
   ]
   
