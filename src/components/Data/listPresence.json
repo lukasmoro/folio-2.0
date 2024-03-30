@@ -212,9 +212,23 @@
   },
   {
     "type": "video",
-    "src": "img/work/presence/memories.mp4",
+    "src": "img/work/presence/spawn.mp4",
     "alt": "video of presence.",
-    "descriptions": ["ENTER MEMORIES", "WHISPER", "STENCIL BUFFER"]
+    "descriptions": ["WHISPER", "IMPLICIT", "CONVERSATION"]
+}
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/peek.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["PEEK IN", "STENCIL BUFFER"]
+  },
+  {
+    "type": "video",
+    "src": "img/work/presence/divein.mp4",
+    "alt": "video of presence.",
+    "descriptions": ["ENTER THE MEMORY"]
 }
   ]
   ]
