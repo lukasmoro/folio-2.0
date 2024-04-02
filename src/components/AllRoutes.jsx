@@ -18,7 +18,7 @@ function AllRoutes() {
 
   return (
         <Routes location = {location} key = {location.pathname}>       
-            <Route path="/" element={<Me />} />
+            <Route path="/" element={<Work />} />
             <Route path="/about" element={<Me />} />
             <Route path="/work" element={<Work />} />
             <Route path="/play" element={<Visual />} />
