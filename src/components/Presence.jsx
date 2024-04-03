@@ -39,10 +39,11 @@ function Presence() {
             muted={true}
             playsInline={true}
           />
-        <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">QUEST 3</li></ul>
+        <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">NETCODE</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">YOLO V8</li><li className="tool">OPENAI API</li><li className="tool">QUEST 3</li></ul>
         <p>
 
-         <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller?
+         <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller? <br /><br />
+         Sharing a past memory. No distraction. No need of talking with a machine, talking with friends instead. Parts of the memory remain present in space. The surrounding room responds, you respond to the room, it responds back to you. It understands your intention and shapes around you. Fluid like water. Infinite options directly experienced out in the world, facilitating presence of mind, constantly. Inter-connected everything shaping our realities. No distraction from what matters, never.. An operating system to the world.
         </p>
 
         <div className="socials">
