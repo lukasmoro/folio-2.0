@@ -228,7 +228,21 @@
     "type": "video",
     "src": "img/work/presence/divein.mp4",
     "alt": "video of presence.",
-    "descriptions": ["ENTER THE MEMORY"]
+    "descriptions": ["ENTERING THE MEMORY"]
+}
+  ],
+  [
+    {
+      "type": "video",
+      "src": "img/work/presence/luki.mp4",
+      "alt": "video of presence.",
+      "descriptions": ["NETCODE", "MULTIPLAYER"]
+  },
+  {
+    "type": "video",
+    "src": "img/work/presence/coco.mp4",
+    "alt": "video of presence.",
+    "descriptions": ["SHARING THE MEMORY"]
 }
   ]
   ]

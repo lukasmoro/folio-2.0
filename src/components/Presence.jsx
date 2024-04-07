@@ -43,7 +43,7 @@ function Presence() {
         <p>
 
          <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller? <br /><br />
-         Sharing a past memory. No distraction. No need of talking with a machine, talking with friends instead. Parts of the memory remain present in space. The surrounding room responds, you respond to the room, it responds back to you. It understands your intention and shapes around you. Fluid like water. Infinite options directly experienced out in the world, facilitating presence of mind, constantly. Inter-connected everything shaping our realities. No distraction from what matters, never.. An operating system to the world.
+         Sharing a past memory. No distraction. No need of direct interaction with a machine, talking with friends instead. Sometimes parts of shared memories remain present in space. The surrounding room responds to them, you respond to the room, it responds back to you. It understands your intention and shapes around you, fluid like water. Infinite options experienced out in the physical world, facilitating presence of mind, constantly. An inter-connected everything shaping our realities, helping us to make sense. No distraction from what matters to us, never.. <br /><br />An operating system to the world.
         </p>
 
         <div className="socials">
