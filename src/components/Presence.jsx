@@ -42,8 +42,7 @@ function Presence() {
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">NETCODE</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">YOLO V8</li><li className="tool">OPENAI API</li><li className="tool">QUEST 3</li></ul>
         <p>
 
-         <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller? <br /><br />
-         Sharing a past memory. No distraction. No need of direct interaction with a machine, talking with friends instead. Sometimes parts of shared memories remain present in space. The surrounding room responds to them, you respond to the room, it responds back to you. It understands your intention and shapes around you, fluid like water. Infinite options experienced out in the physical world, facilitating presence of mind, constantly. An inter-connected everything shaping our realities, helping us to make sense. No distraction from what matters to us, never.. <br /><br />An operating system to the world.
+         <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller? 
         </p>
 
         <div className="socials">
