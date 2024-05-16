@@ -1,19 +1,25 @@
-[{
-  "id": 2,
-  "tags": "ethics",
-  "location": "Umeå, Sweden",
-  "date": "March 17, 2024",
-  "header": "Are head-mounted displays promoting human isolation?",
-  "text": "Work in progress.",
-  "resource": {"1": "Reading in progress."}
-},
+[
+  {
+    "id": 2,
+    "tags": "ethics",
+    "location": "Umeå, Sweden",
+    "date": "March 17, 2024",
+    "header": "Sharing Perspectives on Virtual Objects in the World",
+    "text": "Physical objects and spaces are experienceable from different perspectives. Physical co-location of humans results in inevitable non-verbal data exchange between protagonists. Software experienced through non-spatial outlets creates presence isolated from our physical surroundings. Multi-player games, communication- and collaborative platforms are connecting people. This happens in an abstracted space. Co-located mixed reality changes this. It allows for direct experience and manipulation of virtual objects from different perspectives in the same physical space, which enhances their meaning through perceiving the response of others to those objects.\n\n Togetherness in mixed reality removes scenarios of isolation and fosters exchange between people.",
+    "resource": {
+    }
+  },
   {
     "id": 1,
     "tags": "process",
     "location": "Umeå, Sweden",
     "date": "February 17, 2024",
     "header": "Doing design through building ideas.",
-    "text": "Building helps one to gain clarity about the nature of a new idea. When designing things through making the actions of sketching and prototyping are applied: \"Sketches contribute back to its creator, while prototypes radiate outward to the others and the world\". * \n \n Early on sketches help to gain understanding about the materiality of the given technology. ** They provoke a conversation with the material because of their interactive nature. This process derives smaller problems inhabiting the bigger idea. It also refines and concretises the initial idea, which retrospectively often is exposed as more of a vague direction. After showing sketches to stakeholders, prototypes can fuse insights of the sketches into interactive artefacts for precise communication. Flexibility in trajectory on the final interventions is important up to the latest point to exploit the maximum insight from the building process. When clarity of mind is reached early prototypes provide a solid foundation to build more refined prototypes for outside communication. \n\n This quote by Stappers summarises the applied process for designing interactions well: \"Functional artefacts are where ideas touch-down on earth, stop being theory and start becoming reality.\" ***",
-    "resource": { "1": "Moussette, C. (2012). Simple Haptics: Sketching Perspectives for the Design of Haptic Interactions. Umeå Institute of Design Research Publications.", "2": "Redström, J. (2005). On Technology as Material in Design. In Willis, A-M. (ed.) Design Philosophy Papers: Collection Two, pp. 31-42. Team D/E/S Publications. ", "3": "Stappers, P. (2007). Doing Design as a Part of Doing Research." }
+    "text": "Building helps one to gain clarity about the nature of a new idea. When designing things through making the actions of sketching and prototyping are applied: \"Sketches contribute back to its creator, while prototypes radiate outward to the others and the world\".\n\nEarly on sketches help to gain understanding about the materiality of the given technology. They provoke a conversation with the material because of their interactive nature. This process derives smaller problems inhabiting the bigger idea. It also refines and concretises the initial idea, which retrospectively often is exposed as more of a vague direction. After showing sketches to stakeholders, prototypes can fuse insights of the sketches into interactive artefacts for precise communication. Flexibility in trajectory on the final interventions is important up to the latest point to exploit the maximum insight from the building process. When clarity of mind is reached early prototypes provide a solid foundation to build more refined prototypes for outside communication.\n\nThis quote by Stappers summarises the applied process for designing interactions well: \"Functional artefacts are where ideas touch-down on earth, stop being theory and start becoming reality.\"",
+    "resource": {
+      "1": "Moussette, C. (2012). Simple Haptics: Sketching Perspectives for the Design of Haptic Interactions. Umeå Institute of Design Research Publications.",
+      "2": "Redström, J. (2005). On Technology as Material in Design. In Willis, A-M. (ed.) Design Philosophy Papers: Collection Two, pp. 31-42. Team D/E/S Publications.",
+      "3": "Stappers, P. (2007). Doing Design as a Part of Doing Research."
+    }
   }
 ]
