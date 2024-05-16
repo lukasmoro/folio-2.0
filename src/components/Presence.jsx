@@ -26,7 +26,7 @@ function Presence() {
       <div className="text-block">
         <DayDate />
         <h1>
-          Presence · Spatial Computing for Living in the Moment.
+          Presence · Spatial Computing for Staying in the Moment.
         </h1>
         <p className="spacer">⌘</p>
         <video
@@ -40,11 +40,21 @@ function Presence() {
             playsInline={true}
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">NETCODE</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">YOLO V8</li><li className="tool">OPENAI API</li><li className="tool">QUEST 3</li></ul>
-        <p>
+          <p>
+            For my thesis I explored how integration between virtual and physical spaces could lead to more meaningful embodiement of software.
+          </p>
 
-         <em>Work in progress.</em> What makes virtual and physical realities interweave? What makes contextual interfaces with implicit input unobtrusive? What makes a reality perception gap, between people with different or no hardware smaller? 
-        </p>
+          {/* <p>ADD BLENDED SPACE GRAPHICS</p> */}
 
+          <p>A representation of the physical space including geometry, lighting, semantics and networking is used to simulate virtual objects that interact with the physical world in terms of physics, occlusion and controlling.</p>
+          
+          {/* <p>ADD PRESENCE GRAPHICS DISCONNECTION</p> */}
+
+          <p>We experience bodily and mental presence. While physical objects acknowledge our existence fully, virtual objects are occupying us mostly mentally. This leads to a disconnection of spaces where presence in one of them diminishes presence in the other. </p>
+
+          {/* <p>ADD PRESENCE GRAPHICS DISCONNECTION</p>   */}
+            
+          <p><em>The goal of my explorations is it to achieve presence in a blended space where virtuality and physicality mixes to leverage advantages of both. </em></p>
         <div className="socials">
           <a
             className="link"
@@ -60,11 +70,22 @@ function Presence() {
             className="link"
             target="_blank"
             rel="noreferrer"
+            href="pdf/presencebrief.pdf"
+          >
+            ↳ Research Paper
+          </a>
+        </div>
+         <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
             href="https://chrome.google.com/webstore/category/extensions?hl=de"
           >
             ↳ GitHub Repository
           </a>
-        </div>
+        </div> */}
+        {/*
         <div className="socials">
           <a
             className="link"
