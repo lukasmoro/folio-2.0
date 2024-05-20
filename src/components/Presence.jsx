@@ -31,9 +31,9 @@ function Presence() {
         <p className="spacer">⌘</p>
         <video
             className="banner"
-            src="img/work/presence/presence.mp4"
+            src="img/work/presence/presencenew.mp4"
             alt=""
-            controls={false}
+            controls={true}
             autoPlay={true}
             loop={true}
             muted={true}
@@ -41,20 +41,16 @@ function Presence() {
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">NETCODE</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">YOLO V8</li><li className="tool">OPENAI API</li><li className="tool">QUEST 3</li></ul>
           <p>
-            For my thesis I explored how integration between virtual and physical spaces could lead to more meaningful embodiement of software.
+          This project explores how integration between virtual and physical spaces could lead towards more meaningful embodiment of software in the world. 
           </p>
 
           {/* <p>ADD BLENDED SPACE GRAPHICS</p> */}
 
-          <p>A representation of the physical space including geometry, lighting, semantics and networking is used to simulate virtual objects that interact with the physical world in terms of physics, occlusion and controlling.</p>
-          
-          {/* <p>ADD PRESENCE GRAPHICS DISCONNECTION</p> */}
-
-          <p>We experience bodily and mental presence. While physical objects acknowledge our existence fully, virtual objects are occupying us mostly mentally. This leads to a disconnection of spaces where presence in one of them diminishes presence in the other. </p>
+          <p>A virtual representation of the physical space including geometry, lighting, semantics and networking is used to simulate virtual objects that interact with the physical world in terms of physics, light, occlusion and controlling. While physical objects acknowledge our existence fully, virtual objects occupy mostly our mental space. This leads to a disconnection where mental presence in the virtual space diminishes mental presence in the physical one.</p>
 
           {/* <p>ADD PRESENCE GRAPHICS DISCONNECTION</p>   */}
             
-          <p><em>The goal of my explorations is it to achieve presence in a blended space where virtuality and physicality mixes to leverage advantages of both. </em></p>
+          <p><em>The goal is to achieve presence in a blended space where virtuality and physicality mix to leverage advantages of both. This should lead to physical objects that are more fluid and accessible in their nature and virtual objects that satisfy our senses and acknowledge us as physical beings.</em></p>
         <div className="socials">
           <a
             className="link"

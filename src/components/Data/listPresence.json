@@ -1,45 +1,4 @@
-[   [
-  {
-      "type": "video",
-      "src": "img/work/presence/implicit.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["IMPLICITNESS"]
-  },
-  {
-      "type": "video",
-      "src": "img/work/presence/spectrum.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["SPECTRUM"]
-  }
-],
-[
-  {
-      "type": "video",
-      "src": "img/work/presence/continuity.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["CONTINUITY"]
-  },
-  {
-      "type": "video",
-      "src": "img/work/presence/joy.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["JOY"]
-  }
-],
-[
-  {
-      "type": "video",
-      "src": "img/work/presence/control.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["CONTROL"]
-  },
-  {
-      "type": "video",
-      "src": "img/work/presence/liquidity.mp4",
-      "alt": "video of presence.",
-      "descriptions": ["LIQUIDITY"]
-  }
-],
+[   
     [
     {
         "type": "video",
