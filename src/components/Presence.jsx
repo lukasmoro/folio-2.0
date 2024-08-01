@@ -61,6 +61,16 @@ function Presence() {
             ↳ Brief PDF
           </a>
         </div>
+        <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="pdf/presence.pdf"
+          >
+            ↳ Thesis PDF
+          </a>
+          </div>
         {/* <div className="socials">
           <a
             className="link"
