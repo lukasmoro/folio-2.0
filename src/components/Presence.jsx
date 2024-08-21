@@ -1,13 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import DayDate from "./DayDate.jsx";
+import mediaData from '../components/Data/listPresence.json';
 
-import mediaData  from '../components/Data/listPresence.json';
-
-const LazyVideo = ({ src, alt, descriptions, autoPlay, loop, muted, playsInline }) => {
+const LazyVideo = ({ src, alt, autoPlay, loop, muted, playsInline }) => {
   const videoRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    const videoElement = videoRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
@@ -20,13 +21,13 @@ const LazyVideo = ({ src, alt, descriptions, autoPlay, loop, muted, playsInline 
       { threshold: 0.25 }
     );
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
+    if (videoElement) {
+      observer.observe(videoElement);
     }
 
     return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current);
+      if (videoElement) {
+        observer.unobserve(videoElement);
       }
     };
   }, []);
@@ -79,17 +80,30 @@ function Presence() {
         </h1>
         <p className="spacer">⌘</p>
         <video
-            className="banner"
-            src="img/work/presence/presencenew.mp4"
-            alt=""
-            controls={true}
-            autoPlay={true}
-            loop={true}
-            muted={true}
-            playsInline={true}
-          />
-        <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">SHADERLAB</li><li className="tool">VFX GRAPH</li><li className="tool">META INTERACTION SDK</li><li className="tool">NETCODE</li><li className="tool">ARDUINO</li><li className="tool">PYTHON</li><li className="tool">YOLO V8</li><li className="tool">OPENAI API</li><li className="tool">QUEST 3</li></ul>
-          <p>
+          className="banner"
+          src="img/work/presence/presencenew.mp4"
+          alt=""
+          controls
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+        <ul className="tools">
+          <li className="tool">UNITY</li>
+          <li className="tool">C#</li>
+          <li className="tool">URP</li>
+          <li className="tool">SHADERLAB</li>
+          <li className="tool">VFX GRAPH</li>
+          <li className="tool">META INTERACTION SDK</li>
+          <li className="tool">NETCODE</li>
+          <li className="tool">ARDUINO</li>
+          <li className="tool">PYTHON</li>
+          <li className="tool">YOLO V8</li>
+          <li className="tool">OPENAI API</li>
+          <li className="tool">QUEST 3</li>
+        </ul>
+        <p>
           This project explores how integration between virtual and physical spaces could lead towards more meaningful embodiment of software in the world. 
           </p>
 
@@ -119,50 +133,24 @@ function Presence() {
           >
             ↳ Thesis PDF
           </a>
-          </div>
-        {/* <div className="socials">
-          <a
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-            href="pdf/presencebrief.pdf"
-          >
-            ↳ Research Paper
-          </a>
         </div>
-         <div className="socials">
-          <a
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
-          >
-            ↳ GitHub Repository
-          </a>
-        </div> */}
-        {/*
-        <div className="socials">
-          <a
-            className="link"
-            target="_blank"
-            rel="noreferrer"
-            href="https://chrome.google.com/webstore/category/extensions?hl=de"
-          >
-            ↳ Download APKs for Quest 3
-          </a>
-        </div> */}
         <div className="line-projects"></div>
         <div className="grid">
-            {mediaData.map((row, rowIndex) => (
-              <div className="row" key={rowIndex}>
-                {row.map((media, colIndex) => (
-                  <div className="col" key={colIndex}>
-                    <MediaElement type={media.type} src={media.src} alt={media.alt} descriptions={media.descriptions} />
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
+          {mediaData.map((row, rowIndex) => (
+            <div className="row" key={rowIndex}>
+              {row.map((media, colIndex) => (
+                <div className="col" key={colIndex}>
+                  <MediaElement
+                    type={media.type}
+                    src={media.src}
+                    alt={media.alt}
+                    descriptions={media.descriptions}
+                  />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
         <div className="bottom-work"></div>
       </div>
     </div>
