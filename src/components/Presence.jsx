@@ -1,19 +1,68 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from 'react';
 import DayDate from "./DayDate.jsx";
 
 import mediaData  from '../components/Data/listPresence.json';
+
+const LazyVideo = ({ src, alt, descriptions, autoPlay, loop, muted, playsInline }) => {
+  const videoRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.25 }
+    );
+
+    if (videoRef.current) {
+      observer.observe(videoRef.current);
+    }
+
+    return () => {
+      if (videoRef.current) {
+        observer.unobserve(videoRef.current);
+      }
+    };
+  }, []);
+
+  return (
+    <video
+      ref={videoRef}
+      className="media"
+      src={isVisible ? src : ''}
+      alt={alt}
+      autoPlay={autoPlay}
+      loop={loop}
+      muted={muted}
+      playsInline={playsInline}
+    />
+  );
+};
 
 const MediaElement = ({ type, src, alt, descriptions }) => {
   return (
     <div className="media-container">
       {type === 'video' ? (
-        <video className="media" autoPlay loop muted playsInline src={src} alt={alt} />
+        <LazyVideo
+          src={src}
+          alt={alt}
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          playsInline={true}
+        />
       ) : (
         <img className="media" src={src} alt={alt} />
       )}
       <div className="description-overlay">
-        {descriptions.map((descriptions, index) => (
-          <span key={index} className="description-textbox">{descriptions}</span>
+        {descriptions.map((description, index) => (
+          <span key={index} className="description-textbox">{description}</span>
         ))}
       </div>
     </div>
