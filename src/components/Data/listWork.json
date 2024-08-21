@@ -1,15 +1,6 @@
 [ 
   {
     "id": 0,
-    "name": "CV Kit for Quest",
-    "date": "2024",
-    "sideproject": false,
-    "preview":"img/preview/presencepreview.png",
-    "src": "img/preview/presencecover.jpg",
-    "to": "/presence"
-  },
-  {
-    "id": 0,
     "name": "Presence Thesis",
     "date": "2024",
     "sideproject": false,
