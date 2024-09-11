@@ -38,6 +38,13 @@ function RRMC() {
             playsInline={true}
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">HDRP</li><li className="tool">ARDUINO</li><li className="tool">BLENDER</li><li className="tool">VIVE</li><li className="tool">STEAM VR</li><li className="tool">AUTOMOTIVE SOC</li></ul>
+        <ul className='process'>
+          <li>Duration: 13 Months, Summer 2022 - Autumn 2023</li>
+          <li>Collaboration Partner: None</li>
+          <li>Team: Rolls-Royce Bespoke Design</li>
+          <li>Contribution: Prototyper Internship & Freelance Work</li>
+        </ul>
+        <h2>In-Short</h2>
         <p>
           At Rolls-Royce Motorcars I worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
           I prototyped virtual experiences for general purpose operating systems and embedded systems.
@@ -51,6 +58,18 @@ function RRMC() {
           >
             ↳ Rolls-Royce Motorcars
           </a>
+        </div>
+        <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.rolls-roycemotorcars.com/en_GB/bespoke/private-collection-cars/phantom-scintilla.html"
+          >
+            ↳ Phantom Scintilla
+          </a>
+          <h2>Learning</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
         </div>
         <div className="line-projects"></div>
         <div className="grid">

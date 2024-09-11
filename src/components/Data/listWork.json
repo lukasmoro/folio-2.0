@@ -1,7 +1,25 @@
 [ 
   {
     "id": 0,
-    "name": "Presence Thesis",
+    "name": "\"Feels Like Paper!\"",
+    "date": "2024",
+    "sideproject": false,
+    "preview":"img/preview/paperpreview.png",
+    "src": "img/preview/paperpreview.png",
+    "to": "/paper"
+  },
+  {
+    "id": 1,
+    "name": "Unity Plugin for XR Hack",
+    "date": "2024",
+    "sideproject": false,
+    "preview":"img/preview/cvkitpreview.jpg",
+    "src": "img/preview/cvkitpreview.jpg",
+      "to": "/cvkit"
+  },
+  {
+    "id": 2,
+    "name": "Presence Master Thesis",
     "date": "2024",
     "sideproject": false,
     "preview":"img/preview/presencepreview.png",
@@ -9,8 +27,8 @@
     "to": "/presence"
   },
   {
-    "id": 1,
-    "name": "Sensorium Interior",
+    "id": 3,
+    "name": "Sensorium Car Interior",
     "date": "2023",
     "sideproject": true,
     "preview":"img/preview/sensoriumpreview.png",
@@ -18,7 +36,7 @@
     "to": "/sensorium"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Podcasts for Chrome",
     "date": "2023",
     "sideproject": true,
@@ -27,7 +45,7 @@
     "to": "/podcasts"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Rolls-Royce Motorcars",
     "date": "2022",
     "sideproject": true,
@@ -36,7 +54,7 @@
     "to": "/rrmc"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Spatial Labs",
     "date": "2022",
     "sideproject": false,
@@ -45,7 +63,7 @@
     "to": "/slabs"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,

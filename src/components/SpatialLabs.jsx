@@ -37,6 +37,13 @@ function SpatialLabs() {
             muted={true}
             playsInline={true}
           />
+          <ul className='process'>
+            <li>Duration: 9 months, Autumn 2022 - Autumn 2023</li>
+            <li>Collaboration Partner: None</li>
+            <li>Team: Spatial Labs Design Team</li>
+            <li>Contribution: CGI, Poly-Modeller & Prototyper Freelance Work</li>
+          </ul>
+        <h2>In-Short</h2>
         <p>
           During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. 
         </p>
@@ -60,6 +67,8 @@ function SpatialLabs() {
             ↳ TechCrunch
           </a>
         </div>
+        <h2>Learning</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis tenetur deleniti esse, veritatis vitae. Autem velit commodi maiores asperiores possimus, ab odit, tempore fuga explicabo rerum non sit labore.</p>
         <div className="line-projects"></div>
         <div className="grid">
             {mediaData.map((row, rowIndex) => (

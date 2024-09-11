@@ -1,16 +1,23 @@
 import React from "react";
 import DayDate from "./DayDate";
+import { Canvas } from '@react-three/fiber';
+import FloatingGeometry from "./FloatingGeometry";
 
 function Me() {
 
   return (
     <div className="container">
+      {/* <Canvas className="floating-geometry-canvas" style={{ position: 'absolute', top: 0, left: 0, zIndex: 10, pointerEvents: 'none' }}>
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[10, 10, 5]} intensity={1} />
+        <FloatingGeometry path="glb/cuprawearable.glb" scale={[10, 10, 10]} />
+      </Canvas> */}
       <div className="text-block">
           <DayDate />
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality.</i>
+            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality.</i> Looking for freelance and permanent positions! 👋
           </p>
           <p>
             Worked with{" "}
@@ -40,7 +47,7 @@ function Me() {
               {" "}
               Studio Alfredo Häberli
             </a>
-            . <br />Currently, studying Interaction Design at
+            . <br />Graduated from Interaction Design at
             <a
               href="https://www.dh.umu.se/en/"
               target="_blank"
@@ -93,6 +100,7 @@ function Me() {
             </a>
           </div>
           <div className="bottom-work"></div>
+          
       </div>
     </div>
   );

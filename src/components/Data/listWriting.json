@@ -1,5 +1,16 @@
 [
   {
+    "id": 3,
+    "tags": "work",
+    "location": "Cologne, Germany",
+    "date": "March 17, 2024",
+    "header": "Attending my first hackathon.",
+    "text": "Lorem Ipsum",
+    "resource": {
+      "1": "Lorem Ipsum.."
+    }
+  },
+  {
     "id": 2,
     "tags": "ethics",
     "location": "Umeå, Sweden",

@@ -1,0 +1,136 @@
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.progress {
+    opacity: 0;
+    display: flex;
+    z-index: -1;
+    gap: 1rem;
+    width: 100%;
+}
+
+.play-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: linear adjust-opacity-ui both;
+    animation-timeline: --li-in-and-out-of-view;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.forward-backward {
+    animation: linear adjust-opacity-ui both;
+    animation-timeline: --li-in-and-out-of-view;
+    cursor: pointer;
+    border-radius: 50rem;
+}
+
+.current-time {
+    font-size: 16px;
+    width: 2em;
+    color: #d0d0d0;
+    animation: linear adjust-opacity-ui both;
+    animation-timeline: --li-in-and-out-of-view;
+}
+
+.duration {
+    font-size: 16px;
+    width: 2em;
+    color: #d0d0d0;
+    animation: linear adjust-opacity-ui both;
+    animation-timeline: --li-in-and-out-of-view;
+}
+
+.progress-bar {
+    --bar-bg: #d0d0d0;
+    --seek-before-width: 0px;
+    --seek-before-color: #19a0fc;
+    --knob: #FFFFFF;
+    --selectedknob: #FFFFFF;
+    appearance: none;
+    background: var(--bar-bg);
+    border-radius: 10px;
+    width: 10em;
+    position: relative;
+    height: 5px;
+    outline: none;
+    animation: linear adjust-opacity-ui both;
+    animation-timeline: --li-in-and-out-of-view;
+}
+
+.progress-bar::before {
+    content: '';
+    height: 5px;
+    width: var(--seek-before-width);
+    background-color: var(--seek-before-color);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--knob);
+    cursor: pointer;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.progress-bar:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+    background-color: var(--selectedknob);
+    z-index: 100;
+}
+
+body {
+    view-timeline-name: --li-in-and-out-of-view;
+    view-timeline-axis: inline;
+}
+
+@keyframes adjust-opacity-ui {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

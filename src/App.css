@@ -61,7 +61,9 @@ p {
 }
 
 h1, 
-h2 {
+h2,
+h3,
+h4 {
   font-size: 15pt;
   font-weight: 400;
   color: #272727;
@@ -83,6 +85,7 @@ p
 a {
   text-decoration: none;
   font-weight: 400;
+  color: #272727;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);  
   -webkit-focus-ring-color: rgba(255, 255, 255, 0);
 }
@@ -148,6 +151,15 @@ li {
 }
 
 .banner{
+  margin-bottom: 1.25rem;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.image-wide{
   margin-bottom: 1.25rem;
   width: 100%;
   height: 300px;
@@ -406,4 +418,91 @@ img {
 @media (min-height: 1400px) { 
 
   
+}
+
+.canvas-container {
+  box-sizing: border-box;
+  width: 100%; 
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: grab;
+  
+}
+
+.canvas-container canvas {
+  display: block; 
+}
+.process
+{
+  margin-bottom: 1rem;
+}
+.process li
+{ 
+  font-size: 12pt ;
+  list-style:none;
+  color: #272727;
+  letter-spacing: 0.048px;
+  line-height: 25px;
+}
+
+.numbered-list
+{
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.numbered-list li
+{
+  font-size: 12pt ;
+  list-style:decimal;
+  color: #898989;
+  letter-spacing: 0.048px;
+  line-height: 32px;
+}
+
+.check-list
+{
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.check-list li 
+{
+  font-size: 12pt ;
+  list-style:circle;
+  color: #898989;
+  letter-spacing: 0.048px;
+  line-height: 32px;
+}
+
+.sample-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.sample-box {
+  max-width: 300px;
+  max-height: 500px;
+  background-color: #35363a;; 
+  padding: 1rem; 
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.carousel{
+  padding: 0;
+}
+
+.block-quote {
+  margin-bottom: 3.5rem;
+  padding: 0.5em 1em;
+  background-color: #f9f9f9;
+  border-left: 3px solid #ccc;
 }

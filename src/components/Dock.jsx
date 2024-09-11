@@ -10,7 +10,7 @@ function Dock() {
   const isHomeActive = location.pathname === '/about';
   const isWorkActive = location.pathname === '/' || location.pathname === '/work';
   const isWriteActive = location.pathname === '/write';
-  const isProjectActive = location.pathname === '/presence' || location.pathname === '/sensorium' || location.pathname === '/podcasts' || location.pathname === '/rrmc' || location.pathname === '/slabs' || location.pathname === '/arch' || location.pathname === '/play';
+  const isProjectActive = location.pathname === '/presence' || location.pathname === '/sensorium' || location.pathname === '/podcasts' || location.pathname === '/rrmc' || location.pathname === '/slabs' || location.pathname === '/arch' || location.pathname === '/play' || location.pathname === '/cvkit' || location.pathname === '/paper';
   
   const Placeholder = () => <div style={{ flex: 1 }}></div>;
 
@@ -52,7 +52,6 @@ function Dock() {
           <li>Write</li>
         </NavLink>
         </BehaviourClick>)}
-
       </ul>
     </motion.nav>
   );

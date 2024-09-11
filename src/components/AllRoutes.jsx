@@ -11,6 +11,8 @@ import Presence from './Presence'
 import Podcasts from './Podcasts'
 import Sensorium from './Sensorium'
 import SpatialLabs from './SpatialLabs';
+import Paper from './Paper'
+import CVKit from './CVKit';
 
 function AllRoutes() {
 
@@ -29,6 +31,8 @@ function AllRoutes() {
             <Route path="/podcasts" element={<Podcasts />} />
             <Route path="/sensorium" element={<Sensorium />} />
             <Route path="/slabs" element={<SpatialLabs />} />
+            <Route path="/paper" element={<Paper />} />
+            <Route path="/cvkit" element={<CVKit />} />
         </Routes>
   )
 }
