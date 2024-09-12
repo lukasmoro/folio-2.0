@@ -216,6 +216,7 @@ function Sensorium() {
                 <div className="col" src="" alt="" />
               </div>
           </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus soluta tempora enim iusto exercitationem excepturi asperiores pariatur? Dolore, labore error magni et in nihil accusantium nulla? Alias necessitatibus unde possimus?</p>
           <div className="grid">
               <div className="row">
                 <div className="col" src="" alt="" />
@@ -233,7 +234,7 @@ function Sensorium() {
         <p>The application controlling the prototype contains a geometry of the final interior shape that mirror's the behaviour of the physical prototype. This digital twin was used to evaluate the visuals in the context of the final interior shape. To make data-flows leading to behaviours more visible spheres were added at the postions of the sensors and actuators. When a sensor or actuator is active those spheres blink either in green for sensors or in pink for actuators.</p>
         <div className="grid">
               <div className="row">
-                <video className="col" src="img/work/sensorium/sensoriumdigitaltwin7.mp4" autoPlay muted loop playsInline></video>
+                <img className="col" src="img/work/sensorium/digitaltwin.png"></img>
               </div>
           </div>
         <h2>Outcome & Learnings</h2>
