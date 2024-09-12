@@ -2,11 +2,13 @@ import React, { useRef, useState, useEffect } from 'react';
 import { useFrame, useThree } from '@react-three/fiber';
 import { useLoader } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { MeshTransmissionMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
+const FloatingGeometry = ({ path, scale = [1, 1, 1], sphereRadius = 1 }) => {
   const gltf = useLoader(GLTFLoader, path);
   const meshRef = useRef();
+  const sphereRef = useRef();
 
   const { viewport } = useThree();
   const { width, height } = viewport;
@@ -14,7 +16,6 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
   const [position, setPosition] = useState([0, 0, 0]);
   const [velocity, setVelocity] = useState([0.01, 0.01, 0]);
   
-  // Set constant rotation velocity
   const rotationVelocity = [0.001, 0.001, 0.001];
 
   useEffect(() => {
@@ -35,7 +36,7 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
   }, [gltf]);
 
   useFrame(() => {
-    if (!meshRef.current) return;
+    if (!meshRef.current || !sphereRef.current) return;
 
     const [x, y, z] = position;
     const [vx, vy, vz] = velocity;
@@ -54,19 +55,37 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
     setPosition([newX, newY, z]);
 
     meshRef.current.position.set(newX, newY, z);
+    sphereRef.current.position.set(newX, newY, z);
 
     meshRef.current.rotation.x += rotationVelocity[0];
     meshRef.current.rotation.y += rotationVelocity[1];
     meshRef.current.rotation.z += rotationVelocity[2];
+    
+    sphereRef.current.rotation.x += rotationVelocity[0];
+    sphereRef.current.rotation.y += rotationVelocity[1];
+    sphereRef.current.rotation.z += rotationVelocity[2];
   });
 
   return (
-    <primitive
-      ref={meshRef}
-      object={gltf.scene}
-      scale={scale}
-      position={position}
-    />
+    <>
+      <primitive
+        ref={meshRef}
+        object={gltf.scene}
+        scale={scale}
+        position={position}
+      />
+      <mesh ref={sphereRef} position={position}>
+        <sphereGeometry args={[sphereRadius, 32, 32]} />
+        <MeshTransmissionMaterial
+          color="#FF5733"
+          thickness={0.2} // Adjust as needed
+          roughness={0.1} // Adjust as needed
+          chromaticAberration={0.1} // Adjust as needed
+          anisotropy={1} // Adjust as needed
+          transmission={1} // Fully transparent
+        />
+      </mesh>
+    </>
   );
 };
 

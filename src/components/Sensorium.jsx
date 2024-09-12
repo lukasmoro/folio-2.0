@@ -80,10 +80,10 @@ function Sensorium() {
           </div>
 
           <h2>Concept</h2>
-          <p> Physarum polycephalum, commonly refered to as "the blob" is an accelular slime mold and the core inspiration for the theme of this interior experience. In nature Physarum exhibits fascinating situational and intelligent behaviors in its growing patterns and problem-solving abilities. Due to its alien-like aestethic and situational flexibility it fits the brands current values and guides it towards the desired value of "perceived intelligence". </p>
-            <img className="image-wide" src="" alt="image of natural physarum" />
+          <p> Physarum polycephalum, commonly refered to as "the blob" is an accelular slime mold and the core inspiration for the theme of this interior experience. In nature physarum exhibits fascinating situational and intelligent behaviors in its growing patterns and problem-solving abilities. Due to its alien-like aestethic and situational flexibility it fits the brands current values and guides it towards the desired value of "perceived intelligence". </p>
+            <img className="image-wide" src="img/work/sensorium/physarum.jpg" alt="image of natural physarum" />
            <p>"Tribal belonging" is another pillar of Cupra's brand identity, currently this is expressed in lifestyle and fashion accessories, video-game assets and brand events. We designed a custom 3D-printed wearable that signals belonging to the tribe and is handed over to new customers of the shared riding ecosystem. The wearable through an RFID tag functions as a key for unlocking vehicle and experience. It also contains actuators for haptic feedback from the car and sensorics that gather biometric data points for personalising the riding experience.</p>
-           <img className="image-wide" src="" alt="image of cupra brand identity (perceived intelligence & tribal belonging)" />
+           <img className="image-wide" src="img/work/sensorium/brandidentiy.gif" alt="image of cupra brand identity (perceived intelligence & tribal belonging)" />
            <p>Once a member enters an ordered car they can choose to personalise their experience, consisting of spatial projections, music and haptic feedback on the wearable and seat-belts, through a handgesture. Then the feeding and retention environment of the physarum "growing" in the car picks up the person's data from historic rides, the biometrics measured by the wearable and the current situation of the car which leads to a unique pattern of growth.</p> 
            <img className="image-wide" src="" alt="image/video of growing the physarum" />
            <p> This pattern of growth communicates cues about the passenger's state and personality to the other passengers and facilitates interactions between different tribal members and a strong connection to Cupra as a brand as it becomes a mean of expression to the passenger.</p>
@@ -192,26 +192,26 @@ function Sensorium() {
         <h2>Digital Twin</h2>
         <p>The application controlling the prototype contains a geometry of the final interior shape that mirror's the behaviour of the physical prototype. This digital twin was used to evaluate the visuals in the context of the final interior shape. To make data-flows leading to behaviours more visible spheres were added at the postions of the sensors and actuators. When a sensor or actuator is active those spheres blink either in green for sensors or in pink for actuators.</p>
         <div className="grid">
-            <div className="row">
-              <div className="col" src="" alt="video of digital twin moment 1" />
-              <div className="col" src="" alt="video of digital twin moment 2" />
-            </div>
-            <div className="row">
-              <div className="col" src="" alt="video of digital twin moment 3" />
-              <div className="col" src="" alt="video of digital twin moment 4" />
-            </div>
-            <div className="row">
-              <div className="col" src="" alt="video of digital twin moment 5" />
-              <div className="col" src="" alt="video of digital twin moment 6" />
-            </div>
-            <div className="row">
-              <div className="col" src="" alt="video of digital twin moment 7" />
-              <div className="col" src="" alt="video of digital twin moment 8" />
-            </div>
+          <div className="row">
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin2.mp4" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin1.mp4" autoPlay muted loop playsInline></video>
           </div>
+          <div className="row">
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin3.mp4" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin4.mp4" autoPlay muted loop playsInline></video>
+          </div>
+          <div className="row">
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin5.mp4" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin6.mp4" autoPlay muted loop playsInline></video>
+          </div>
+          <div className="row">
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin7.mp4" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline></video>
+          </div>
+        </div>
         <h2>Outcome & Learning</h2>
         <p>Sensorium as a concept invites people to join a club that fosters personal expression and exchange with like minded individuals, which ultimately can lead to a strong authentification with the brand and sustainable transportation practices. As a design intervention it integrates a multi-sensory and real-time interior experience with an expressively shaped interior design. The whole user-journey is made tangible first-hand through a functional prototype and put into the context of the final design through the visualisation of the digital twin. <br /><br />I am proud of the holistic implementation of our user-journey in a functional prototype during this project, however I also think that I sometimes took an extra mile that would have not been necessary for communication. The scope and balance of functional implementation versus needed fidelity for effective communication is something I want to prioritise more rigorousl for future sketches and prototypes. Choosing the right fidelity when creating functional sketches also turned out to be important to not inhibit the creative process.</p>
-          <div className="line-projects"></div>
+          {/* <div className="line-projects"></div>
             <div className="grid">
               {mediaData.map((row, rowIndex) => (
                 <div className="row" key={rowIndex}>
@@ -222,7 +222,7 @@ function Sensorium() {
                   ))}
                 </div>
               ))}
-            </div>
+            </div> */}
           <div className="bottom-work"></div>
           </div>
     </div>

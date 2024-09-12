@@ -108,7 +108,7 @@ function Paper() {
         </ul>
         <h2>In-Short</h2>
         <p>
-           Paper is a tool for thought with experiental values like haptics, physical presence and uniqueness of handwritten letters. 
+          "Feels Like Paper!" is a series of prototypes about augmenting physical paper. Technologies like optical character recognition, GPT-4o, raycasts on Meta's effect mesh, ... are used to give physical paper and ink properties of the digital world without compromising on their traits we appreciate since centuries. 
         </p>
         <div className="socials">
           <a

@@ -7,11 +7,11 @@ function Me() {
 
   return (
     <div className="container">
-      {/* <Canvas className="floating-geometry-canvas" style={{ position: 'absolute', top: 0, left: 0, zIndex: 10, pointerEvents: 'none' }}>
+      <Canvas className="floating-geometry-canvas" style={{ position: 'absolute', top: 0, left: 0, zIndex: 10, pointerEvents: 'none' }}>
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
-        <FloatingGeometry path="glb/cuprawearable.glb" scale={[10, 10, 10]} />
-      </Canvas> */}
+        <FloatingGeometry backgroundImage="img/preview/background.png" path="glb/cuprawearable.glb" scale={[10, 10, 10]} />
+      </Canvas>
       <div className="text-block">
           <DayDate />
           <h1>Lukas Moro.</h1>

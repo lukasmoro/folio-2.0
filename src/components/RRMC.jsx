@@ -68,7 +68,7 @@ function RRMC() {
           >
             ↳ Phantom Scintilla
           </a>
-          <h2>Learning</h2>
+          <h2>Outcome & Learnings</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
         </div>
         <div className="line-projects"></div>

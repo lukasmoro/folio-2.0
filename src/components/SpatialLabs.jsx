@@ -67,7 +67,7 @@ function SpatialLabs() {
             ↳ TechCrunch
           </a>
         </div>
-        <h2>Learning</h2>
+        <h2>Outcome & Learnings</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis tenetur deleniti esse, veritatis vitae. Autem velit commodi maiores asperiores possimus, ab odit, tempore fuga explicabo rerum non sit labore.</p>
         <div className="line-projects"></div>
         <div className="grid">
