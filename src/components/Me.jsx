@@ -90,7 +90,7 @@ function Me() {
             </a>
             . <br />Graduated from Interaction Design at
             <a
-              href="https://www.dh.umu.se/en/"
+              href="https://www.umu.se/en/umea-institute-of-design/"
               target="_blank"
               rel="noreferrer"
               className="link"
