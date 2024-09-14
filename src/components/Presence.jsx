@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import DayDate from "./DayDate.jsx";
-import mediaData from '../components/Data/listPresence.json';
 
 function Presence() {
   return (
@@ -171,8 +170,21 @@ function Presence() {
             <video className="col" src="img/work/presence/playergesture.mp4" autoPlay muted loop playsInline></video>
             </div>
         </div>
-        <h2>Outcome & Learnings</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus consequatur, eum, nostrum, beatae quod enim soluta accusantium adipisci dolores itaque praesentium distinctio illum deserunt qui alias laborum non placeat.</p>
+        <h2>Outcome</h2>
+        <p>The outcome of this thesis consists of the prototypes, the design consolidation and the formulation of new interaction fundamentals for spatial computing. Those fundamentals are malleable and should not be seen as absolutes but rather the raw experiential properties the technology enables at the current point of time for facilitating presence in the moment.</p>
+        <p>From a technological perspective spatial real-time applications for mixed reality headsets and other outlets were built through a designerly lens. Those applications illustrate user interactions and object interactions possible with available technologies.</p>
+        <p>From a conceptual perspective experiential properties were carved out of the material of spatial computing, through building, experiencing and exposing blended and virtual objects. Those properties can be considered when creating mixed reality experiences to make realities move closer together.</p>
+        <h2>Embracing Togetherness.</h2>
+        <p>Exchange happening between physical co-located people combined with exposure to the same virtual objects, changes the perceived meaning of these objects. Considering togetherness sparks discourse, collaboration and sharing, while preventing isolation and disconnection.</p>
+        <h2>Integrating Realities.</h2>
+        <p>Representation of the physical world in the generic scene model enables integration of physical and virtual realities. This integration takes shape in shared light, shadow and physics phenomena, integrated control system and world space. Considering integration leads to experiences satisfying the senses, interactions not neglecting our physical being and virtual objects carrying enhanced meaning.</p>
+        <h2>Liquid Interactions.</h2>
+        <p>Embodied software in the world is directly coupled with our perception. Combined with the many possible input modalities of spatial computing, this enables to design virtual and blended objects with liquid interactions. Liquid interactions are forming around the intention, context, space and state of the object. Considering liquid interactions offers novel personalised user experiences and accessibility.</p>
+        <h2>Opening Applications.</h2>
+        <p>Spatial operating systems enable limited co-existence of virtual objects next to each other. This co-existence suggests a pivot from closed structures towards opening up and approaching software as virtual objects that exist in the same space. Considering this opening through designing virtual objects that elevate their experiential and functional value when influencing each other is a step towards closer coupling of realities.</p>
+        <h2>Conscious Implicitness.</h2>
+        <p>When designing interfaces triggering implicitly from context, interface itself should be expandable and positioned and shaped for minimal distraction. Considering conscious implicitness involving trigger scenarios and interfaces makes input triggered contextually less obtrusive.</p>
+        <h2>Learnings</h2>
         <div className="bottom-work"></div>
       </div>
     </div>
