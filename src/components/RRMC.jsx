@@ -1,25 +1,6 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
 
-import mediaData  from '../components/Data/listRRMC.json';
-
-const MediaElement = ({ type, src, alt, descriptions }) => {
-  return (
-    <div className="media-container">
-      {type === 'video' ? (
-        <video className="media" autoPlay loop muted playsInline src={src} alt={alt} />
-      ) : (
-        <img className="media" src={src} alt={alt} />
-      )}
-      <div className="description-overlay">
-        {descriptions.map((descriptions, index) => (
-          <span key={index} className="description-textbox">{descriptions}</span>
-        ))}
-      </div>
-    </div>
-  );
-};
-
 function RRMC() {
   return (
     <div className="container">
@@ -71,18 +52,6 @@ function RRMC() {
           <h2>Outcome & Learnings</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
         </div>
-        <div className="line-projects"></div>
-        <div className="grid">
-            {mediaData.map((row, rowIndex) => (
-              <div className="row" key={rowIndex}>
-                {row.map((media, colIndex) => (
-                  <div className="col" key={colIndex}>
-                    <MediaElement type={media.type} src={media.src} alt={media.alt} descriptions={media.descriptions} />
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
           <div className="bottom-work"></div>
       </div>
     </div>

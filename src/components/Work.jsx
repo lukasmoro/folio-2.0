@@ -23,7 +23,7 @@ function Work() {
     <div className="container">
       <div className="text-block">
         <DayDate />
-        <h1>Selected Projects.</h1>
+        <h1>Projects.</h1>
         <p className="spacer">⌘</p>
         <p>
           Selection of projects and explorations worked on over the past years. My favourite projects are{" "} 

@@ -1,25 +1,6 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
 
-import mediaData  from '../components/Data/listSpatialLabs.json';
-
-const MediaElement = ({ type, src, alt, descriptions }) => {
-  return (
-    <div className="media-container">
-      {type === 'video' ? (
-        <video className="media" autoPlay loop muted playsInline src={src} alt={alt} />
-      ) : (
-        <img className="media" src={src} alt={alt} />
-      )}
-      <div className="description-overlay">
-        {descriptions.map((descriptions, index) => (
-          <span key={index} className="description-textbox">{descriptions}</span>
-        ))}
-      </div>
-    </div>
-  );
-};
-
 function SpatialLabs() {
   return (
     <div className="container">
@@ -69,18 +50,6 @@ function SpatialLabs() {
         </div>
         <h2>Outcome & Learnings</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis tenetur deleniti esse, veritatis vitae. Autem velit commodi maiores asperiores possimus, ab odit, tempore fuga explicabo rerum non sit labore.</p>
-        <div className="line-projects"></div>
-        <div className="grid">
-            {mediaData.map((row, rowIndex) => (
-              <div className="row" key={rowIndex}>
-                {row.map((media, colIndex) => (
-                  <div className="col" key={colIndex}>
-                    <MediaElement type={media.type} src={media.src} alt={media.alt} descriptions={media.descriptions} />
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
           <div className="bottom-work"></div>
       </div>
     </div>

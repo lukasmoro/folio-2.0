@@ -20,7 +20,7 @@ const Splat = () => {
   return (
     <group position={[0, 0.6, -1.5]} rotation={[0, THREE.MathUtils.degToRad(160), 0]} scale={1}>
       <lumaSplats
-        // semanticsMask={LumaSplatsSemantics.ALL}
+        semanticsMask={LumaSplatsSemantics.ALL}
         enableThreeShaderIntegration={false}
         source="https://lumalabs.ai/capture/FC4AA905-498B-41C4-BC93-08B068C8F921"
       />

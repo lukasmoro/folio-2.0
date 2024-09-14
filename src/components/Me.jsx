@@ -9,7 +9,7 @@ function Me() {
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality.</i> Looking for freelance and permanent positions! 👋
+            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality</i> through a poetic lense. Currently, looking for freelance and permanent roles! 👋
           </p>
           <p>
             Worked with{" "}
@@ -39,7 +39,7 @@ function Me() {
               {" "}
               Studio Alfredo Häberli
             </a>
-            . <br />Graduated from Interaction Design at
+            . <br />Graduated in Interaction Design at
             <a
               href="https://www.umu.se/en/umea-institute-of-design/"
               target="_blank"
