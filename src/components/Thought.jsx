@@ -12,7 +12,7 @@ function Thought() {
           <h1> Writing.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Mediocre writing about all kind of topics to make vague thoughts a bit more concrete. If you want to have a chat please{" "}
+            Writing about all kind of topics to make vague thoughts more concrete in the process. If you want to have a chat please{" "}
             <a
               className="link"
               target="_blank"

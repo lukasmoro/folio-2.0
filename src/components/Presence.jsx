@@ -88,14 +88,14 @@ function Presence() {
           </a>
         </div>
         <h2>Process</h2>
-        <p>During this project I applied a research-through-design approach. I started out with a primary research phas reading literature like ADD LITERATURE. Then I conducted many interactive sketches to develop a feeling for underlying technologies like ADD TECHNOLOGIES. Afterwards I made a secondary literature research about ADD LITERATURE, built three prototypes to communicate and explore interaction fundamentals like ADD INTERACTION FUNDAMENTALS and formulated my insights into a thesis.</p>
+        <p>During this project I applied a research-through-design approach. I started out with a primary research phase reading "Reality+" by David Chalmers, "Life 3.0" by Max Tegmark and "Tractatus Logico Philosphicus" by Ludwig Wittgenstein. Then I conducted many interactive sketches to develop a feeling for underlying technologies. Afterwards I conducted a secondary literature research about spatial interactions, built three prototypes to communicate and explored five interaction fundamentals and formulated my insights into a thesis.</p>
         <div className="grid">
             <div className="row">
               <img className="col" src="img/work/presence/plan.jpg" alt="graphic of process planning" />
             </div>
         </div>
         <h2>Sketching</h2>
-        <p>Some sketches in the beginning explored vague ideas about contextually assembled user interfaces, implicit semantic input and integration of IoT as well as the materiality of Meta Presence SDK, object detection with YOLO V8 in augmented reality, structural outputs with GPT-4, running different shaders on the Quest's effect mesh, building display-drivers for custom LED Matrices to interface Unity via TCP-IP, Meta Depth API and co-location with Unity Netcode.</p>
+        <p>Some sketches in the beginning explored vague ideas about contextually assembled user interfaces, implicit semantic input and integration of IoT as well as the materiality of Meta Presence SDK, object detection with YOLO V8 in augmented reality, structural outputs with GPT-4, running different shaders on the Quest's effect mesh, building display-drivers for custom LED matrixes to interface Unity via TCP-IP, Meta Depth API and co-location with Unity Netcode.</p>
         <h2>Object Detection on Passthrough for Scene Semantics</h2>
         <p>Running object detection on Meta's Passthrough for contextual understanding and as implicit input for interfaces.</p>
         <p className='block-quote'>Semantic input in mixed reality added utility but can also be distracting. Using it as a supplementation to primary input minimised distraction and made interfaces contextually relevant.</p>
@@ -144,11 +144,12 @@ function Presence() {
         <h2>Prototyping</h2>
         <p>After literature review and building twelve sketches, three more refined prototypes experiencable in one common space were crafted for further exploration of the potential of embodied software in the world.</p>
         <h2>Conversational Memory Portal</h2>
-        <p>The first prototype is a portal into a 360° video. It is spawned by words of a conversation that are transcribed by OpenAI's Whisper API. Through a two-handed grab gesture it can be expanded to become fully immersive. This way the person talking about the memory can show their opponent the memory as if they relive it together.</p>
+        <p>The first prototype is a portal into a 360° video. It is spawned by words of a conversation that are transcribed by OpenAI's Whisper API. ADD LATENCY CONSTRAIN HERE. Through a two-handed grab gesture it can be expanded to become fully immersive. This way the person talking about the memory can show their opponent the memory as if they relive it together.</p>
         <p>To make the memory more lively a particle system is spawned which visual appearance and behaviour is configured by the contents of the 360° video through a multimodal LLM. Those particles remain in mixed reality after the portal is closed again and seemingly start interacting with it through the networked lamp to subtly continuate the experience to fit the conversation.</p>
         <p className='block-quote'>This prototype communicates how immersive technologies in combination with input interpreted by artificial intelligence can facilitate personalised experiences that do not interfere with but instead celebrate co-located human connection and exchange.</p>
         <div className="grid">
             <div className="row">
+              <video className="col" src="" autoPlay muted loop playsInline></video>
               <video className="col" src="" autoPlay muted loop playsInline></video>
             </div>
         </div>
@@ -158,6 +159,7 @@ function Presence() {
         <p className='block-quote'>This prototype communicates how integration of the physical space into mixed reality in terms of geometry, lights, shadows, physics and controlling can create perceptually satisfying, fluid and accessible blended objects with properties of physical and virtual space.</p>
         <div className="grid">
             <div className="row">
+              <video className="col" src="" autoPlay muted loop playsInline></video>
               <video className="col" src="" autoPlay muted loop playsInline></video>
             </div>
         </div>

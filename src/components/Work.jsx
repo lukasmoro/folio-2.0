@@ -26,7 +26,7 @@ function Work() {
         <h1>Projects.</h1>
         <p className="spacer">⌘</p>
         <p>
-          Selection of projects and explorations worked on over the past years. My favourite projects are{" "} 
+          Projects and explorations worked on over the past years. My favourites are{" "} 
           <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"

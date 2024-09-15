@@ -9,7 +9,7 @@ function Me() {
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality</i> through a poetic lense. Currently, looking for freelance and permanent roles! 👋
+            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality</i>. Currently, looking for freelance and permanent roles! 👋
           </p>
           <p>
             Worked with{" "}
