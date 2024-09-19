@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import DayDate from "./DayDate.jsx";
 
 function Paper() {
@@ -39,7 +39,7 @@ function Paper() {
         </ul>
         <h2>In-Short</h2>
         <p>
-          "Feels Like Paper!" is a series of prototypes about augmenting physical paper. Technologies like optical character recognition, GPT-4o, raycasts on Meta's effect mesh, ... are used to give physical paper and ink properties of the digital world without compromising on their traits we appreciate since centuries. 
+          "Feels Like Paper!" is a series of prototypes about augmenting physical paper. Are used to infuse physical paper and ink with properties of the digital world without compromising on their traits we appreciate since centuries. 
         </p>
         <div className="socials">
           <a
@@ -82,7 +82,7 @@ function Paper() {
           </a>
         </div>
         <h2>Concept</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis corrupti eos accusantium adipisci, harum repellendus ad odit unde et cum nam reprehenderit, est voluptate vitae laboriosam nulla obcaecati quam!</p>
+          <p>Many people including myself gravitate towards physical paper when it comes to reading books, doing quick notes and scribbles or ripping through a do to list. This results in unmerged branches of information between the physical and digital realms. One property of physical paper I appreciate is the immediate nature of </p>
         <h2>Process</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quae et cum molestias magni rerum vero, enim esse vitae soluta? Autem adipisci porro consequatur voluptatem sequi dignissimos asperiores non ex?</p>
         <h2>Inspiration</h2>
