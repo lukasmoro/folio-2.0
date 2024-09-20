@@ -62,7 +62,7 @@ function Work() {
         <div className="line-projects"></div>
         <div className="socials">
           <Link to="/play">
-            <p className="link">↳ Smaller Explorations</p>
+            <p className="link">↳ Explorations</p>
           </Link>
         </div>
         <div className="bottom-work"></div>

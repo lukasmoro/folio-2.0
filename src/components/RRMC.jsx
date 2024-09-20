@@ -57,6 +57,11 @@ function RRMC() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
           <h2>Phantom Scintilla Headliner Animation</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
+          <div className="grid">
+              <div className="row">
+                <img className="col" src="img/work/rrmc/P90564796_lowRes_phantom-scintilla-st.jpg"></img>
+              </div>
+          </div>
           <h2>Outcome & Learnings</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
         </div>

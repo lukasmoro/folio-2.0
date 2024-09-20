@@ -10,16 +10,11 @@ function Presence() {
           Presence · Spatial Computing for Staying in the Moment.
         </h1>
         <p className="spacer">⌘</p>
-        <video
-          className="banner"
-          src="img/work/presence/presencenew.mp4"
-          alt=""
-          controls
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <img
+            className="banner"
+            src="img/banner/presencebanner.jpg"
+            alt="banner of sensorium"
+          />
         <ul className="tools">
           <li className="tool">UNITY</li>
           <li className="tool">C#</li>
@@ -90,17 +85,29 @@ function Presence() {
         <h2>Process</h2>
         <p>During this project I applied a research-through-design approach. I started out with a primary research phase reading "Reality+" by David Chalmers, "Life 3.0" by Max Tegmark and "Tractatus Logico Philosphicus" by Ludwig Wittgenstein. Then I conducted many interactive sketches to develop a feeling for underlying technologies. Afterwards I conducted a secondary literature research about spatial interactions, built three prototypes to communicate and explored five interaction fundamentals and formulated my insights into a thesis.</p>
         <div className="grid-process">
-            <div className="row-process">
-              <div className="col-process"></div>
-              <div className="col-process"></div>
-              <div className="col-process"></div>
-              <div className="col-process"></div>
+          <div className="row-process">
+              <img className="col-process" src="img/work/presence/_report/7.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/10.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/14.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/15.png" alt="" />
             </div>
             <div className="row-process">
-              <div className="col-process"></div>
-              <div className="col-process"></div>
-              <div className="col-process"></div>
-              <div className="col-process"></div>
+            <img className="col-process" src="img/work/presence/_report/16.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/17.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/18.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/49.jpg" alt="" />
+            </div>
+            <div className="row-process">
+              <img className="col-process" src="img/work/presence/ideation.jpg" alt="" />
+              <img className="col-process" src="img/work/presence/_report/20.jpg" alt="" />
+              <img className="col-process" src="img/work/presence/_report/29.jpg" alt="" />
+              <img className="col-process" src="img/work/presence/_report/42.jpg" alt="" />
+            </div>
+            <div className="row-process">
+              <img className="col-process" src="img/work/presence/_report/47.png" alt="" />
+              <img className="col-process" src="img/work/presence/_report/30.jpg" alt="" />
+              <img className="col-process" src="img/work/presence/_report/34.jpg" alt="" />
+              <img className="col-process" src="img/work/presence/_report/35.jpg" alt="" />
             </div>
           </div>
         {/* <div className="grid">
@@ -184,6 +191,9 @@ function Presence() {
             <div className="row">
             <video className="col" src="img/work/presence/playerinterface.mp4" autoPlay muted loop playsInline></video>
             <video className="col" src="img/work/presence/playergesture.mp4" autoPlay muted loop playsInline></video>
+            </div>
+            <div className='row'>
+              <video className="centered-col" src="img/work/presence/playerspatial.mp4" autoPlay muted loop playsInline></video>
             </div>
         </div>
         <h2>Outcome</h2>

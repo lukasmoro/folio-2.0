@@ -48,6 +48,36 @@ function SpatialLabs() {
             ↳ TechCrunch
           </a>
         </div>
+        <h2>Avatar Configurator for Platform</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod quo, cupiditate esse eos, minus consectetur recusandae consequuntur laboriosam ipsam non soluta possimus sequi illum eligendi fugit rem architecto sunt.</p>
+        <div className="grid">
+          <div className="row">
+                <video className="col" src="img/work/spatiallabs/slabs4.mp4" autoPlay muted loop playsInline></video>
+          </div>
+        </div>
+        <h2>Motion Design & CGI for Website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo suscipit aliquam rem? Ab illum error nobis voluptas! Hic laudantium, in asperiores velit quod dolorem. Aperiam odio animi assumenda modi.</p>
+        <div className="grid">
+          <div className="row">
+                <video className="col" src="img/work/spatiallabs/slabs2.mp4" autoPlay muted loop playsInline></video>
+                <video className="col" src="img/work/spatiallabs/slabs3.mp4" autoPlay muted loop playsInline></video>
+          </div>
+        </div>
+        <h2>AR Filters</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, earum autem. Inventore ex fugiat harum aspernatur consequatur, iure quidem veniam voluptatem molestiae veritatis enim? Soluta dolorum rem assumenda. Veniam, accusamus!</p>
+        <div className="grid">
+          <div className="row">
+                <video className="centered-col" src="img/grid/orb.mp4" autoPlay muted loop playsInline></video>
+          </div>
+        </div>
+        <h2>Industrial Design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et exercitationem tenetur vero similique sequi minima blanditiis non hic maxime cum obcaecati perferendis id eligendi iusto amet dolorum, voluptas porro?</p>
+        <div className="grid">
+          <div className="row">
+                <img className="col" src="img/work/spatiallabs/iddris.jpg"></img>
+                <img className="col" src="img/preview/slabscovernew.png"></img>
+          </div>
+        </div>
         <h2>Outcome & Learnings</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis tenetur deleniti esse, veritatis vitae. Autem velit commodi maiores asperiores possimus, ab odit, tempore fuga explicabo rerum non sit labore.</p>
           <div className="bottom-work"></div>

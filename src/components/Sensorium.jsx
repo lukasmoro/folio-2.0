@@ -70,10 +70,16 @@ function Sensorium() {
           <h2>Process</h2>
           <p>With ten weeks to deliver a car interior and functional prototype the process was naturally fast-paced. As a team we established an effective time structure where after inital scoping and ideation, we worked on individual contributions that where then alligned in 3 weekly meetings discussing overall concept direction and alignement of outcomes. My contribution to the project was creating fast sketches to make our ideas experiencable when we had them, the idea of physarum as a core theme and the physical and technical prototyping.</p>
           <div className="grid-process">
+          <div className="row-process">
+              <img className="col-process" src="img/work/sensorium/sensoriumday1.jpg" alt="" />
+              <img className="col-process" src="img/work/sensorium/sensoriumdealership.jpg" alt="" />
+              <img className="col-process" src="img/work/sensorium/sensoriumbelt.png" alt="" />
+              <img className="col-process" src="img/work/sensorium/sensoriumsketcho1.jpg" alt="" />
+            </div>
             <div className="row-process">
-              <img className="col-process" src="img/work/sensorium/sensorium4.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium4.png" alt="" />
+              <img className="col-process" src="img/work/sensorium/sensorium3.png" alt="" />
               <img className="col-process" src="img/work/sensorium/sensorium6.png" alt="" />
+              <img className="col-process" src="img/work/sensorium/sensorium4.png" alt="" />
               <img className="col-process" src="img/work/sensorium/sensorium8.png" alt="" />
             </div>
             <div className="row-process">
