@@ -9,7 +9,7 @@ function Thought() {
       <div className="text-block">
         <div>
           <DayDate />
-          <h1> Writing.</h1>
+          <h1> Essays.</h1>
           <p className="spacer">⌘</p>
           <p>
             Writing about all kind of topics to make vague thoughts more concrete in the process. If you want to have a chat please{" "}

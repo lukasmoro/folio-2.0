@@ -1,6 +1,8 @@
 import React from "react";
 import DayDate from "./DayDate";
 
+// ADD LITTLE ANIMATED SVG SCRIBBLES ALL OVER THE WEBSITE FOR COMMENTS
+
 function Me() {
   return (
     <div className="container">
@@ -9,7 +11,7 @@ function Me() {
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designing and prototyping interactions to integrate virtual parts of life into <i>perceivable reality</i>. Currently, looking for freelance and permanent roles!
+            Designing and prototyping experiences to blur between digital and physical interaction for a fricitonless integration of computing into <i>perceivable reality</i>.
           </p>
           <p>
             Worked with{" "}
@@ -67,6 +69,11 @@ function Me() {
             </a>
           </div>
           <div className="socials">
+            <a className="link" href="https://x.com/lukas_moro">
+              ↳ Twitter
+            </a>
+          </div>
+          <div className="socials">
             <a
               className="link"
               target="_blank"
@@ -76,7 +83,7 @@ function Me() {
               ↳ CV
             </a>
           </div>
-          <div className="socials">
+          {/* <div className="socials">
             <a
               className="link"
               target="_blank"
@@ -85,7 +92,7 @@ function Me() {
             >
               ↳ Are.na
             </a>
-          </div>
+          </div> */}
           <div className="socials">
             <a className="link" href="mailto:lukas.moro@me.com">
               ↳ Email

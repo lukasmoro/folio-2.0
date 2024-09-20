@@ -58,7 +58,7 @@ function App() {
           shadow-camera-bottom={-50}
         />
         <ShadowPlane />
-        <FloatingGeometry path="glb/butterfly.glb" scale={[0.85, 0.85, 0.85]} />
+        <FloatingGeometry path="glb/butterfly.glb" scale={[0.85, 0.85, 0.85]}/>
       </Canvas>
 
             <Dock />

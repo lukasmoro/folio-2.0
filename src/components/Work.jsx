@@ -26,32 +26,17 @@ function Work() {
         <h1>Projects.</h1>
         <p className="spacer">⌘</p>
         <p>
-          Projects and explorations worked on over the past years. My favourites are{" "} 
-          <a
-              href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
-              target="_blank"
-              rel="noreferrer"
-              className="link"
-            >
-              Presence
-            </a>,{" "}
-            <a
-              href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
-              target="_blank"
-              rel="noreferrer"
-              className="link"
-            >
-             "Feels Like Paper!"{" "}
-            </a>  
-            and{" "} 
-            <a
-              href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
-              target="_blank"
-              rel="noreferrer"
-              className="link"
-            >
-             Sensorium
-            </a>.
+          Projects and explorations worked on over the past years. My favourites are{" "}
+          <Link to="/presence" className="link"> 
+            Presence
+          </Link>,{" "}
+          <Link to="/paper" className="link">   
+            "Feels Like Paper!"
+          </Link>,{" "}
+          and{" "}
+          <Link to="/sensorium" className="link">
+            Sensorium
+          </Link>.
         </p>
         <div className="line"></div>
         {WorkItem.map((item, index) => {

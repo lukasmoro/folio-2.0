@@ -89,11 +89,25 @@ function Presence() {
         </div>
         <h2>Process</h2>
         <p>During this project I applied a research-through-design approach. I started out with a primary research phase reading "Reality+" by David Chalmers, "Life 3.0" by Max Tegmark and "Tractatus Logico Philosphicus" by Ludwig Wittgenstein. Then I conducted many interactive sketches to develop a feeling for underlying technologies. Afterwards I conducted a secondary literature research about spatial interactions, built three prototypes to communicate and explored five interaction fundamentals and formulated my insights into a thesis.</p>
-        <div className="grid">
+        <div className="grid-process">
+            <div className="row-process">
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+            </div>
+            <div className="row-process">
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+              <div className="col-process"></div>
+            </div>
+          </div>
+        {/* <div className="grid">
             <div className="row">
               <img className="col" src="img/work/presence/plan.jpg" alt="graphic of process planning" />
             </div>
-        </div>
+        </div> */}
         <h2>Sketching</h2>
         <p>Some sketches in the beginning explored vague ideas about contextually assembled user interfaces, implicit semantic input and integration of IoT as well as the materiality of Meta Presence SDK, object detection with YOLO V8 in augmented reality, structural outputs with GPT-4, running different shaders on the Quest's effect mesh, building display-drivers for custom LED matrixes to interface Unity via TCP-IP, Meta Depth API and co-location with Unity Netcode.</p>
         <h2>Object Detection on Passthrough for Scene Semantics</h2>

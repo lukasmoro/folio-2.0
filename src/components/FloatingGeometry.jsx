@@ -5,7 +5,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { useAnimations } from '@react-three/drei';
 import * as THREE from 'three';
 
-const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
+const FloatingGeometry = ({ path, scale = [1, 1, 1], scaleUpDuration = 0.15 }) => {
   const meshRef = useRef();
 
   const gltf = useLoader(GLTFLoader, path);
@@ -15,6 +15,13 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
   const { width, height } = viewport;
 
   const time = useRef(0);
+  const scaleTime = useRef(0);
+
+  useEffect(() => {
+    if (meshRef.current) {
+      meshRef.current.scale.set(0, 0, 0);
+    }
+  }, []);
 
   useEffect(() => {
     gltf.scene.traverse((child) => {
@@ -37,7 +44,21 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
 
   useFrame(() => {
     if (!meshRef.current) return;
+
     time.current += 0.01;
+    scaleTime.current += 0.01;
+
+    if (scaleTime.current < scaleUpDuration) {
+      const scaleFactor = scaleTime.current / scaleUpDuration;
+      meshRef.current.scale.set(
+        scale[0] * scaleFactor,
+        scale[1] * scaleFactor,
+        scale[2] * scaleFactor
+      );
+    } else {
+      meshRef.current.scale.set(...scale);
+    }
+
     const amplitudeX = width / 2 - 1;
     const amplitudeY = height / 2 - 1;
     const amplitudeZ = 2;
@@ -64,7 +85,7 @@ const FloatingGeometry = ({ path, scale = [1, 1, 1] }) => {
   });
 
   return (
-    <primitive ref={meshRef} object={gltf.scene} scale={scale} />
+    <primitive ref={meshRef} object={gltf.scene} />
   );
 };
 
