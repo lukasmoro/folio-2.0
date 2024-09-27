@@ -115,6 +115,8 @@ function Presence() {
               <img className="col" src="img/work/presence/plan.jpg" alt="graphic of process planning" />
             </div>
         </div> */}
+        <h2>Primary Literature Research</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias exercitationem ea culpa non tempore modi minus neque, deleniti dolor? Iste quo fugit minima facere quia sint exercitationem velit beatae molestiae!</p>
         <h2>Sketching</h2>
         <p>Some sketches in the beginning explored vague ideas about contextually assembled user interfaces, implicit semantic input and integration of IoT as well as the materiality of Meta Presence SDK, object detection with YOLO V8 in augmented reality, structural outputs with GPT-4, running different shaders on the Quest's effect mesh, building display-drivers for custom LED matrixes to interface Unity via TCP-IP, Meta Depth API and co-location with Unity Netcode.</p>
         <h2>Object Detection on Passthrough for Scene Semantics</h2>
@@ -123,7 +125,7 @@ function Presence() {
         <div className="grid">
         <div className="row">
             <video className="col" src="img/work/presence/yolo.mp4" autoPlay muted loop playsInline></video>
-            <video className="col" src="" autoPlay muted loop playsInline></video>
+            <img className="col" src="img/preview/cvkitpreview.jpg" alt="YOLO V8 detections in Quest 3" />
             </div>
         </div>
         <h2>Metaphorical Interface through Structured Outputs from LLM</h2>
@@ -131,8 +133,8 @@ function Presence() {
         <p className='block-quote'>LLMs can be used as input system. With structured outputs as answers to prompts algorithms can be configured to generate a variety of different outputs besides text. The algorithm themselves can constrain the output to fit the context. </p>
         <div className="grid">
             <div className="row">
-              <img className="col" src="" alt="image of structured outputs" />
-              <video className="col" src="" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/presence/metaphorical1.mp4" autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/presence/metaphorical2.mp4" autoPlay muted loop playsInline></video>
             </div>
         </div>
         <h2>Light, Shadow & Occlusion between Physical & Virtual Objects</h2>
@@ -162,6 +164,8 @@ function Presence() {
               <video className="col" src="img/work/presence/coco.mp4" autoPlay muted loop playsInline></video>
             </div>
         </div>
+        <h2>Secondary Literature Research</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi illo quam quia accusantium maxime, nesciunt asperiores ratione laborum laudantium quos sunt qui vel aspernatur dolore, nobis quo adipisci nostrum ducimus!Ca</p>
         <h2>Prototyping</h2>
         <p>After literature review and building twelve sketches, three more refined prototypes experiencable in one common space were crafted for further exploration of the potential of embodied software in the world.</p>
         <h2>Conversational Memory Portal</h2>

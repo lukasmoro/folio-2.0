@@ -64,6 +64,12 @@ function RRMC() {
           </div>
           <h2>Outcome & Learnings</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
+          <div className="grid">
+              <div className="row">
+                <img className="col" src="img/work/rrmc/rrmc1.png"></img>
+                <img className="col" src="img/work/rrmc/rrmc2.png"></img>
+              </div>
+          </div>
         </div>
           <div className="bottom-work"></div>
       </div>

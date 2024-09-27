@@ -18,7 +18,7 @@ function Sensorium() {
           <p className="spacer">⌘</p>
           <img
             className="banner"
-            src="img/work/sensorium/sensorium.jpg"
+            src="img/banner/sensoriumbanner.png"
             alt="banner of sensorium"
           />
         <ul className="tools"><li className="tool">UNITY</li><li className="tool">C#</li><li className="tool">URP</li><li className="tool">BLENDER</li><li className="tool">ARDUINO</li><li className="tool">FIGMA UNITY BRIDGE</li><li className="tool">ULTRALEAP SDK</li><li className="tool">TCP/IP</li><li className="tool">GPGPU</li><li className="tool">RHINO 3D</li><li className="tool">TABLESAW</li><li className="tool">WOODGLUE</li><li className="tool">PRUSA</li></ul>
@@ -219,22 +219,22 @@ function Sensorium() {
         <h2>Haptic Seatbelts</h2>
         <p>With our autonomous concept we assumed the need for a deeper connection between passengers and the car. Therefore we came up with haptic seatbelts which depending on the situation of the car through tensioning and releasing either give a thrilling or a comforting haptic feedback to the passengers.</p>
         <div className="grid">
-              <div className="row">
-                <video className="col" src="img/work/sensorium/sensoriumdigitaltwin3.mp4" autoPlay muted loop playsInline></video>
-                <div className="col" src="" alt="" />
-              </div>
-              <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium18.png" alt="image of wearable" />
+            <div className="row">
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin3.mp4" autoPlay muted loop playsInline></video>
+              <img className="col" src="img/work/sensorium/sensorium17.jpg" alt="video of sketch small proto" />
             </div>
-          </div>
+            <div className="row">
+              <video className="col" src="img/work/sensorium/sensoriumactuators.mp4" autoPlay muted loop playsInline></video>
+            </div>
+        </div>
         <p>This was prototyped through four HS422 servos mounted to linear actuators at the end of the seatbelts. The servos are controlled by hard-coded events on their Arduino Uno micro-controller, which are triggerd from the Unity main application via another serial port during sensed situations. The events are soft pull (as welcoming gesture from the car), hard pull (as protective signal in emergencies), left and right pull (when actively driving to emphasise the feeling of the curve) and release (as indicator that a passenger is now controlling the car).</p>
         <div className="grid">
               <div className="row">
-                <div className="col" src="" alt="" />
+              <img className="col" src="img/work/sensorium/sensorium17.jpg" alt="video of sketch small proto" />
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline></video>
               </div>
               <div className="row">
-                <img className="col" src="img/work/sensorium/sensorium18.png" alt="image of wearable" />
+              <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
         <h2>Spatial Projections & Dashboard</h2>
@@ -242,31 +242,21 @@ function Sensorium() {
         <div className="grid">
               <div className="row">
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin10.mp4" autoPlay muted loop playsInline></video>
-                <div className="col" src="" alt="" />
+                <video className="col" src="img/work/sensorium/sensoriumprojection1.mp4" autoPlay muted loop playsInline></video>
               </div>
-              <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium18.png" alt="image of wearable" />
-            </div>
           </div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus soluta tempora enim iusto exercitationem excepturi asperiores pariatur? Dolore, labore error magni et in nihil accusantium nulla? Alias necessitatibus unde possimus?</p>
+          <p>Audio-reactive shader. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus soluta tempora enim iusto exercitationem excepturi asperiores pariatur? Dolore, labore error magni et in nihil accusantium nulla? Alias necessitatibus unde possimus?</p>
           <div className="grid">
               <div className="row">
-                <div className="col" src="" alt="" />
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin5.mp4" autoPlay muted loop playsInline></video>
+                <video className="col" src="img/work/sensorium/sensoriumprojection2.mp4" autoPlay muted loop playsInline></video>
               </div>
-              <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium18.png" alt="image of wearable" />
-            </div>
           </div>
         <p>The third projection houses the dashboard of the car. It was designed by Regina in Figma and the ported to Unity and animated by me. All visuals including the interface on the dashboard are controlled by the same Unity application. This allows for a coherent, synchronised and spatial user experience, where all elements are updated with input changes from user or environment.</p>
         <div className="grid">
               <div className="row">
-                <video className="col" src="img/work/sensorium/sensoriumdigitaltwin3.mp4" autoPlay muted loop playsInline></video>
-                <div className="col" src="" alt="" />
+                <video className="col" src="img/work/sensorium/sensoriumprojection3.mp4" autoPlay muted loop playsInline></video>
               </div>
-              <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium18.png" alt="image of wearable" />
-            </div>
           </div>
         <h2>Digital Twin</h2>
         <p>The application controlling the prototype contains a geometry of the final interior shape that mirror's the behaviour of the physical prototype. This digital twin was used to evaluate the visuals in the context of the final interior shape. To make data-flows leading to behaviours more visible spheres were added at the postions of the sensors and actuators. When a sensor or actuator is active those spheres blink either in green for sensors or in pink for actuators.</p>

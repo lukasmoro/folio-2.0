@@ -78,16 +78,11 @@ function CVKit() {
          CV Kit for Quest 3 · Unity Plugin for XR Hack.
         </h1>
         <p className="spacer">⌘</p>
-        <video
-          className="banner"
-          src=""
-          alt=""
-          controls
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <img
+            className="banner"
+            src="img/work/sensorium/sensorium.jpg"
+            alt="banner of sensorium"
+          />
         <ul className="tools">
           <li className="tool">UNITY</li>
           <li className="tool">C#</li>
