@@ -554,3 +554,9 @@ video
   background-color: #f9f9f9;
   border-left: 3px solid #ccc;
 }
+
+.infographic{
+  box-shadow: none;
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+}

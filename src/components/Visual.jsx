@@ -91,7 +91,7 @@ function Visual() {
           <div className="grid">
               <div className="row">
               <img className="col" src=""></img>
-              <img className="col" src="img/grid/toori.png"></img>
+              <img className="col" src="img/grid/"></img>
               </div>
           </div>
           <div className="bottom-work"></div>

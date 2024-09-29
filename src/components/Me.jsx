@@ -11,7 +11,7 @@ function Me() {
           <h1>Lukas Moro.</h1>
           <p className="spacer">⌘</p>
           <p>
-            Designing and prototyping experiences to blur between digital and physical interaction for a fricitonless integration of computing into <i>perceivable reality</i>.
+            Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.
           </p>
           <p>
             Worked with{" "}
