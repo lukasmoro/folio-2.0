@@ -5,7 +5,7 @@
     "date": "2024",
     "sideproject": false,
     "preview":"img/preview/paperpreview.png",
-    "src": "img/work/paper/paper1.png",
+    "src": "img/preview/papercover.png",
     "to": "/paper"
   },
   {
@@ -14,7 +14,7 @@
     "date": "2024",
     "sideproject": false,
     "preview":"img/preview/cvkitpreview.jpg",
-    "src": "img/preview/cvkitpreview.jpg",
+    "src": "img/preview/cvkit1.png",
       "to": "/cvkit"
   },
   {
@@ -32,7 +32,7 @@
     "date": "2023",
     "sideproject": true,
     "preview":"img/preview/sensoriumpreview.png",
-    "src": "img/preview/sensoriumcover.jpg",
+    "src": "img/preview/sensoriumcover.png",
     "to": "/sensorium"
   },
   {

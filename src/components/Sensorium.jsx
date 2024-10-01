@@ -11,6 +11,12 @@ function CupraWearable() {
   return <primitive object={scene} />;
 }
 
+function CupraSensorsActuators() {
+  const { scene } = useGLTF('glb/cuprasensoriumsensoractuators.glb');
+  
+  return <primitive object={scene} />;
+}
+
 function Sensorium() {
 
   return (
@@ -74,7 +80,7 @@ function Sensorium() {
           <iframe width="600" height="315" src="https://www.youtube.com/embed/CvNsjwZBVPE?si=QSuC1epmu9y6eMOm"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <h2>Process</h2>
           <p>With ten weeks to deliver a car interior and functional prototype the process was naturally fast-paced. As a team we established an effective time structure where after inital scoping and ideation, we worked on individual contributions that where then alligned in 3 weekly meetings discussing overall concept direction and alignement of outcomes. My contribution to the project was creating fast sketches to make our ideas experiencable when we had them, the idea of physarum as a core theme and the physical and technical prototyping.</p>
-          <div className="grid-process">
+          {/* <div className="grid-process">
           <div className="row-process">
               <img className="col-process" src="img/work/sensorium/sensoriumday1.jpg" alt="" />
               <img className="col-process" src="img/work/sensorium/sensoriumdealership.jpg" alt="" />
@@ -93,14 +99,15 @@ function Sensorium() {
               <img className="col-process" src="img/work/sensorium/sensorium11.png" alt="" />
               <img className="col-process" src="img/work/sensorium/sensorium13.png" alt="" />
             </div>
-          </div>
+          </div> */}
           <h2>Sketching</h2>
-          <p>Our limited time schedule forced us to enter concept stage without conducting much user-research. In order to validate and discuss our ideas quick technical sketches to experience them first hand were created. Sketches conducted included real-time projections in combination with wizard-of-oz haptic seat-belts, unlocking and mixing experiences through RFID tags and controlling actuation and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for speed.</p>
+          <p>To validate and discuss our ideas quickly technical sketches to experience them first hand were created.</p>
           <div className="grid">
           <div className="row">
               <video className="col" src="img/work/sensorium/sensoriumnfc.mp4" autoPlay muted loop playsInline />
               <img className="col" src="img/work/sensorium/sensorium2.png" alt="" />
             </div>
+          <p>Sketches conducted included real-time projections in combination with wizard-of-oz haptic seat-belts, unlocking and mixing experiences through RFID tags and controlling actuation and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for speed.</p>
             <div className="row">
               <img className="col" src="img/work/sensorium/sensorium5.png" alt="image of small proto" />
               <video className="col" src="img/work/sensorium/lilseat.mp4" autoPlay muted loop playsInline></video>
@@ -108,18 +115,18 @@ function Sensorium() {
           </div>
           <h2>Prototyping</h2>
           <p>The goal for the prototype was to make the user-journey we mapped out experiencable first-hand, while being controlled by a digital twin putting Rohit's design for the interior geometry in context of the experience. The user-journey consisted of the following moments:</p>
-          <ul className="numbered-list">
+          <ul className="dotted-list">
             <li>Launching the physarum projections when getting close to the car.</li>
             <li>Haptic feedback on the wearable when in direct proximity as a welcoming signal.</li>
             <li>Personalising the experience and launching instrument panel through the wearable.</li>
             <li>Tensioning of the seat-belts to comfort the passenger.</li>
             <li>Starting the driving via a hand-gesture signaling a hand-over of personal data.</li>
             <li>Physarum reacting to personal and audio data.</li>
-            <li>Taking over the steering throuwgh another hand gesture with physarum dimming down for better focus.</li>
+            <li>Taking over control with a hand gesture. Physarum dimming down for better focus.</li>
             <li>Controlling the car through hand translation and rotation.</li>
             <li>Physarum changes colour saturation based on heart-beat of the driver.</li>
-            <li>Asymetric haptic feedback on seatbelts and wearable to emphasize driving experience in curves.</li>
-            <li>All events synchronised on digital twin. To illustrate experience within final interior design.</li>
+            <li>Asymetric haptic feedback on seatbelts and wearable for thrilling curve experience.</li>
+            <li>All events synchronised with and controlled by digital twin.</li>
           </ul>
           <h2>Digital Twin</h2>
         <p>The application controlling the prototype contains a geometry of the final interior shape that mirror's the behaviour of the physical prototype. This digital twin was used to evaluate the visuals in the context of the final interior shape. To make data-flows leading to behaviours more visible spheres were added at the postions of the sensors and actuators. When a sensor or actuator is active those spheres blink either in green for sensors or in pink for actuators.</p>
@@ -130,14 +137,17 @@ function Sensorium() {
           </div>
         <h2>Sensors</h2>
         <p>The prototype perceives the world through an IR distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle. The sensors are visualised as green spheres in the digital twin. If active they light up.</p>
-        <div className="canvas-container">
-          <Canvas gl={{antialias: true, toneMapping: CineonToneMapping, }} camera={{ position: [0, 1.5, -2.2] }}>
-            <AdaptiveDpr pixelated />
-            <OrbitControls />
-            <Splat src="https://huggingface.co/datasets/lukasmoro/gaussiansplatssensorium/resolve/main/gs_Sensorium-round.splat" />
+        <div className="canvas-container-sensorium">
+          <Canvas gl={{antialias: true, toneMapping: CineonToneMapping, }} camera={{ position: [0, 1.7, -2.5], zoom:1.2}}>
+            <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} />
+            <group position={[-0.15, 0.15, 0.3]} rotation={[0, Math.PI / 3.6, 0]}>
+              <CupraSensorsActuators />
+              <Splat
+                position={[0, 0.1, 0.075]}
+                src="https://huggingface.co/datasets/lukasmoro/gaussiansplatssensorium/resolve/main/gs_Sensorium-round.splat"
+              />
+            </group>
             <Environment files="hdri/rosendal_park_sunset_puresky_2k.hdr" />
-
-
           </Canvas>
         </div>
         <h2>Actuators</h2>
@@ -186,11 +196,8 @@ function Sensorium() {
         <p>This was prototyped through four HS422 servos mounted to linear actuators at the end of the seatbelts. The servos are controlled by hard-coded events on their Arduino Uno micro-controller, which are triggerd from the Unity main application via another serial port during sensed situations. The events are soft pull (as welcoming gesture from the car), hard pull (as protective signal in emergencies), left and right pull (when actively driving to emphasise the feeling of the curve) and release (as indicator that a passenger is now controlling the car).</p>
         <div className="grid">
               <div className="row">
-              <img className="col" src="img/work/sensorium/sensorium17.jpg" alt="video of sketch small proto" />
+                <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline></video>
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline></video>
-              </div>
-              <div className="row">
-              <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
           <h2>Handtracking</h2>
