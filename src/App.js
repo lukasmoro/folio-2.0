@@ -54,13 +54,9 @@ function App() {
             shadow-camera-top={50}
             shadow-camera-bottom={-50}
           />
-          
-          {/* Add the HDRI Environment here */}
           <Environment 
             files="hdri/rosendal_park_sunset_puresky_2k.hdr"
-
           />
-          
           <ShadowPlane />
           <FloatingGeometry path="glb/butterfly/output-model.gltf" scale={[0.175, 0.175, 0.175]} />
         </Canvas>

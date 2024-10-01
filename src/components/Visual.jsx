@@ -24,9 +24,9 @@ function Visual() {
           <li className="tool">OPENAI API</li>
           <li className="tool">QUEST 3</li>
         </ul>
-          <p>Exploring meaning and materiality of technologies and aesthetics through little side-projects exposed to my friends.</p>
-          <h2>Reactive Projections for Raves</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit alias unde atque placeat enim perferendis, nesciunt nam temporibus officiis excepturi vitae amet quam neque voluptas rerum, pariatur deleniti consectetur doloribus.</p>
+          <p>Exploring experiental properties and materiality of technologies and aesthetics through little side-projects exposed to my friends.</p>
+          <h2>Real-time Projections for Raves</h2>
+          <p>Interactive visualisers in Unity for raves and parties. Reactive to different inputs like MIDI and audio-frequencies.</p>
             <div className="grid">
               <div className="row">
                 <video className="col" src="img/grid/aliensBW.mp4" autoPlay muted loop playsInline></video>
@@ -37,14 +37,14 @@ function Visual() {
               </div>
             </div>
           <h2>Pixel Art Generator</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima a, excepturi nostrum amet aliquam labore? Officia nemo consequuntur ea rerum enim, temporibus similique possimus, deserunt illo quam, earum harum itaque?</p>
+          <p>Prompting the ChatGPT API to draw an image in an 8x8 grid, outputting it on an LED matrix through Serial. Built with React and Arduino, in collaboration with Kay van den Aker.</p>
           <div className="grid">
               <div className="row">
                 <img className="col" src="img/grid/gridptscreenshot.png"></img>
                 <video className="col" src="img/grid/gridpt.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est explicabo repellendus eaque sapiente atque placeat, beatae laudantium alias dolores amet quasi aliquid soluta odit dolorum voluptates voluptatem a. Repudiandae, libero?</p>
+          <p>Prompts for the outputs below were "Space Invader", "Heart" and "Butterfly". Those were then visualised by ChatGPT as a 8x8 bitmap.</p>
           <div className="grid">
               <div className="row">
                 <img className="col" src="img/grid/invader.jpg"></img>
@@ -55,7 +55,7 @@ function Visual() {
               </div>
           </div>
           <h2>Form Study of Speed</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit sint molestias aperiam adipisci optio porro accusamus, asperiores sequi minus inventore unde doloribus quos laudantium dolores explicabo, cum tempore similique!</p>
+          <p>A shape resembling dynamism and speed from old days as an industrial designer. First rendered in Photoshop, then modeled in clay and 3D modeled together with Nathanael Boell.</p>
           <div className="grid">
               <div className="row">
                 <img className="col" src="img/grid/speedform.png"></img>
@@ -63,7 +63,7 @@ function Visual() {
               </div>
             </div>
           <h2>3D-Scan of Head</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, corporis deleniti aliquam doloribus quod ea ut sequi voluptatem. Dignissimos ad id numquam ipsam omnis aut corrupti nesciunt repellat ullam deserunt.</p>
+          <p>Photogrametry experiments together with Heinrich Zaunschirm. Used Agisoft Metashape and Blender for rendering.</p>
           <div className="grid">
               <div className="row">
               <img className="col" src="img/grid/3dscanme.png"></img>
@@ -71,7 +71,7 @@ function Visual() {
               </div>
             </div>
           <h2>Weather-Reactive 3D Experience</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, cumque quas? Non, itaque velit hic veniam quod beatae ut laudantium vero animi necessitatibus inventore saepe dolor, fugiat nisi nesciunt qui.</p>
+          <p>Sculpture of a Yoshua Tree running on Quest 3. Connected to OpenWeather API to mirror weather situation at Southern California Vipassana Center.</p>
           <div className="grid">
               <div className="row">
                 <video className="col" src="img/grid/weather.mp4" autoPlay muted loop playsInline></video>
@@ -79,7 +79,7 @@ function Visual() {
               </div>
             </div>
           <h2>Procedural Geometry Explorations</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam corporis iste, neque, nulla consectetur, nobis earum dolor id officia at nemo sit veniam quia reiciendis ea veritatis fugiat voluptatem repellendus.</p>
+          <p>Visuals exploring different modelling techniques in Blender. The right one uses Phyllotaxis growth fot positioning the Oscars.</p>
           <div className="grid">
               <div className="row">
                 <video className="col" src="img/grid/lucit.mp4" autoPlay muted loop playsInline></video>
@@ -87,11 +87,11 @@ function Visual() {
               </div>
           </div>
           <h2>Desk Lamp</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odit alias debitis ea temporibus sunt magnam soluta dolore, voluptatem voluptates veniam saepe. Asperiores sint molestiae ipsa ex similique fuga labore.</p>
+          <p>Industrial design of a desk lamp made out of PMMA and copper. The PMMA was heated in an oven for bending it.</p>
           <div className="grid">
               <div className="row">
               <img className="col" src=""></img>
-              <img className="col" src="img/grid/"></img>
+              <img className="col" src="img/grid/toori.png"></img>
               </div>
           </div>
           <div className="bottom-work"></div>

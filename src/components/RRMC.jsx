@@ -27,8 +27,8 @@ function RRMC() {
         </ul>
         <h2>In-Short</h2>
         <p>
-          At Rolls-Royce Motorcars I worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
-          I prototyped virtual experiences for general purpose operating systems and embedded systems.
+          Worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
+          Prototyped virtual experiences for general purpose operating systems and embedded systems. Most of the work is under NDA unfortunately.
         </p>
         <div className="socials">
           <a

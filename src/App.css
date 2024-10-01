@@ -233,8 +233,9 @@ path {
   height: 300px;
   width: 300px;
   background-color: #f0f0f0;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-bottom: 1rem;
 }
 
 .grid-process {
@@ -471,14 +472,25 @@ video
 .canvas-container {
   box-sizing: border-box;
   width: 100%; 
-  height: 300px;
+  height: 400px;
   margin: 0;
   padding: 0;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   cursor: grab;
-  
+}
+
+.canvas-container-wearable {
+  box-sizing: border-box;
+  width: 100%; 
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: grab; 
 }
 
 .canvas-container canvas {
@@ -499,7 +511,7 @@ video
 
 .numbered-list
 {
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   margin-bottom: 1rem;
 }
 

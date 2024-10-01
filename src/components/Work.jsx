@@ -26,7 +26,7 @@ function Work() {
         <h1>Projects.</h1>
         <p className="spacer">⌘</p>
         <p>
-          Projects and Explorations I worked on over the past years. My current favourites are{" "}
+          Projects and explorations worked on over the past years. My current favourites are{" "}
           <Link to="/presence" className="link"> 
             Presence
           </Link>,{" "}
