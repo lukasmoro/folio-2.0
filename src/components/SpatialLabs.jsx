@@ -26,7 +26,7 @@ function SpatialLabs() {
           </ul>
         <h2>In-Short</h2>
         <p>
-          During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. 
+          During my time consulting for Spatial Labs I worked on multiple projects including a game-ready set of avatars, CGI for the corporate identity and Spark Studio filters. Much of the work is under NDA.
         </p>
         <div className="socials">
           <a
@@ -49,14 +49,14 @@ function SpatialLabs() {
           </a>
         </div>
         <h2>Avatar Configurator for Platform</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod quo, cupiditate esse eos, minus consectetur recusandae consequuntur laboriosam ipsam non soluta possimus sequi illum eligendi fugit rem architecto sunt.</p>
+        <p>Designed, modeled, textured and animated a range of avatar's and assets for the core platform together with the engineering team.</p>
         <div className="grid">
           <div className="row">
                 <video className="col" src="img/work/spatiallabs/slabs4.mp4" autoPlay muted loop playsInline></video>
           </div>
         </div>
         <h2>Motion Design & CGI for Website</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo suscipit aliquam rem? Ab illum error nobis voluptas! Hic laudantium, in asperiores velit quod dolorem. Aperiam odio animi assumenda modi.</p>
+        <p>Together with <a href="">Hunter Martin</a> we designed the corporate homepage for the first launch. Created many different motion designs of the products for scrollable animations.</p>
         <div className="grid">
           <div className="row">
                 <video className="col" src="img/work/spatiallabs/slabs2.mp4" autoPlay muted loop playsInline></video>
@@ -64,14 +64,14 @@ function SpatialLabs() {
           </div>
         </div>
         <h2>AR Filters</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, earum autem. Inventore ex fugiat harum aspernatur consequatur, iure quidem veniam voluptatem molestiae veritatis enim? Soluta dolorum rem assumenda. Veniam, accusamus!</p>
+        <p>Developed AR filters in Spark AR and web-applications for them in React Three Fiber for a collection of clothing.</p>
         <div className="grid">
           <div className="row">
                 <video className="centered-col" src="img/grid/orb.mp4" autoPlay muted loop playsInline></video>
           </div>
         </div>
         <h2>Industrial Design</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam et exercitationem tenetur vero similique sequi minima blanditiis non hic maxime cum obcaecati perferendis id eligendi iusto amet dolorum, voluptas porro?</p>
+        <p>Involved in multiple products industrial design. Incuding the LNQ Core 1 badge.</p>
         <div className="grid">
           <div className="row">
                 <img className="col" src="img/work/spatiallabs/iddris.jpg"></img>

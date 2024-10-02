@@ -75,7 +75,7 @@ function Visual() {
           <div className="grid">
               <div className="row">
                 <video className="col" src="img/grid/weather.mp4" autoPlay muted loop playsInline></video>
-                <video className="col" src="" autoPlay muted loop playsInline></video>
+                <img className="col" src="img/grid/joshua.png"></img>
               </div>
             </div>
           <h2>Procedural Geometry Explorations</h2>

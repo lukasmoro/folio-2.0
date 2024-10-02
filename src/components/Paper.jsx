@@ -77,19 +77,20 @@ function Paper() {
           <p>The intricate user experience of physical paper is unmatched for tasks like reading books, doing quick notes and scribbles or crossing off a do-to list. </p>
           <p className='block-quote'>"Feels like Paper!" are three prototypes that strive to give physical paper the dynamism, agency and retention of computation, while keeping the dexterity, persistence and haptics enabled by it.</p>
         <h2>Inspiration</h2>
-          <p>The main inspiration for this project stems from Apple's "Math Notes" feature, "Dynamicland" by Bret Victor and "Inkbase: Programmable Ink" by Ink & Switch.</p>
+          <p>The main inspiration for this project stems from Apple's <a href="https://www.apple.com/newsroom/2024/06/ipados-18-introduces-powerful-intelligence-features-and-apps-for-apple-pencil/">"Math Notes"</a> feature, <a href="https://dynamicland.org/">"Dynamicland"</a> by <a href="https://worrydream.com/">Bret Victor</a> and <a href="https://www.inkandswitch.com/inkbase/">"Inkbase: Programmable Ink"</a> by <a href="https://www.inkandswitch.com">Ink & Switch</a>.</p>
           <div className="grid">
             <div className="row">
               <img className='infographic' src="img/work/paper/infographicpaper.png" alt="Spatial Anchor"></img>
             </div>
           </div>
           <div className="grid">
-            <p><a href="">Keichii Matsuda</a> wrote a manifesto called "GODS". In it he describes that the culmination</p>
+            <p><a href="https://liquid.city/">Keichii Matsuda</a> wrote a manifesto called <a href="https://drive.google.com/file/d/1UyqFX3zKHOkBlM0M5ggrmYjqa5WxtkRo/view?usp=drivesdk">"GODS"</a>. In it he describes an anaphor for augmented reality rooted in pagan animism. Unlike monotheistic Western approaches of interfacing artificial intelligence like ChatGPT or Siri, he advocates to leverage the possibility of augmented reality technologies to extend places and objects to populate the world with many different agents or "gods". This polytheistic approach inspired by Shintoism offers potential for humane interfaces with AI through many small not all knowing helpers that are scattered around an user's perception, contrary to the image of one singular source of truth that needs to be consulted for every kind of advice.</p>
             <div className="row">
-              <img className="col" src="img/work/paper/tsukumogami.jpg" alt="Stream Diffusion & Touchdesigner"></img>
+              <img className="col" src="img/work/paper/tsukumogami.png" alt="Stream Diffusion & Touchdesigner"></img>
               <img className="col" src="img/work/paper/calcifer.jpeg" alt="Stream Diffusion & Touchdesigner"></img>
             </div>
           </div>
+          <p>In his manifesto Keichii uses Japanese Tsukumogamis and Calcifer as examples. As a fan of "Howl's Moving Castle" this clicked with me right away.</p>
         <h2>Design</h2>
           <p>For designing the prototypes implicit interactions were prioritised over explicit one's to keep the experiences simple and direct and prevent more complexity then with an unaugmented sheet of paper.</p>
           <p>When designing with generative AI interfaces the focus shifted from communicating feelings of an extension of self towards a muse inspiring one's work. The goal was to gain understanding of what a tool should feel like to maximise learning and prevent off-loading.</p>

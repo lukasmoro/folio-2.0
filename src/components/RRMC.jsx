@@ -27,8 +27,8 @@ function RRMC() {
         </ul>
         <h2>In-Short</h2>
         <p>
-          Worked on bespoke virtual experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
-          Prototyped virtual experiences for general purpose operating systems and embedded systems. Most of the work is under NDA unfortunately.
+          Worked on multiple bespoke digital experiences and helped to define processes and system-architecture in close collaboration with engineering and design. 
+          Prototyped digital experiences for general purpose operating systems and embedded systems. Most of the work is under NDA unfortunately.
         </p>
         <div className="socials">
           <a
@@ -50,13 +50,14 @@ function RRMC() {
             ↳ Phantom Scintilla
           </a>
           <h2>Developing Toolchains for Bespoke Digital Experiences</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
-          <h2>Prototypes for Cullinan</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
-          <h2>Prototypes for Spectre</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
+          <p>Created a prototyping workflow for developing digital experiences in virtual reality for validation with material samples and color variations. Those virtual themes were deployed to run on a prototyping buck with real components. Helped developing digital themes in Unity that were running on an embedded system for validation and benchmarking. The themes themselves are under NDA still the image below is of symbolic character.</p>
+          <div className="grid">
+              <div className="row">
+                <img className="col" src="img/work/rrmc/spectre.jpg"></img>
+              </div>
+          </div>
           <h2>Phantom Scintilla Headliner Animation</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
+          <p>Different animation sequences for the Starlight Headliner of Rolls-Royce Phantom Scintilla in Unity that are available in the car now.</p>
           <div className="grid">
               <div className="row">
                 <img className="col" src="img/work/rrmc/P90564796_lowRes_phantom-scintilla-st.jpg"></img>
