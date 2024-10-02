@@ -1,9 +1,8 @@
 import React, { Suspense } from 'react';
 import DayDate from "./DayDate.jsx";
 import { Canvas } from '@react-three/fiber';
-// import Splat from './Splat.jsx';
 import { CineonToneMapping} from 'three';
-import { Splat, AdaptiveDpr, OrbitControls, Environment, useGLTF} from '@react-three/drei'; 
+import { Splat, OrbitControls, Environment, useGLTF} from '@react-three/drei'; 
 
 function CupraWearable() {
   const { scene } = useGLTF('glb/cuprawearable.glb');
@@ -79,35 +78,24 @@ function Sensorium() {
           <p>Once a member enters an ordered car they can choose to personalise their experience, consisting of spatial projections, music and haptic feedback on the wearable and seat-belts, through a handgesture. Then the feeding and retention environment of the physarum "growing" in the car picks up the person's data from historic rides, the biometrics measured by the wearable and the current situation of the car which leads to an unique pattern of growth. This pattern of growth communicates cues about the passenger's state and personality to the other passengers and facilitates interactions between different tribal members and a strong connection to Cupra as a brand as it becomes a mean of expression to the passenger.</p>
           <iframe width="600" height="315" src="https://www.youtube.com/embed/CvNsjwZBVPE?si=QSuC1epmu9y6eMOm"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <h2>Process</h2>
-          <p>With ten weeks to deliver a car interior and functional prototype the process was naturally fast-paced. As a team we established an effective time structure where after inital scoping and ideation, we worked on individual contributions that where then alligned in 3 weekly meetings discussing overall concept direction and alignement of outcomes. My contribution to the project was creating fast sketches to make our ideas experiencable when we had them, the idea of physarum as a core theme and the physical and technical prototyping.</p>
-          {/* <div className="grid-process">
-          <div className="row-process">
-              <img className="col-process" src="img/work/sensorium/sensoriumday1.jpg" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensoriumdealership.jpg" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensoriumbelt.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensoriumsketcho1.jpg" alt="" />
-            </div>
-            <div className="row-process">
-              <img className="col-process" src="img/work/sensorium/sensorium3.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium6.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium4.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium8.png" alt="" />
-            </div>
-            <div className="row-process">
-              <img className="col-process" src="img/work/sensorium/sensorium9.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium12.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium11.png" alt="" />
-              <img className="col-process" src="img/work/sensorium/sensorium13.png" alt="" />
-            </div>
-          </div> */}
+          <p>With ten weeks to deliver a car interior and functional prototype the process was fast-paced. As a team we established an effective time structure where after inital scoping and ideation, we worked on individual contributions that where then alligned in 3 weekly meetings discussing overall concept direction and alignement of outcomes. My contribution to the project was creating fast sketches to make our ideas experiencable when we had them, the idea of physarum as a core theme and the physical and technical prototyping.</p>
           <h2>Sketching</h2>
           <p>To validate and discuss our ideas quickly technical sketches to experience them first hand were created.</p>
+          <div className="grid">
+          <div className="row">
+              <img className="col" src="img/work/sensorium/sensoriumday1.jpg" alt="" />
+              <img className="col" src="img/work/sensorium/sensoriumbelt.png" alt="" />
+            </div>
+          </div>
+          <p>First sketches included real-time projections in combination with wizard-of-oz haptic seat-belts and unlocking and mixing experiences through RFID tags.</p>
           <div className="grid">
           <div className="row">
               <video className="col" src="img/work/sensorium/sensoriumnfc.mp4" autoPlay muted loop playsInline />
               <img className="col" src="img/work/sensorium/sensorium2.png" alt="" />
             </div>
-          <p>Sketches conducted included real-time projections in combination with wizard-of-oz haptic seat-belts, unlocking and mixing experiences through RFID tags and controlling actuation and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for speed.</p>
+          </div>
+          <p> Later sketches included controlling actuation, shaders for projection and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for speed.</p>
+            <div className='grid'>
             <div className="row">
               <img className="col" src="img/work/sensorium/sensorium5.png" alt="image of small proto" />
               <video className="col" src="img/work/sensorium/lilseat.mp4" autoPlay muted loop playsInline></video>
@@ -136,7 +124,7 @@ function Sensorium() {
               </div>
           </div>
         <h2>Sensors</h2>
-        <p>The prototype perceives the world through an IR distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle. The sensors are visualised as green spheres in the digital twin. If active they light up.</p>
+        <p>The prototype perceives the world through an IR distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle.</p>
         <div className="canvas-container-sensorium">
           <Canvas gl={{antialias: true, toneMapping: CineonToneMapping, }} camera={{ position: [0, 1.7, -2.5], zoom:1.2}}>
             <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} />
@@ -201,32 +189,29 @@ function Sensorium() {
               </div>
           </div>
           <h2>Handtracking</h2>
-        <p>Gestures are the main interaction paradigm with the vehicle. A grab and release gesture is performed for handing over one's personal data. Touching the interior at a cerain position for taking over the steering. Global X translation and local Y rotation of the left hand are used for steering. All those gestures are accompanied by haptic feedback on wearable and seatbelts.</p>
+        <p>Gestures are the main interaction paradigm with the vehicle. A grab and release gesture is performed for handing over one's personal data. Touching the interior at a certain position for taking over the steering. Global X translation and local Y rotation of the left hand are used for steering. All those gestures are accompanied by haptic feedback on wearable and seatbelts and change the states of the instrument panel and shaders.</p>
         <div className="grid">
               <div className="row">
               <video className="col" src="img/work/sensorium/sensoriumhandtracking1.mp4" autoPlay muted loop playsInline></video>
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin4.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
-          <p>It is implemented through a Leap Motion that is directly integrated into the Unity application via Ultraleap's SDK.</p>
+          <p>They are implemented through a Leap Motion that is integrated into the Unity application via Ultraleap's SDK and variations of its standard gestures, collision volumes and translation/rotation of the hands.</p>
           <div className="grid">
               <div className="row">
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin7.mp4" autoPlay muted loop playsInline></video>
-                <img className="col" src="img/work/sensorium/sensorium14.jpg" alt="video of sketch small proto" />
+                <video className="col" src="img/work/sensorium/sensoriumhandtracking2.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
-          <div className="row">
-              <video className="col" src="img/work/sensorium/sensoriumhandtracking2.mp4" autoPlay muted loop playsInline></video>
-            </div>
         <h2>Spatial Projections & Dashboard</h2>
-        <p>The prototype is populated by three different projections. Two canvases display the interactive physarum visual, one directly on the passenger and the other one on the ambient canvas that is located around the passengers. </p>
+        <p>The prototype is lit by three different projections. Two projection canvases display the interactive physarum visual, one directly on the passenger and the other one on the ambient canvas that is located around the passengers. </p>
         <div className="grid">
               <div className="row">
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin10.mp4" autoPlay muted loop playsInline></video>
                 <video className="col" src="img/work/sensorium/sensoriumprojection1.mp4" autoPlay muted loop playsInline></video>
               </div>
           </div>
-          <p>Audio-reactive shader. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus soluta tempora enim iusto exercitationem excepturi asperiores pariatur? Dolore, labore error magni et in nihil accusantium nulla? Alias necessitatibus unde possimus?</p>
+          <p>The physarum is simulated through a compute shader inspired by <a href="https://www.youtube.com/@SebastianLague">Sebastian Lague</a>. It uses an algorithm that imitates growth behaviour of physical physarum organisms. When launching the self-driving experience it starts reacting to the music played in the interior. The turquoise strain's color changes with the heart rate of the driver. When taking over control the more active audo-reactive strain dimms down for preventing distraction.</p>
           <div className="grid">
               <div className="row">
                 <video className="col" src="img/work/sensorium/sensoriumdigitaltwin5.mp4" autoPlay muted loop playsInline></video>
@@ -241,13 +226,13 @@ function Sensorium() {
           </div>
         <h2>Outcome</h2>
         <p>Sensorium as a concept invites people to join a club that fosters personal expression and exchange with like minded individuals, which ultimately can lead to a strong authentification with the brand and sustainable transportation practices. As a design intervention it integrates a multi-sensory and real-time interior experience with an expressively shaped interior design. The whole user-journey is made tangible first-hand through a functional prototype and put into the context of the final design through the visualisation of the digital twin.</p>
+        <h2>Learning</h2>
+        <p>I am proud of the holistic implementation of our user-journey in a functional prototype during this project, however I also think that I sometimes took an extra mile that would have not been necessary for communication. The scope and balance of functional implementation versus needed fidelity for effective communication is something I want to prioritise more rigorousl for future sketches and prototypes. Choosing the right fidelity when creating functional sketches also turned out to be important to not inhibit the creative process.</p>
         <div className="grid">
           <div className="row">
             <img className="col" src="img/work/sensorium/sensorium1.png" alt="" />
           </div>
         </div>
-        <h2>Learning</h2>
-        <p>I am proud of the holistic implementation of our user-journey in a functional prototype during this project, however I also think that I sometimes took an extra mile that would have not been necessary for communication. The scope and balance of functional implementation versus needed fidelity for effective communication is something I want to prioritise more rigorousl for future sketches and prototypes. Choosing the right fidelity when creating functional sketches also turned out to be important to not inhibit the creative process.</p>
         <div className="bottom-work"></div>
       </div>
   </div>
