@@ -49,7 +49,7 @@ function Sensorium() {
         <ul className="process">
           <li>Duration: 10 Weeks, Autumn 2023</li>
           <li>Collaboration Partner: Cupra Design Team</li>
-          <li>Team: <a href="https://rohitdongre-portfolio.com">Rohit Dongre</a>, <a href="https://rohitdongre-portfolio.com">Regina Gensinger</a>, <a href="https://www.charlottemphilippe.com">Charlotte Phillip</a> & Lukas Moro</li>
+          <li>Team: <a target="_blank" rel="noreferrer" href="https://rohitdongre-portfolio.com">Rohit Dongre</a>, <a target="_blank" rel="noreferrer" href="https://rohitdongre-portfolio.com">Regina Gensinger</a>, <a target="_blank" rel="noreferrer" href="https://www.charlottemphilippe.com">Charlotte Phillip</a> & Lukas Moro</li>
           <li>Contribution: Concept & Prototyping</li>
         </ul>
 
@@ -95,7 +95,7 @@ function Sensorium() {
            
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/sensorium/brandidentiy.gif"></img>
+            <img className="col" src="img/work/sensorium/brandidentiy.gif" alt="'Tribal Belonging' Cupra Brand Identity by 10TOTOKYO"></img>
           </div>
         </div>
           
@@ -232,7 +232,7 @@ function Sensorium() {
             <img className="col" src="img/work/sensorium/sensorium17.jpg" alt="Sensorium Seatbelt Servos on Buck by Lukas Moro"/>
           </div>
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumactuators.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumactuators.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Active Seatbelt Servos in Physical Reality by Lukas Moro"></video>
           </div>
         </div>
 
@@ -240,8 +240,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
-            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Curve Seatbelt Servos in Physical Reality by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Curve Seatbelt Servos in Unity by Lukas Moro"></video>
           </div>
         </div>
         
@@ -251,8 +251,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumhandtracking1.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
-            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin4.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumhandtracking1.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Handoff' Gesture with Dashboard in Physical Reality by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin4.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Handoff' Gesture with Dashboard in Unity by Lukas Moro"></video>
           </div>
         </div>
 
@@ -260,8 +260,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin7.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
-            <video className="col" src="img/work/sensorium/sensoriumhandtracking2.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin7.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Steering' Gesture with Dashboard in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumhandtracking2.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Steering' Gesture with Dashboard in Physical Reality by Lukas Moro"></video>
           </div>
         </div>
 
@@ -271,17 +271,17 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin10.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
-            <video className="col" src="img/work/sensorium/sensoriumprojection1.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin10.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Spatial Physarum Compute Shader Projections in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumprojection1.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Spatial Physarum Compute Shader Projections in Physical Reality by Lukas Moro"></video>
           </div>
         </div>
 
-        <p>The physarum is simulated through a compute shader inspired by <a href="https://www.youtube.com/@SebastianLague">Sebastian Lague</a>. It uses an algorithm that imitates growth behaviour of physical physarum organisms. When launching the self-driving experience it starts reacting to the music played in the interior. The turquoise strain's color changes with the heart rate of the driver. When taking over control the more active audo-reactive strain dimms down for preventing distraction.</p>
+        <p>The physarum is simulated through a compute shader inspired by <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@SebastianLague">Sebastian Lague</a>. It uses an algorithm that imitates growth behaviour of physical physarum organisms. When launching the self-driving experience it starts reacting to the music played in the interior. The turquoise strain's color changes with the heart rate of the driver. When taking over control the more active audo-reactive strain dimms down for preventing distraction.</p>
           
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin5.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
-            <video className="col" src="img/work/sensorium/sensoriumprojection2.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumdigitaltwin5.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Audio-Reaction of Physarum Compute Shader Projections in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumprojection2.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Audio-Reaction of Physarum Compute Shader Projections in Physical Reality by Lukas Moro"></video>
           </div>
         </div>
         
@@ -289,7 +289,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumprojection3.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"></video>
+            <video className="col" src="img/work/sensorium/sensoriumprojection3.mp4" autoPlay muted loop playsInline alt="Sensorium Buck HMI Dashboard made in Figma & Unity in Physical Reality by Lukas Moro"></video>
           </div>
         </div>
 
@@ -303,7 +303,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium1.png" alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"/>
+            <img className="col" src="img/work/sensorium/sensorium1.png" alt="Sensorium Buck in Physical Reality & Unity by Lukas Moro"/>
           </div>
         </div>
 

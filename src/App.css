@@ -188,7 +188,7 @@ li {
 }
 
 /*SIGNATURE*/
-svg{
+.signature{
   margin-top: -1.3rem;
   margin-bottom: 2rem;
 }
@@ -208,6 +208,25 @@ path {
   stroke-dashoffset: 0px;
   }
 }
+
+/*STAR*/
+
+.star {
+  position: absolute;
+  left: -1.4rem;
+  top:1rem;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: animateSVG 3s ease-in-out forwards;
+  pointer-events: none; 
+}
+
+@keyframes animateSVG {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 
 /*GRID*/
 .grid {
@@ -368,6 +387,7 @@ video
 
 .list-item {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   min-height: 3rem;

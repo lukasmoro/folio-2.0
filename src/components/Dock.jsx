@@ -7,6 +7,7 @@ import BehaviourClick from "./BehaviourClick";
 function Dock() {
 
   const location = useLocation();
+  
   const isHomeActive = location.pathname === '/' || location.pathname === '/about';
   const isWorkActive = location.pathname === '/work';
   const isWriteActive = location.pathname === '/write';
@@ -14,45 +15,41 @@ function Dock() {
   
   const Placeholder = () => <div style={{ flex: 1 }}></div>;
 
-  const navVariants = {
-    normal: { width: 300, height: 60 },
-    project: { width: 60, height: 60 }
-  };
+  const navVariants = {normal: { width: 300, height: 60 }, project: { width: 60, height: 60 }};
 
   return (
-    <motion.nav className="nav"
-    variants={navVariants}
-    animate={isProjectActive ? "project" : "normal"}
-    initial={false}
-    transition={{ type: "spring", stiffness: 400, damping: 20 }}>
+    
+    <motion.nav className="nav" variants={navVariants} animate={isProjectActive ? "project" : "normal"} initial={false} transition={{ type: "spring", stiffness: 400, damping: 20 }}>
       
       <ul className="nav-links" >
 
-        {!isProjectActive &&(<BehaviourClick>
-          <NavLink to="/about" className={isHomeActive ? "active-link" : ""}>
-            <li>About</li>
-          </NavLink>
+        {!isProjectActive &&(
+          <BehaviourClick>
+            <NavLink to="/about" className={isHomeActive ? "active-link" : ""}>
+              <li>About</li>
+            </NavLink>
         </BehaviourClick>)}
 
         {isProjectActive && <Placeholder />}
-
         <BehaviourClick>
-        <NavLink to={"/work"} className={`${isProjectActive ? "" : isWorkActive ? "active-link" : ""}`}>
-            <li className={isProjectActive ? "center-link" : ""}>
-                {isProjectActive ? "←" : "Work"}
-            </li>
-          </NavLink>
-
+          <NavLink to={"/work"} className={`${isProjectActive ? "" : isWorkActive ? "active-link" : ""}`}>
+              <li className={isProjectActive ? "center-link" : ""}>
+                  {isProjectActive ? "←" : "Work"}
+              </li>
+            </NavLink>
         </BehaviourClick>
         
         {isProjectActive && <Placeholder />}
 
-        {!isProjectActive &&(<BehaviourClick>
-        <NavLink to="/write" className={isWriteActive ? "active-link" : ""}>
-          <li>Write</li>
-        </NavLink>
+        {!isProjectActive &&(
+        <BehaviourClick>
+          <NavLink to="/write" className={isWriteActive ? "active-link" : ""}>
+            <li>Write</li>
+          </NavLink>
         </BehaviourClick>)}
+      
       </ul>
+    
     </motion.nav>
   );
 }

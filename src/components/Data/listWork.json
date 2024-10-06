@@ -9,15 +9,6 @@
     "to": "/paper"
   },
   {
-    "id": 1,
-    "name": "Unity Plugin for XR Hack",
-    "date": "2024",
-    "sideproject": false,
-    "preview":"img/preview/cvkitpreview.jpg",
-    "src": "img/preview/cvkit1.png",
-      "to": "/cvkit"
-  },
-  {
     "id": 2,
     "name": "Presence Master Thesis",
     "date": "2024",
