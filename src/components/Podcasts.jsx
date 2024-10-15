@@ -1,7 +1,7 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
-import List from "./List.jsx";
-import Carousel from "./Carousel.jsx";
+// import List from "./List.jsx";
+// import Carousel from "./Carousel.jsx";
 
 function Podcasts() {
   
@@ -75,16 +75,25 @@ function Podcasts() {
         
         <p>The design of the extension looks structured and clean on first sight, but when used I made sure that many playful micro-interactions make the user experience delightful and fun. Most of the micro-interactions use the <a href="https://www.react-spring.dev">react-spring</a> package by Poimandres, which made fine-tuned spring animations super fast forward.</p> 
         
-        <p>You can play around with some parts of the extension below.</p>
+        <div className="grid">
+          <div className="row">
+            <video className="col" src=""></video>
+            <video className="col" src=""></video>
+          </div>
+          <div className="row">
+          <video className="col" src=""></video>
+          <video className="col" src=""></video>
+          </div>
+        </div>
 
-        <div className="sample-grid">
+        {/* <div className="sample-grid">
           <div className="sample-box">
             <List/>
           </div>
           <div className="sample-box carousel">
             <Carousel/>
           </div>
-        </div>
+        </div> */}
 
         <h2>Roadmap</h2>
         

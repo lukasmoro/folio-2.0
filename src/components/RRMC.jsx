@@ -29,7 +29,7 @@ function RRMC() {
 
         <ul className='process'>
           <li>Duration: 13 Months, Summer 2022 - Autumn 2023</li>
-          <li>Collaboration Partner: None</li>
+          <li>Collaboration Partner: Rolls-Royce Motorcars</li>
           <li>Team: Rolls-Royce Bespoke Design</li>
           <li>Contribution: Prototyper Internship & Freelance Work</li>
         </ul>
@@ -62,17 +62,17 @@ function RRMC() {
         
         <h2>Developing Toolchains for Bespoke Digital Experiences</h2>
         
-        <p>Created a prototyping workflow for developing digital experiences in virtual reality for validation with material samples and color variations. Those virtual themes were deployed to run on a prototyping buck with real components. Helped developing digital themes in Unity that were running on an embedded system for validation and benchmarking. The themes themselves are under NDA still the image below is of symbolic character.</p>
+        <p>Created a prototyping workflow for developing digital experiences in virtual reality for validation with material samples and color variations. Those virtual themes were deployed to run on a prototyping buck with real components. Helped developing digital themes in Unity that were running on an embedded system for validation and benchmarking. The themes themselves are under NDA.</p>
         
         <div className="grid">
             <div className="row">
-              <img className="col" src="img/work/rrmc/spectre.jpg" alt="Interior of Rolls-Royce Spectre"></img>
+              <img className="col" src="img/work/rrmc/rrmchmi.jpg" alt="Interior of Rolls-Royce Spectre"></img>
             </div>
         </div>
 
         <h2>Phantom Scintilla Headliner Animation</h2>
         
-        <p>Different animation sequences for the Starlight Headliner of Rolls-Royce Phantom Scintilla in Unity that are available in the car now.</p>
+        <p>Developed animation sequences for the Starlight Headliner of Rolls-Royce Phantom Scintilla in Unity that are available in the car now.</p>
           
         <div className="grid">
           <div className="row">
@@ -82,7 +82,7 @@ function RRMC() {
         
         <h2>Outcome & Learnings</h2>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis corporis ab sit velit! Exercitationem, quia. Quod, fugit incidunt quisquam ullam dolorum quibusdam perspiciatis pariatur dolore perferendis ipsa numquam temporibus!</p>
+        <p>The time in Goodwood was formative for my perception of craft and execution. I developed a feeling for effective communication as a chainlink between engineering and design through prototyping. I am thankful for getting the opportunity to directly participate in a product-developement process that is foundational to future lines of products.</p>
         
         <div className="grid">
           <div className="row">

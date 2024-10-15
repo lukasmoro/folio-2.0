@@ -1,5 +1,5 @@
 import {React} from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 
 import Me from './Me';
 import Work from './Work';
@@ -16,10 +16,8 @@ import CVKit from './CVKit';
 
 function AllRoutes() {
 
-    const location = useLocation();
-
   return (
-        <Routes location = {location} key = {location.pathname}>       
+        <Routes>       
             <Route path="/" element={<Me />} />
             <Route path="/about" element={<Me />} />
             <Route path="/work" element={<Work />} />

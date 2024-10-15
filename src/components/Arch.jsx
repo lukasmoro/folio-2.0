@@ -117,7 +117,7 @@ function Arch() {
 
         <h2>Interviews with Healtcare Professionals</h2>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium vero nisi dignissimos possimus perspiciatis nam, labore repellendus. Atque magnam voluptatibus soluta explicabo reprehenderit, saepe labore reiciendis quia odit. Adipisci!</p>
+        <p>After research and conception we had a workshop with our collaboration partners to get feedback. To evaluate different steps throughout the process we conducted interviews with a variety of health-professionals.</p>
         
         <div className="grid">
           <div className="row">
@@ -137,7 +137,7 @@ function Arch() {
 
         <h2>Balancing Flat & Spatial Interfaces</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat optio molestiae sint tenetur adipisci expedita quia sit voluptatem, hic esse nisi repellat deleniti quasi consectetur odit laudantium temporibus error?</p>
+        <p>We noticed that 3D models can underline the doctor's explanations, helping the patient to understand complex medical issues. Imagine a scenario where the doctor simulates different lifestyle decisions over a period of time on 3D models to illustrate how preventive measurements can benefit the patient. Eventhough spatial interfaces are an opportunity to bring us closer to a world where computers intervene less into our personal relationships. 2D interfaces will stay relevant. In a remote healthcare setting it makes sense for the professional side to have a hub for complex medical records, that are often expressed as raw data. This hub also gives power to the doctor to steer what the patient sees. This is necessary as some information might potentially worry the patient or not be of value for him.</p>
         
         <div className="grid">
           <div className="row">
@@ -157,15 +157,15 @@ function Arch() {
         
         <h2>Outcome & Learning</h2>
         
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, doloremque nostrum maxime rem accusamus, vel saepe consectetur ullam soluta obcaecati sed recusandae optio vitae error esse cumque reiciendis, reprehenderit repellendus.</p>
+        <p>This project is an exploration of how upcoming technologies might shape the future of remote healthcare consultation. The intention is not presenting this as a final concept but more as an inspiration for further explorations in this area. We believe that bridging remote situations through mixed reality is very promising and that accompanying tangible interfaces are a good way to emulate physical encounters and bring people closer together.</p>
 
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archuxprototype.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
-            <video className="col" src="img/work/arch/archuxprototype.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
+            <video className="col" src="img/work/arch/archhandshake.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
+            <video className="col" src="img/work/arch/archinteraction.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
           </div>
           <div className="row">
-            <video className="centered-col" src="img/work/arch/archuxprototype.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
+            <img className="centered-col" src="img/work/arch/archproductshot.png" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></img>
           </div>
         </div>
 

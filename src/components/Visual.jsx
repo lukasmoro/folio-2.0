@@ -29,17 +29,42 @@ function Visual() {
             <li className="tool">YOLO V8</li>
             <li className="tool">OPENAI API</li>
             <li className="tool">QUEST 3</li>
+            <li className="tool">KINECT</li>
+            <li className="tool">TOUCHDESIGNER</li>
+            <li className="tool">STABLE DIFFUSION</li>
+            <li className="tool">STREAMDIFFUSION</li>
+            <li className="tool">CONTROLNET</li>
           </ul>
 
           <p>Exploring experiental properties and materiality of technologies and aesthetics through little side-projects exposed to my friends.</p>
           
-          <h2>GPU Particles with Touch Designer & Kinect</h2>
+          <h2>Real-time Image Diffusion with Touch Designer & Kinect</h2>
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestiae id modi odit vero quo a eius delectus suscipit. Ab sapiente, sunt deleniti animi maiores tempora earum aut? Quaerat, iure!</p>
+
+          <div className="grid">
+            <div className="row">
+              <video className="col" src="" autoPlay muted loop playsInline></video>
+            </div>
+            <div className="row">
+              <video className="col" src="img/grid/streamdiffusion.mp4" autoPlay muted loop playsInline></video>
+              <video className="col" src="" autoPlay muted loop playsInline></video>
+            </div>
+          </div>
 
           <h2>Unity Plugin for XRHack supported by Meta</h2>
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem quam maxime id commodi? Optio debitis, rem ut doloribus praesentium minima porro laudantium in, soluta provident assumenda! Vel, totam blanditiis.</p>
+
+          <div className="grid">
+            <div className="row">
+              <video className="col" src="" autoPlay muted loop playsInline></video>
+            </div>
+            <div className="row">
+              <video className="col" src="img/grid/streamdiffusion.mp4" autoPlay muted loop playsInline></video>
+              <video className="col" src="" autoPlay muted loop playsInline></video>
+            </div>
+          </div>
 
           <h2>Real-time Projections for Raves</h2>
 
@@ -124,7 +149,7 @@ function Visual() {
 
           <h2>Mediumformat Photography</h2>
           
-          <p></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laborum sunt odit, consequuntur similique dolores quasi architecto beatae, quae minima eum molestias harum voluptas quia deserunt dolor explicabo ab perspiciatis.</p>
 
           <h2>Desk Lamp</h2>
 

@@ -83,10 +83,22 @@ function Paper() {
         <p>The intricate user experience of physical paper is unmatched for tasks like reading books, doing quick notes and scribbles or crossing off a do-to list. </p>
         <p className='block-quote'>"Feels like Paper!" are three prototypes that strive to give physical paper the dynamism, agency and retention of computation, while keeping the dexterity, persistence and haptics enabled by it.</p>
         
+        <div className="grid">
+            <div className="row">
+              <video className="col" src="img/work/paper/mathquestions.mp4" autoPlay muted loop playsInline alt="Maths & Questions Prototype by Lukas Moro."></video>
+              <video className="col" src="img/work/paper/markcomment.mp4" autoPlay muted loop playsInline alt="Mark & Comment Prototype by Lukas Moro."></video>
+            </div>
+            <div className='row'>
+              <video className="centered-col" src="" autoPlay muted loop playsInline alt="Draw & Dream Prototype by Lukas Moro."></video>
+            </div>
+        </div>
+
         <h2>Inspiration</h2>
 
         <p><a target="_blank" rel="noreferrer" href="https://liquid.city/">Keichii Matsuda</a> wrote a manifesto called <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1UyqFX3zKHOkBlM0M5ggrmYjqa5WxtkRo/view?usp=drivesdk">"GODS"</a>. In it he describes an anaphor for augmented reality rooted in pagan animism. Unlike monotheistic Western approaches of interfacing artificial intelligence like ChatGPT or Siri, he advocates to leverage the possibility of augmented reality technologies to extend places and objects to populate the world with many different agents or "gods". This polytheistic approach inspired by Shintoism offers potential for humane interfaces with AI through many small not all knowing helpers that are scattered around an user's perception, contrary to the image of one singular source of truth that needs to be consulted for every kind of advice.</p>
 
+        <p>In his manifesto Keichii uses Japanese <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Tsukumogami">Tsukumogamis</a> and <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Guxx_KTm_6M">Calcifer</a> from the Studio Ghibli movie "Howl's Moving Castle" as examples for embodiments of artificial intelligence in augmented reality as a spirit world.</p>
+        
         <div className="grid">
           <div className="row">
             <img className="col" src="img/work/paper/tsukumogami.png" alt="Japanese Tsukumogami"></img>
@@ -94,8 +106,6 @@ function Paper() {
           </div>
         </div>
 
-        <p>In his manifesto Keichii uses Japanese <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Tsukumogami">Tsukumogamis</a> and <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=Guxx_KTm_6M">Calcifer</a> from the Studio Ghibli movie "Howl's Moving Castle" as examples for embodiments of artificial intelligence in augmented reality as a spirit world.</p>
-        
         <h2>Design</h2>
 
         <p>Looking at existing work the project can be compared to Apple's <a target="_blank" rel="noreferrer" href="https://www.apple.com/newsroom/2024/06/ipados-18-introduces-powerful-intelligence-features-and-apps-for-apple-pencil/">"Math Notes"</a> feature, <a target="_blank" rel="noreferrer" href="https://dynamicland.org/">"Dynamicland"</a> by <a  href="https://worrydream.com/">Bret Victor</a> and <a target="_blank" rel="noreferrer" href="https://www.inkandswitch.com/inkbase/">"Inkbase: Programmable Ink"</a> by <a href="https://www.inkandswitch.com">Ink & Switch</a>.</p>
@@ -174,7 +184,7 @@ function Paper() {
 
         <h2>"Draw & Dream" Prototype</h2>
         
-        <p>"Draw & Dream" explores if image diffusion could be used as a inspiring muse rather then a tool for generating the final output of the artist. The user can adjust the stylistic "lens" of the difussion model through spoken prompts. Then their artwork is used as an input into StreamDiffusion where the stylistic "lense" is applied. The resulting video feed is streamed back to the Unity application and rendered to an interface element surrounding the user.</p>
+        <p>"Draw & Dream" explores how image diffusion could feel like if the interface to it is on physical paper. The user can adjust the stylistic "lens" of the difussion model through spoken prompts. Then their artwork is used as an input into StreamDiffusion where the stylistic "lense" is applied to the drawn image with ControlNet. The resulting video feed is streamed back to the Unity application and rendered to an interface element in front of the paper.</p>
           
         <div className="grid">
           <div className="row">
@@ -182,7 +192,7 @@ function Paper() {
           </div>
         </div>
 
-        <p>ADD TEXT ABOUT UNSKEWING PERSPECTIVE. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab reiciendis neque, doloremque, pariatur temporibus error minus fugit voluptate dolorum maxime sequi quaerat tenetur. Recusandae vero non architecto quidem deleniti tenetur?</p>
+        <p>For feeding the drawn image to StreamDiffusion an image processing pipeline was implemented in Python. It uses OpenCV for processing the camera feed from Quest's casting. Than finds four-sided contours of the paper through canny edge detection. Once the paper is located it initialises keypoints and descriptors via an ORB (Oriented FAST and Rotated BRIEF) feature detection. It then uses Brute-Force Matcher (BFMatcher) to match features between consecutive frames. This allows for tracking the paper's movement by comparing the features of the current frame to the features of the previously detected last "good" frame. It then uses homography between the frames to apply a perspective warp that skews the perspective to be always from orthographic birds-eye view. The "ORB and BFMatcher & homography" approach was chosen as it turnes out to be extremely reliable even with partial occlusion of the paper through hands, pens or brushes. This view is then streamed into Touch Designer with ultra-low latency via Spout.</p>
           
         <div className="grid">
           <div className="row">
@@ -190,15 +200,23 @@ function Paper() {
           </div>
         </div>
 
-        <p>ADD TEXT ABOUT STREAM DIFFUSION TOUCHDESIGNER & CONTROLLNET SETUP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis placeat porro doloribus neque aut veniam harum explicabo similique, molestias minima sapiente quo possimus tenetur! Debitis provident ratione qui similique tenetur!</p>
+        <p>The image diffusion is performed on a RTX4080 via <a href="">Dot Simulate's</a> TouchDesigner plugin for the StreamDiffusion pipeline by <a href="https://github.com/cumulo-autumn/StreamDiffusion">Akio Kodeira</a> et al. which allows "real-time" interactive generation through Stable Diffusion. The image feed from Python is fed into the pipeline as image input and via a "Scribble" <a href="https://github.com/lllyasviel/ControlNet">ControlNet</a> for adding conditional control by the drawing on the paper.</p>
           
         <div className="grid">
             <div className="row">
               <img className="col" src="" alt="Stream Diffusion, ControlNet & Touchdesigner Setup by Lukas Moro."></img>
             </div>
         </div>
+
+        <p>The stylistic "lens" can be adjusted via spoken prompts that are transcribed with <a href="">Wit.ai</a> in Unity and then send to TouchDesigner. The prompts are inputed on the fly, so that the image output reacts immediately when someone starts describing the desired "lens".</p>
         
-        <p>ADD TEXT ABOUT NDI SKYBOX MAPPING Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis cumque dolorem sunt, porro, similique omnis atque asperiores quam repellat, dolore reiciendis? Perspiciatis nulla sit, vel rem molestias accusantium delectus quia!</p>
+        <div className="grid">
+          <div className="row">
+            <img className="col" src="" alt="Interface for Wit.ai in Unity by Lukas Moro."></img>
+          </div>
+        </div>
+
+        <p>When the prompting process is started an animated shader reveals the portal into the generated image. The image feed is streamed from TouchDesigner into Unity via NDI.</p>
           
         <div className="grid">
           <div className="row">

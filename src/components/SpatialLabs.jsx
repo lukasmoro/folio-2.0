@@ -9,7 +9,7 @@ function SpatialLabs() {
 
         <DayDate />
 
-        <h1>Spatial Labs · NFC Tags for a more Connected World.</h1>
+        <h1>Spatial Labs · Infrastructure for a Connected World.</h1>
         
         <p className="spacer">⌘</p>
         
@@ -24,7 +24,7 @@ function SpatialLabs() {
 
         <ul className="process">
           <li>Duration: 9 months, Autumn 2022 - Autumn 2023</li>
-          <li>Collaboration Partner: None</li>
+          <li>Collaboration Partner: Spatial Labs</li>
           <li>Team: Spatial Labs Design Team</li>
           <li>Contribution: CGI, Poly-Modeller & Prototyper Freelance Work</li>
         </ul>
@@ -55,9 +55,9 @@ function SpatialLabs() {
           </a>
         </div>
 
-        <h2>Avatar Configurator for LNQ Platform</h2>
+        <h2>Avatar Configurator</h2>
         
-        <p>Designed, modeled, textured and animated a range of avatar's and assets for the core platform together with the engineering team.</p>
+        <p>Designed, modeled, textured and animated a range of avatar's and assets for the core platform. Integrated them into a configurator together with the engineering team.</p>
         
         <div className="grid">
           <div className="row">
@@ -76,9 +76,9 @@ function SpatialLabs() {
           </div>
         </div>
         
-        <h2>Orb AR Filters in Spark AR</h2>
+        <h2>AR Filters in Spark AR</h2>
         
-        <p>Developed AR filters in Spark AR and web-applications for them in React Three Fiber for a collection of clothing.</p>
+        <p>Developed AR filters in Spark AR and web-applications with the same effects in React Three Fiber for a collection of clothing.</p>
         
         <div className="grid">
           <div className="row">
@@ -88,7 +88,7 @@ function SpatialLabs() {
 
         <h2>Industrial Design</h2>
 
-        <p>Involved in multiple products industrial design. Incuding the LNQ Core 1 badge.</p>
+        <p>Involved in multiple industrial design projects, that are under NDA. Worked on the Core 1 badge.</p>
 
         <div className="grid">
           <div className="row">
@@ -99,7 +99,7 @@ function SpatialLabs() {
 
         <h2>Outcome & Learnings</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo perferendis tenetur deleniti esse, veritatis vitae. Autem velit commodi maiores asperiores possimus, ab odit, tempore fuga explicabo rerum non sit labore.</p>
+        <p>The work with Spatial Labs was my first time freelancing. It tought me effective time management in a fast-paced and agile start up environment. The differing nature of projects including prototyping, product design and physical industrial design was challenging but showed how to allign very diverse categories of products with one identity.</p>
         
         <div className="bottom-work"></div>
 
