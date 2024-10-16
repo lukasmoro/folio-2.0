@@ -2,12 +2,13 @@
   {
     "id": 3,
     "tags": "work",
-    "location": "Cologne, Germany",
-    "date": "March 17, 2024",
-    "header": "The right moment to release.",
-    "text": "Forty-eight hours is a tight timeframe, and a hackathon is all about rapid development. With many talented individuals in one room, establishing a clear vision early on is crucial. It's a beautiful experience to get to know your teammates in this process. Effective version control is essential for working independently, so ensure to fully understand your code. I learned the importance of modular design the hard way. A big thank you to my teammates and the organizers for their support!",
+    "location": "Stockholm, Sweden",
+    "date": "October 16, 2024",
+    "header": "Craft, taste & persistence.",
+    "text": "Craft. To me knowledge generated from first-hand experiences is very helpful in understanding the true nature of ideas. This is achievable through building functional prototypes that can be played with. These prototypes need to have a fidelity that makes them desirable. Scoping the message a prototype should convey precisely enough for being able to craft it to a level were it becomes desirable is key. Too high expectations in the message of a single prototype or the own skills often can lead to unhappiness with the result. Small prototypes with the right message and a high-level of craft can have a lot more impact then holistic unfinished one's. \n\nTaste. Interest in culture and arts. Paul G.   \n\nPersistence.",
     "resource": {
-      "1": "--"
+      "1": "https://paulgraham.com/taste.html",
+      "2": "https://paulgraham.com/goodtaste.html"
     }
   },
   {

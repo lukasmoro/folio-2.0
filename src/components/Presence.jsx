@@ -11,7 +11,8 @@ function Presence() {
 
         <h1>Presence · Spatial Computing for Staying in the Moment.</h1>
         
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        <p className="spacer"></p>
         
         <img className="banner" src="img/banner/presencebanner.jpg" alt="Banner of the Project Presence by Lukas Moro"/>
         

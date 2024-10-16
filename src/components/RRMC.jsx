@@ -11,7 +11,8 @@ function RRMC() {
 
         <h1>Rolls-Royce Motorcars · Prototyping Luxury Virtual Experiences.</h1>
 
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        <p className="spacer"></p>
 
         <video className="banner" src="img/work/rrmc/rrmcthumbnail.mp4" alt="Banner of the Rolls-Royce Motorcars Project" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true}/>
         

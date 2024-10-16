@@ -11,7 +11,7 @@ function SpatialLabs() {
 
         <h1>Spatial Labs · Infrastructure for a Connected World.</h1>
         
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
         
         <video className="banner" src="img/work/spatiallabs/slabs1.mp4" alt="Banner of the Spatial Labs Project by Lukas Moro" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true}/>
         

@@ -11,7 +11,10 @@ function Me() {
         
         <h1>Lukas Moro.</h1>
         
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        {/* <p className="spacer">❉❉</p> */}
+        {/* <p className="spacer">ワビサビ</p> */}
+        {/* <p className="spacer">侘寂</p> */}
 
         <p>Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.</p>
           

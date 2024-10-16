@@ -11,9 +11,10 @@ function Paper() {
         
         <h1>"Feels Like Paper!" · Interfacing Artificial Intelligence through Paper.</h1>
 
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        <p className="spacer"></p>
 
-        <img className="banner" src="img/work/paper/paperthumbnail.png" alt="Banner of the Project 'Feels Like Paper' by Lukas Moro"/>
+        <img className="banner" src="img/work/paper/paperthumbnail.jpg" alt="Banner of the Project 'Feels Like Paper' by Lukas Moro"/>
 
         <ul className="tools">
           <li className="tool">UNITY</li>
@@ -32,6 +33,11 @@ function Paper() {
           <li className="tool">APPLE VISION FRAMEWORK</li>
           <li className="tool">OPENAI API</li>
           <li className="tool">QUEST 3</li>
+          <li className="tool">PAPER</li>
+          <li className="tool">MARKER</li>
+          <li className="tool">PEN</li>
+          <li className="tool">WATERCOLORS</li>
+          <li className="tool">BRUSHES</li>
         </ul>
 
         <ul className='process'>
@@ -89,7 +95,7 @@ function Paper() {
               <video className="col" src="img/work/paper/markcomment.mp4" autoPlay muted loop playsInline alt="Mark & Comment Prototype by Lukas Moro."></video>
             </div>
             <div className='row'>
-              <video className="centered-col" src="" autoPlay muted loop playsInline alt="Draw & Dream Prototype by Lukas Moro."></video>
+              <video className="centered-col" src="img/work/paper/drawdream.mp4" autoPlay muted loop playsInline alt="Draw & Dream Prototype by Lukas Moro."></video>
             </div>
         </div>
 
@@ -188,8 +194,12 @@ function Paper() {
           
         <div className="grid">
           <div className="row">
-            <video className="col" src="" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
+            {/* <video className="col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video> */}
+            <video className="double-col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
           </div>
+          {/* <div className="row">
+            <video className="centered-col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
+          </div> */}
         </div>
 
         <p>For feeding the drawn image to StreamDiffusion an image processing pipeline was implemented in Python. It uses OpenCV for processing the camera feed from Quest's casting. Than finds four-sided contours of the paper through canny edge detection. Once the paper is located it initialises keypoints and descriptors via an ORB (Oriented FAST and Rotated BRIEF) feature detection. It then uses Brute-Force Matcher (BFMatcher) to match features between consecutive frames. This allows for tracking the paper's movement by comparing the features of the current frame to the features of the previously detected last "good" frame. It then uses homography between the frames to apply a perspective warp that skews the perspective to be always from orthographic birds-eye view. The "ORB and BFMatcher & homography" approach was chosen as it turnes out to be extremely reliable even with partial occlusion of the paper through hands, pens or brushes. This view is then streamed into Touch Designer with ultra-low latency via Spout.</p>
@@ -204,7 +214,7 @@ function Paper() {
           
         <div className="grid">
             <div className="row">
-              <img className="col" src="" alt="Stream Diffusion, ControlNet & Touchdesigner Setup by Lukas Moro."></img>
+              <video className="col" src="img/work/paper/drawdreamtouchdesigner.mp4" alt="Stream Diffusion, ControlNet & Touchdesigner Setup by Lukas Moro." autoPlay muted loop playsInline></video>
             </div>
         </div>
 
@@ -212,7 +222,7 @@ function Paper() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="" alt="Interface for Wit.ai in Unity by Lukas Moro."></img>
+            <video className="col" src="img/work/paper/drawdreamwitai.mp4" alt="Interface for Wit.ai in Unity by Lukas Moro." autoPlay muted loop playsInline></video>
           </div>
         </div>
 

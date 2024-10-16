@@ -26,7 +26,8 @@ function Sensorium() {
 
         <h1>Sensorium · Real-time Vehicle Experience Prototype</h1>
         
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        <p className="spacer"></p>
         
         <img className="banner" src="img/banner/sensoriumbanner.png" alt="Banner of the Project Sensorium by Lukas Moro"/>
 
@@ -88,17 +89,12 @@ function Sensorium() {
         <div className="grid">
           <div className="row">
               <img className="col" src="img/work/sensorium/physarum.jpg" alt="Physarum Polycephalum"></img>
+              <img className="col" src="img/work/sensorium/brandidentiy.gif" alt="'Tribal Belonging' Cupra Brand Identity by 10TOTOKYO"></img>
           </div>
         </div>
            
         <p>"Tribal belonging" is another pillar of Cupra's brand identity, currently this is expressed in lifestyle and fashion accessories, video-game assets and brand events. We designed a custom 3D-printed wearable that signals belonging to the tribe and is handed over to new customers of the shared riding ecosystem. The wearable through a RFID tag functions as a key for unlocking vehicle and experience. It contains actuators for haptic feedback from the car and sensorics that gather biometric data points for personalising the riding experience.</p>
-           
-        <div className="grid">
-          <div className="row">
-            <img className="col" src="img/work/sensorium/brandidentiy.gif" alt="'Tribal Belonging' Cupra Brand Identity by 10TOTOKYO"></img>
-          </div>
-        </div>
-          
+
         <p>Once a member enters an ordered car they can choose to personalise their experience, consisting of spatial projections, music and haptic feedback on the wearable and seat-belts, through a handgesture. Then the feeding and retention environment of the physarum "growing" in the car picks up the person's data from historic rides, the biometrics measured by the wearable and the current situation of the car which leads to an unique pattern of growth. This pattern of growth communicates cues about the passenger's state and personality to the other passengers and facilitates interactions between different tribal members and a strong connection to Cupra as a brand as it becomes a mean of expression to the passenger.</p>
           
         <iframe width="600" height="315" src="https://www.youtube.com/embed/CvNsjwZBVPE?si=QSuC1epmu9y6eMOm"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

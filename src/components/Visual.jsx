@@ -12,9 +12,10 @@ function Visual() {
           
           <h1>Explorations.</h1>
           
-          <p className="spacer">⌘</p>
+          <p className="spacer"></p>
+          <p className="spacer"></p>
           
-          <img className='banner' src="" alt="Banner of the Exploration Projects by Lukas Moro" />
+          <img className='banner' src="img/grid/explore.jpg" alt="Banner of the Exploration Projects by Lukas Moro" />
           
           <ul className="tools">
             <li className="tool">UNITY</li>
@@ -54,17 +55,9 @@ function Visual() {
 
           <h2>Unity Plugin for XRHack supported by Meta</h2>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rem quam maxime id commodi? Optio debitis, rem ut doloribus praesentium minima porro laudantium in, soluta provident assumenda! Vel, totam blanditiis.</p>
-
-          <div className="grid">
-            <div className="row">
-              <video className="col" src="" autoPlay muted loop playsInline></video>
-            </div>
-            <div className="row">
-              <video className="col" src="img/grid/streamdiffusion.mp4" autoPlay muted loop playsInline></video>
-              <video className="col" src="" autoPlay muted loop playsInline></video>
-            </div>
-          </div>
+          <p>XR Bootcamp, together with many industry partners including Meta organised the XR Hack 2024, a hackathon carried out in London, Cologne, Stockholm and Cologne with over 1000 participants. An Unity plugin that helped the hackers to access the camera feed of their Quest 3 mixed reality headsets to run machine learning models on it for semantic input. This was implemented using Quest's casting functionality, OBS, Python and TCP/IP to stream detections back into the headset.</p>
+          
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/MA8xKWMjkYI?si=FFtzBgmcbqYPm5Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
           <h2>Real-time Projections for Raves</h2>
 
@@ -147,18 +140,28 @@ function Visual() {
               </div>
           </div>
 
-          <h2>Mediumformat Photography</h2>
+          <h2>Medium-Format Photography</h2>
           
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laborum sunt odit, consequuntur similique dolores quasi architecto beatae, quae minima eum molestias harum voluptas quia deserunt dolor explicabo ab perspiciatis.</p>
-
-          <h2>Desk Lamp</h2>
-
-          <p>Industrial design of a desk lamp made out of PMMA and copper. The PMMA was heated in an oven for bending it.</p>
+          <p>Some medium format photography done at my childhood home in Austria harvesting honey. All pictures were taken on Kodak Portra 400 film.</p>
 
           <div className="grid">
               <div className="row">
-              <img className="col" src=""></img>
-              <img className="col" src="img/grid/toori.png"></img>
+                <img className="col" src="img/grid/hasselblad1.JPG"></img>
+                <img className="col" src="img/grid/hasselblad2.JPG"></img>
+              </div>
+              <div className="row">
+                <img className="centered-col" src="img/grid/hasselblad3.JPG"></img>
+              </div>
+          </div>
+
+          <h2>Desk Lamp</h2>
+
+          <p>Product design of a desk lamp made out of PMMA and copper. The PMMA was heated in an oven for bending it.</p>
+
+          <div className="grid">
+              <div className="row">
+                <img className="col" src=""></img>
+                <img className="col" src="img/grid/toori.png"></img>
               </div>
           </div>
 

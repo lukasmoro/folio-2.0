@@ -1,7 +1,5 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
-// import List from "./List.jsx";
-// import Carousel from "./Carousel.jsx";
 
 function Podcasts() {
   
@@ -13,7 +11,8 @@ function Podcasts() {
         
         <h1>Podcasts for Chrome · From RSS-Feed into the new Tab.</h1>
         
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+        <p className="spacer"></p>
         
         <video className="banner" src="img/work/podcasts/podcasts.mp4" alt="Banner of the Podcast for Chrome Project by Lukas Moro" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}/>
 
@@ -85,15 +84,6 @@ function Podcasts() {
           <video className="col" src=""></video>
           </div>
         </div>
-
-        {/* <div className="sample-grid">
-          <div className="sample-box">
-            <List/>
-          </div>
-          <div className="sample-box carousel">
-            <Carousel/>
-          </div>
-        </div> */}
 
         <h2>Roadmap</h2>
         

@@ -12,9 +12,9 @@ function Thought() {
 
           <DayDate />
 
-          <h1> Essays.</h1>
+          <h1>Essays.</h1>
 
-          <p className="spacer">⌘</p>
+          <p className="spacer"></p>
 
           <p>Writing about all kind of topics to make vague thoughts more concrete in the process. If you want to have a chat please{" "}<a className="link" target="_blank" rel="noreferrer" href="mailto:lukas.moro@me.com">reach out</a>.</p>
           

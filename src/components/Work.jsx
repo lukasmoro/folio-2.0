@@ -23,24 +23,26 @@ function Work() {
   return (
     <div className="container">
       <div className="text-block">
+        
         <DayDate />
 
         <h1>Projects.</h1>
 
-        <p className="spacer">⌘</p>
+        <p className="spacer"></p>
+
         <p>
           Projects and explorations worked on over the past years. My current
           favourites are{" "}
-          <Link to="/presence" className="link">
-            Presence
-          </Link>
-          ,{" "}
           <Link to="/paper" className="link">
             "Feels Like Paper!"
           </Link>
-          , and{" "}
+          ,{" "}
           <Link to="/sensorium" className="link">
             Sensorium
+          </Link>
+          , and{" "}
+          <Link to="/presence" className="link">
+            Presence
           </Link>
           .
         </p>
