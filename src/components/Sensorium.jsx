@@ -93,6 +93,7 @@ function Sensorium() {
           </div>
         </div>
            
+        <p>Left: <a target="_blank" rel="noreferrer" href="http://dussutou.free.fr">"Physarum Polycephalum"</a> by Audrey Dussutour<br />Right: <a target="_blank" rel="noreferrer" href="https://10totokyo.it/CUPRA_">"CUPRA Brand Strategy"</a> by 10TOTOKYO</p>
         <p>"Tribal belonging" is another pillar of Cupra's brand identity, currently this is expressed in lifestyle and fashion accessories, video-game assets and brand events. We designed a custom 3D-printed wearable that signals belonging to the tribe and is handed over to new customers of the shared riding ecosystem. The wearable through a RFID tag functions as a key for unlocking vehicle and experience. It contains actuators for haptic feedback from the car and sensorics that gather biometric data points for personalising the riding experience.</p>
 
         <p>Once a member enters an ordered car they can choose to personalise their experience, consisting of spatial projections, music and haptic feedback on the wearable and seat-belts, through a handgesture. Then the feeding and retention environment of the physarum "growing" in the car picks up the person's data from historic rides, the biometrics measured by the wearable and the current situation of the car which leads to an unique pattern of growth. This pattern of growth communicates cues about the passenger's state and personality to the other passengers and facilitates interactions between different tribal members and a strong connection to Cupra as a brand as it becomes a mean of expression to the passenger.</p>
@@ -110,7 +111,7 @@ function Sensorium() {
         <div className="grid">
           <div className="row">
               <img className="col" src="img/work/sensorium/sensoriumday1.jpg" alt="Sketch of a Particle System Projection in a Car Interior by Lukas Moro" />
-              <img className="col" src="img/work/sensorium/sensoriumbelt.png" alt="Sketch of Haptic Seat Belts by Lukas Moro" />
+              <img className="col" src="img/work/sensorium/sensoriumbelt.jpeg" alt="Sketch of Haptic Seat Belts by Lukas Moro" />
           </div>
         </div>
           
@@ -118,16 +119,16 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-              <video className="col" src="img/work/sensorium/sensoriumnfc.mp4" alt="Sketch using an Arduino NFC Shield to change Projections by Lukas Moro" autoPlay muted loop playsInline />
-              <img className="col" src="img/work/sensorium/sensorium2.png" alt="Sketch using Servo Motors, Arduino NFC Shield and Hapticlabs to showcase Digital Twin by Lukas Moro" />
+              <video className="col" src="img/work/sensorium/output.mp4" alt="Sketch using an Arduino NFC Shield to change Projections by Lukas Moro" autoPlay muted loop playsInline />
+              <img className="col" src="img/work/sensorium/sensorium2.jpeg" alt="Sketch using Servo Motors, Arduino NFC Shield and Hapticlabs to showcase Digital Twin by Lukas Moro" />
           </div>
         </div>
           
-        <p> Later sketches included controlling actuation, shaders for projection and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for speed.</p>
+        <p>Later sketches included controlling actuation, shaders for projection and sensor input out of one central Unity application. During this stage most sketches were created in down-scaled versions for a high iteration pace.</p>
 
         <div className='grid'>
           <div className="row">
-            <img className="col" src="img/work/sensorium/sensorium5.png" alt="Setting up the Scale Model of the Sensorium System by Lukas Moro" />
+            <img className="col" src="img/work/sensorium/sensorium5.jpeg" alt="Setting up the Scale Model of the Sensorium System by Lukas Moro" />
             <video className="col" src="img/work/sensorium/lilseat.mp4" autoPlay muted loop playsInline alt="Scale Model of the Sensorium System by Lukas Moro"></video>
           </div>
         </div>
@@ -236,7 +237,6 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/sensorium/sensoriumright.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Curve Seatbelt Servos in Physical Reality by Lukas Moro"></video>
             <video className="col" src="img/work/sensorium/sensoriumdigitaltwin8.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Curve Seatbelt Servos in Unity by Lukas Moro"></video>
           </div>
         </div>

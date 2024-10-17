@@ -9,7 +9,7 @@ function Presence() {
 
         <DayDate />
 
-        <h1>Presence · Spatial Computing for Staying in the Moment.</h1>
+        <h1>Presence · Exploring Interaction Fundamentals for Spatial Computing.</h1>
         
         <p className="spacer"></p>
         <p className="spacer"></p>
@@ -91,39 +91,22 @@ function Presence() {
         <h2>Process</h2>
 
         <p>During this project a research-through-design approach was applied. It started out with a primary research phase. Then many interactive sketches to develop a feeling for underlying technologies were conducted. Afterwards a secondary literature research about spatial interactions put those sketches into context of existing concepts in human computer interaction. Finally three prototypes were built to communicate the five explored interaction fundamentals, that were formulated into the thesis.</p>
-        
-        <div className="grid-process">
-          <div className="row-process">
-            <img className="col-process" src="img/work/presence/_report/7.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/10.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/14.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/15.png" alt="" />
-          </div>
-          <div className="row-process">
-            <img className="col-process" src="img/work/presence/_report/16.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/17.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/18.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/49.jpg" alt="" />
-          </div>
-          <div className="row-process">
-            <img className="col-process" src="img/work/presence/ideation.jpg" alt="" />
-            <img className="col-process" src="img/work/presence/_report/20.jpg" alt="" />
-            <img className="col-process" src="img/work/presence/_report/29.jpg" alt="" />
-            <img className="col-process" src="img/work/presence/_report/42.jpg" alt="" />
-          </div>
-          <div className="row-process">
-            <img className="col-process" src="img/work/presence/_report/47.png" alt="" />
-            <img className="col-process" src="img/work/presence/_report/30.jpg" alt="" />
-            <img className="col-process" src="img/work/presence/_report/34.jpg" alt="" />
-            <img className="col-process" src="img/work/presence/_report/35.jpg" alt="" />
-          </div>
-        </div>
 
         <h2>Primary Literature Research</h2>
 
-        <p>Reading <a target="_blank" rel="noreferrer" href="https://consc.net/reality/">"Reality+"</a> by David Chalmers, <a target="_blank" rel="noreferrer" href="https://space.mit.edu/home/tegmark/ai.html">"Life 3.0"</a> by Max Tegmark and <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus">"Tractatus Logico Philosphicus"</a> by Ludwig Wittgenstein helped to frame the project's initial research question.</p>
+        <p>Reading <a target="_blank" rel="noreferrer" href="https://consc.net/reality/">"Reality+"</a> by David Chalmers, <a target="_blank" rel="noreferrer" href="https://space.mit.edu/home/tegmark/ai.html">"Life 3.0"</a> by Max Tegmark and <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus">"Tractatus Logico Philosphicus"</a> by Ludwig Wittgenstein created an initial idea of the positioning of my thesis. In Benyon's <a target="_blank" rel="noreferrer" href="https://www.researchgate.net/publication/274715399_Spaces_of_Interaction_Places_for_Experience">"Spaces of Interaction, Places for Experience"</a> I discovered the concept of "Blended Space" which helped to frame the project's initial research question.</p>
         
         <p className='block-quote'>How can unification of the virtual and physical domains through spatial computing lead towards frictionless interaction with meaningful augmentation of our minds and minimal interruption of presence?</p>
+
+        <h2>Blended Space</h2>
+
+        <p>To achieve meaningful virtual objects that adapt and influence to the perceived environments of the users a generic space is created that includes generated 3D geometry of the physical environment, semantic descriptions and world transforms of physical and virtual objects, a representation of the user in the scene and integration of control systems of physical outputs like home appliances. High accuracy of this generic model allows for deep integration of realities creating a perceivable blended space.</p>
+
+        <div className="grid">
+          <div className="row">
+            <img className="infographic" src="img/work/presence/blendedspace.png" alt="Presence Graphic of Blended Space Concept by Lukas Moro"/>
+          </div>
+        </div>
 
         <h2>Sketching</h2>
 
@@ -182,6 +165,9 @@ function Presence() {
               <video className="col" src="img/work/presence/game.mp4" autoPlay muted loop playsInline alt="Presence Unity Game View of Shader mapped to LED Matrix by Lukas Moro"></video>
               <video className="col" src="img/work/presence/lamp.mp4" autoPlay muted loop playsInline alt="Presence Shader running on the Desk Lamp's LED MAtrix in real-time by Lukas Moro"></video>
             </div>
+            <div className="row">
+              <img className="centered-col" src="img/work/presence/ledmatrix.jpg" alt="Presence LED Matrix for Physical Lamp by Lukas Moro"></img>
+            </div>
         </div>
 
         <h2>Co-located Multiplayer for Shared Experiences</h2>
@@ -199,7 +185,7 @@ function Presence() {
 
         <h2>Secondary Literature Research</h2>
 
-        <p>After the sketching tacit knowledge was created through the building process. "Developing Embodied Familiarity with Hyperphysical Phenomena." by Gray Crawford, "Tangible bits: Towards seamless interfaces between people, bits and atoms." by Hiroshi Iishi and Brygg Ullmer, "Affordances for Multi-device Gestural Interactions in Augmented Reality." by Shengzhi Wu, "A taxonomy of gestures in human computer interactions." by Maria Karam and M.C. Schraeffel and "Eye-Hand Symbiosis." by Ken Pfeuffer were read to put the insights in context of the academic discourse around spatial computing.</p>
+        <p>After the sketching tacit knowledge was created through the building process. <a target="_blank" rel="noreferrer" href="http://gray.vision">"Developing Embodied Familiarity with Hyperphysical Phenomena."</a> by Gray Crawford, <a target="_blank" rel="noreferrer" href="https://dl.acm.org/doi/10.1145/258549.258715">"Tangible bits: Towards seamless interfaces between people, bits and atoms."</a> by Hiroshi Iishi and Brygg Ullmer, <a target="_blank" rel="noreferrer" href="https://kilthub.cmu.edu/articles/thesis/Affordances_for_Multi-device_Gestural_Interactions_in_Augmented_Reality/8434403?file=15693080">"Affordances for Multi-device Gestural Interactions in Augmented Reality."</a> by Shengzhi Wu, <a target="_blank" rel="noreferrer" href="https://www.researchgate.net/publication/37538487_A_Taxonomy_of_Gestures_in_Human_Computer_Interactions">"A taxonomy of gestures in human computer interactions."</a> by Maria Karam and M.C. Schraeffel and <a target="_blank" rel="noreferrer" href="https://kenpfeuffer.com/eye-hand-symbiosis-what-guide/#:~:text=“Eye%2DHand%20Symbiosis”%20is,plethora%20of%20novel%20interactive%20capabilities.">"Eye-Hand Symbiosis."</a> by Ken Pfeuffer were read to put the insights in context of the academic discourse around spatial interactions.</p>
         
         <h2>Prototyping</h2>
 
@@ -249,10 +235,12 @@ function Presence() {
             </div>
         </div>
 
-        <h2>Explored Interaction Fundamentals</h2>
+        <h2>Outcome: Prototypes + Interaction Fundamentals</h2>
 
         <p>The outcome of this thesis consists of the prototypes, the design consolidation and the formulation of new interaction fundamentals for spatial computing. Those fundamentals are malleable and should not be seen as absolutes but rather the raw experiential properties the technology enables at the current point of time for facilitating presence in the moment.</p>
         
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/bJjq9mZvcWc?si=RDYmEW1LIEoa1Qt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         <h2>1. Embracing Togetherness.</h2>
         
         <p>Exchange happening between physical co-located people combined with exposure to the same virtual objects, changes the perceived meaning of these objects. Considering togetherness sparks discourse, collaboration and sharing, while preventing isolation and disconnection.</p>

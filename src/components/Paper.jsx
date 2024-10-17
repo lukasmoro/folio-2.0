@@ -118,7 +118,7 @@ function Paper() {
         
         <div className="grid">
           <div className="row">
-            <img className='infographic' src="img/work/paper/infographicpaper.png" alt="Infographic on Positioning of 'Feel Like Paper' by Lukas Moro"></img>
+            <img className="infographic" src="img/work/paper/infographicpaper.png" alt="Infographic on Positioning of 'Feel Like Paper' by Lukas Moro"></img>
           </div>
         </div>
         
@@ -195,18 +195,28 @@ function Paper() {
         <div className="grid">
           <div className="row">
             {/* <video className="col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video> */}
-            <video className="double-col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
+            <video className="double-col" src="img/work/paper/drawdream.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
           </div>
           {/* <div className="row">
             <video className="centered-col" src="img/work/paper/drawdreamlong.mp4" alt="Draw & Dream Prototype by Lukas Moro." autoPlay muted loop playsInline></video>
           </div> */}
         </div>
 
-        <p>For feeding the drawn image to StreamDiffusion an image processing pipeline was implemented in Python. It uses OpenCV for processing the camera feed from Quest's casting. Than finds four-sided contours of the paper through canny edge detection. Once the paper is located it initialises keypoints and descriptors via an ORB (Oriented FAST and Rotated BRIEF) feature detection. It then uses Brute-Force Matcher (BFMatcher) to match features between consecutive frames. This allows for tracking the paper's movement by comparing the features of the current frame to the features of the previously detected last "good" frame. It then uses homography between the frames to apply a perspective warp that skews the perspective to be always from orthographic birds-eye view. The "ORB and BFMatcher & homography" approach was chosen as it turnes out to be extremely reliable even with partial occlusion of the paper through hands, pens or brushes. This view is then streamed into Touch Designer with ultra-low latency via Spout.</p>
+        <p>For feeding the drawn image to StreamDiffusion an image processing pipeline was implemented in Python. It uses OpenCV for processing the camera feed from Quest's casting. Than finds four-sided contours of the paper through canny edge detection. Once the paper is located it initialises keypoints and descriptors via an ORB (Oriented FAST and Rotated BRIEF) feature detection. It then uses Brute-Force Matcher (BFMatcher) to match features between consecutive frames.</p> 
+        
+        <div className="grid">
+          <div className="row">
+            <video className="col" src="img/work/paper/paperpythonoutput3.mp4" alt="Unskewing of the Perspective of a Sheet of Paper with Python by Lukas Moro." autoPlay muted loop playsInline></video>          
+          </div>
+        </div>
+        
+        
+        <p>This allows for tracking the paper's movement by comparing the features of the current frame to the features of the previously detected last "good" frame. It then uses homography between the frames to apply a perspective warp that skews the perspective to be always from orthographic birds-eye view. The ORB, BFMatcher and homography approach was chosen as it turnes out to be extremely reliable even with partial occlusion of the paper through hands, pens or brushes. This view is then streamed into Touch Designer with ultra-low latency via Spout.</p>
           
         <div className="grid">
           <div className="row">
-            <img className="col" src="" alt="Unskewing of the Perspective of a Sheet of Paper with Python by Lukas Moro."></img>
+            <video className="col" src="img/work/paper/paperpythonoutput1.mp4" alt="Unskewing of the Perspective of a Sheet of Paper with Python by Lukas Moro." autoPlay muted loop playsInline></video>
+            <video className="col" src="img/work/paper/paperpythonoutput2.mp4" alt="Unskewing of the Perspective of a Sheet of Paper with Python by Lukas Moro." autoPlay muted loop playsInline></video>
           </div>
         </div>
 
@@ -218,19 +228,11 @@ function Paper() {
             </div>
         </div>
 
-        <p>The stylistic "lens" can be adjusted via spoken prompts that are transcribed with <a href="">Wit.ai</a> in Unity and then send to TouchDesigner. The prompts are inputed on the fly, so that the image output reacts immediately when someone starts describing the desired "lens".</p>
+        <p>The stylistic "lens" can be adjusted via spoken prompts that are transcribed with <a href="">Wit.ai</a> in Unity and then send to TouchDesigner. The prompts are inputed on the fly, so that the image output reacts immediately when someone starts describing the desired "lens". The generated images are sent to Unity via NDI and rendered to a quad with a custom shader and a rendertexture.</p>
         
         <div className="grid">
           <div className="row">
             <video className="col" src="img/work/paper/drawdreamwitai.mp4" alt="Interface for Wit.ai in Unity by Lukas Moro." autoPlay muted loop playsInline></video>
-          </div>
-        </div>
-
-        <p>When the prompting process is started an animated shader reveals the portal into the generated image. The image feed is streamed from TouchDesigner into Unity via NDI.</p>
-          
-        <div className="grid">
-          <div className="row">
-            <img className="col" src="" alt="Sky Box Mapping & Shader Setup in Unity by Lukas Moro."></img>
           </div>
         </div>
         
