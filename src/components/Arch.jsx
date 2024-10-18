@@ -63,7 +63,7 @@ function Arch() {
 
         <h2>Process</h2>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, suscipit incidunt doloribus aut autem iusto cupiditate nulla quos modi. Fugit libero sed aspernatur beatae expedita. Provident harum laborum labore deleniti.</p>
+        <p>In a holistic process that included field research, interviewing, prototyping and the creation of a final video, I was involved in the research and ideation process, digital and physical prototyping and CGI for the final deliverables.</p>
 
         <div className="grid-process">
           <div className="row-process">

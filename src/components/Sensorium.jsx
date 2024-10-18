@@ -1,8 +1,9 @@
-import React, { Suspense } from 'react';
+import React, { useState } from 'react';
 import DayDate from "./DayDate.jsx";
 import { Canvas } from '@react-three/fiber';
 import { CineonToneMapping} from 'three';
 import { Splat, OrbitControls, Environment, useGLTF} from '@react-three/drei'; 
+import { useSpring, animated } from '@react-spring/three';
 
 function CupraWearable() {
   const { scene } = useGLTF('glb/cuprawearable.glb');
@@ -10,13 +11,158 @@ function CupraWearable() {
   return <primitive object={scene} />;
 }
 
-function CupraSensorsActuators() {
-  const { scene } = useGLTF('glb/cuprasensoriumsensoractuators.glb');
-  
-  return <primitive object={scene} />;
+function ActuatorBuck(props) {
+  const { handleHover, handleLeave, description } = props;
+  const [hovered, setHovered] = useState(false);
+
+  const { scale, color } = useSpring({
+    scale: hovered ? [0.1, 0.1, 0.1] : [0.05, 0.05, 0.05],
+    color: hovered ? '#ff69b4' : '#898989',
+    config: { tension: 400, friction: 12, mass: 1.5 },
+  });
+
+  return (
+    <animated.mesh
+      {...props}
+      scale={scale}
+      onPointerOver={() => { setHovered(true); handleHover(description); }}
+      onPointerOut={() => { setHovered(false); handleLeave(); }}
+    >
+      <sphereGeometry />
+      <animated.meshStandardMaterial 
+        color={color}
+        emissive={color}
+        emissiveIntensity={1}
+        toneMapped={false}
+      />
+    </animated.mesh>
+  );
+}
+
+function SensorBuck(props) {
+  const { handleHover, handleLeave, description } = props;
+  const [hovered, setHovered] = useState(false);
+
+  const { scale, color } = useSpring({
+    scale: hovered ? [0.1, 0.1, 0.1] : [0.05, 0.05, 0.05],
+    color: hovered ? '#adebb3' : '#898989',
+    config: { tension: 400, friction: 12, mass: 1.5 },
+  });
+
+  return (
+    <animated.mesh
+      {...props}
+      scale={scale}
+      onPointerOver={() => { setHovered(true); handleHover(description); }}
+      onPointerOut={() => { setHovered(false); handleLeave(); }}
+    >
+      <sphereGeometry />
+      <animated.meshStandardMaterial 
+        color={color}
+        emissive={color}
+        emissiveIntensity={1}
+        toneMapped={false}
+      />
+    </animated.mesh>
+  );
+}
+
+function ActuatorHand(props) {
+  const { handleHover, handleLeave, description } = props;
+  const [hovered, setHovered] = useState(false);
+
+  const { scale, color } = useSpring({
+    scale: hovered ? [0.01, 0.01, 0.01] : [0.005, 0.005, 0.005],
+    color: hovered ? '#ff69b4' : '#898989',
+    config: { tension: 400, friction: 12, mass: 1.5 },
+  });
+
+  return (
+    <animated.mesh
+      {...props}
+      scale={scale}
+      onPointerOver={() => { setHovered(true); handleHover(description); }}
+      onPointerOut={() => { setHovered(false); handleLeave(); }}
+    >
+      <sphereGeometry />
+      <animated.meshStandardMaterial 
+        color={color}
+        emissive={color}
+        emissiveIntensity={1}
+        toneMapped={false}
+      />
+    </animated.mesh>
+
+  );
+}
+
+function SensorHand(props) {
+  const { handleHover, handleLeave, description } = props;
+  const [hovered, setHovered] = useState(false);
+
+  const { scale, color } = useSpring({
+    scale: hovered ? [0.01, 0.01, 0.01] : [0.005, 0.005, 0.005],
+    color: hovered ? '#adebb3' : '#898989',
+    config: { tension: 400, friction: 12, mass: 1.5 },
+  });
+
+  return (
+    <animated.mesh
+      {...props}
+      scale={scale}
+      onPointerOver={() => { setHovered(true); handleHover(description); }}
+      onPointerOut={() => { setHovered(false); handleLeave(); }}
+    >
+      <sphereGeometry />
+      <animated.meshStandardMaterial 
+        color={color}
+        emissive={color}
+        emissiveIntensity={1}
+        toneMapped={false}
+      />
+    </animated.mesh>
+  );
+}
+
+function DisplayBuck(props) {
+  const { handleHover, handleLeave, description } = props;
+  const [hovered, setHovered] = useState(false);
+
+  const { scale, color } = useSpring({
+    scale: hovered ? [0.1, 0.1, 0.1] : [0.05, 0.05, 0.05],
+    color: hovered ? '#19a0fc' : '#898989',
+    config: { tension: 400, friction: 12, mass: 1.5 },
+  });
+
+  return (
+    <animated.mesh
+      {...props}
+      scale={scale}
+      onPointerOver={() => { setHovered(true); handleHover(description); }}
+      onPointerOut={() => { setHovered(false); handleLeave(); }}
+    >
+      <sphereGeometry />
+      <animated.meshStandardMaterial 
+        color={color}
+        emissive={color}
+        emissiveIntensity={1}
+        toneMapped={false}
+      />
+    </animated.mesh>
+
+  );
 }
 
 function Sensorium() {
+
+  const [hoveredBuckDescription, setHoveredBuckDescription] = useState('HOVER PARTS FOR DESCRIPTION');
+  const [hoveredHandDescription, setHoveredHandDescription] = useState('HOVER PARTS FOR DESCRIPTION');
+
+  const handleBuckHover = (description) => {setHoveredBuckDescription(description);};
+  const handleBuckLeave = () => {setHoveredBuckDescription('HOVER PARTS FOR DESCRIPTION');};
+
+  const handleHandHover = (description) => {setHoveredHandDescription(description);};
+  const handleHandLeave = () => {setHoveredHandDescription('HOVER PARTS FOR DESCRIPTION');};
 
   return (
     <div className="container"  >
@@ -163,20 +309,30 @@ function Sensorium() {
 
         <h2>Sensors</h2>
 
-        <p>The prototype perceives the world through an IR distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle.</p>
+        <p>The prototype perceives the world through an ultrasonic distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle.</p>
 
         <div className="canvas-container-sensorium">
-          <Canvas gl={{antialias: true, toneMapping: CineonToneMapping, }} camera={{ position: [0, 1.7, -2.5], zoom:1.2}}>
+          <Canvas gl={{ alpha: true, antialias: true, toneMapping: CineonToneMapping }} camera={{ position: [0, 1.7, -2.5], zoom: 1.2 }}>
             <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} />
             <group position={[-0.15, 0.15, 0.3]} rotation={[0, Math.PI / 3.6, 0]}>
-              <CupraSensorsActuators />
               <Splat
                 position={[0, 0.1, 0.075]}
                 src="https://huggingface.co/datasets/lukasmoro/gaussiansplatssensorium/resolve/main/gs_Sensorium-round.splat"
               />
+                <ActuatorBuck position={[-0.925, 0.375, -0.1]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 1 → SEATBELT TENSION" />
+                <ActuatorBuck position={[-0.95, 0.375, 0.15]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 2 → SEATBELT TENSION" />
+                <ActuatorBuck position={[-0.825, -0.375, -0.1]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 3 → SEATBELT TENSION" />
+                <ActuatorBuck position={[-0.85, -0.375, 0.15]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 4 → SEATBELT TENSION" />
+                <SensorBuck position={[0.05, 0.25, 0.115]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="LEAP MOTION → HANDTRACKING" />
+                <SensorBuck position={[-0.5, -0.1, 0.065]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="ID-12LA RFID READER → IDENTIFICATION " />
+                <SensorBuck position={[-0.8, 0.435, -0.35]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HC-SR04 ULTRASONIC SENSOR → DISTANCE" />
+                <DisplayBuck position={[-0.625, 0.3, 0.06]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="PROJECTION CANVAS 1 → SELF-EXPRESSION" />
+                <DisplayBuck position={[0.05, 0.65, 0.6]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="PROJECTION CANVAS 2 → AMBIENT" />
+                <DisplayBuck position={[0.55, 0.425, 0]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="PROJECTION CANVAS 3 → INSTRUMENT PANEL" />
             </group>
-            <Environment files="hdri/rosendal_park_sunset_puresky_2k.hdr" />
+            <Environment files="hdri/rosendal_park_sunset_puresky_2k.hdr"  />
           </Canvas>
+          <div className="description-box"><p>{hoveredBuckDescription}</p></div>
         </div>
 
         <h2>Actuators</h2>
@@ -185,12 +341,14 @@ function Sensorium() {
         
         <div className="canvas-container">
           <Canvas gl={{antialias: true, toneMapping: CineonToneMapping}} camera={{ position: [0, 0.2, 0.7], zoom: 4  }}>
-            <Suspense fallback={null}>
               <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} />
                 <CupraWearable />
+                <ActuatorHand position={[0.015, 0.05, 0.0375]} handleHover={handleHandHover} handleLeave={handleHandLeave} description="VOICE COIL ACTUATOR → HAPTIC FEEDBACK"  />
+                <ActuatorHand position={[0, -0.06, -0.0335]} handleHover={handleHandHover} handleLeave={handleHandLeave} description="LINEAR RESONANCE ACTUATOR → HAPTIC FEEDBACK"  />
+                <SensorHand position={[0.025, 0.06, -0.025]} handleHover={handleHandHover} handleLeave={handleHandLeave} description="PULSE SENSOR → HEARTRATE"  />
                 <Environment files="hdri/rosendal_park_sunset_puresky_2k.hdr" />
-            </Suspense>
           </Canvas>
+          <div className="description-box"><p>{hoveredHandDescription}</p></div>
         </div>
 
         <h2>Haptic & Biometric Wearable</h2>

@@ -12,13 +12,17 @@ function Me() {
         <h1>Lukas Moro.</h1>
         
         <p className="spacer"></p>
-        {/* <p className="spacer">❉❉</p> */}
-        {/* <p className="spacer">ワビサビ</p> */}
-        {/* <p className="spacer">侘寂</p> */}
 
         <p>Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.</p>
           
         <p>
+          Currently, working on a spatial browser together with{" "} 
+          <a 
+            href="https://fluid.so/"  
+            target="_blank"
+            rel="noreferrer"
+            className="link">Fluid XR</a>. 
+          <br />
           Worked with{" "}
           <a
             href="https://www.rolls-roycemotorcars.com/en_GB/home.html"

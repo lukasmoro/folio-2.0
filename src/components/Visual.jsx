@@ -15,27 +15,7 @@ function Visual() {
           <p className="spacer"></p>
           <p className="spacer"></p>
           
-          <img className='banner' src="img/grid/explore.jpg" alt="Banner of the Exploration Projects by Lukas Moro" />
-          
-          <ul className="tools">
-            <li className="tool">UNITY</li>
-            <li className="tool">C#</li>
-            <li className="tool">URP</li>
-            <li className="tool">SHADERLAB</li>
-            <li className="tool">VFX GRAPH</li>
-            <li className="tool">META INTERACTION SDK</li>
-            <li className="tool">NETCODE</li>
-            <li className="tool">ARDUINO</li>
-            <li className="tool">PYTHON</li>
-            <li className="tool">YOLO V8</li>
-            <li className="tool">OPENAI API</li>
-            <li className="tool">QUEST 3</li>
-            <li className="tool">KINECT</li>
-            <li className="tool">TOUCHDESIGNER</li>
-            <li className="tool">STABLE DIFFUSION</li>
-            <li className="tool">STREAMDIFFUSION</li>
-            <li className="tool">CONTROLNET</li>
-          </ul>
+          <img className='banner' src="img/grid/exploring.jpg" alt="Banner of the Exploration Projects by Lukas Moro" />
 
           <p>Exploring experiental properties and materiality of technologies and aesthetics through little side-projects exposed to my friends.</p>
           

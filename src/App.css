@@ -362,16 +362,6 @@ video
   vertical-align: middle;
 }
 
-.tool {
-  padding: 2px 5px;
-  margin-right: 10px; 
-  margin-bottom: 10px;
-  border-radius: 5px;
-  background: #ffffff;
-  color: #898989;
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
-}
-
 /*PROJECTS*/
 
 .tools {
@@ -501,7 +491,7 @@ video
 .canvas-container {
   box-sizing: border-box;
   width: 100%; 
-  height: 400px;
+  height: 500px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -514,17 +504,14 @@ video
   box-sizing: border-box;
   width: 100%; 
   height: 600px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  cursor: grab; 
+  cursor: grab;
 }
 
-.canvas-container canvas {
-  display: block; 
-}
 .process
 {
   margin-bottom: 1rem;
@@ -615,4 +602,26 @@ video
   box-shadow: none;
   margin-top: 1rem;
   margin-bottom: 3.5rem;
+}
+
+.description-box {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  color: #898989;
+  padding: 2px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 4px 6px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  z-index: 100;
+  display: inline-block;
+  visibility: visible;
+  text-align: center;
+}
+
+.description-box p {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
 }

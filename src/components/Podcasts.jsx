@@ -68,7 +68,11 @@ function Podcasts() {
           
         <p>For the implementation I first build up the parsing logic. My extension prioritises the decentralised nature of RSS over using any third-party API. This reduces the amount of ads and hopefully prevents it from breaking in the future. For saving the individual feeds I use the Chrome Storage API this makes the extension synchronised across multiple devices when logged into the same Google account. After that I started working on the design and decided for a simple cover-flow structure implemented entirely in CSS with a custom player component for the new tab context menu and list structures for the panel and settings context to manage the URLs.</p>
           
-        <p>ADD GRAPHIC: How it works.</p>
+        <div className="grid">
+          <div className="row">
+            <img className="infographic" src="img/work/podcasts/podcastsgraphic.png" alt="Podcasts for Chrome Schematics by Lukas Moro"/>
+          </div>
+        </div>
         
         <h2>Micro-Interactions</h2>
         
@@ -76,12 +80,12 @@ function Podcasts() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src=""></video>
-            <video className="col" src=""></video>
+            <video className="col" src="img/work/podcasts/podcastsdetail1.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
+            <video className="col" src="img/work/podcasts/podcastsdetail2.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
           </div>
           <div className="row">
-          <video className="col" src=""></video>
-          <video className="col" src=""></video>
+            <video className="col" src="img/work/podcasts/podcastsdetail3.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
+            <video className="col" src="img/work/podcasts/podcastsdetail4.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
           </div>
         </div>
 
