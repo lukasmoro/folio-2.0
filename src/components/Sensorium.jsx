@@ -6,6 +6,7 @@ import { Splat, OrbitControls, Environment, useGLTF} from '@react-three/drei';
 import { useSpring, animated } from '@react-spring/three';
 import LazyLoadVideo from './LazyLoadVideo';
 import LazyLoadImage from './LazyLoadImage';
+import { useInView } from 'react-intersection-observer';
 
 function CupraWearable() {
   const { scene } = useGLTF('glb/sensoriumwearable.glb');
@@ -156,6 +157,8 @@ function DisplayBuck(props) {
 }
 
 function Sensorium() {
+
+  const { ref, inView } = useInView({triggerOnce: true, rootMargin: '200px',});
 
   const [hoveredBuckDescription, setHoveredBuckDescription] = useState('HOVER PARTS FOR DESCRIPTION');
   const [hoveredHandDescription, setHoveredHandDescription] = useState('HOVER PARTS FOR DESCRIPTION');
@@ -313,14 +316,11 @@ function Sensorium() {
 
         <p>The prototype perceives the world through an ultrasonic distance sensor mounted at the entry, a Leap Motion hand-tracking kit, a heart-rate sensor on the wearable and a RFID reader mounted on the seatbelt buckle.</p>
 
-        <div className="canvas-container-sensorium">
+        <div className="canvas-container-sensorium" ref={ref}>
           <Canvas gl={{ alpha: true, antialias: true, toneMapping: CineonToneMapping }} camera={{ position: [0, 1.7, -2.5], zoom: 1.2 }}>
             <OrbitControls enablePan={false} enableZoom={false} enableRotate={true} />
             <group position={[-0.15, 0.15, 0.3]} rotation={[0, Math.PI / 3.6, 0]}>
-              <Splat
-                position={[0, 0.1, 0.075]}
-                src="https://huggingface.co/datasets/lukasmoro/gaussiansplatssensorium/resolve/main/gs_Sensorium-round.splat"
-              />
+                {inView && (<Splat position={[0, 0.1, 0.075]} src="https://huggingface.co/datasets/lukasmoro/gaussiansplatssensorium/resolve/main/gs_Sensorium-round.splat"/>)}
                 <ActuatorBuck position={[-0.925, 0.375, -0.1]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 1 → SEATBELT TENSION" />
                 <ActuatorBuck position={[-0.95, 0.375, 0.15]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 2 → SEATBELT TENSION" />
                 <ActuatorBuck position={[-0.825, -0.375, -0.1]} handleHover={handleBuckHover} handleLeave={handleBuckLeave} description="HS422 SERVO 3 → SEATBELT TENSION" />

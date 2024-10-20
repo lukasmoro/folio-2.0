@@ -9,14 +9,14 @@ function About() {
         
         <DayDate />
         
-        <h1>Lukas Moro.</h1>
+        <h1>Lukas Moro. Visiting San Francisco in November. 🌁</h1>
         
         <p className="spacer"></p>
 
         <p>Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.</p>
           
         <p>
-          Currently, building for a spatial workplace together with{" "} 
+          Currently, building interactions for spatial workplaces together with{" "} 
           <a 
             href="https://fluid.so/"  
             target="_blank"
