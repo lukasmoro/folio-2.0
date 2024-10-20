@@ -7,7 +7,7 @@ function Explorations() {
 
   return (
       
-      <div className='container'>
+      <div className="container">
         <div className="text-block">
           
           <DayDate />
@@ -40,7 +40,11 @@ function Explorations() {
 
           <p>XR Bootcamp, together with industry partners including Meta organised the XR Hack 2024. A hackathon carried out in London, Cologne, Stockholm and Cologne with over 1000 participants. I created an Unity plugin that helped the hackers to access the camera feed of their Quest 3 mixed reality headsets to run machine learning models on it for semantic input. This was implemented using Quest's casting functionality, OBS, Python and TCP/IP to stream detections back into the headset.</p>
           
-          <iframe width="600" height="315" src="https://www.youtube.com/embed/MA8xKWMjkYI?si=JQG5TcWQQEVTA9Vc&amp;start=1558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div className="grid">
+            <div className="row">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/MA8xKWMjkYI?si=JQG5TcWQQEVTA9Vc&amp;start=1558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
           
           <h2>Real-time Projections for Raves</h2>
 

@@ -16,7 +16,7 @@ function About() {
         <p>Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.</p>
           
         <p>
-          Currently, building interactions for spatial workplaces together with{" "} 
+          Building interactions for spatial workplaces together with{" "} 
           <a 
             href="https://fluid.so/"  
             target="_blank"

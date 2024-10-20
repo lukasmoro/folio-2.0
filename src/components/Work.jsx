@@ -50,7 +50,7 @@ function Work() {
           </Link>
           .
         </p>
-        <div className="line"></div>
+        {/* <div className="line"></div> */}
         {WorkItem.map((item, index) => {
           return (
             <Link

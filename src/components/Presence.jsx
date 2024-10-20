@@ -244,7 +244,11 @@ function Presence() {
 
         <p>The outcome of this thesis consists of the prototypes, the design consolidation and the formulation of new interaction fundamentals for spatial computing. Those fundamentals are malleable and should not be seen as absolutes but rather the raw experiential properties the technology enables at the current point of time for facilitating presence in the moment.</p>
         
-        <iframe width="600" height="315" src="https://www.youtube.com/embed/bJjq9mZvcWc?si=RDYmEW1LIEoa1Qt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="grid">
+            <div className="row">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/bJjq9mZvcWc?si=RDYmEW1LIEoa1Qt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
 
         <h2>1. Embracing Togetherness.</h2>
         
