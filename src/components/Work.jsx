@@ -35,8 +35,7 @@ function Work() {
         <p className="spacer"></p>
 
         <p>
-          Projects and explorations worked on over the past years. My current
-          favourites are{" "}
+          Projects and explorations worked on over the past years. Favourite projects are{" "}
           <Link to="/paper" className="link">
             "Feels Like Paper!"
           </Link>

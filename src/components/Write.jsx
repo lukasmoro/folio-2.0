@@ -16,7 +16,7 @@ function Write() {
 
           <p className="spacer"></p>
 
-          <p>Writing about all kind of topics to make vague thoughts more concrete in the process. If you want to have a chat please{" "}<a className="link" target="_blank" rel="noreferrer" href="mailto:lukas.moro@me.com">reach out</a>.</p>
+          <p>Writing as a way of making vague thoughts a bit more concrete in the process.<br />If you want to share thoughts on design or technology related matter, {" "}<a className="link" target="_blank" rel="noreferrer" href="mailto:lukas.moro@me.com">let's chat</a>.</p>
           
           {Thoughts.map((item) => {const paragraphs = item.text.split('\n').map((paragraph, index, array) => 
           (

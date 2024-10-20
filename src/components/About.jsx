@@ -13,7 +13,7 @@ function About() {
         
         <p className="spacer"></p>
 
-        <p>Designing and prototyping experiences to blur between digital and physical interactions for a fricitonless integration of computing into <i>perceivable reality</i>.</p>
+        <p>Designing and prototyping experiences to blur between digital and physical interaction for fricitonless integration of computing into <i>perceivable reality</i>.</p>
           
         <p>
           Building interactions for spatial workplaces together with{" "} 
