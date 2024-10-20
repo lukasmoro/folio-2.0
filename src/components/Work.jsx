@@ -3,15 +3,19 @@ import useMousePosition from './UseMousePosition';
 import { Link } from 'react-router-dom'; 
 import WorkItem from '../components/Data/listWork'; 
 import DayDate from './DayDate'; 
+import LazyLoadImage from './LazyLoadImage';
 
 function Work() {
-
   const [isHovered, setIsHovered] = useState(false);
   const [imgSrc, setImgSrc] = useState(null);
+  const [alt, setAlt] = useState('');
+  const [placeholder, setPlaceholder] = useState(null);
   const mousePosition = useMousePosition();
 
   const handleMouseEnter = (item) => {
     setImgSrc(item.src);
+    setAlt(item.name);
+    setPlaceholder(item.placeholder);
     setIsHovered(true);
   };
 
@@ -80,7 +84,7 @@ function Work() {
             style={{ left: mousePosition.x + 20, top: mousePosition.y - 165 }}
           >
             <div className="mouse">
-              <img alt="" src={imgSrc} />
+              <LazyLoadImage alt={alt} src={imgSrc} placeholder={placeholder} />
             </div>
           </div>
         )}

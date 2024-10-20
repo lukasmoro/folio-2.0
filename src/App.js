@@ -58,7 +58,7 @@ function App() {
             files="hdri/rosendal_park_sunset_puresky_2k.hdr"
           />
           <ShadowPlane />
-          <Butterfly path="glb/butterfly_metallic.glb" scale={[0.175, 0.175, 0.175]} />
+          <Butterfly path="glb/butterfly.glb" scale={[0.175, 0.175, 0.175]} />
         </Canvas>
 
         <Dock />
