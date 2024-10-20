@@ -177,7 +177,7 @@ function Sensorium() {
         <p className="spacer"></p>
         <p className="spacer"></p>
         
-        <LazyLoadImage className="banner" src="img/work/sensorium/sensoriumheader.jpg" alt="Banner of the Project Sensorium by Lukas Moro"/>
+        <LazyLoadImage className="banner" src="img/work/sensorium/sensoriumheader.jpg" alt="Banner of the Project Sensorium by Lukas Moro" placeholder="img/work/sensorium/sensoriumheader-placeholder.jpg"/>
 
         <ul className="tools">
           <li className="tool">UNITY</li>
@@ -236,8 +236,8 @@ function Sensorium() {
             
         <div className="grid">
           <div className="row">
-              <img className="col" src="img/work/sensorium/sensoriuminspirationphysarum.jpg" alt="Physarum Polycephalum"/>
-              <img className="col" src="img/work/sensorium/sensoriuminspirationtribal.gif" alt="'Tribal Belonging' Cupra Brand Identity by 10TOTOKYO"/>
+              <LazyLoadImage className="col" src="img/work/sensorium/sensoriuminspirationphysarum.jpg" alt="Physarum Polycephalum" placeholder="img/work/sensorium/sensoriuminspirationphysarum-placeholder.jpeg"/>
+              <LazyLoadImage className="col" src="img/work/sensorium/sensoriuminspirationtribal.gif" alt="'Tribal Belonging' Cupra Brand Identity by 10TOTOKYO" placeholder=""/>
           </div>
         </div>
            
@@ -258,8 +258,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchfirstday.jpg" alt="Sketch of a Particle System Projection in a Car Interior by Lukas Moro" />
-              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchbelt.jpg" alt="Sketch of Haptic Seat Belts by Lukas Moro" />
+              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchfirstday.jpg" alt="Sketch of a Particle System Projection in a Car Interior by Lukas Moro" placeholder="img/work/sensorium/sensoriumsketchfirstday-placeholder.jpg"/>
+              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchbelt.jpg" alt="Sketch of Haptic Seat Belts by Lukas Moro" placeholder="img/work/sensorium/sensoriumsketchbelt-placeholder.jpg"/>
           </div>
         </div>
           
@@ -267,8 +267,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-              <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumsketchrfidprojection.mp4" alt="Sketch using an Arduino NFC Shield to change Projections by Lukas Moro" autoPlay muted loop playsInline />
-              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchsystem.jpg" alt="Sketch using Servo Motors, Arduino NFC Shield and Hapticlabs to showcase Digital Twin by Lukas Moro" />
+              <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumsketchrfidprojection.mp4" alt="Sketch using an Arduino NFC Shield to change Projections by Lukas Moro" autoPlay muted loop playsInline placeholder="img/work/sensorium/sensoriumsketchrfidprojection-placeholder.jpg"/>
+              <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchsystem.jpg" alt="Sketch using Servo Motors, Arduino NFC Shield and Hapticlabs to showcase Digital Twin by Lukas Moro" placeholder="img/work/sensorium/sensoriumsketchsystem-placeholder.jpg"/>
           </div>
         </div>
           
@@ -276,8 +276,8 @@ function Sensorium() {
 
         <div className='grid'>
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchscalemodel.jpg" alt="Setting up the Scale Model of the Sensorium System by Lukas Moro" />
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumsketchscalemodelprojections.mp4" autoPlay muted loop playsInline alt="Scale Model of the Sensorium System by Lukas Moro"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumsketchscalemodel.jpg" alt="Setting up the Scale Model of the Sensorium System by Lukas Moro" placeholder="img/work/sensorium/sensoriumsketchscalemodel-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumsketchscalemodelprojections.mp4" autoPlay muted loop playsInline alt="Scale Model of the Sensorium System by Lukas Moro" placeholder="img/work/sensorium/sensoriumsketchscalemodelprojections-placeholder.jpg"/>
           </div>
         </div>
           
@@ -305,7 +305,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin.jpg" alt="Unity Game View of Sensorium's Digital Twin by Lukas Moro"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin.jpg" alt="Unity Game View of Sensorium's Digital Twin by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin-placeholder.jpg"/>
           </div>
         </div>
 
@@ -359,11 +359,11 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor.jpg" alt="Sensorium Ultrasonic Distance Sensor on Buck by Lukas Moro" />
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin1.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Welcome' Gesture in Unity by Lukas Moro"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor.jpg" alt="Sensorium Ultrasonic Distance Sensor on Buck by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor-placeholder1.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin1.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Welcome' Gesture in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin1-placeholder.jpg"/>
           </div>
             <div className="row">
-              <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Welcome' Gesture in Physical Reality by Lukas Moro"/>
+              <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Welcome' Gesture in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeultrasonicdistancesensor-placeholder2.jpg"/>
             </div>
         </div>
 
@@ -371,11 +371,11 @@ function Sensorium() {
 
         <div className="grid">
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypewearable.jpg" alt="Sensorium Wearable with Genuino MKR-1000, Heart-Rate Sensor, NFC Tag and Hapticlabs Satellite by Lukas Moro" />
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin2.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Unlocking' Gesture in Unity by Lukas Moro"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypewearable.jpg" alt="Sensorium Wearable with Genuino MKR-1000, Heart-Rate Sensor, NFC Tag and Hapticlabs Satellite by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypewearable-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin2.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Unlocking' Gesture in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin2-placeholder.jpg"/>
           </div>
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeunlock.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Unlocking' Gesture in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeunlock.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Unlocking' Gesture in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeunlock-placeholder.jpg"/>
           </div>
         </div>
 
@@ -385,11 +385,11 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin3.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro"/>
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypeservos.jpg" alt="Sensorium Seatbelt Servos on Buck by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin3.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Active Seatbelt Servos in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin3-placeholder.jpg"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototypeservos.jpg" alt="Sensorium Seatbelt Servos on Buck by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeservos-placeholder1.jpg"/>
           </div>
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeservos.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Active Seatbelt Servos in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeservos.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Active Seatbelt Servos in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeservos-placeholder2.jpg"/>
           </div>
         </div>
 
@@ -397,7 +397,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="double-col" src="img/work/sensorium/sensoriumprototypedigitaltwin4.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Curve Seatbelt Servos in Unity by Lukas Moro"/>
+            <LazyLoadVideo className="double-col" src="img/work/sensorium/sensoriumprototypedigitaltwin4.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Curve Seatbelt Servos in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin4-placeholder.jpg"/>
           </div>
         </div>
         
@@ -407,8 +407,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypehandtracking.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Handoff' Gesture with Dashboard in Physical Reality by Lukas Moro"/>
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin5.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Handoff' Gesture with Dashboard in Unity by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypehandtracking.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Handoff' Gesture with Dashboard in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypehandtracking-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin5.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Handoff' Gesture with Dashboard in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin5-placeholder.jpg"/>
           </div>
         </div>
 
@@ -416,8 +416,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin6.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Steering' Gesture with Dashboard in Unity by Lukas Moro"/>
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeinteraction.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Steering' Gesture with Dashboard in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin6.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin 'Steering' Gesture with Dashboard in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin6-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeinteraction.mp4" autoPlay muted loop playsInline alt="Sensorium Buck 'Steering' Gesture with Dashboard in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeinteraction-placeholder.jpg"/>
           </div>
         </div>
 
@@ -427,8 +427,8 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin7.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Spatial Physarum Compute Shader Projections in Unity by Lukas Moro"/>
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeambientprojections.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Spatial Physarum Compute Shader Projections in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin7.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Spatial Physarum Compute Shader Projections in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin7-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeambientprojections.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Spatial Physarum Compute Shader Projections in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeambientprojections-placeholder.jpg"/>
           </div>
         </div>
 
@@ -436,8 +436,8 @@ function Sensorium() {
           
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin8.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Audio-Reaction of Physarum Compute Shader Projections in Unity by Lukas Moro"/>
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeaudioreactionprojection.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Audio-Reaction of Physarum Compute Shader Projections in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypedigitaltwin8.mp4" autoPlay muted loop playsInline alt="Sensorium Digital Twin Audio-Reaction of Physarum Compute Shader Projections in Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypedigitaltwin8-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeaudioreactionprojection.mp4" autoPlay muted loop playsInline alt="Sensorium Buck Audio-Reaction of Physarum Compute Shader Projections in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeaudioreactionprojection-placeholder.jpg"/>
           </div>
         </div>
         
@@ -445,7 +445,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeinstrumentpanelprojection.mp4" autoPlay muted loop playsInline alt="Sensorium Buck HMI Dashboard made in Figma & Unity in Physical Reality by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/sensorium/sensoriumprototypeinstrumentpanelprojection.mp4" autoPlay muted loop playsInline alt="Sensorium Buck HMI Dashboard made in Figma & Unity in Physical Reality by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototypeinstrumentpanelprojection-placeholder.jpg"/>
           </div>
         </div>
 
@@ -459,7 +459,7 @@ function Sensorium() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototype.jpg" alt="Sensorium Buck in Physical Reality & Unity by Lukas Moro"/>
+            <LazyLoadImage className="col" src="img/work/sensorium/sensoriumprototype.jpg" alt="Sensorium Buck in Physical Reality & Unity by Lukas Moro" placeholder="img/work/sensorium/sensoriumprototype-placeholder.jpg"/>
           </div>
         </div>
 

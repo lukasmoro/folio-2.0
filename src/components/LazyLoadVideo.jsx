@@ -1,19 +1,20 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-function LazyLoadVideo({ src, placeholder, alt, ...props }) {
+function LazyLoadVideo({ src, placeholder, alt, className, ...props }) {
   const videoRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target);
+          observer.unobserve(videoRef.current);
         }
       },
       {
-        rootMargin: '200px',
+        rootMargin: '200px', // Adjust as needed
       }
     );
 
@@ -28,14 +29,41 @@ function LazyLoadVideo({ src, placeholder, alt, ...props }) {
     };
   }, []);
 
+  const handleVideoLoad = () => {
+    setIsLoaded(true);
+  };
+
   return (
-    <div ref={videoRef}>
+    <div
+      className={`lazy-load-video-wrapper ${className || ''}`}
+      ref={videoRef}
+    >
       {isVisible ? (
-        <video src={src} {...props}>
-          {props.children}
-        </video>
+        <>
+          <video
+            className={`lazy-video ${isLoaded ? 'visible' : ''}`}
+            onCanPlayThrough={handleVideoLoad}
+            src={src}
+            {...props}
+          />
+          {placeholder && (
+            <img
+              className={`lazy-video-placeholder ${
+                isLoaded ? 'fade-out' : ''
+              }`}
+              src={placeholder}
+              alt={alt}
+            />
+          )}
+        </>
+      ) : placeholder ? (
+        <img
+          className="lazy-video-placeholder"
+          src={placeholder}
+          alt={alt}
+        />
       ) : (
-        <img src={placeholder} alt={alt} />
+        <div style={{ minHeight: '300px', backgroundColor: '#f0f0f0' }} />
       )}
     </div>
   );
