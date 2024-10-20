@@ -35,7 +35,7 @@ function Podcasts() {
 
         <h2>In-Short</h2>
         
-        <p>An extension for Google Chrome that enables adding podcast's RSS-feed URLs in the pop-up or options context and playing them from a player in the new tab. Enjoy podcasts by focusing on your top five favorites, which helps to save time and decision-making. The extension is open sourced and hosted on GitHub.</p>
+        <p>Extension for Google Chrome that enables adding podcast's RSS-feed URLs in the pop-up or options context and playing them from a player in the new tab. Enjoy podcasts by focusing on your top five favorites, which helps to save time and decision-making. The extension is open sourced and hosted on GitHub.</p>
         
         <div className="socials">
           <a

@@ -44,7 +44,7 @@ function App() {
           <directionalLight
             castShadow
             position={[0, 0, 5]}
-            intensity={1}
+            intensity={5}
             shadow-mapSize-width={2048}
             shadow-mapSize-height={2048}
             shadow-camera-near={0.1}
@@ -58,7 +58,7 @@ function App() {
             files="hdri/rosendal_park_sunset_puresky_2k.hdr"
           />
           <ShadowPlane />
-          <Butterfly path="glb/butterfly/output-model.gltf" scale={[0.175, 0.175, 0.175]} />
+          <Butterfly path="glb/butterfly_metallic.glb" scale={[0.175, 0.175, 0.175]} />
         </Canvas>
 
         <Dock />
