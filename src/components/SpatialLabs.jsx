@@ -1,5 +1,7 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
+import LazyLoadVideo from "./LazyLoadVideo.jsx";
+import LazyLoadImage from "./LazyLoadImage.jsx";
 
 function SpatialLabs() {
   
@@ -13,7 +15,7 @@ function SpatialLabs() {
         
         <p className="spacer"></p>
         
-        <video className="banner" src="img/work/spatiallabs/slabs1.mp4" alt="Banner of the Spatial Labs Project by Lukas Moro" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true}/>
+        <LazyLoadVideo className="banner" src="img/work/spatiallabs/slabsheader.mp4" alt="Banner of the Spatial Labs Project by Lukas Moro" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true} placeholder="img/work/spatiallabs/slabsheader-placeholder.jpg"/>
         
         <ul className="tools">
           <li className="tool">BLENDER</li>
@@ -61,7 +63,7 @@ function SpatialLabs() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/spatiallabs/slabs4.mp4" autoPlay muted loop playsInline alt="Spatial Labs Avatar Configurator for LNQ Platform"></video>
+            <LazyLoadVideo className="col" src="img/work/spatiallabs/slabsavatar.mp4" autoPlay muted loop playsInline alt="Spatial Labs Avatar Configurator for LNQ Platform" placeholder="img/work/spatiallabs/slabsavatar-placeholder.jpg"/>
           </div>
         </div>
         
@@ -71,8 +73,8 @@ function SpatialLabs() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/spatiallabs/slabs2.mp4" autoPlay muted loop playsInline alt="Spatial Labs Visualisation in Blender by Lukas Moro"></video>
-            <video className="col" src="img/work/spatiallabs/slabs3.mp4" autoPlay muted loop playsInline alt="Spatial Labs Visualisation in Blender by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/spatiallabs/slabsvisualisationshoe.mp4" autoPlay muted loop playsInline alt="Spatial Labs Visualisation in Blender by Lukas Moro" placeholder="img/work/spatiallabs/slabsvisualisationshoe-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/spatiallabs/slabsvisualisationsweatshirt.mp4" autoPlay muted loop playsInline alt="Spatial Labs Visualisation in Blender by Lukas Moro" placeholder="img/work/spatiallabs/slabsvisualisationsweatshirt-placeholder.jpg"/>
           </div>
         </div>
         
@@ -82,7 +84,7 @@ function SpatialLabs() {
         
         <div className="grid">
           <div className="row">
-            <video className="centered-col" src="img/grid/orb.mp4" autoPlay muted loop playsInline alt="Spatial Labs Orb Augmented Reality Filter in Spark AR by Lukas Moro"></video>
+            <LazyLoadVideo className="centered-col" src="img/work/spatiallabs/slabssparkarorb.mp4" autoPlay muted loop playsInline alt="Spatial Labs Orb Augmented Reality Filter in Spark AR by Lukas Moro" placeholder="img/work/spatiallabs/slabssparkarorb-placeholder.jpg"/>
           </div>
         </div>
 
@@ -92,8 +94,8 @@ function SpatialLabs() {
 
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/spatiallabs/iddris.jpg" alt="Spatial Labs Iddris Sandu & Lukas Moro at Nobu Hotel London"></img>
-            <img className="col" src="img/preview/slabscovernew.png" alt="Spatial Labs Industrial Design of Core1 Tag by Lukas Moro"></img>
+            <LazyLoadImage className="col" src="img/work/spatiallabs/slabsiddris.jpg" alt="Spatial Labs Iddris Sandu & Lukas Moro at Nobu Hotel London" placeholder="img/work/spatiallabs/slabsiddris-placeholder.jpg"/>
+            <LazyLoadImage className="col" src="img/work/spatiallabs/slabscoreone.jpg" alt="Spatial Labs Industrial Design of Core1 Tag by Lukas Moro" placeholder="img/work/spatiallabs/slabscoreone-placeholder.jpg"/>
           </div>
         </div>
 

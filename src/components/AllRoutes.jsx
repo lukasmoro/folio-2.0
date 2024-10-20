@@ -1,10 +1,10 @@
 import {React} from 'react';
 import { Routes, Route} from 'react-router-dom';
 
-import Me from './Me';
+import About from './About';
 import Work from './Work';
-import Visual from './Visual';
-import Thought from './Thought';
+import Explorations from './Explorations';
+import Write from './Write';
 import Arch from './Arch'
 import RRMC from './RRMC'
 import Presence from './Presence'
@@ -12,17 +12,16 @@ import Podcasts from './Podcasts'
 import Sensorium from './Sensorium'
 import SpatialLabs from './SpatialLabs';
 import Paper from './Paper'
-import CVKit from './CVKit';
 
 function AllRoutes() {
 
   return (
         <Routes>       
-            <Route path="/" element={<Me />} />
-            <Route path="/about" element={<Me />} />
+            <Route path="/" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
-            <Route path="/play" element={<Visual />} />
-            <Route path="/write" element={<Thought />} />
+            <Route path="/play" element={<Explorations />} />
+            <Route path="/write" element={<Write />} />
             <Route path="/arch" element={<Arch />} />
             <Route path="/rrmc" element={<RRMC />} />
             <Route path="/presence" element={<Presence />} />
@@ -30,7 +29,6 @@ function AllRoutes() {
             <Route path="/sensorium" element={<Sensorium />} />
             <Route path="/slabs" element={<SpatialLabs />} />
             <Route path="/paper" element={<Paper />} />
-            <Route path="/cvkit" element={<CVKit />} />
         </Routes>
   )
 }

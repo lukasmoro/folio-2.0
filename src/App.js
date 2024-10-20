@@ -4,7 +4,7 @@ import Dock from './components/Dock';
 import AllRoutes from './components/AllRoutes';
 import { Canvas, useThree } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
-import FloatingGeometry from "./components/FloatingGeometry";
+import Butterfly from "./components/Butterfly";
 import './App.css';
 
 function ShadowPlane() {
@@ -58,7 +58,7 @@ function App() {
             files="hdri/rosendal_park_sunset_puresky_2k.hdr"
           />
           <ShadowPlane />
-          <FloatingGeometry path="glb/butterfly/output-model.gltf" scale={[0.175, 0.175, 0.175]} />
+          <Butterfly path="glb/butterfly/output-model.gltf" scale={[0.175, 0.175, 0.175]} />
         </Canvas>
 
         <Dock />

@@ -1,5 +1,7 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
+import LazyLoadVideo from "./LazyLoadVideo.jsx";
+import LazyLoadImage from "./LazyLoadImage";
 
 function RRMC() {
   
@@ -14,7 +16,7 @@ function RRMC() {
         <p className="spacer"></p>
         <p className="spacer"></p>
 
-        <video className="banner" src="img/work/rrmc/rrmcthumbnail.mp4" alt="Banner of the Rolls-Royce Motorcars Project" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true}/>
+        <LazyLoadVideo className="banner" src="img/work/rrmc/rrmcheader.mp4" alt="Banner of the Rolls-Royce Motorcars Project" controls={false} autoPlay={true} loop={false} muted={true} playsInline={true} placeholder="img/work/rrmc/rrmcheader-placeholder.jpg"/>
         
         <ul className="tools">
           <li className="tool">UNITY</li>
@@ -28,7 +30,7 @@ function RRMC() {
           <li className="tool">AUTOMOTIVE SOC</li>
         </ul>
 
-        <ul className='process'>
+        <ul className="process">
           <li>Duration: 13 Months, Summer 2022 - Autumn 2023</li>
           <li>Collaboration Partner: Rolls-Royce Motorcars</li>
           <li>Team: Rolls-Royce Bespoke Design</li>
@@ -67,7 +69,7 @@ function RRMC() {
         
         <div className="grid">
             <div className="row">
-              <img className="col" src="img/work/rrmc/rrmchmi.jpg" alt="Interior of Rolls-Royce Spectre"></img>
+              <LazyLoadImage className="col" src="img/work/rrmc/rrmchmi.jpg" alt="Interior of Rolls-Royce Spectre" placeholder="img/work/rrmc/rrmchmi-placeholder.jpg"/>
             </div>
         </div>
 
@@ -77,7 +79,7 @@ function RRMC() {
           
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/rrmc/P90564796_lowRes_phantom-scintilla-st.jpg" alt="Interior of Rolls-Royce Phantom Scintilla"></img>
+            <LazyLoadImage className="col" src="img/work/rrmc/rrmcscintilla.jpg" alt="Interior of Rolls-Royce Phantom Scintilla" placeholder="img/work/rrmc/rrmcscintilla-placeholder.jpg"/>
           </div>
         </div>
         
@@ -87,8 +89,8 @@ function RRMC() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/rrmc/rrmc1.png" alt="Wishes from Anders Warming to Lukas Moro"></img>
-            <img className="col" src="img/work/rrmc/rrmc2.png" alt="Lukas Moro in front of Rolls-Royce Facility in Goodwood"></img>
+            <LazyLoadImage className="col" src="img/work/rrmc/rrmcwishes.jpg" alt="Wishes from Anders Warming to Lukas Moro" placeholder="img/work/rrmc/rrmcwishes-placeholder.jpg"/>
+            <LazyLoadImage className="col" src="img/work/rrmc/rrmccullinan.jpg" alt="Lukas Moro in front of Rolls-Royce Facility in Goodwood" placeholder="img/work/rrmc/rrmccullinan-placeholder.jpg"/>
           </div>
         </div>
         

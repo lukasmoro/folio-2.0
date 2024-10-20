@@ -4,7 +4,6 @@
     "name": "\"Feels Like Paper!\"",
     "date": "2024",
     "sideproject": false,
-    "preview":"img/preview/paperpreview.png",
     "src": "img/preview/papercover.jpg",
     "to": "/paper"
   },
@@ -13,7 +12,6 @@
     "name": "Presence Master Thesis",
     "date": "2024",
     "sideproject": false,
-    "preview":"img/preview/presencepreview.png",
     "src": "img/preview/presencecover.jpg",
     "to": "/presence"
   },
@@ -22,8 +20,7 @@
     "name": "Sensorium Car Interior",
     "date": "2023",
     "sideproject": true,
-    "preview":"img/preview/sensoriumpreview.png",
-    "src": "img/preview/sensoriumcover.png",
+    "src": "img/preview/sensoriumcover.jpg",
     "to": "/sensorium"
   },
   {
@@ -31,7 +28,6 @@
     "name": "Podcasts for Chrome",
     "date": "2023",
     "sideproject": true,
-    "preview":"img/preview/podcastspreview.png",
     "src": "img/preview/podcastscover.jpg",
     "to": "/podcasts"
   },
@@ -40,7 +36,6 @@
     "name": "Rolls-Royce Motorcars",
     "date": "2022",
     "sideproject": true,
-    "preview":"img/preview/rrmccover.jpg",
     "src": "img/preview/rrmccover.jpg",
     "to": "/rrmc"
   },
@@ -49,8 +44,7 @@
     "name": "Spatial Labs",
     "date": "2022",
     "sideproject": false,
-    "preview":"img/preview/slabspreview.png",
-    "src": "img/preview/slabscovernew.png",
+    "src": "img/preview/slabscover.jpg",
     "to": "/slabs"
   },
   {
@@ -58,7 +52,6 @@
     "name": "Arch Healthroom",
     "date": "2021",
     "sideproject": false,
-    "preview":"img/preview/archpreview.png",
     "src": "img/preview/archcover.jpg",
     "to": "/arch"
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
+import LazyLoadVideo from "./LazyLoadVideo.jsx";
 
 function Podcasts() {
   
@@ -14,7 +15,7 @@ function Podcasts() {
         <p className="spacer"></p>
         <p className="spacer"></p>
         
-        <video className="banner" src="img/work/podcasts/podcasts.mp4" alt="Banner of the Podcast for Chrome Project by Lukas Moro" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}/>
+        <LazyLoadVideo className="banner" src="img/work/podcasts/podcastsheader.mp4" alt="Banner of the Podcast for Chrome Project by Lukas Moro" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true} placeholder="img/work/podcasts/podcastsheader.mp4"/>
 
         <ul className="tools">
           <li className="tool">REACT</li>
@@ -25,7 +26,7 @@ function Podcasts() {
           <li className="tool">PRODUCT THINKING</li>
         </ul>
         
-        <ul className='process'>
+        <ul className="process">
           <li>Duration: 3 Months, Winter 2023</li>
           <li>Collaboration Partner: None</li>
           <li>Team: Individual Project</li>
@@ -80,12 +81,12 @@ function Podcasts() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/podcasts/podcastsdetail1.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
-            <video className="col" src="img/work/podcasts/podcastsdetail2.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail1.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail1.mp4"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail2.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail2.mp4"/>
           </div>
           <div className="row">
-            <video className="col" src="img/work/podcasts/podcastsdetail3.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
-            <video className="col" src="img/work/podcasts/podcastsdetail4.mp4" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true}></video>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail3.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail3.mp4"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail4.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail4.mp4"/>
           </div>
         </div>
 

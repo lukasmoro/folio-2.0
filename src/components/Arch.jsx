@@ -1,5 +1,7 @@
 import React from "react";
 import DayDate from "./DayDate.jsx";
+import LazyLoadVideo from "./LazyLoadVideo.jsx";
+import LazyLoadImage from "./LazyLoadImage.jsx";
 
 function Arch() {
   
@@ -13,7 +15,7 @@ function Arch() {
         <p className="spacer"></p>
         <p className="spacer"></p>
         
-        <img className="banner" src="img/work/arch/arch.png" alt="Banner of the Project Arch by Lukas Moro"/>
+        <LazyLoadImage className="banner" src="img/work/arch/archheader.jpg" alt="Banner of the Project Arch by Lukas Moro" placeholder="img/work/arch/archheader-placeholder.jpg"/>
            
         <ul className="tools">
           <li className="tool">BLENDER</li>
@@ -53,7 +55,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archsolution.mp4" autoPlay muted loop playsInline alt="Arch Animated Visualisation Solution by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/arch/archvisualisationsolution.mp4" autoPlay muted loop playsInline alt="Arch Animated Visualisation Solution by Lukas Moro" placeholder="img/work/arch/archvisualisationsolution-placeholder.jpg"/>
           </div>
         </div>
         
@@ -67,16 +69,16 @@ function Arch() {
 
         <div className="grid-process">
           <div className="row-process">
-            <img className="col-process" src="img/work/arch/archprocess1.png" alt="" />
-            <img className="col-process" src="img/work/arch/archprocess5.png" alt="" />
-            <img className="col-process" src="img/work/arch/archprocess7.png" alt="" />
-            <video className="col-process" src="img/work/arch/archprocess8.mp4" alt="" />
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocessstoruman.jpg" alt="" placeholder="img/work/arch/archprocessstoruman-placeholder.jpg"/>
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocesstapticengine.jpg" alt="" placeholder="img/work/arch/archprocesstapticengine-placeholder.jpg"/>
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocessknobprint.jpg" alt="" placeholder="img/work/arch/archprocessknobprint-placeholder.jpg"/>
+            <LazyLoadVideo className="col-process" src="img/work/arch/archprocesscncmill.mp4" autoPlay muted loop playsInline alt="" placeholder="img/work/arch/archprocesscncmill-placeholder.jpg"/>
           </div>
           <div className="row-process">
-            <video className="col-process" src="img/work/arch/archprocess9.mp4" alt="" />
-            <img className="col-process" src="img/work/arch/archprocess10.png" alt="" />
-            <img className="col-process" src="img/work/arch/archprocess11.png" alt="" />
-            <img className="col-process" src="img/work/arch/archproductshot.png" alt="" />
+            <LazyLoadVideo className="col-process" src="img/work/arch/archprocesswireframeheart.mp4" autoPlay muted loop playsInline alt="" placeholder="img/work/arch/archprocesswireframeheart-placeholder.jpg"/>
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocessblendersetup.jpg" alt="" placeholder="img/work/arch/archprocessblendersetup-placeholder.jpg"/>
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocessanimation.jpg" alt="" placeholder="img/work/arch/archprocessanimation-placeholder.jpg"/>
+            <LazyLoadImage className="col-process" src="img/work/arch/archprocessproductshot.jpg" alt="" placeholder="img/work/arch/archprocessproductshot-placeholder.jpg"/>
           </div>
         </div>
         
@@ -92,7 +94,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/arch/archprocess2.png" alt="Arch User Journey Mapping with Legos by Lukas Moro" />
+            <LazyLoadImage className="col" src="img/work/arch/archuserjourneymapping.jpg" alt="Arch User Journey Mapping with Legos by Lukas Moro" placeholder="img/work/arch/archuserjourneymapping-placeholder.jpg"/>
           </div>
         </div>
         
@@ -102,7 +104,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/arch/archsacrificialprototypes.png" alt="Arch Sacrificial Prototypes with Arduino, ARKit and Post Its by Lukas Moro" />
+            <LazyLoadImage className="col" src="img/work/arch/archsacrificialprototypes.jpg" alt="Arch Sacrificial Prototypes with Arduino, ARKit and Post Its by Lukas Moro" placeholder="img/work/arch/archsacrificialprototypes-placeholder.jpg"/>
           </div>
         </div>
         
@@ -112,7 +114,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archworkshop.mp4" autoPlay muted loop playsInline alt="Arch Workshop with Stakeholder's from Region Västerbotten and Stoffel Kuenen by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/arch/archworkshop.mp4" autoPlay muted loop playsInline alt="Arch Workshop with Stakeholder's from Region Västerbotten and Stoffel Kuenen by Lukas Moro" placeholder="img/work/arch/archworkshop-placeholder.jpg"/>
           </div>
         </div>
 
@@ -122,7 +124,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/arch/interviews.jpeg" alt="Arch Interviews with Heathcare Professionals by Lukas Moro" />
+            <LazyLoadImage className="col" src="img/work/arch/archinterviews.jpg" alt="Arch Interviews with Heathcare Professionals by Lukas Moro" placeholder="img/work/arch/archinterviews-placeholder.jpg"/>
           </div>
         </div>
         
@@ -132,7 +134,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <img className="col" src="img/work/arch/bodystorming.png" alt="Arch Body-Storming by Lukas Moro" />
+            <LazyLoadImage className="col" src="img/work/arch/archbodystorming.jpg" alt="Arch Body-Storming by Lukas Moro" placeholder="img/work/arch/archbodystorming-placeholder.jpg"/>
           </div>
         </div>
 
@@ -142,7 +144,7 @@ function Arch() {
         
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archui.mp4" autoPlay muted loop playsInline alt="Arch UI Prototype by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/arch/archui.mp4" autoPlay muted loop playsInline alt="Arch UI Prototype by Lukas Moro" placeholder="img/work/arch/archui-placeholder.jpg"/>
           </div>
         </div>
 
@@ -152,7 +154,7 @@ function Arch() {
 
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archuxprototype.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/arch/archprototypes.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro" placeholder="img/work/arch/archprototypes-placeholder.jpg"/>
           </div>
         </div>
         
@@ -162,11 +164,11 @@ function Arch() {
 
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/arch/archhandshake.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
-            <video className="col" src="img/work/arch/archinteraction.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></video>
+            <LazyLoadVideo className="col" src="img/work/arch/archhandshake.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro" placeholder="img/work/arch/archhandshake-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/arch/archinteraction.mp4" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro" placeholder="img/work/arch/archinteraction-placeholder.jpg"/>
           </div>
           <div className="row">
-            <img className="centered-col" src="img/work/arch/archproductshot.png" autoPlay muted loop playsInline alt="Arch UX Prototype by Lukas Moro"></img>
+            <LazyLoadImage className="centered-col" src="img/work/arch/archprocessproductshot.jpg" alt="Arch UX Prototype by Lukas Moro" placeholder="img/work/arch/archprocessproductshot-placeholder.jpg"/>
           </div>
         </div>
 

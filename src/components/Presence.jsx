@@ -1,5 +1,7 @@
 import React from 'react';
 import DayDate from "./DayDate.jsx";
+import LazyLoadVideo from './LazyLoadVideo';
+import LazyLoadImage from './LazyLoadImage';
 
 function Presence() {
   
@@ -14,7 +16,7 @@ function Presence() {
         <p className="spacer"></p>
         <p className="spacer"></p>
         
-        <img className="banner" src="img/banner/presencebanner.jpg" alt="Banner of the Project Presence by Lukas Moro"/>
+        <LazyLoadImage className="banner" src="img/work/presence/presenceheader.jpg" alt="Banner of the Project Presence by Lukas Moro" placeholder="img/work/presence/presenceheader-placeholder.jpg"/>
         
         <ul className="tools">
           <li className="tool">UNITY</li>
@@ -104,7 +106,7 @@ function Presence() {
 
         <div className="grid">
           <div className="row">
-            <img className="infographic" src="img/work/presence/blendedspace.png" alt="Presence Graphic of Blended Space Concept by Lukas Moro"/>
+            <img className="infographic" src="img/work/presence/presencegraphicblendedspace.png" alt="Presence Graphic of Blended Space Concept by Lukas Moro"/>
           </div>
         </div>
 
@@ -120,8 +122,8 @@ function Presence() {
 
         <div className="grid">
           <div className="row">
-            <video className="col" src="img/work/presence/yolo.mp4" autoPlay muted loop playsInline alt="Presence Zero-Shot Object Detection with Quest 3 and YOLO V8 in Python and Unity by Lukas Moro"></video>
-            <img className="col" src="img/preview/cvkitpreview.jpg" alt="Presence Zero-Shot Object Detection with Quest 3 and YOLO V8 in Python and Unity by Lukas Moro"/>
+            <LazyLoadVideo className="col" src="img/work/presence/presencesketchyolov8.mp4" autoPlay muted loop playsInline alt="Presence Zero-Shot Object Detection with Quest 3 and YOLO V8 in Python and Unity by Lukas Moro" placeholder="img/work/presence/presencesketchyolov8-placeholder1.jpg"/>
+            <LazyLoadImage className="col" src="img/work/presence/presencesketchyolov8.jpg" alt="Presence Zero-Shot Object Detection with Quest 3 and YOLO V8 in Python and Unity by Lukas Moro" placeholder="img/work/presence/presencesketchyolov8-placeholder2.jpg"/>
           </div>
         </div>
 
@@ -133,8 +135,8 @@ function Presence() {
 
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/metaphorical1.mp4" autoPlay muted loop playsInline alt="Presence Metaphorical Input with ChatGPT API into a VFX Graph in Unity by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/metaphorical2.mp4" autoPlay muted loop playsInline alt="Presence Metaphorical Input with ChatGPT API into a VFX Graph in Unity by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchmetaphoricalcherry.mp4" autoPlay muted loop playsInline alt="Presence Metaphorical Input with ChatGPT API into a VFX Graph in Unity by Lukas Moro" placeholder="img/work/presence/presencesketchmetaphoricalcherry-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchmetaphoricalstorm.mp4" autoPlay muted loop playsInline alt="Presence Metaphorical Input with ChatGPT API into a VFX Graph in Unity by Lukas Moro" placeholder="img/work/presence/presencesketchmetaphoricalstorm-placeholder.jpg"/>
             </div>
         </div>
 
@@ -146,8 +148,11 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/shadowsvirtual.mp4" autoPlay muted loop playsInline alt="Presence Occlusion of Blended Object with Render Queue in Unity by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/physicsvirtual.mp4" autoPlay muted loop playsInline alt="Presence Light, Shadow and Physics Interaction between Physical and Virtual Reality through Shaders in Unity by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchshadowsvirtual.mp4" autoPlay muted loop playsInline alt="Presence Occlusion of Blended Object with Render Queue in Unity by Lukas Moro" placeholder="img/work/presence/presencesketchshadowsvirtual-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchphysicsvirtual.mp4" autoPlay muted loop playsInline alt="Presence Light, Shadow and Physics Interaction between Physical and Virtual Reality through Shaders in Unity by Lukas Moro" placeholder="img/work/presence/presencesketchphysicsvirtual-placeholder.jpg"/>
+            </div>
+            <div className="row">
+              <LazyLoadVideo className="centered-col" src="img/work/presence/presencesketchstencilbuffer.mp4" autoPlay muted loop playsInline alt="Presence Occlusion of Blended Object with Render Queue in Unity by Lukas Moro" placeholder="img/work/presence/presencesketchstencilbuffer-placeholder.jpg"/>           
             </div>
         </div>
 
@@ -159,14 +164,14 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="centered-col" src="img/work/presence/integrated.mp4" autoPlay muted loop playsInline alt="Presence Interacting with a Desk Lamp through Buttons in Mixed Reality on Quest 3 by Lukas Moro"></video>
+              <LazyLoadVideo className="centered-col" src="img/work/presence/presencesketchintegrated.mp4" autoPlay muted loop playsInline alt="Presence Interacting with a Desk Lamp through Buttons in Mixed Reality on Quest 3 by Lukas Moro" placeholder="img/work/presence/presencesketchintegrated-placeholder.jpg"/>
             </div>
             <div className="row">
-              <video className="col" src="img/work/presence/game.mp4" autoPlay muted loop playsInline alt="Presence Unity Game View of Shader mapped to LED Matrix by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/lamp.mp4" autoPlay muted loop playsInline alt="Presence Shader running on the Desk Lamp's LED MAtrix in real-time by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchunitygameviewstream.mp4" autoPlay muted loop playsInline alt="Presence Unity Game View of Shader mapped to LED Matrix by Lukas Moro" placeholder="img/work/presence/presencesketchunitygameviewstream-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchunityintegratedstream.mp4" autoPlay muted loop playsInline alt="Presence Shader running on the Desk Lamp's LED Matrix in real-time by Lukas Moro" placeholder="img/work/presence/presencesketchunityintegratedstream-placeholder.jpg"/>
             </div>
             <div className="row">
-              <img className="centered-col" src="img/work/presence/ledmatrix.jpg" alt="Presence LED Matrix for Physical Lamp by Lukas Moro"></img>
+              <LazyLoadImage className="centered-col" src="img/work/presence/presencesketchledmatrix.jpg" alt="Presence LED Matrix for Physical Lamp by Lukas Moro" placeholder="img/work/presence/presencesketchledmatrix-placeholder.jpg"/>
             </div>
         </div>
 
@@ -178,8 +183,8 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/luki.mp4" autoPlay muted loop playsInline alt="Presence Unity Netcode Multiplayer in Co-located Mixed Reality Lukas's View by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/coco.mp4" autoPlay muted loop playsInline alt="Presence Unity Netcode Multiplayer in Co-located Mixed Reality Cosima's View by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchmultiplayerluki.mp4" autoPlay muted loop playsInline alt="Presence Unity Netcode Multiplayer in Co-located Mixed Reality Lukas's View by Lukas Moro" placeholder="img/work/presence/presencesketchmultiplayerluki-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presencesketchmultiplayercoco.mp4" autoPlay muted loop playsInline alt="Presence Unity Netcode Multiplayer in Co-located Mixed Reality Cosima's View by Lukas Moro" placeholder="img/work/presence/presencesketchmultiplayercoco-placeholder.jpg"/>
             </div>
         </div>
 
@@ -199,8 +204,8 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/implicit.mp4" autoPlay muted loop playsInline alt="Presence Memory Portal Implicit Interaction through Transcribed Conversation with Whisper API on Quest 3 by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/spectrum.mp4" autoPlay muted loop playsInline alt="Presence Memory Portal Opening Encountering of Butterflies by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypeimplicitportal.mp4" autoPlay muted loop playsInline alt="Presence Memory Portal Implicit Interaction through Transcribed Conversation with Whisper API on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypeimplicitportal-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypespectrumportal.mp4" autoPlay muted loop playsInline alt="Presence Memory Portal Opening Encountering of Butterflies by Lukas Moro" placeholder="img/work/presence/presenceprototypespectrumportal-placeholder.jpg"/>
             </div>
         </div>
 
@@ -214,8 +219,8 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/continuity.mp4" autoPlay muted loop playsInline alt="Presence Virtual Butterflies interacting with Physical Lamp on Quest 3 by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/control.mp4" autoPlay muted loop playsInline alt="Presence Controlling Physical Lamp through Palm Menu, Gaze and Gestures on Quest 3 by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypecontinuityledmatrix.mp4" autoPlay muted loop playsInline alt="Presence Virtual Butterflies interacting with Physical Lamp on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypecontinuityledmatrix-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypecontrollledmatrix.mp4" autoPlay muted loop playsInline alt="Presence Controlling Physical Lamp through Palm Menu, Gaze and Gestures on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypecontrollledmatrix-placeholder.jpg"/>
             </div>
         </div>
 
@@ -227,11 +232,11 @@ function Presence() {
         
         <div className="grid">
             <div className="row">
-              <video className="col" src="img/work/presence/playerinterface.mp4" autoPlay muted loop playsInline alt="Presence UI Element of Music Player projected to Table below on Quest 3 by Lukas Moro"></video>
-              <video className="col" src="img/work/presence/playergesture.mp4" autoPlay muted loop playsInline alt="Presence Music Player Interaction & Spatial Responsiveness on Quest 3 by Lukas Moro"></video>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypemusicplayerinterface.mp4" autoPlay muted loop playsInline alt="Presence UI Element of Music Player projected to Table below on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypemusicplayerinterface-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/presence/presenceprototypemusicplayergesture.mp4" autoPlay muted loop playsInline alt="Presence Music Player Interaction & Spatial Responsiveness on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypemusicplayergesture-placeholder.jpg"/>
             </div>
             <div className='row'>
-              <video className="centered-col" src="img/work/presence/playerspatial.mp4" autoPlay muted loop playsInline alt="Presence Music Player Fluid Affordances on Quest 3 by Lukas Moro"></video>
+              <LazyLoadVideo className="centered-col" src="img/work/presence/presenceprototypemusicplayerresponsiveness.mp4" autoPlay muted loop playsInline alt="Presence Music Player Fluid Affordances on Quest 3 by Lukas Moro" placeholder="img/work/presence/presenceprototypemusicplayerresponsiveness-placeholder.jpg"/>
             </div>
         </div>
 
