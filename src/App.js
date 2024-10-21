@@ -27,7 +27,7 @@ function App() {
           <AllRoutes />
         </div>
         <Canvas
-          className="floating-geometry-canvas"
+          className="butterfly-canvas"
           shadows
           camera={{ fov: 50, position: [0, 0, 15], near: 0.1, far: 1000 }}
           style={{

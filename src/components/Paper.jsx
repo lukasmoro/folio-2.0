@@ -93,8 +93,8 @@ function Paper() {
         
         <div className="grid">
             <div className="row">
-              <LazyLoadVideo className="col" src="img/work/paper/papermathquestionssquare.mp4" autoPlay muted loop playsInline alt="Maths & Questions Prototype by Lukas Moro." placeholder="img/work/paper/papermathquestions-placeholder.jpg"/>
-              <LazyLoadVideo className="col" src="img/work/paper/papermarkcommentsquare.mp4" autoPlay muted loop playsInline alt="Mark & Comment Prototype by Lukas Moro." placeholder="img/work/paper/papermarkcomment-placeholder.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/paper/papermathquestionssquare.mp4" autoPlay muted loop playsInline alt="Maths & Questions Prototype by Lukas Moro." placeholder="img/work/paper/papermathquestions-placeholder1.jpg"/>
+              <LazyLoadVideo className="col" src="img/work/paper/papermarkcommentsquare.mp4" autoPlay muted loop playsInline alt="Mark & Comment Prototype by Lukas Moro." placeholder="public/img/work/paper/papermathquestionssquare-placeholder.jpg"/>
             </div>
             <div className='row'>
               <LazyLoadVideo className="centered-col" src="img/work/paper/paperdrawdream.mp4" autoPlay muted loop playsInline alt="Draw & Dream Prototype by Lukas Moro." placeholder="img/work/paper/paperdrawdream-placeholder.jpg"/>
@@ -132,7 +132,7 @@ function Paper() {
 
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/paper/papermathquestionswide.mp4" alt="Maths & Questions Prototype by Lukas Moro." autoPlay muted loop playsInline placeholder="img/work/paper/papermathquestions-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/paper/papermathquestionswide.mp4" alt="Maths & Questions Prototype by Lukas Moro." autoPlay muted loop playsInline placeholder="img/work/paper/papermathquestionswide-placeholder.jpg.jpg"/>
           </div>
         </div>
 
