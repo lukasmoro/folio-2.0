@@ -124,7 +124,7 @@ function Paper() {
           </div>
         </div>
         
-        <p>Generally implicit interactions were prioritised over explicit one's to keep the experiences simple and direct and prevent more complexity then in interaction with an unaugmented sheet of paper.</p>
+        <p>Implicit interactions were prioritised over explicit one's to keep the experiences simple and direct and prevent more complexity then in interaction with an unaugmented sheet of paper.</p>
                 
         <h2>"Maths & Questions" Prototype</h2>
         
