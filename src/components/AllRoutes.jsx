@@ -17,7 +17,7 @@ function AllRoutes() {
 
   return (
         <Routes>       
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Work />} />
             <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/play" element={<Explorations />} />
