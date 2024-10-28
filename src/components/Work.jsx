@@ -30,25 +30,12 @@ function Work() {
         
         <DayDate />
 
-        <h1>Projects</h1>
+        <h1>Lukas Moro</h1>
 
         <p className="spacer"></p>
 
-        <p>
-          Projects and explorations worked on over the past years. Favourite projects are{" "}
-          <Link to="/paper" className="link">
-            "Feels Like Paper!"
-          </Link>
-          ,{" "}
-          <Link to="/sensorium" className="link">
-            Sensorium
-          </Link>
-          , and{" "}
-          <Link to="/presence" className="link">
-            Presence
-          </Link>
-          .
-        </p>
+        <p><em>Designer & Prototyper.</em> Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
+        <div className="line"></div>
         {WorkItem.map((item, index) => {
           return (
             <Link
@@ -71,22 +58,16 @@ function Work() {
         })}
        
        <div className="line-projects"></div>
-        
-        <h1>Lukas Moro · Designer & Prototyper</h1>
-
-        <p className="spacer"></p>
-
-        <p>Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
           
           <p>
-            Working on interactions for a spatial browser together with{" "} 
+            Currently working on interactions for a spatial browser together with{" "} 
             <a 
               href="https://fluid.so/"  
               target="_blank"
               rel="noreferrer"
               className="link">Fluid XR</a>. 
             <br />
-            Worked with{" "}
+            Before worked with{" "}
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
@@ -125,7 +106,7 @@ function Work() {
             </p>
 
             <p>
-            More information about previous work on{" "} 
+            Find more information on{" "} 
             <a 
               href="https://github.com/lukasmoro"  
               target="_blank"
@@ -139,9 +120,8 @@ function Work() {
               rel="noreferrer"
               className="link">CV
             </a>.
-            <br />
 
-            Reach out via{" "}
+            Reach me via{" "}
             <a
               href="https://x.com/lukas_moro"
               target="_blank"

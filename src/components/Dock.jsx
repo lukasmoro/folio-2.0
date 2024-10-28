@@ -8,7 +8,6 @@ function Dock() {
 
   const location = useLocation();
   
-  const isHomeActive = location.pathname === '/about';
   const isWorkActive = location.pathname === '/' || location.pathname === '/work';
   const isWriteActive = location.pathname === '/write';
   const isProjectActive = location.pathname === '/presence' || location.pathname === '/sensorium' || location.pathname === '/podcasts' || location.pathname === '/rrmc' || location.pathname === '/slabs' || location.pathname === '/arch' || location.pathname === '/play' || location.pathname === '/cvkit' || location.pathname === '/paper';
@@ -22,14 +21,6 @@ function Dock() {
     <motion.nav className="nav" variants={navVariants} animate={isProjectActive ? "project" : "normal"} initial={false} transition={{ type: "spring", stiffness: 400, damping: 20 }}>
       
       <ul className="nav-links" >
-
-        {/* {!isProjectActive &&(
-          <BehaviourClick>
-            <NavLink to="/about" className={isHomeActive ? "active-link" : ""}>
-              <li>About</li>
-            </NavLink>
-        </BehaviourClick>)} */}
-
         {isProjectActive && <Placeholder />}
         <BehaviourClick>
           <NavLink to={"/work"} className={`${isProjectActive ? "" : isWorkActive ? "active-link" : ""}`}>
