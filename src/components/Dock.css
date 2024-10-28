@@ -27,10 +27,11 @@ nav{
   margin-left: auto;
   margin-right: auto;
   user-select: none;
+  max-width: 220px;
 }
 
 nav.normal-dock {
-  width: 300px;
+  width: 100px;
   height: 60px;
 }
 

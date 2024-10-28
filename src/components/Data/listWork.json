@@ -61,5 +61,14 @@
     "src": "img/cover/archcover.jpg",
     "placeholder": "img/cover/archcover-placeholder.jpg",
     "to": "/arch"
+  },
+  {
+    "id": 7,
+    "name": "Explorations",
+    "date": "∞",
+    "sideproject": false,
+    "src": "img/cover/archcover.jpg",
+    "placeholder": "img/cover/archcover-placeholder.jpg",
+    "to": "/play"
   }
 ]

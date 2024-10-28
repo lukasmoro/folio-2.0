@@ -23,12 +23,12 @@ function Dock() {
       
       <ul className="nav-links" >
 
-        {!isProjectActive &&(
+        {/* {!isProjectActive &&(
           <BehaviourClick>
             <NavLink to="/about" className={isHomeActive ? "active-link" : ""}>
               <li>About</li>
             </NavLink>
-        </BehaviourClick>)}
+        </BehaviourClick>)} */}
 
         {isProjectActive && <Placeholder />}
         <BehaviourClick>
