@@ -11,7 +11,7 @@ function Presence() {
 
         <DayDate />
 
-        <h1>Presence · Exploring Interaction Fundamentals for Spatial Computing.</h1>
+        <h1>Presence · Exploring Interaction Fundamentals for Spatial Computing</h1>
         
         <p className="spacer"></p>
         <p className="spacer"></p>

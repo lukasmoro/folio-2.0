@@ -660,9 +660,33 @@ video
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.cbutterfly-canvas{
+.butterfly-canvas{
   position: relative;
-  width: 100vw; /* Full width */
-  height: 100vh; /* Full height of the viewport */
+  width: 100vw;
+  height: 100vh;
   overflow: visible;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 5rem;
+  width: 100%; 
+  margin-top: 3rem;
+}
+
+.button {
+  color: #898989;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+  outline: #ffffff9b solid 0.3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }

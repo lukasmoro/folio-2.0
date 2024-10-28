@@ -10,7 +10,7 @@ function Podcasts() {
         
         <DayDate />
         
-        <h1>Podcasts for Chrome · From RSS-Feed into the new Tab.</h1>
+        <h1>Podcasts for Chrome · From RSS-Feed into the new Tab</h1>
         
         <p className="spacer"></p>
         <p className="spacer"></p>

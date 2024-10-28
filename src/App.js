@@ -6,6 +6,7 @@ import { Canvas, useThree } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
 import Butterfly from "./components/Butterfly";
 import './App.css';
+import ProgressiveBlur from './components/ProgressiveBlur';
 
 function ShadowPlane() {
   const { viewport } = useThree();
@@ -60,8 +61,8 @@ function App() {
           <ShadowPlane />
           <Butterfly path="glb/butterfly.glb" scale={[0.175, 0.175, 0.175]} />
         </Canvas>
-
         <Dock />
+        <ProgressiveBlur />
       </div>
     </Router>
   );

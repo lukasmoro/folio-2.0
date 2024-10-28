@@ -12,7 +12,7 @@ function Explorations() {
           
           <DayDate />
           
-          <h1>Explorations.</h1>
+          <h1>Explorations</h1>
           
           <p className="spacer"></p>
           <p className="spacer"></p>

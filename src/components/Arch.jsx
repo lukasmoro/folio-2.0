@@ -10,7 +10,7 @@ function Arch() {
       <div className="text-block">
         <DayDate /> 
           
-        <h1>Arch · Health Room for Remote Areas in Northern Sweden.</h1>
+        <h1>Arch · Health Room for Remote Areas in Northern Sweden</h1>
         
         <p className="spacer"></p>
         <p className="spacer"></p>

@@ -12,7 +12,7 @@ function Write() {
 
           <DayDate />
 
-          <h1>Essays.</h1>
+          <h1>Essays</h1>
 
           <p className="spacer"></p>
 

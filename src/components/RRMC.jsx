@@ -11,7 +11,7 @@ function RRMC() {
 
         <DayDate />
 
-        <h1>Rolls-Royce Motorcars · Prototyping Luxury Virtual Experiences.</h1>
+        <h1>Rolls-Royce Motorcars · Prototyping Luxury Virtual Experiences</h1>
 
         <p className="spacer"></p>
         <p className="spacer"></p>

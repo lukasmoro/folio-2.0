@@ -11,7 +11,7 @@ function Paper() {
         
         <DayDate />
         
-        <h1>"Feels Like Paper!" · Interfacing Artificial Intelligence through Paper.</h1>
+        <h1>"Feels Like Paper!" · Interfacing Artificial Intelligence through Paper</h1>
 
         <p className="spacer"></p>
         <p className="spacer"></p>

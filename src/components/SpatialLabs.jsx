@@ -11,7 +11,7 @@ function SpatialLabs() {
 
         <DayDate />
 
-        <h1>Spatial Labs · Infrastructure for a Connected World.</h1>
+        <h1>Spatial Labs · Infrastructure for a Connected World</h1>
         
         <p className="spacer"></p>
         
