@@ -1,6 +1,6 @@
 .gradient-blur {
     position: fixed;
-    z-index: 5;
+    z-index: 5000;
     inset: auto 0 0 0;
     height: 8vh;
     pointer-events: none;
