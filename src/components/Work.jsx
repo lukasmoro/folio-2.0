@@ -30,7 +30,7 @@ function Work() {
         
         <DayDate />
 
-        <h1>Lukas Moro</h1>
+        <h1>Lukas Moro · Visiting San Francisco in November. 🌁</h1>
 
         <p className="spacer"></p>
 
