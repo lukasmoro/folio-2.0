@@ -166,7 +166,7 @@ function Paper() {
           
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/paper/papermarkcommentwide.mp4" alt="Mark & Comment Prototype by Lukas Moro." autoPlay muted loop playsInline placeholder="img/work/paper/papermarkcomment-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/paper/papermarkcommentwide.mp4" alt="Mark & Comment Prototype by Lukas Moro." autoPlay muted loop playsInline placeholder="img/work/paper/papermarkcommentwide-placeholder.jpg"/>
           </div>
         </div>
 
@@ -182,7 +182,7 @@ function Paper() {
           
         <div className="grid">
           <div className="row">
-            <LazyLoadImage className="col" src="img/work/paper/papermarkcommentpipline.gif" alt="OpenCV Processing Pipeline by Lukas Moro." placeholder="img/work/paper/papermarkcommentpipline-placeholder.jpg"/>
+            <LazyLoadImage className="col" src="img/work/paper/papermarkcommentpipline.gif" alt="OpenCV Processing Pipeline by Lukas Moro." placeholder="img/work/paper/papermarkcommentpipeline-placeholder.jpg"/>
           </div>
         </div>
           
