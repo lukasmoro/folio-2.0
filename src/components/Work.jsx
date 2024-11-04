@@ -63,12 +63,12 @@ function Work() {
        <div className="line-projects"></div>
           
           <p>
-            Currently working on interactions for a spatial browser together with{" "} 
+            Currently working on interactions for spatial browsers together with{" "} 
             <a 
               href="https://fluid.so/"  
               target="_blank"
               rel="noreferrer"
-              className="link">Fluid XR</a>. 
+              className="link">Fluid</a>. 
             <br />
             Before worked with{" "}
             <a
