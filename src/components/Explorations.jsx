@@ -28,11 +28,11 @@ function Explorations() {
 
           <div className="grid">
             <div className="row">
-              <LazyLoadImage className="col" src="img/work/explorations/explorationsstreamdiffusionnodes.jpg" alt="by Lukas Moro" placeholder="img/work/explorations/explorationsstreamdiffusionnodes-placeholder.jpg"/>
-            </div>
-            <div className="row">
               <LazyLoadVideo className="col" src="img/work/explorations/explorationsstreamdiffusionbonsai.mp4" autoPlay muted loop playsInline alt="by Lukas Moro" placeholder="img/work/explorations/explorationsstreamdiffusionbonsai-placeholder.jpg"/>
               <LazyLoadVideo className="col" src="img/work/explorations/explorationsstreamdiffusiontsukumogami.mp4" autoPlay muted loop playsInline alt="by Lukas Moro" placeholder="img/work/explorations/explorationsstreamdiffusiontsukumogami-placeholder.jpg"/>
+            </div>
+            <div className="row">
+              <LazyLoadImage className="col" src="img/work/explorations/explorationsstreamdiffusionnodes.jpg" alt="by Lukas Moro" placeholder="img/work/explorations/explorationsstreamdiffusionnodes-placeholder.jpg"/>
             </div>
           </div>
 

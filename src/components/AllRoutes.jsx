@@ -1,7 +1,6 @@
 import {React} from 'react';
 import { Routes, Route} from 'react-router-dom';
 
-import About from './About';
 import Work from './Work';
 import Explorations from './Explorations';
 import Write from './Write';
@@ -18,7 +17,6 @@ function AllRoutes() {
   return (
         <Routes>       
             <Route path="/" element={<Work />} />
-            <Route path="/about" element={<About />} />
             <Route path="/work" element={<Work />} />
             <Route path="/play" element={<Explorations />} />
             <Route path="/write" element={<Write />} />

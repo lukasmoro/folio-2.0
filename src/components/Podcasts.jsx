@@ -15,7 +15,7 @@ function Podcasts() {
         <p className="spacer"></p>
         <p className="spacer"></p>
         
-        <LazyLoadVideo className="banner" src="img/work/podcasts/podcastsheader.mp4" alt="Banner of the Podcast for Chrome Project by Lukas Moro" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true} placeholder="img/work/podcasts/podcastsheader.mp4"/>
+        <LazyLoadVideo className="banner" src="img/work/podcasts/podcastsheader.mp4" alt="Banner of the Podcast for Chrome Project by Lukas Moro" controls={false} autoPlay={true} loop={true} muted={true} playsInline={true} placeholder="img/work/podcasts/podcastsheader-placeholder.jpg"/>
 
         <ul className="tools">
           <li className="tool">REACT</li>
@@ -81,12 +81,12 @@ function Podcasts() {
         
         <div className="grid">
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail1.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail1.mp4"/>
-            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail2.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail2.mp4"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail1.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail1-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail2.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail2-placeholder.jpg"/>
           </div>
           <div className="row">
-            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail3.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail3.mp4"/>
-            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail4.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail4.mp4"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail3.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail3-placeholder.jpg"/>
+            <LazyLoadVideo className="col" src="img/work/podcasts/podcastsdetail4.mp4" autoPlay muted loop playsInline placeholder="img/work/podcasts/podcastsdetail4-placeholder.jpg"/>
           </div>
         </div>
 

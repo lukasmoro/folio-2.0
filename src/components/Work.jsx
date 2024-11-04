@@ -10,6 +10,7 @@ function Work() {
   const [imgSrc, setImgSrc] = useState(null);
   const [alt, setAlt] = useState('');
   const [placeholder, setPlaceholder] = useState(null);
+  
   const mousePosition = useMousePosition();
 
   const handleMouseEnter = (item) => {
@@ -34,9 +35,11 @@ function Work() {
 
         <p className="spacer"></p>
 
-        <p><em>Designer & Prototyper.</em> Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
+        <p>Designer & Prototyper. Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
+        
         <div className="line"></div>
-        {WorkItem.map((item, index) => {
+
+        {WorkItem.map((item) => {
           return (
             <Link
               to={item.to}

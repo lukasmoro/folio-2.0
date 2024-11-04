@@ -42,9 +42,9 @@ function Presence() {
 
         <h2>In-Short</h2>
 
-        <p>This project explores how integration between virtual and physical spaces could lead towards more meaningful embodiment of software in the world. A virtual representation of the physical space including geometry, lighting, semantics and networking is used to simulate virtual objects that interact with the physical world in terms of physics, light, occlusion and controlling. While physical objects acknowledge our existence fully, virtual objects occupy mostly our mental space. This leads to a disconnection where mental presence in the virtual space diminishes mental presence in the physical one.</p>
+        <p>How might integration of virtual and physical spaces lead towards more meaningful embodiment of software in the world? Representation of physical space, including geometry, lighting, semantics and networked controll systems, is used to simulate virtual objects that interact with the physical world through physics, light, occlusion and controlling. While physical objects acknowledge our existence fully, virtual objects occupy mostly our mental space. This leads to a disconnection where mental presence in the virtual space diminishes mental presence in the physical one.</p>
         
-        <p className='block-quote'>The goal was it to achieve presence in a blended space where virtuality and physicality mix to leverage advantages of both. This should lead to physical objects that are more fluid and accessible in their nature and virtual objects that satisfy our senses and acknowledge us as physical beings.</p>
+        <p className='block-quote'>The goal is presence in a blended space where virtuality and physicality mix perceptually to leverage advantages of both. This should lead to physical objects that are more fluid and accessible in their nature and virtual objects that satisfy our senses and acknowledge us as physical beings.</p>
         
         <div className="socials">
           <a
