@@ -242,6 +242,15 @@ path {
   margin-bottom: 1rem;
 }
 
+.circular-col {
+  background-color: #efefef;
+  flex-direction: column;
+  width: 100%;
+  height: 190px;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
 .double-col {
   flex-direction: column;
   width: 100%;

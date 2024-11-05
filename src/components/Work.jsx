@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import WorkItem from '../components/Data/listWork'; 
 import DayDate from './DayDate'; 
 import LazyLoadImage from './LazyLoadImage';
+import LazyLoadVideo from './LazyLoadVideo';
 
 function Work() {
   const [isHovered, setIsHovered] = useState(false);
@@ -29,14 +30,22 @@ function Work() {
     <div className="container">
       <div className="text-block">
         
-        <DayDate />
 
+        <div className="grid">
+          <div className="row">
+              <LazyLoadVideo className="circular-col" src="img/work/paper/papermathquestionssquare.mp4" autoPlay muted loop playsInline alt="" placeholder="img/work/presence/papermathquestionssquare-placeholder.jpg"/>
+              <LazyLoadVideo className="circular-col" src="img/work/presence/presenceprototypecontinuityledmatrix.mp4" autoPlay muted loop playsInline alt="" placeholder="img/work/presence/presenceprototypecontinuityledmatrix-placeholder.jpg"/>
+              <LazyLoadVideo className="circular-col" src="img/work/sensorium/sensoriumprototypedigitaltwin3.mp4" autoPlay muted loop playsInline alt="" placeholder="img/work/presence/presenceprototypecontinuityledmatrix-placeholder.jpg"/>
+          </div>
+        </div>
+
+        <DayDate />
         <h1>Lukas Moro · Visiting San Francisco in November. 🌁</h1>
 
         <p className="spacer"></p>
 
         <p>Designer & Prototyper. Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
-        
+
         <div className="line"></div>
 
         {WorkItem.map((item) => {
