@@ -31,11 +31,11 @@ function Work() {
         
         <DayDate />
 
-        <h1>Lukas Moro · Back in Stockholm for December. 🇸🇪</h1>
+        <h1>Lukas Moro · Designer & Prototyper</h1>
 
         <p className="spacer"></p>
 
-        <p>Designer & Prototyper. Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
+        <p>Building experiences blurring digital and physical interactions for fricitonless integration of computing into <i>perceivable reality</i>.</p>
         
         <div className="line"></div>
 
@@ -63,14 +63,14 @@ function Work() {
        <div className="line-projects"></div>
           
           <p>
-            Currently working on interactions for spatial browsers together with{" "} 
+            Available for freelancing gigs and permanent opportunities.
+            <br />
+            Worked with{" "}
             <a 
               href="https://fluid.so/"  
               target="_blank"
               rel="noreferrer"
-              className="link">Fluid</a>. 
-            <br />
-            Before worked with{" "}
+              className="link">Fluid</a>, {" "} 
             <a
               href="https://www.rolls-roycemotorcars.com/en_GB/home.html"
               target="_blank"
