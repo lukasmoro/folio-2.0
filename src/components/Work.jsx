@@ -10,6 +10,7 @@ function Work() {
   const [imgSrc, setImgSrc] = useState(null);
   const [alt, setAlt] = useState('');
   const [placeholder, setPlaceholder] = useState(null);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
   
   const mousePosition = useMousePosition();
 
@@ -18,11 +19,17 @@ function Work() {
     setAlt(item.name);
     setPlaceholder(item.placeholder);
     setIsHovered(true);
+    setIsImageLoaded(false);
   };
 
   const handleMouseLeave = () => {
     setImgSrc(null);
     setIsHovered(false);
+    setIsImageLoaded(false);
+  };
+
+  const handleImageLoad = () => {
+    setIsImageLoaded(true);
   };
 
   return (
@@ -160,16 +167,47 @@ function Work() {
 
         <div className="bottom-work"></div>
         {isHovered && imgSrc && (
-          <div
-            className="mouse-follower"
-            style={{ left: mousePosition.x + 20, top: mousePosition.y - 165 }}
-          >
-            <div className="mouse">
-              <LazyLoadImage alt={alt} src={imgSrc} placeholder={placeholder} />
-            </div>
+        <div
+          className="mouse-follower"
+          style={{ 
+            left: mousePosition.x + 20, 
+            top: mousePosition.y - 165,
+            opacity: isImageLoaded ? 1 : 0,
+            transition: 'opacity 0.2s ease-in-out'
+          }}
+        >
+          <div className="mouse">
+            <LazyLoadImage 
+              alt={alt} 
+              src={imgSrc} 
+              placeholder={placeholder}
+              onLoad={handleImageLoad} 
+            />
           </div>
-        )}
+        </div>
+      )}
       </div>
+
+      {isHovered && imgSrc && (
+        <div
+          className="mouse-follower"
+          style={{ 
+            left: mousePosition.x + 20, 
+            top: mousePosition.y - 165,
+            opacity: isImageLoaded ? 1 : 0,
+            transition: 'opacity 0.2s ease-in-out'
+          }}
+        >
+          <div className="mouse">
+            <LazyLoadImage 
+              alt={alt} 
+              src={imgSrc} 
+              placeholder={placeholder}
+              onLoad={handleImageLoad} 
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

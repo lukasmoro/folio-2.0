@@ -6,25 +6,27 @@ function LazyLoadVideo({ src, placeholder, alt, className, ...props }) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
+    const currentRef = videoRef.current; // Store the ref value
+    
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(videoRef.current);
+          observer.unobserve(currentRef);
         }
       },
       {
-        rootMargin: '200px', // Adjust as needed
+        rootMargin: '200px',
       }
     );
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);
