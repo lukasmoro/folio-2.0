@@ -58,6 +58,17 @@ function Paper() {
             className="link"
             target="_blank"
             rel="noreferrer"
+            href="https://news.ycombinator.com/item?id=42258540"
+          >
+            ↳ "Feels Like Paper" on Hacker News
+          </a>
+        </div>
+
+        <div className="socials">
+          <a
+            className="link"
+            target="_blank"
+            rel="noreferrer"
             href="https://x.com/lukas_moro/status/1829487148078412019"
           >
             ↳ Tweet for "Maths & Questions" Prototype

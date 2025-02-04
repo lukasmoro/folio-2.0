@@ -20,7 +20,7 @@ function Explorations() {
           <LazyLoadImage className='banner' src="img/work/explorations/explorationsheader.jpg" alt="Banner of the Exploration Projects by Lukas Moro" placeholder="img/work/explorations/explorationsheader-placeholder.jpg"/>
 
           <p>Exploring experiental properties and materiality of technologies and aesthetics through little side-projects exposed to my friends.</p>
-          
+
           <h2>Real-time Image Diffusion with Touch Designer & Kinect</h2>
 
           <p>Investigating real-time image diffusion with body motion as interaction paradigm using Streamdiffusion, Touchdesigner's GPU particles and Kinect.</p>
