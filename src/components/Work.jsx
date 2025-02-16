@@ -38,7 +38,7 @@ function Work() {
         
         <DayDate />
 
-        <h1>Lukas Moro · Designer & Prototyper</h1>
+        <h1>Lukas Moro — Prototyper</h1>
 
         <p className="spacer"></p>
 

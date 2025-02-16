@@ -65,14 +65,14 @@ h2,
 h3,
 h4 {
   font-size: 15pt;
-  font-weight: 400;
+  font-weight: 500;
   color: #272727;
 }
 
 h3 
 {
   font-size: 12pt;
-  font-weight: 400;
+  font-weight: 500;
   color: #272727;
   padding-bottom: 0.5rem;
 }
@@ -102,7 +102,7 @@ a {
 p {
   padding-bottom: 2rem;
   line-height: 2;
-  color: #898989;
+  color: #000000;
 }
 
 li {
@@ -126,7 +126,7 @@ li {
 
 .link {
   text-decoration: none;
-  color: #ff7d63;
+  color: #f36f55;
   font-size: 12pt ;
   font-weight: 500;
 }
@@ -394,7 +394,7 @@ video
 }
 
 #year {
-  color: #898989;
+  color: #000000;
 }
 
 .mouse-follower {
