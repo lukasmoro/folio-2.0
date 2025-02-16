@@ -1,7 +1,15 @@
-[ 
-  {
+  [ {
     "id": 0,
-    "name": "\"Feels Like Paper!\"",
+    "name": "Swifty Prototypes",
+    "date": "2025",
+    "sideproject": false,
+    "src": "img/cover/papercover.jpg",
+    "placeholder": "img/cover/papercover-placeholder.jpg",
+    "to": "/paper"
+  },
+  {
+    "id": 1,
+    "name": "Fluid Web Browser",
     "date": "2024",
     "sideproject": false,
     "src": "img/cover/papercover.jpg",
@@ -10,7 +18,16 @@
   },
   {
     "id": 2,
-    "name": "Presence Master Thesis",
+    "name": "\"Feels Like Paper!\"",
+    "date": "2024",
+    "sideproject": false,
+    "src": "img/cover/papercover.jpg",
+    "placeholder": "img/cover/papercover-placeholder.jpg",
+    "to": "/paper"
+  },
+  {
+    "id": 3,
+    "name": "Presence Thesis",
     "date": "2024",
     "sideproject": false,
     "src": "img/cover/presencecover.jpg",
@@ -18,8 +35,8 @@
     "to": "/presence"
   },
   {
-    "id": 3,
-    "name": "Sensorium Car Interior",
+    "id": 4,
+    "name": "Sensorium Interior",
     "date": "2023",
     "sideproject": true,
     "src": "img/cover/sensoriumcover.jpg",
@@ -27,7 +44,7 @@
     "to": "/sensorium"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Podcasts for Chrome",
     "date": "2023",
     "sideproject": true,
@@ -37,34 +54,7 @@
   },
   {
     "id": 5,
-    "name": "Rolls-Royce Motorcars",
-    "date": "2022",
-    "sideproject": true,
-    "src": "img/cover/rrmccover.jpg",
-    "placeholder": "img/cover/rrmccover-placeholder.jpg",
-    "to": "/rrmc"
-  },
-  {
-    "id": 6,
-    "name": "Spatial Labs",
-    "date": "2022",
-    "sideproject": false,
-    "src": "img/cover/slabscover.jpg",
-    "placeholder": "img/cover/slabscover-placeholder.jpg",
-    "to": "/slabs"
-  },
-  {
-    "id": 7,
-    "name": "Arch Healthroom",
-    "date": "2021",
-    "sideproject": false,
-    "src": "img/cover/archcover.jpg",
-    "placeholder": "img/cover/archcover-placeholder.jpg",
-    "to": "/arch"
-  },
-  {
-    "id": 8,
-    "name": "Creative Explorations",
+    "name": "Explos + Archive",
     "date": "···",
     "sideproject": false,
     "src": "img/cover/explorationscover.jpg",

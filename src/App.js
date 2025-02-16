@@ -61,7 +61,7 @@ function App() {
           <ShadowPlane />
           <Butterfly path="glb/butterfly.glb" scale={[0.175, 0.175, 0.175]} />
         </Canvas>
-        <Dock />
+        {/* <Dock /> */}
         <ProgressiveBlur />
       </div>
     </Router>
